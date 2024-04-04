@@ -1,10 +1,18 @@
 name: Check if Model Repo Exists in Github
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: #add input here
+    inputs:
+      model_id:
+        description: Model ID
+        required: true
+        type: string
 
   schedule:
     - cron: '0 2 * * *'
+
+env:
+  MODEL_ID: ${{ github.event.inputs.model_id }}
 
 jobs:
   publications-and-repositories:
@@ -45,8 +53,54 @@ jobs:
           cd ersilia-r
           python -m pip install -e .
           
-      - name: Run checkRepoExists
+      - name: Inspect model
         run: |
           # might need source activate
-          ersilia inspect eos3b5e
+          # ersilia inspect eos3b5e
+          # check if model exists
+          echo "Sample model id selected: $MODEL_ID"
+
+          #search for substring
+
+          inspect_output=$(ersilia inspect $MODEL_ID)
+          print($inspect_output)
+          if $inspect_output['is_github_url_available']; then
+            echo "Model Found"
+          else
+            echo"Model not found"
+            ISSUE_TITLE="🚨 Invalid GitHub link in model $MODEL_ID 🚨"
+            ISSUE_BODY="Hi! 👋 The model [$MODEL_ID]($inspect_output) has an associated repository in the [ersilia-os](https://github.com/ersilia-os) organization profile, but the GitHub link retrieved by ersilia inspect is not valid. 🙏 Please ensure that the repository exists and is accessible."
+            # Check if issue already exists
+            if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
+                echo "Issue already exists for $MODEL_ID"
+            else
+                # Create new issue
+                gh issue create --title "$ISSUE_TITLE" \
+                                --body "$ISSUE_BODY" \
+                                --label "maintenance" \
+                                --repo $REPO_OWNER/$REPO_NAME
+            fi
+          fi
+          # #end check if model exists
+          # inspect_output=$(ersilia inspect $MODEL_ID)
+
+          # if ! curl -Is "$inspect_output" | grep -q "HTTP/.*200"; then
+          # # GitHub link is not valid, create issue
+          # ISSUE_TITLE="🚨 Invalid GitHub link in model $MODEL_ID 🚨"
+          # ISSUE_BODY="Hi! 👋 The model [$MODEL_ID]($inspect_output) has an associated repository in the [ersilia-os](https://github.com/ersilia-os) organization profile, but the GitHub link retrieved by ersilia inspect is not valid. 🙏 Please ensure that the repository exists and is accessible."
+          # fi
+
+          # # Check if issue already exists
+          # if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
+          #     echo "Issue already exists for $MODEL_ID"
+          # else
+          #     # Create new issue
+          #     gh issue create --title "$ISSUE_TITLE" \
+          #                     --body "$ISSUE_BODY" \
+          #                     --label "maintenance" \
+          #                     --repo $REPO_OWNER/$REPO_NAME
+          # fi
+          
+      
+          
           
