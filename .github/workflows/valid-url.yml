@@ -62,7 +62,7 @@ jobs:
 
           #search for substring
 
-          inspect_output= $(ersilia inspect $MODEL_ID)
+          print(ersilia inspect $MODEL_ID)
           # print($inspect_output)
           # if $inspect_output['is_github_url_available']; then
           if ersilia inspect $MODEL_ID; then
