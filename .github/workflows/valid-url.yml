@@ -62,12 +62,9 @@ jobs:
 
           #search for substring 
 
-          echo "model inspect:"
+          echo "model inspect result:"
           echo $(ersilia inspect $MODEL_ID) | jq -r '.is_github_url_available'
-          echo "Test condition:"
-          echo [ "$(ersilia inspect $MODEL_ID | jq '.is_github_url_available')" = true ]
           
-          #if [echo $(ersilia inspect $MODEL_ID) | jq '.is_github_url_available']; then
           if [ "$(ersilia inspect $MODEL_ID | jq '.is_github_url_available')" = true ]; then
             echo "Model Found"
           else
