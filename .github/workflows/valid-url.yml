@@ -73,7 +73,7 @@ jobs:
           # echo $inspect_output | jq '.is_github_url_available'
           # print($inspect_output)
           # if $inspect_output['is_github_url_available']; then
-          if echo $(ersilia inspect $MODEL_ID) | jq '.is_github_url_available'; then
+          if echo $(ersilia inspect $MODEL_ID) | jq '.is_github_url_available' == 'true'; then
             echo "Model Found"
           else
             echo"Model not found"
