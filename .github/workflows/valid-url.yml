@@ -63,7 +63,7 @@ jobs:
           #search for substring
 
           echo "model inspect:"
-          echo ersilia inspect $MODEL_ID
+          echo $(ersilia inspect $MODEL_ID)
           
           # print(ersilia inspect $MODEL_ID)
           # inspect_output = $(ersilia inspect $MODEL_ID)
