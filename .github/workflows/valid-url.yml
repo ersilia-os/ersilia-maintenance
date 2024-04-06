@@ -81,7 +81,7 @@ jobs:
                 # Create new issue
                 gh issue create --title "$ISSUE_TITLE" \
                                 --body "$ISSUE_BODY" \
-                                --label "maintenance" \
+                                #--label "maintenance" \
                                 #--repo $REPO_OWNER/$REPO_NAME
             #fi
           fi
