@@ -73,11 +73,11 @@ jobs:
             ISSUE_TITLE="🚨 Model $MODEL_ID does not exist🚨"
             ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have an associated repository in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the repository exists and is accessible."
             # Check if issue already exists
-            echo $REPO_OWNER
-            echo $REPO_NAME
-            if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
-                echo "Issue already exists for $MODEL_ID"
-            else
+            #echo $REPO_OWNER
+            #echo $REPO_NAME
+            #if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
+                #echo "Issue already exists for $MODEL_ID"
+            #else
                 # Create new issue
                 gh issue create --title "$ISSUE_TITLE" \
                                 --body "$ISSUE_BODY" \
