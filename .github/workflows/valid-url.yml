@@ -60,10 +60,10 @@ jobs:
           # check if model exists
           echo "Sample model id selected: $MODEL_ID"
 
-          #search for substring
+          #search for substring 
 
           echo "model inspect:"
-          echo $(ersilia inspect $MODEL_ID) | jq '.is_github_url_available'
+          echo $(ersilia inspect $MODEL_ID) | jq -r '.is_github_url_available'
           
           # print(ersilia inspect $MODEL_ID)
           # inspect_output = $(ersilia inspect $MODEL_ID)
