@@ -13,6 +13,7 @@ on:
 
 env:
   MODEL_ID: ${{ github.event.inputs.model_id }}
+  GH_TOKEN: ${{ github.token }}
 
 jobs:
   publications-and-repositories:
