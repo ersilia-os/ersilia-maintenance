@@ -63,7 +63,9 @@ jobs:
           #search for substring 
 
           echo "model inspect:"
-          result = echo $(ersilia inspect $MODEL_ID) | jq -r '.is_github_url_available'
+          result = $(echo $(ersilia inspect $MODEL_ID) | jq -r '.is_github_url_available')
+          echo result
+          echo $result
           
           # print(ersilia inspect $MODEL_ID)
           # inspect_output = $(ersilia inspect $MODEL_ID)
