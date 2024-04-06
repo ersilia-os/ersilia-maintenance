@@ -64,7 +64,7 @@ jobs:
 
           echo "model inspect:"
           echo $(ersilia inspect $MODEL_ID) | jq -r '.is_github_url_available'
-          echo "Test condition:
+          echo "Test condition:"
           echo [ "$(ersilia inspect $MODEL_ID | jq '.is_github_url_available')" = true ]
           
           #if [echo $(ersilia inspect $MODEL_ID) | jq '.is_github_url_available']; then
