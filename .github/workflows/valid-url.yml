@@ -1,4 +1,4 @@
-name: Check if Model Repo Exists in Github
+name: Inspect model
 
 on:
   workflow_dispatch: #add input here
@@ -62,7 +62,7 @@ jobs:
           # check if model exists
           echo "Sample model id selected: $MODEL_ID"
 
-          echo "model inspect result:"
+          echo "Is the GitHub URL valid? :"
           echo $(ersilia inspect $MODEL_ID) | jq -r '.is_github_url_available'
           
           if [ "$(ersilia inspect $MODEL_ID | jq '.is_github_url_available')" = true ]; then
