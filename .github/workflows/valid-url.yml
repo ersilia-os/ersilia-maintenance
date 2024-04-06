@@ -71,7 +71,7 @@ jobs:
           if [ "$(ersilia inspect $MODEL_ID | jq '.is_github_url_available')" = true ]; then
             echo "Model Found"
           else
-            echo"Model not found"
+            echo "Model not found"
             ISSUE_TITLE="🚨 Invalid GitHub link in model $MODEL_ID 🚨"
             ISSUE_BODY="Hi! 👋 The model [$MODEL_ID]($inspect_output) has an associated repository in the [ersilia-os](https://github.com/ersilia-os) organization profile, but the GitHub link retrieved by ersilia inspect is not valid. 🙏 Please ensure that the repository exists and is accessible."
             # Check if issue already exists
