@@ -81,6 +81,26 @@ jobs:
                                 #--label "maintenance" \
                                 #--repo $REPO_OWNER/$REPO_NAME
             fi
+            exit
+          fi
+
+          if [ "$(ersilia inspect $MODEL_ID | jq '.metadata_complete')" = true ]; then
+            echo "Metadata Complete"
+          else
+            echo "Metadata Incomplete"
+            ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete metadata🚨"
+            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have valid metadata in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the metadata.json file is filled out with the correct fields."
+            # Check if issue already exists
+            if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
+                echo "Issue already exists for $MODEL_ID"
+            else
+                # Create new issue
+                gh issue create --title "$ISSUE_TITLE" \
+                                --body "$ISSUE_BODY" \
+                                #--label "maintenance" \
+                                #--repo $REPO_OWNER/$REPO_NAME
+            fi
+            exit
           fi
           
       
