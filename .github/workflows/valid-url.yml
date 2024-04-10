@@ -86,7 +86,7 @@ jobs:
           else
             echo "Metadata Incomplete"
             ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete metadata🚨"
-            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have valid metadata in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the metadata.json file is filled out with the correct fields."
+            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have valid metadata in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the metadata.json file is filled out with the correct fields. The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             # Check if issue already exists
             if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
                 echo "Issue already exists for $MODEL_ID"
@@ -105,7 +105,7 @@ jobs:
           else
             echo "Folder Structure Incomplete"
             ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete folder structure🚨"
-            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have a valid folder structure in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the repository contains the correct folders."
+            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have a valid folder structure in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the repository contains the correct folders. The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             # Check if issue already exists
             if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
                 echo "Issue already exists for $MODEL_ID"
