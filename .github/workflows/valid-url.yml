@@ -58,10 +58,13 @@ jobs:
           if [ -n "${{ github.event.inputs.model_id }}" ]; then
             echo "Using input model ID: ${{ github.event.inputs.model_id }}"
             export MODEL_ID="${{ github.event.inputs.model_id }}"
+            echo "$MODEL_ID"
           else
             echo "Using default model ID: "
             export MODEL_ID="eos1234"
+            echo "$MODEL_ID"
           fi
+          echo "$MODEL_ID"
           
       - name: Inspect model
         run: |
