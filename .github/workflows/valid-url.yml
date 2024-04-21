@@ -13,6 +13,7 @@ on:
 
 env:
   GH_TOKEN: ${{ github.token }}
+  MODEL_ID: "instantiting"
 
 jobs:
   publications-and-repositories:
