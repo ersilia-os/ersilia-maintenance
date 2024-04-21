@@ -57,10 +57,10 @@ jobs:
         run: |
           if [ -n "${{ github.event.inputs.model_id }}" ]; then
             echo "Using input model ID: ${{ github.event.inputs.model_id }}"
-            MODEL_ID="${{ github.event.inputs.model_id }}"
+            export MODEL_ID="${{ github.event.inputs.model_id }}"
           else
             echo "Using default model ID: "
-            MODEL_ID="eos1234"
+            export MODEL_ID="eos1234"
           fi
           
       - name: Inspect model
