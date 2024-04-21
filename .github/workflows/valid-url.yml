@@ -13,8 +13,7 @@ on:
 
 env:
   GH_TOKEN: ${{ github.token }}
-  MODEL_ID: "instantiting"
-
+  
 jobs:
   publications-and-repositories:
     runs-on: ubuntu-latest
@@ -53,22 +52,17 @@ jobs:
           conda init
           cd ersilia-r
           python -m pip install -e .
-
-      - name: Get model id
+          
+      - name: Inspect model
         run: |
           if [ -n "${{ github.event.inputs.model_id }}" ]; then
             echo "Using input model ID: ${{ github.event.inputs.model_id }}"
             export MODEL_ID="${{ github.event.inputs.model_id }}"
-            echo "$MODEL_ID"
           else
             echo "Using default model ID: "
             export MODEL_ID="eos1234"
-            echo "$MODEL_ID"
           fi
-          echo "$MODEL_ID"
           
-      - name: Inspect model
-        run: |
           REPO_OWNER="ersilia-os"
           REPO_NAME="ersilia-maintenance"
           
