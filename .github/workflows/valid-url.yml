@@ -62,7 +62,6 @@ jobs:
             echo "Using default model ID: "
             MODEL_ID="eos1234"
           fi
-          echo "::set-output name=model_id::$MODEL_ID"
           
       - name: Inspect model
         run: |
