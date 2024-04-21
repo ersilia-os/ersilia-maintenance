@@ -5,7 +5,7 @@ on:
     inputs:
       model_id:
         description: Model ID
-        required: true
+        required: false
         type: string
 
   schedule:
