@@ -5,16 +5,15 @@ on:
     inputs:
       model_id:
         description: Model ID
-        required: true
+        required: false
         type: string
 
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 */4 * * *'
 
 env:
-  MODEL_ID: ${{ github.event.inputs.model_id }}
   GH_TOKEN: ${{ github.token }}
-
+  
 jobs:
   publications-and-repositories:
     runs-on: ubuntu-latest
@@ -56,6 +55,14 @@ jobs:
           
       - name: Inspect model
         run: |
+          if [ -n "${{ github.event.inputs.model_id }}" ]; then
+            echo "Using input model ID: ${{ github.event.inputs.model_id }}"
+            export MODEL_ID="${{ github.event.inputs.model_id }}"
+          else
+            echo "Using default model ID: "
+            export MODEL_ID="eos1234"
+          fi
+          
           REPO_OWNER="ersilia-os"
           REPO_NAME="ersilia-maintenance"
           
@@ -67,7 +74,7 @@ jobs:
           else
             echo "Model not found"
             ISSUE_TITLE="🚨 Model $MODEL_ID does not exist🚨"
-            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have an associated repository in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the repository exists and is accessible. The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have an associated repository in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the repository exists and is accessible. <br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.is_github_url_available_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             # Check if issue already exists
             if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
                 echo "Issue already exists for $MODEL_ID"
@@ -86,7 +93,7 @@ jobs:
           else
             echo "Metadata Incomplete"
             ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete metadata🚨"
-            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have valid metadata in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the metadata.json file is filled out with the correct fields. The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have valid metadata in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the metadata.json file is filled out with the correct fields.<br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.metadata_complete_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             # Check if issue already exists
             if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
                 echo "Issue already exists for $MODEL_ID"
@@ -105,7 +112,27 @@ jobs:
           else
             echo "Folder Structure Incomplete"
             ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete folder structure🚨"
-            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have a valid folder structure in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the repository contains the correct folders. The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have a valid folder structure in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the repository contains the correct folders.<br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.folder_structure_complete_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            # Check if issue already exists
+            if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
+                echo "Issue already exists for $MODEL_ID"
+            else
+                # Create new issue
+                gh issue create --title "$ISSUE_TITLE" \
+                                --body "$ISSUE_BODY" \
+                                #--label "maintenance" \
+                                #--repo $REPO_OWNER/$REPO_NAME
+            fi
+            exit
+          fi
+
+
+          if [ "$(ersilia inspect $MODEL_ID | jq '.docker_check')" = true ]; then
+            echo "Docker Complete"
+          else
+            echo "Docker Incomplete"
+            ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete Dockerfile🚨"
+            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have a complete Dockerfile in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the Docker file contains specified versions for installs and ends with proper functionality. <br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.docker_check_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             # Check if issue already exists
             if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
                 echo "Issue already exists for $MODEL_ID"
