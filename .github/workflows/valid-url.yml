@@ -104,7 +104,6 @@ jobs:
                                 #--label "maintenance" \
                                 #--repo $REPO_OWNER/$REPO_NAME
             fi
-            exit
           fi
 
           if [ "$(ersilia inspect $MODEL_ID | jq '.folder_structure_complete')" = true ]; then
@@ -123,7 +122,6 @@ jobs:
                                 #--label "maintenance" \
                                 #--repo $REPO_OWNER/$REPO_NAME
             fi
-            exit
           fi
 
 
@@ -143,7 +141,6 @@ jobs:
                                 #--label "maintenance" \
                                 #--repo $REPO_OWNER/$REPO_NAME
             fi
-            exit
           fi
 
 
