@@ -59,8 +59,8 @@ jobs:
             echo "Using input model ID: ${{ github.event.inputs.model_id }}"
             export MODEL_ID="${{ github.event.inputs.model_id }}"
           else
-            echo "Using default model ID: "
-            export MODEL_ID="eos1234"
+            echo "Getting next model from Python script: "
+            export MODEL_ID=$(python3 pickRepo.py)
           fi
           
           REPO_OWNER="ersilia-os"
