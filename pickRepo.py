@@ -1,6 +1,7 @@
 import requests
 import json
 from datetime import datetime
+import os
 
 def getRepoToCheck(repos):
     longest_time_ago_repo = None
@@ -18,6 +19,28 @@ def getRepoToCheck(repos):
 
 
 file_path = "repo_info.json"
+
+if os.path.exists(file_path):
+    # Get file permissions
+    permissions = os.stat(file_path).st_mode
+
+    # Check if the file is readable
+    if os.access(file_path, os.R_OK):
+        print("File is readable.")
+
+    # Check if the file is writable
+    if os.access(file_path, os.W_OK):
+        print("File is writable.")
+
+    # Check if the file is executable
+    if os.access(file_path, os.X_OK):
+        print("File is executable.")
+
+    # Print file permissions
+    print("File permissions:", oct(permissions))
+else:
+    print("File does not exist.")
+    
 with open(file_path, 'r') as json_file:
         data = json.load(json_file)
 
