@@ -19,27 +19,6 @@ def getRepoToCheck(repos):
 
 
 file_path = "repo_info.json"
-
-if os.path.exists(file_path):
-    # Get file permissions
-    permissions = os.stat(file_path).st_mode
-
-    # Check if the file is readable
-    if os.access(file_path, os.R_OK):
-        print("File is readable.")
-
-    # Check if the file is writable
-    if os.access(file_path, os.W_OK):
-        print("File is writable.")
-
-    # Check if the file is executable
-    if os.access(file_path, os.X_OK):
-        print("File is executable.")
-
-    # Print file permissions
-    print("File permissions:", oct(permissions))
-else:
-    print("File does not exist.")
     
 with open(file_path, 'r') as json_file:
         data = json.load(json_file)
@@ -50,8 +29,11 @@ if repo:
     for repo_info in data:
         if repo_info["repository_name"] == repo:
             repo_info["most_recent_date_checked"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+            print(f"updated info for {repo_info["repository_name"]} to {datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")}")
     # Update the JSON file
     with open(file_path, 'w') as json_file:
+        print("opened file at")
+        print(file_path)
         json.dump(data, json_file, indent=4)
     # print(f"The most_recent_date_checked for {repo} has been updated to the current datetime.")
     print(repo)
