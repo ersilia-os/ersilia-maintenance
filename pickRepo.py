@@ -30,9 +30,9 @@ if repo:
     # Update the JSON file
     with open(file_path, 'w') as json_file:
         json.dump(data, json_file, indent=4)
-    print(f"The most_recent_date_checked for {repo} has been updated to the current datetime.")
-    return(repo)
-else:
-    print("No repositories were last updated since they were last checked.")
+    # print(f"The most_recent_date_checked for {repo} has been updated to the current datetime.")
+    print(repo)
+# else:
+    # print("No repositories were last updated since they were last checked.")
 
 
