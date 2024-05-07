@@ -159,3 +159,25 @@ jobs:
             fi
             exit
           fi
+
+
+          
+          if [ "$(ersilia inspect $MODEL_ID | jq '.computational_performance_tracking')" = true ]; then
+            echo "Model Ran. Computational Perfomance: "
+            echo "$(ersilia inspect $MODEL_ID | jq '.computational_performance_tracking_details')"
+          else
+            echo "Model did not Run Properly"
+            ISSUE_TITLE="🚨 Model $MODEL_ID did not run properly🚨"
+            ISSUE_BODY="Hi! 👋 The model $MODEL_ID did not run properly in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the model can be served.<br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.computational_performance_tracking_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            # Check if issue already exists
+            if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
+                echo "Issue already exists for $MODEL_ID"
+            else
+                # Create new issue
+                gh issue create --title "$ISSUE_TITLE" \
+                                --body "$ISSUE_BODY" \
+                                #--label "maintenance" \
+                                #--repo $REPO_OWNER/$REPO_NAME
+            fi
+            exit
+          fi
