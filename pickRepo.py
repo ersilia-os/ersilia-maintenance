@@ -34,7 +34,7 @@ if repo:
         json.dump(data, json_file, indent=4)
     # print(f"The most_recent_date_checked for {repo} has been updated to the current datetime.")
     print(repo)
- else:
+else:
     print("None")
 
 
