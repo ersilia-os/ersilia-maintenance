@@ -29,7 +29,7 @@ if repo:
     for repo_info in data:
         if repo_info["repository_name"] == repo:
             repo_info["most_recent_date_checked"] = datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
-            print(f"updated info for {repo} to {datetime.now()")
+            print(f"updated info for {repo} to {datetime.now()}")
     # Update the JSON file
     with open(file_path, 'w') as json_file:
         print("opened file at")
