@@ -118,7 +118,6 @@ jobs:
                                 #--label "maintenance" \
                                 #--repo $REPO_OWNER/$REPO_NAME
             fi
-            exit
           fi
 
           if [ "$(ersilia inspect $MODEL_ID | jq '.folder_structure_complete')" = true ]; then
@@ -137,7 +136,6 @@ jobs:
                                 #--label "maintenance" \
                                 #--repo $REPO_OWNER/$REPO_NAME
             fi
-            exit
           fi
 
 
@@ -157,7 +155,24 @@ jobs:
                                 #--label "maintenance" \
                                 #--repo $REPO_OWNER/$REPO_NAME
             fi
-            exit
+          fi
+
+           if [ "$(ersilia inspect $MODEL_ID | jq '.extra_files_check')" = true ]; then
+            echo "No Extra Files/Folders Found"
+          else
+            echo "Extra Files/Folders Found"
+            ISSUE_TITLE="🚨 Model $MODEL_ID has extra files/folders 🚨"
+            ISSUE_BODY="Hi! 👋 The model $MODEL_ID has unexpected files/folders found in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that all files/folders in the root directory are valid. <br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.extra_files_check_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            # Check if issue already exists
+            if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
+                echo "Issue already exists for $MODEL_ID"
+            else
+                # Create new issue
+                gh issue create --title "$ISSUE_TITLE" \
+                                --body "$ISSUE_BODY" \
+                                #--label "maintenance" \
+                                #--repo $REPO_OWNER/$REPO_NAME
+            fi
           fi
 
 
