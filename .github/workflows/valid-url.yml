@@ -87,7 +87,7 @@ jobs:
             echo "Model Found"
           else
             echo "Model not found"
-            ISSUE_TITLE="🚨 Model $MODEL_ID does not exist🚨"
+            ISSUE_TITLE="🚨 Model $MODEL_ID does not exist 🚨"
             ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have an associated repository in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the repository exists and is accessible. <br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.is_github_url_available_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             # Check if issue already exists
             if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
@@ -106,7 +106,7 @@ jobs:
             echo "Metadata Complete"
           else
             echo "Metadata Incomplete"
-            ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete metadata🚨"
+            ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete metadata 🚨"
             ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have valid metadata in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the metadata.json file is filled out with the correct fields.<br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.metadata_complete_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             # Check if issue already exists
             if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
@@ -124,7 +124,7 @@ jobs:
             echo "Folder Structure Complete"
           else
             echo "Folder Structure Incomplete"
-            ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete folder structure🚨"
+            ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete folder structure 🚨"
             ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have a valid folder structure in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the repository contains the correct folders.<br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.folder_structure_complete_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             # Check if issue already exists
             if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
@@ -143,7 +143,7 @@ jobs:
             echo "Docker Complete"
           else
             echo "Docker Incomplete"
-            ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete Dockerfile🚨"
+            ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete Dockerfile 🚨"
             ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have a complete Dockerfile in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the Docker file contains specified versions for installs and ends with proper functionality. <br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.docker_check_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             # Check if issue already exists
             if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
@@ -175,14 +175,12 @@ jobs:
             fi
           fi
 
-
-          
           if [ "$(ersilia inspect $MODEL_ID | jq '.computational_performance_tracking')" = true ]; then
             echo "Model Ran. Computational Perfomance: "
             echo "$(ersilia inspect $MODEL_ID | jq '.computational_performance_tracking_details')"
           else
             echo "Model did not Run Properly"
-            ISSUE_TITLE="🚨 Model $MODEL_ID did not run properly🚨"
+            ISSUE_TITLE="🚨 Model $MODEL_ID did not run properly 🚨"
             ISSUE_BODY="Hi! 👋 The model $MODEL_ID did not run properly in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the model can be served.<br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.computational_performance_tracking_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             # Check if issue already exists
             if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
