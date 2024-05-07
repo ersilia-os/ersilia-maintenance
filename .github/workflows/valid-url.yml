@@ -67,6 +67,9 @@ jobs:
              --arg current_time "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
              'map(if .repository_name == $repo_name then .most_recent_date_checked = $current_time else . end)' \
              repo_info.json > repo_info.json
+             git add repo_info.json
+             git commit -m "Edited the JSON file"
+             git push
           fi
           
           REPO_OWNER="ersilia-os"
