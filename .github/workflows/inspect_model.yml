@@ -42,7 +42,7 @@ jobs:
       - name: Install dependencies
         run: |
             source activate
-            git clone https://github.com/reneeperpignan/ersilia-r.git
+            git clone https://github.com/ersilia-os/ersilia.git
       
       - name: Install ersilia
         run: |
@@ -50,7 +50,7 @@ jobs:
           python --version
           echo "After conda init"
           conda init
-          cd ersilia-r
+          cd ersilia
           python -m pip install -e .
           
       - name: Inspect model
