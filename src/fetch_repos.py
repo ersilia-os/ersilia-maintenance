@@ -89,12 +89,9 @@ def update_repository_file(file_path: str, data: List[Dict[str, str]]):
 
 
 def main():
-    if not os.path.exists(FILE_PATH):
-        print("Fetching repository data...")
-        repositories = fetch_repositories()
-        update_repository_file(FILE_PATH, repositories)
-    else:
-        print("Repository data already exists.")
+    print("Fetching repository data...")
+    repositories = fetch_repositories()
+    update_repository_file(FILE_PATH, repositories)
 
 
 if __name__ == "__main__":
