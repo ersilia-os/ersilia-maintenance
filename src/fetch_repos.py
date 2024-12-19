@@ -93,6 +93,5 @@ def main():
     repositories = fetch_repositories()
     update_repository_file(FILE_PATH, repositories)
 
-
 if __name__ == "__main__":
     main()

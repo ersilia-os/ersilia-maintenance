@@ -8,7 +8,11 @@ on:
         required: false
         type: string
   schedule:
+<<<<<<< HEAD
     - cron: '0 0 */3 * *'
+=======
+    - cron: '*/1 * * * *' #'0 */4 * * *' # Runs every 4 hours
+>>>>>>> 26d53c8 (Reafctoring and feature incorporation)
 
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -45,7 +49,11 @@ jobs:
           git clone https://github.com/ersilia-os/ersilia.git
           cd ersilia
           python --version
+<<<<<<< HEAD
           python -m pip install -e .--use-deprecated=legacy-resolver
+=======
+          python -m pip install -e . --use-deprecated=legacy-resolver
+>>>>>>> 26d53c8 (Reafctoring and feature incorporation)
           pip install .[test]
 
       - name: Run Inspection Script

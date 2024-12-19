@@ -22,8 +22,13 @@ def extract_summary(file_path):
     ------
     FileNotFoundError
         If the specified file does not exist.
+<<<<<<< HEAD
     Exception
         If there is an error during file processing.
+=======
+    IOError
+        If there is an error reading the file.
+>>>>>>> 26d53c8 (Reafctoring and feature incorporation)
     """
     summary, capturing, current_check = {}, False, None
 

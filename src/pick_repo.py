@@ -9,17 +9,32 @@ DATE_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 
 def get_repo_to_check(repos: List[Dict[str, str]]) -> Optional[str]:
     """
+<<<<<<< HEAD
     Determines which repository should be checked next based on the last update and check times.
+=======
+    Determine the repository that needs to be checked based on the longest time 
+    since it was last checked.
+>>>>>>> 26d53c8 (Reafctoring and feature incorporation)
 
     Parameters
     ----------
     repos : List[Dict[str, str]]
+<<<<<<< HEAD
         A list of dictionaries containing repository information.
+=======
+        A list of dictionaries containing repository information with keys:
+        'repository_name', 'last_updated', and 'most_recent_date_checked'.
+>>>>>>> 26d53c8 (Reafctoring and feature incorporation)
 
     Returns
     -------
     Optional[str]
+<<<<<<< HEAD
         The name of the repository to check next, or None if no repository needs checking.
+=======
+        The name of the repository that needs to be checked, or None if no 
+        repository needs checking.
+>>>>>>> 26d53c8 (Reafctoring and feature incorporation)
     """
     longest_time_ago_repo = None
     longest_time_ago = datetime.now()
@@ -39,7 +54,11 @@ def get_repo_to_check(repos: List[Dict[str, str]]) -> Optional[str]:
 
 def update_repo_checked_time(repos: List[Dict[str, str]], repo_name: str):
     """
+<<<<<<< HEAD
     Updates the most recent check time for a given repository.
+=======
+    Update the 'most_recent_date_checked' field for a specific repository.
+>>>>>>> 26d53c8 (Reafctoring and feature incorporation)
 
     Parameters
     ----------

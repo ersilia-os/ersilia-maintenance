@@ -87,6 +87,7 @@ def update_repositories(
     Returns
     -------
     List[Dict[str, str]]
+<<<<<<< HEAD
         The updated list of repository information.
     """
     for repo in new_repos:
