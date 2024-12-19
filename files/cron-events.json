@@ -1,0 +1,6 @@
+{
+    "event": "workflow_dispatch",
+    "inputs": {
+      "model_id": "eos3b5e"
+    }
+}  

@@ -1,12 +1,6 @@
-name: Inspect Model
+name: Fetch Repos
 
 on:
-  workflow_dispatch:
-    inputs:
-      model_id:
-        description: Model ID
-        required: false
-        type: string
   schedule:
     - cron: '*/1 * * * *' #'0 */4 * * *' # Runs every 4 hours
 
@@ -35,28 +29,10 @@ jobs:
           source $HOME/miniconda/etc/profile.d/conda.sh
           conda activate ersilia
           python --version
-          conda install -y git-lfs gh -c conda-forge
-          git-lfs install
+          pip install requests
 
-      - name: Install Ersilia
+      - name: Execute Fetch Script
         run: |
           source $HOME/miniconda/etc/profile.d/conda.sh
           conda activate ersilia
-          git clone https://github.com/ersilia-os/ersilia.git
-          cd ersilia
-          python --version
-          python -m pip install -e . --use-deprecated=legacy-resolver
-          pip install .[test]
-
-      - name: Run Inspection Script
-        env:
-          MODEL_ID: ${{ github.event.inputs.model_id }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
-          REPO_OWNER: "ersilia-os"
-          REPO_NAME: "ersilia-maintenance"
-        run: |
-          source $HOME/miniconda/etc/profile.d/conda.sh
-          conda activate ersilia
-          chmod +x .github/scripts/inspect.sh
-          .github/scripts/inspect.sh
+          python src/fetch_repos.py
