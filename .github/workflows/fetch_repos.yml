@@ -2,7 +2,7 @@ name: Fetch Repos
 
 on:
   schedule:
-    - cron: '0 0 */3 * *'
+    - cron: '0 0 */7 * *'
 
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
