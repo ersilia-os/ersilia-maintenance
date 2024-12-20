@@ -1,15 +1,74 @@
 # Ersilia Maintenance
-This repository contains maintenance workflows for the Ersilia Model Hub.
 
-# General Structure of Maintenence Workflow
-The **inspect_model.yml** file defines the GitHub action which is responsible for running the inspections. Within this file, we have several different code blocks which report the result of each method in the **inspect.py** file within **ersilia/publish**. For each check, we have two seperate functions: one of which returns _True_ or _False_ indicating if the check passed or failed, and the other containing the details of a failed check. If a check fails, we create an issue with the details printed. We access these values through the **inspect.py** script in **ersilia/cli/commands**, which stores the results of the **publish/inspect.py** file as a json.
+Welcome to the **Ersilia Maintenance** repository! This project contains automated workflows and scripts to ensure the smooth operation and upkeep of the Ersilia Model Hub.
 
-For example, we have in the **commands/inspect.py** file an attribute called _metadata_complete_ and an attribute called _metadata_complete_details_. These are stored by calling the same _metadataComplete_ function with a flag of either 0 (for _metadata_complete_) or 1 (for _metadata_complete_details_) to indicate which type of output we desire from the function. You can see this function _metadataComplete(self, flag)_ in the **publish/inspect.py** file and observe how it conducts several tests on the metadata, both calling the _RepoMetadataFile_ function and conducting several other checks on URLs stored in the model metadata. At each stage, if a test fails, we verify the flag inputted and return a _False_ result if the _flag_ is 0, and add information to our _details_ variable if the _flag_ is 1.
+## General Structure of Maintenance Workflow
 
-# Updating Functions
-If you wanted to add additional checks, you would need to add them three places: **publish/inspect.py**, **commands/inspect.py**, and **inspect_model.yml**. First, create your function with the intended functionality in **publish/inspect.py**. Then, call that function from **commands/inspect.py** and store it in the json file. Lastly, access that json file from **inspect_model.yml** and report the results. Ensure that when you add code to **inspect_model.yml**, you adjust the _exit_ commands as needed so as to not prematurely end the script.
+The **inspect_model.yml** file defines the GitHub action responsible for running the inspections. The workflow performs several checks on each repository and reports the results. If a check fails, an issue is created with the details.
 
-The structure of the functions in all three of these places are pretty formulaic, and you should be able to pretty directly copy structures, especially within **commands/inspect.py** and **inspect_model.yml**.
+### Key Components
 
-# Maintaining Repository List
-The **repo_info.json** file contains a list of all of the repositories in the ersilia organization. For each repository, we store the last time it was checked as well as the last time it was updated. In the **pickRepo.py** file, we choose among the repositories which have not been inspected since their last update, selecting the repository which was last inspected longest ago and printing it. This is called from the **inspect_model.yml** file, and determines the input for the automated inspect runs. Note that you can still also manually inspect a model by running an action with the model name as the input. To maintain the **repo_info.json** there are several other helper files that may be helpful. The **makeRepoDoc.py** script creates the json from scratch, setting all _most_recent_date_checked_ values to a default date of 01/01/2000 to ensure all repositories are marked as needing to be inspected. Lastly, the **updateRepoDoc.py** script can be ran to update all of the _last_updated_ values and add any additional repositories if there are repositories in the ersilia os database that aren't in the current **repo_info.json** file. I would suggest running **updateRepoDoc.py** in the event that you've run out of repositories to check in the automated workflow runs.
+- **inspect_model.yml**: Defines the GitHub Actions workflow.
+- **inspect.sh**: Shell script that runs the inspection process.
+- **extract.py**: Processes the inspection results.
+- **repo_info.json**: Contains metadata about the repositories.
+- **fetch_repos.yml**: GitHub Actions workflow to fetch and update repository data.
+
+## Updating Functions
+
+To add additional checks, update the following files:
+1. **publish/test.py**: Create the new check function.
+2. **commands/test.py**: Call the new function and store the results.
+3. **inspect_model.yml**: Access the results and report them.
+
+## Maintaining Repository List
+
+The **repo_info.json** file contains a list of all repositories in the Ersilia organization. It stores the last time each repository was checked and updated.
+
+### Key Scripts
+
+- **fetch_repos.py**: Initializes `repo_info.json` and uodate with repository data.
+- **update_repo_doc.py**: Updates `repo_info.json` with the latest repository information.
+- **pick_repo.py**: Selects the next repository to inspect.
+- **inspect.sh**: Runs the inspection process for a selected repository.
+- **fetch_repos.yml**: Fetches and updates repository data periodically.
+
+### Workflow
+
+#### inspect_model.yml
+
+The `inspect_model.yml` workflow is responsible for inspecting the repositories in the Ersilia Model Hub. It performs the following steps:
+
+1. **Determine Model to Inspect**:
+   - If a `MODEL_ID` is provided, it uses that. Otherwise, it runs the `pick_repo.py` script to select a repository.
+2. **Run Inspection**:
+   - Executes the `inspect.sh` script to run the inspection process.
+3. **Process Results**:
+   - Runs the `extract.py` script to process the inspection results and create GitHub issues for any failed checks.
+4. **Update Repository Information**:
+   - Updates the `repo_info.json` file with the current timestamp for the inspected repository.
+
+#### fetch_repos.yml
+
+The `fetch_repos.yml` workflow is responsible for fetching and updating repository data periodically. It performs the following steps:
+
+1. **Fetch Repository Data**:
+   - Runs the `make_repo_doc.py` script to initialize the `repo_info.json` file with repository data.
+   - Runs the `update_repo_doc.py` script to update the `repo_info.json` file with the latest repository information.
+2. **Commit and Push Changes**:
+   - Commits the updated `repo_info.json` file and pushes the changes back to the repository.
+
+#### inspect.sh
+
+The `inspect.sh` script is responsible for running the inspection process for a selected repository. It performs the following steps:
+
+1. **Set Up Environment**:
+   - Sets up the necessary environment variables and configurations.
+2. **Run Inspection Command**:
+   - Executes the `ersilia test` command to inspect the repository.
+3. **Save Results**:
+   - Saves the inspection results to a file named `result.txt`.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.

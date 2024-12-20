@@ -1,0 +1,38 @@
+name: Fetch Repos
+
+on:
+  schedule:
+    - cron: '0 0 */7 * *'
+
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  inspect-model:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Conda Environment
+        run: |
+          wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+          bash miniconda.sh -b -p $HOME/miniconda
+          echo "$HOME/miniconda/bin" >> $GITHUB_PATH
+          source $HOME/miniconda/etc/profile.d/conda.sh
+          conda init bash
+          source $HOME/miniconda/etc/profile.d/conda.sh
+          conda create -n ersilia python=3.10.10 -y
+          echo "source activate ersilia" >> ~/.bashrc
+
+      - name: Install Dependencies
+        run: |
+          source $HOME/miniconda/etc/profile.d/conda.sh
+          conda activate ersilia
+          python --version
+          pip install requests
+
+      - name: Execute Fetch Script
+        run: |
+          source $HOME/miniconda/etc/profile.d/conda.sh
+          conda activate ersilia
+          python src/fetch_repos.py

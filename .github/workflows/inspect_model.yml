@@ -1,196 +1,70 @@
-name: Inspect model
+name: Inspect Model
 
 on:
-  workflow_dispatch: #add input here
+  workflow_dispatch:
     inputs:
       model_id:
         description: Model ID
         required: false
         type: string
-
   schedule:
-    - cron: '0 */4 * * *'
+<<<<<<< HEAD
+    - cron: '0 0 */3 * *'
+=======
+    - cron: '*/1 * * * *' #'0 */4 * * *' # Runs every 4 hours
+>>>>>>> 26d53c8 (Reafctoring and feature incorporation)
 
 env:
-  GH_TOKEN: ${{ github.token }}
-  
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
-  publications-and-repositories:
+  inspect-model:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # pin@v3.5.3
+      - uses: actions/checkout@v3
 
-      - name: Add conda to system path
-        run: echo $CONDA/bin >> $GITHUB_PATH
-
-      - name: Source conda
-        run: source $CONDA/etc/profile.d/conda.sh
-        
-      - name: Set Python to 3.10
-        run:
-         conda install -y python=3.10
-
-      - name: Install dependencies
+      - name: Setup Conda Environment
         run: |
-          source activate
-          conda init
-          conda install git-lfs -c conda-forge
-          git-lfs install
-          conda install gh -c conda-forge
+          wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+          bash miniconda.sh -b -p $HOME/miniconda
+          echo "$HOME/miniconda/bin" >> $GITHUB_PATH
+          source $HOME/miniconda/etc/profile.d/conda.sh
+          conda init bash
+          source $HOME/miniconda/etc/profile.d/conda.sh
+          conda create -n ersilia python=3.10.10 -y
+          echo "source activate ersilia" >> ~/.bashrc
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
-            source activate
-            git clone https://github.com/ersilia-os/ersilia.git
-      
-      - name: Install ersilia
-        run: |
-          source activate
+          source $HOME/miniconda/etc/profile.d/conda.sh
+          conda activate ersilia
           python --version
-          echo "After conda init"
-          conda init
-          cd ersilia
-          python -m pip install -e .
-          
-      - name: Inspect model
+          conda install -y git-lfs gh -c conda-forge
+          git-lfs install
+
+      - name: Install Ersilia
         run: |
-          if [ -n "${{ github.event.inputs.model_id }}" ]; then
-            echo "Using input model ID: ${{ github.event.inputs.model_id }}"
-            export MODEL_ID="${{ github.event.inputs.model_id }}"
-          else
-            echo "Getting next model from Python script: "
-            export MODEL_ID=$(python3 pickRepo.py)
-            
-          # Find the element in the JSON array with the matching "name" field and update its "time" field to the current datetime
-          jq --arg repo_name "$MODEL_ID" \
-             --arg current_time "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
-             'map(if .repository_name == $repo_name then .most_recent_date_checked = $current_time else . end)' \
-             repo_info.json > temp_repo_info.json
-             
-          mv temp_repo_info.json repo_info.json
-             
-          git config --global user.email "jjpoulson@college.harvard.edu"
-          git config --global user.name "Julia Poulson"
-          git add repo_info.json
-          git commit -m "Edited the JSON file"
-          git push
-          fi
-          
-          REPO_OWNER="ersilia-os"
-          REPO_NAME="ersilia-maintenance"
-          
-          # check if model exists
-          echo "Sample model id selected: $MODEL_ID"
-          
-          if [ "$(ersilia inspect $MODEL_ID | jq '.is_github_url_available')" = true ]; then
-            echo "Model Found"
-          else
-            echo "Model not found"
-            ISSUE_TITLE="🚨 Model $MODEL_ID does not exist 🚨"
-            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have an associated repository in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the repository exists and is accessible. <br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.is_github_url_available_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-            # Check if issue already exists
-            if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
-                echo "Issue already exists for $MODEL_ID"
-            else
-                # Create new issue
-                gh issue create --title "$ISSUE_TITLE" \
-                                --body "$ISSUE_BODY" \
-                                #--label "maintenance" \
-                                #--repo $REPO_OWNER/$REPO_NAME
-            fi
-            exit
-          fi
+          source $HOME/miniconda/etc/profile.d/conda.sh
+          conda activate ersilia
+          git clone https://github.com/ersilia-os/ersilia.git
+          cd ersilia
+          python --version
+<<<<<<< HEAD
+          python -m pip install -e .--use-deprecated=legacy-resolver
+=======
+          python -m pip install -e . --use-deprecated=legacy-resolver
+>>>>>>> 26d53c8 (Reafctoring and feature incorporation)
+          pip install .[test]
 
-          if [ "$(ersilia inspect $MODEL_ID | jq '.metadata_complete')" = true ]; then
-            echo "Metadata Complete"
-          else
-            echo "Metadata Incomplete"
-            ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete metadata 🚨"
-            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have valid metadata in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the metadata.json file is filled out with the correct fields.<br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.metadata_complete_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-            # Check if issue already exists
-            if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
-                echo "Issue already exists for $MODEL_ID"
-            else
-                # Create new issue
-                gh issue create --title "$ISSUE_TITLE" \
-                                --body "$ISSUE_BODY" \
-                                #--label "maintenance" \
-                                #--repo $REPO_OWNER/$REPO_NAME
-            fi
-          fi
-
-          if [ "$(ersilia inspect $MODEL_ID | jq '.folder_structure_complete')" = true ]; then
-            echo "Folder Structure Complete"
-          else
-            echo "Folder Structure Incomplete"
-            ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete folder structure 🚨"
-            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have a valid folder structure in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the repository contains the correct folders.<br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.folder_structure_complete_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-            # Check if issue already exists
-            if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
-                echo "Issue already exists for $MODEL_ID"
-            else
-                # Create new issue
-                gh issue create --title "$ISSUE_TITLE" \
-                                --body "$ISSUE_BODY" \
-                                #--label "maintenance" \
-                                #--repo $REPO_OWNER/$REPO_NAME
-            fi
-          fi
-
-
-          if [ "$(ersilia inspect $MODEL_ID | jq '.docker_check')" = true ]; then
-            echo "Docker Complete"
-          else
-            echo "Docker Incomplete"
-            ISSUE_TITLE="🚨 Model $MODEL_ID does not have complete Dockerfile 🚨"
-            ISSUE_BODY="Hi! 👋 The model $MODEL_ID does not have a complete Dockerfile in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the Docker file contains specified versions for installs and ends with proper functionality. <br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.docker_check_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-            # Check if issue already exists
-            if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
-                echo "Issue already exists for $MODEL_ID"
-            else
-                # Create new issue
-                gh issue create --title "$ISSUE_TITLE" \
-                                --body "$ISSUE_BODY" \
-                                #--label "maintenance" \
-                                #--repo $REPO_OWNER/$REPO_NAME
-            fi
-          fi
-
-           if [ "$(ersilia inspect $MODEL_ID | jq '.extra_files_check')" = true ]; then
-            echo "No Extra Files/Folders Found"
-          else
-            echo "Extra Files/Folders Found"
-            ISSUE_TITLE="🚨 Model $MODEL_ID has extra files/folders 🚨"
-            ISSUE_BODY="Hi! 👋 The model $MODEL_ID has unexpected files/folders found in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that all files/folders in the root directory are valid. <br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.extra_files_check_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-            # Check if issue already exists
-            if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
-                echo "Issue already exists for $MODEL_ID"
-            else
-                # Create new issue
-                gh issue create --title "$ISSUE_TITLE" \
-                                --body "$ISSUE_BODY" \
-                                #--label "maintenance" \
-                                #--repo $REPO_OWNER/$REPO_NAME
-            fi
-          fi
-
-          if [ "$(ersilia inspect $MODEL_ID | jq '.computational_performance_tracking')" = true ]; then
-            echo "Model Ran. Computational Perfomance: "
-            echo "$(ersilia inspect $MODEL_ID | jq '.computational_performance_tracking_details')"
-          else
-            echo "Model did not Run Properly"
-            ISSUE_TITLE="🚨 Model $MODEL_ID did not run properly 🚨"
-            ISSUE_BODY="Hi! 👋 The model $MODEL_ID did not run properly in the [ersilia-os](https://github.com/ersilia-os) organization profile. 🙏 Please ensure that the model can be served.<br><br>Detailed eror message: $(ersilia inspect $MODEL_ID | jq '.computational_performance_tracking_details') <br><br>The failed action is found at ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-            # Check if issue already exists
-            if gh issue list --repo $REPO_OWNER/$REPO_NAME --search "$ISSUE_TITLE in:title" | grep -q "$ISSUE_TITLE"; then
-                echo "Issue already exists for $MODEL_ID"
-            else
-                # Create new issue
-                gh issue create --title "$ISSUE_TITLE" \
-                                --body "$ISSUE_BODY" \
-                                #--label "maintenance" \
-                                #--repo $REPO_OWNER/$REPO_NAME
-            fi
-            exit
-          fi
+      - name: Run Inspection Script
+        env:
+          MODEL_ID: ${{ github.event.inputs.model_id }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          REPO_OWNER: "ersilia-os"
+          REPO_NAME: "ersilia-maintenance"
+        run: |
+          source $HOME/miniconda/etc/profile.d/conda.sh
+          conda activate ersilia
+          chmod +x .github/scripts/inspect.sh
+          .github/scripts/inspect.sh
