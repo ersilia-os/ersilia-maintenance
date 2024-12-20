@@ -5,6 +5,26 @@ BORDERS = ('┏', '┡', '├', '┝', '┯', '┠', '━', '┳', '┻', '─',
 STATUS = ('✔ PASSED', '✘ FAILED')
 
 def extract_summary(file_path):
+    """
+    Extracts a summary from a given result file.
+
+    Parameters
+    ----------
+    file_path : str
+        The path to the result file to be processed.
+
+    Returns
+    -------
+    dict
+        A dictionary containing the summary of checks with their status and details.
+
+    Raises
+    ------
+    FileNotFoundError
+        If the specified file does not exist.
+    Exception
+        If there is an error during file processing.
+    """
     summary, capturing, current_check = {}, False, None
 
     with open(file_path, 'r') as file:

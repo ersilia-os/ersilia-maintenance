@@ -49,5 +49,3 @@ The **repo_info.json** file contains a list of all repositories in the Ersilia o
 ## License
 
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
-
-Thank you for using the Ersilia Maintenance repository! We hope this documentation helps you understand and utilize the maintenance workflows effectively.
