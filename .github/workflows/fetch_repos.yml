@@ -1,0 +1,46 @@
+name: Fetch Repos
+
+on:
+  schedule:
+    - cron: '0 0 */7 * *' 
+
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  publications-and-repositories:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # pin@v3.5.3
+
+      - name: Add conda to system path
+        run: echo $CONDA/bin >> $GITHUB_PATH
+
+      - name: Source conda
+        run: source $CONDA/etc/profile.d/conda.sh
+        
+      - name: Set Python to 3.10
+        run:
+         conda install -y python=3.10
+
+      - name: Install dependencies
+        run: |
+          source activate
+          conda init
+          conda install git-lfs -c conda-forge
+          git-lfs install
+          conda install gh -c conda-forge
+
+      - name: Install Dependencies
+        run: |
+          source $HOME/miniconda/etc/profile.d/conda.sh
+          conda activate ersilia
+          python --version
+          pip install requests
+
+      - name: Execute Fetch Script
+        run: |
+          source $HOME/miniconda/etc/profile.d/conda.sh
+          conda activate ersilia
+          python src/fetch_repos.py
