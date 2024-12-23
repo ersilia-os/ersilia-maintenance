@@ -8,7 +8,20 @@ DATE_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 
 
 def get_repo_to_check(repos: List[Dict[str, str]]) -> Optional[str]:
+    """
+    Determines which repository should be checked next based on the time it was last checked.
 
+    Parameters
+    ----------
+    repos : List[Dict[str, str]]
+        A list of dictionaries containing repository information. Each dictionary should have
+        'repository_name', 'last_updated', and 'most_recent_date_checked' keys.
+
+    Returns
+    -------
+    Optional[str]
+        The name of the repository that should be checked next, or None if no repository needs checking.
+    """
     longest_time_ago_repo = None
     longest_time_ago = datetime.now()
 
@@ -26,6 +39,16 @@ def get_repo_to_check(repos: List[Dict[str, str]]) -> Optional[str]:
 
 
 def update_repo_checked_time(repos: List[Dict[str, str]], repo_name: str):
+    """
+    Updates the 'most_recent_date_checked' field for the specified repository.
+
+    Parameters
+    ----------
+    repos : List[Dict[str, str]]
+        A list of dictionaries containing repository information.
+    repo_name : str
+        The name of the repository to update.
+    """
     for repo_info in repos:
         if repo_info["repository_name"] == repo_name:
             repo_info["most_recent_date_checked"] = datetime.now().strftime(DATE_FORMAT)
@@ -33,6 +56,10 @@ def update_repo_checked_time(repos: List[Dict[str, str]], repo_name: str):
 
 
 def main():
+    """
+    Main function to read repository data, determine which repository to check,
+    update the check time, and print the repository name.
+    """
     if not os.path.exists(FILE_PATH):
         print(f"Error: File '{FILE_PATH}' does not exist.")
         return

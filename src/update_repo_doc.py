@@ -12,6 +12,15 @@ DEFAULT_RECENT_CHECK = "2000-01-01T00:00:00Z"
 
 
 def fetch_repos() -> List[Dict[str, str]]:
+    """
+    Fetches the list of repositories from the GitHub API.
+
+    Returns
+    -------
+    List[Dict[str, str]]
+        A list of dictionaries containing repository information. Each dictionary has
+        'repository_name', 'last_updated', and 'most_recent_date_checked' keys.
+    """
     page = 1
     repos = []
 
@@ -24,7 +33,7 @@ def fetch_repos() -> List[Dict[str, str]]:
             break
 
         json_response = response.json()
-        if not json_response:  # No more repositories to fetch
+        if not json_response: 
             break
 
         for repo in json_response:
@@ -44,6 +53,19 @@ def fetch_repos() -> List[Dict[str, str]]:
 
 
 def load_existing_data(file_path: str) -> List[Dict[str, str]]:
+    """
+    Loads existing repository data from a file.
+
+    Parameters
+    ----------
+    file_path : str
+        The path to the file containing the repository data.
+
+    Returns
+    -------
+    List[Dict[str, str]]
+        A list of dictionaries containing repository information.
+    """
     if os.path.exists(file_path):
         with open(file_path, "r") as file:
             return json.load(file)
@@ -53,6 +75,21 @@ def load_existing_data(file_path: str) -> List[Dict[str, str]]:
 def update_repositories(
     existing_data: List[Dict[str, str]], new_repos: List[Dict[str, str]]
 ) -> List[Dict[str, str]]:
+    """
+    Updates the existing repository data with new repository information.
+
+    Parameters
+    ----------
+    existing_data : List[Dict[str, str]]
+        A list of dictionaries containing existing repository information.
+    new_repos : List[Dict[str, str]]
+        A list of dictionaries containing new repository information.
+
+    Returns
+    -------
+    List[Dict[str, str]]
+        The updated list of dictionaries containing repository information.
+    """
     for repo in new_repos:
         matching_repo = next(
             (
@@ -77,12 +114,26 @@ def update_repositories(
 
 
 def save_data_to_file(file_path: str, data: List[Dict[str, str]]):
+    """
+    Saves the repository data to a file.
+
+    Parameters
+    ----------
+    file_path : str
+        The path to the file where the data will be saved.
+    data : List[Dict[str, str]]
+        A list of dictionaries containing repository information.
+    """
     with open(file_path, "w") as file:
         json.dump(data, file, indent=4)
     print(f"Data saved to {file_path}.")
 
 
 def main():
+    """
+    Main function to fetch repository data from GitHub, load existing data,
+    update the data, and save it to a file.
+    """
     existing_data = load_existing_data(FILE_PATH)
     new_repos = fetch_repos()
     updated_data = update_repositories(existing_data, new_repos)

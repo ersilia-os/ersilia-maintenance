@@ -25,8 +25,8 @@ jq --arg repo_name "$MODEL_ID" \
 mv temp_repo_info.json ./files/repo_info.json
 
 
-git config --global user.email "jjpoulson@college.harvard.edu"
-git config --global user.name "Julia Poulson"
+git config --local user.email "ersilia-bot@users.noreply.github.com"
+git config --local user.name "ersilia-bot"
 git add repo_info.json
 git commit -m "Edited the JSON file"
 git push

@@ -8,21 +8,29 @@ env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  inspect-model:
+  publications-and-repositories:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Setup Conda Environment
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # pin@v3.5.3
+
+      - name: Add conda to system path
+        run: echo $CONDA/bin >> $GITHUB_PATH
+
+      - name: Source conda
+        run: source $CONDA/etc/profile.d/conda.sh
+        
+      - name: Set Python to 3.10
+        run:
+         conda install -y python=3.10
+
+      - name: Install dependencies
         run: |
-          wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
-          bash miniconda.sh -b -p $HOME/miniconda
-          echo "$HOME/miniconda/bin" >> $GITHUB_PATH
-          source $HOME/miniconda/etc/profile.d/conda.sh
-          conda init bash
-          source $HOME/miniconda/etc/profile.d/conda.sh
-          conda create -n ersilia python=3.10.10 -y
-          echo "source activate ersilia" >> ~/.bashrc
+          source activate
+          conda init
+          conda install git-lfs -c conda-forge
+          git-lfs install
+          conda install gh -c conda-forge
 
       - name: Install Dependencies
         run: |

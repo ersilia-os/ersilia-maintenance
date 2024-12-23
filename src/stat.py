@@ -1,60 +1,79 @@
 from datetime import datetime
 
-def calculate_expectation(repositories: list):
+def calculate_expectation(repositories: list, safety_factor: float = 3.5):
     """
-    Calculates the expected update interval for each repository and recommends a cron period.
+    Calculate the expected interval for checking each repository using weighted probabilities 
+    based on update frequency. Recommends an adjusted cron interval for GitHub Actions, 
+    incorporating a safety factor to ensure repositories are not missed.
 
-    Steps:
-    1. Parse and sort update timestamps for each repository.
-    2. Calculate intervals (in days) between consecutive updates.
-    3. Compute the expectation using equally probable intervals.
-    4. Aggregate expectations across all repositories.
-    5. Recommend a cron interval based on the overall expectation.
+    Parameters
+    ----------
+    repositories : list of dict
+        A list of dictionaries where each dictionary contains:
+            - repository_name : str
+                Name of the repository.
+            - last_updated : str
+                ISO 8601 timestamp of the last update (e.g., "2024-05-08T11:50:32Z").
+            - most_recent_date_checked : str
+                ISO 8601 timestamp of the most recent check.
+    
+    safety_factor : float, optional, default=3.5
+        A multiplicative factor applied to the final recommended interval to add uncertainty 
+        and ensure repositories are checked slightly more frequently than expected.
 
-    Parameters:
-    repositories (list): A list of dictionaries, each containing:
-        - repository_name (str): Name of the repository.
-        - update_history (list): List of update timestamps in ISO 8601 format (Z-terminated).
+    Returns
+    -------
+    None
+        Prints the interval, weight, and adjusted cron interval for all repositories, 
+        along with the final recommended cron interval.
 
-    Returns:
-    None: Prints the expectation for each repository and the recommended cron interval.
-
-    Example Output:
-    Repository eos4e40 expectation interval: 10.0 days.
-    Repository eos0abc expectation interval: 5.00 days.
-    Repository eos9f6t expectation interval: 7.50 days.
-
-    Recommended cron interval: 7.50 days
+    Notes
+    -----
+    The calculation proceeds as follows:
+    1. Parse the timestamps (`last_updated` and `most_recent_date_checked`) for each repository.
+    2. Compute the interval between the two timestamps in days.
+    3. Assign weights inversely proportional to the interval (frequent updates -> higher weight).
+    4. Compute a weighted average of intervals to derive the overall expectation.
+    5. Adjust the expectation with the safety factor to recommend a safer cron interval.
     """
 
     expectations = []
+    weights = []
 
     for repo in repositories:
-        update_dates = [
-            datetime.fromisoformat(date.replace("Z", "+00:00")) for date in repo["update_history"]
-        ]
-        update_dates.sort()  
+        try:
+            last_updated = datetime.fromisoformat(repo["last_updated"].replace("Z", "+00:00"))
+            most_recent_date_checked = datetime.fromisoformat(
+                repo["most_recent_date_checked"].replace("Z", "+00:00")
+            )
 
-        if len(update_dates) < 2:
-            print(f"Repository {repo['repository_name']} has insufficient data for analysis.")
+            interval = (most_recent_date_checked - last_updated).days
+
+            if interval > 0:
+                weight = 1 / interval
+                weights.append(weight)
+                expectations.append(interval * weight)
+
+                print(f"Repository {repo['repository_name']} interval: {interval} days, weight: {weight:.4f}")
+            else:
+                print(f"Repository {repo['repository_name']} has invalid interval: {interval} days.")
+
+        except Exception as e:
+            print(f"Error processing repository {repo['repository_name']}: {e}")
             continue
 
-        intervals = [
-            (update_dates[i] - update_dates[i - 1]).days
-            for i in range(1, len(update_dates))
-        ]
+    if expectations and weights:
+        overall_expectation = sum(expectations) / sum(weights)
 
-        probabilities = [1 / len(intervals) for _ in intervals]
+        adjusted_expectation = overall_expectation / safety_factor
 
-        expectation = sum(interval * prob for interval, prob in zip(intervals, probabilities))
-        expectations.append(expectation)
-
-        print(
-            f"Repository {repo['repository_name']} expectation interval: {expectation:.2f} days."
-        )
-
-    if expectations:
-        overall_expectation = sum(expectations) / len(expectations)
-        print(f"\nRecommended cron interval: {overall_expectation:.2f} days")
+        print(f"\nWeighted average expectation: {overall_expectation:.2f} days")
+        print(f"Recommended cron interval (with safety factor {safety_factor}): {adjusted_expectation:.2f} days")
     else:
         print("No sufficient data to calculate expectations.")
+
+if __name__ == "__main__":
+    import json
+    with open("files/repo_info.json") as f:
+        repositories = json.load(f)
+    calculate_expectation(repositories)
