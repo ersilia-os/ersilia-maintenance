@@ -17,12 +17,6 @@ jobs:
         with:
           auto-update-conda: true
           python-version: "3.10"
-
-      - name: Add conda to system path
-        run: echo $CONDA/bin >> $GITHUB_PATH
-
-      - name: Source conda
-        run: source $CONDA/etc/profile.d/conda.sh
         
       - name: Set Python to 3.10
         run:
@@ -30,19 +24,15 @@ jobs:
 
       - name: Install dependencies
         run: |
-          source activate
-          conda init
           conda install git-lfs -c conda-forge
           git-lfs install
           conda install gh -c conda-forge
 
       - name: Install Dependencies
         run: |
-          source activate
           python --version
           pip install requests
 
       - name: Execute Fetch Script
         run: |
-          source activate
           python src/fetch_repos.py

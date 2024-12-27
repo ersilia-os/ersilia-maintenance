@@ -24,20 +24,8 @@ jobs:
           auto-update-conda: true
           python-version: "3.10"
 
-      - name: Add conda to system path
-        run: echo $CONDA/bin >> $GITHUB_PATH
-
-      - name: Source conda
-        run: source $CONDA/etc/profile.d/conda.sh
-        
-      - name: Set Python to 3.10
-        run:
-         conda install -y python=3.10
-
       - name: Install dependencies
         run: |
-          source activate
-          conda init
           conda install git-lfs -c conda-forge
           git-lfs install
           conda install gh -c conda-forge
@@ -49,9 +37,6 @@ jobs:
       
       - name: Install ersilia
         run: |
-          source activate
-          python --version
-          conda init
           cd ersilia
           python -m pip install -e .
           pip install .[test]
@@ -64,6 +49,5 @@ jobs:
           REPO_OWNER: "ersilia-os"
           REPO_NAME: "ersilia-maintenance"
         run: |
-          source activate
           chmod +x .github/scripts/inspect.sh
           .github/scripts/inspect.sh
