@@ -13,6 +13,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # pin@v3.5.3
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: "3.10"
 
       - name: Add conda to system path
         run: echo $CONDA/bin >> $GITHUB_PATH
@@ -34,13 +38,11 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          source $HOME/miniconda/etc/profile.d/conda.sh
-          conda activate ersilia
+          source activate
           python --version
           pip install requests
 
       - name: Execute Fetch Script
         run: |
-          source $HOME/miniconda/etc/profile.d/conda.sh
-          conda activate ersilia
+          source activate
           python src/fetch_repos.py
