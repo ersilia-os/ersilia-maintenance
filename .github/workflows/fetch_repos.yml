@@ -8,9 +8,11 @@ env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  publications-and-repositories:
+  fetch-repos:
     runs-on: ubuntu-latest
-
+    defaults:
+      run:
+        shell: bash -el {0}
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # pin@v3.5.3
       - uses: conda-incubator/setup-miniconda@v3
