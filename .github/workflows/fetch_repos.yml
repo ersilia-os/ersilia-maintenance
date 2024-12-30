@@ -1,6 +1,8 @@
 name: Fetch Repos
 
 on:
+  workflow_dispatch:
+  
   schedule:
     - cron: '0 0 */7 * *' 
 
