@@ -1,9 +1,13 @@
 import json
 import os
+import json
+import random
 from datetime import datetime
 from typing import List, Dict, Optional
 from pathlib import Path
-FILE_PATH = Path(__file__).parent.parent / "files" / "repo_info.json"
+
+REPO_INFO_FILE = Path(__file__).parent.parent / "files" / "repo_info.json"
+COMMONF_MODEL_FILE = Path(__file__).parent.parent / "files" / "common_models.json"
 DATE_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 
 
@@ -55,16 +59,35 @@ def update_repo_checked_time(repos: List[Dict[str, str]], repo_name: str):
             break
 
 
+def _load_model_ids(file_path: str) -> List[str]:
+    with open(file_path, "r") as file:
+        data = json.load(file)
+    return data.get("model_ids", [])
+
+
+def select_random_models(file_path: str, count: int) -> List[str]:
+    """
+    Load model IDs from a file and randomly select a specified number of them.
+
+    Parameters:
+        file_path (str): Path to the JSON file containing model IDs.
+        count (int): Number of model IDs to select.
+
+    Returns:
+        List[str]: Randomly selected model IDs.
+    """
+    model_ids = _load_model_ids(file_path)
+    if count > len(model_ids):
+        raise ValueError("Count cannot exceed the number of available model IDs.")
+    return random.sample(model_ids, count)
+
+
 def main():
-    """
-    Main function to read repository data, determine which repository to check,
-    update the check time, and print the repository name.
-    """
-    if not os.path.exists(FILE_PATH):
-        print(f"Error: File '{FILE_PATH}' does not exist.")
+    if not os.path.exists(REPO_INFO_FILE):
+        print(f"Error: File '{REPO_INFO_FILE}' does not exist.")
         return
 
-    with open(FILE_PATH, "r") as json_file:
+    with open(REPO_INFO_FILE, "r") as json_file:
         repos_data = json.load(json_file)
 
     repo_to_check = get_repo_to_check(repos_data)
@@ -72,12 +95,13 @@ def main():
     if repo_to_check:
         update_repo_checked_time(repos_data, repo_to_check)
 
-        with open(FILE_PATH, "w") as json_file:
+        with open(REPO_INFO_FILE, "w") as json_file:
             json.dump(repos_data, json_file, indent=4)
 
         print(repo_to_check)
     else:
-        print("None")
+        model = select_random_models(COMMONF_MODEL_FILE, 1)[0]
+        print(model)
 
 
 if __name__ == "__main__":

@@ -1,12 +1,13 @@
 import json
 import sys
 
-BORDERS = ('┏', '┡', '├', '┝', '┯', '┠', '━', '┳', '┻', '─', '┼')
-STATUS = ('✔ PASSED', '✘ FAILED')
+BORDERS = ("┏", "┡", "├", "┝", "┯", "┠", "━", "┳", "┻", "─", "┼")
+STATUS = ("✔ PASSED", "✘ FAILED")
+
 
 def extract_summary(file_path):
     """
-    Extracts a summary from a given file. This is summary is a table output from the 
+    Extracts a summary from a given file. This is summary is a table output from the
     inspect command and will be converted into a dictionary.
 
     Parameters
@@ -29,34 +30,40 @@ def extract_summary(file_path):
     """
     summary, capturing, current_check = {}, False, None
 
-    with open(file_path, 'r') as file:
+    with open(file_path, "r") as file:
         for line in file:
             if "Inspect Summary" in line:
                 capturing = True
                 continue
 
             if capturing:
-                if line.startswith('└'):
+                if line.startswith("└"):
                     break
                 if line.strip().startswith(BORDERS):
                     continue
 
                 if "│" in line:
                     parts = [part.strip() for part in line.strip().split("│")[1:-1]]
-                    
+
                     if len(parts) == 2:
                         key, value = parts
                         if value in STATUS:
                             current_check = key
-                            summary[current_check] = {"Status": value == STATUS[0], "Details": ""}
+                            summary[current_check] = {
+                                "Status": value == STATUS[0],
+                                "Details": "",
+                            }
                         elif current_check:
-                            summary[current_check]["Details"] += f" {key} {value}".strip()
+                            summary[current_check][
+                                "Details"
+                            ] += f" {key} {value}".strip()
                     elif len(parts) == 1 and current_check:
                         summary[current_check]["Details"] += f" {parts[0]}".strip()
 
     for check in summary:
         summary[check]["Details"] = summary[check]["Details"].strip()
     return summary
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
@@ -67,7 +74,7 @@ if __name__ == "__main__":
 
     try:
         summary = extract_summary(file_path)
-        print(json.dumps(summary, indent=4))  
+        print(json.dumps(summary, indent=4))
     except Exception as e:
         print(f"Error: {e}")
         sys.exit(1)
