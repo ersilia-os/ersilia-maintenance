@@ -26,10 +26,17 @@ jobs:
           git-lfs install
           conda install gh -c conda-forge
 
-      - name: Install Dependencies
+      - name: Install Python Dependencies
         run: |
           pip install requests
 
       - name: Execute Fetch Script
         run: |
           python src/fetch_repos.py
+
+      - name: Commit and Push Changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "files/repo_info.json"
+          message: "Update repo_info.json via GitHub Actions"
+          push: true

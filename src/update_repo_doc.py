@@ -33,7 +33,7 @@ def fetch_repos() -> List[Dict[str, str]]:
             break
 
         json_response = response.json()
-        if not json_response: 
+        if not json_response:
             break
 
         for repo in json_response:
