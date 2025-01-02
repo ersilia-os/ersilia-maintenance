@@ -35,7 +35,7 @@ git commit -m "Edited the JSON file"
 git push
 
 echo "Running ersilia test for model ID: $MODEL_ID..."
-ersilia -v test "$MODEL_ID" -d "$MODEL_ID" --inspect --remote > result.txt
+ersilia test "$MODEL_ID" -d "$MODEL_ID" --inspect --remote > result.txt
 
 if [ ! -f "result.txt" ]; then
     echo "Error: Failed to generate result.txt."
