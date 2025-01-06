@@ -11,15 +11,16 @@ DEFAULT_RECENT_CHECK = "2000-01-01T00:00:00Z"
 REPO_PATTERN = re.compile(r"^eos[a-zA-Z0-9]{4}$")
 FILE_PATH = Path(__file__).parent.parent / "files" / "repo_info.json"
 
+
 def fetch_repositories() -> List[Dict[str, str]]:
     """
-    Retrieve repositories from the 'ersilia-os' GitHub organization that match 
+    Retrieve repositories from the 'ersilia-os' GitHub organization that match
     a specific pattern.
 
-    This function uses the GitHub API to fetch all repositories under 'ersilia-os', 
-    filters them based on the regular expression as in `REPO_PATTERN`, and collects 
+    This function uses the GitHub API to fetch all repositories under 'ersilia-os',
+    filters them based on the regular expression as in `REPO_PATTERN`, and collects
     their names, last updated timestamps, and a default recent check date.
-    
+
     Returns
     -------
     List[Dict[str, str]]
