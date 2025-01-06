@@ -14,23 +14,23 @@ if [ -n "$MODEL_ID" ]; then
   echo "Using input model ID: $MODEL_ID"
 else
   echo "Getting next model from Python script."
-  MODEL_ID=$(python3 ../../src/pick_repo.py)
+  MODEL_ID=$(python3 src/pick_repo.py)
 fi
 
-mkdir -p ../../files
-if [ ! -f ../../files/repo_info.json ]; then
-  echo "[]" > ../../files/repo_info.json
+mkdir -p files
+if [ ! -f files/repo_info.json ]; then
+  echo "[]" > files/repo_info.json
 fi
 
 jq --arg repo_name "$MODEL_ID" \
    --arg current_time "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
    'map(if .repository_name == $repo_name then .most_recent_date_checked = $current_time else . end)' \
-   ../../files/repo_info.json > temp_repo_info.json
-mv temp_repo_info.json ../../files/repo_info.json
+   files/repo_info.json > temp_repo_info.json
+mv temp_repo_info.json files/repo_info.json
 
 git config --local user.email "ersilia-bot@users.noreply.github.com"
 git config --local user.name "ersilia-bot"
-git add ../../files/repo_info.json
+git add files/repo_info.json
 git commit -m "Edited the JSON file"
 git push
 
@@ -43,7 +43,7 @@ if [ ! -f "result.txt" ]; then
 fi
 
 echo "Processing the result with extract.py..."
-results_json=$(python3 ../../src/extract.py result.txt)
+results_json=$(python3 src/extract.py result.txt)
 
 echo "Inspection Results JSON:"
 echo "$results_json"
