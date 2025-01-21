@@ -73,7 +73,7 @@ echo "Running ersilia test for model ID: $MODEL_ID..."
 ersilia -v test "$MODEL_ID" --shalow --from_github --as-json 
 
 echo "Reading reports with extract.py..."
-results_json=$(python3 ./src/extract.py)
+results_json=$(python3 ./src/extract.py "$MODEL_ID-test.json")
 
 check_results "model_information_checks" "model_information_checks" "Key"
 check_results "model_file_checks" "model_file_checks" "File"
