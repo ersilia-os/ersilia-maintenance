@@ -34,7 +34,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-            git clone https://github.com/ersilia-os/ersilia.git
+            source activate
+            git clone --branch refactor/1484-test-command-refactor https://github.com/ersilia-os/ersilia.git
       
       - name: Install ersilia
         run: |
