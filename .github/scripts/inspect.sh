@@ -70,7 +70,7 @@ update_json
 commit_and_push
 
 echo "Running ersilia test for model ID: $MODEL_ID..."
-ersilia -v test "$MODEL_ID" --shalow --from_github --as-json 
+ersilia -v test "$MODEL_ID" --shallow --from_github
 
 echo "Reading reports with extract.py..."
 results_json=$(python3 ./src/extract.py "$MODEL_ID-test.json")
