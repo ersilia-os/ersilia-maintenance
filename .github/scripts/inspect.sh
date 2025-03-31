@@ -23,22 +23,26 @@ get_model_id() {
 }
 
 update_json() {
+  echo "Updating json file [repo_info]."
   jq --arg repo_name "$MODEL_ID" \
      --arg current_time "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
      'map(if .repository_name == $repo_name then .most_recent_date_checked = $current_time else . end)' \
      ./files/repo_info.json > temp_repo_info.json
   mv temp_repo_info.json ./files/repo_info.json
+  echo "Moving json file [repo_info]."
+
 }
 
 commit_and_push() {
+  echo "Commenting and pushing Updated json file [repo_info]."
   git config --local user.email "ersilia-bot@users.noreply.github.com"
   git config --local user.name "ersilia-bot"
-  git add repo_info.json
+  git add .
   git commit -m "Edited the JSON file"
   git push
 }
-
 create_github_issue() {
+  echo "Creating github issue."
   local title="$1"
   local body="$2"
   if ! gh issue list --repo "$REPO_OWNER/$REPO_NAME" --search "$title in:title" | grep -q "$title"; then
