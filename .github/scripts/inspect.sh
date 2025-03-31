@@ -74,24 +74,16 @@ update_json
 commit_and_push
 
 echo "Running ersilia test for model ID: $MODEL_ID..."
-ersilia -v test "$MODEL_ID" --shallow --from_github
+ersilia test "$MODEL_ID" --shallow --from_github
 
 echo "Reading reports with extract.py..."
 results_json=$(python3 ./src/extract.py "$MODEL_ID-test.json")
 
-check_results "model_information_checks" "model_information_checks" "Key"
-check_results "model_file_checks" "model_file_checks" "File"
-check_results "consistency_summary_between_ersilia_and_bash_execution_outputs" "consistency_summary" "Key"
+check_results "metadata_checks" "Metadata checks" "Key"
+check_results "model_file_checks" "Model File Checks" "File"
+check_results "file_validity_check" "File validity check [dependency]" "File"
+check_results "model_size_check" "Model Size Check" "Size"
+check_results "model_run_check" "ModelRun Check" "Run Check"
+check_results "input_output_check" "Content validation Check" "Content validation Check"
+check_results "model_output_consistency_check" "consistency_summary" "Key"
 check_results "model_output_content_validation_summary" "model_output_content_validation_summary" "Invalid file content"
-
-dep_status=$(echo "$results_json" | jq -r '.dependency_check.dockerfile_check')
-dep_details=$(echo "$results_json" | jq -r '.dependency_check.check_details')
-if [ "$dep_status" = "false" ]; then
-  title="🚨 Model $MODEL_ID dependency_check Issue 🚨"
-  body="Dependency error: $dep_details<br>Action: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
-  create_github_issue "$title" "$body"
-else
-  echo "✅ dependency_check Passed"
-fi
-
-echo "Process completed successfully."
