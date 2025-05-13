@@ -74,7 +74,6 @@ update_json
 commit_and_push
 
 echo "Running ersilia test for model ID: $MODEL_ID..."
-ersilia -v fetch "eos46ev"  --from_dockerhub --version dev-amd64
 ersilia -v fetch "$MODEL_ID" --from_dockerhub --version dev-amd64
 ersilia test "$MODEL_ID" --shallow --from_github
 
