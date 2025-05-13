@@ -74,6 +74,7 @@ update_json
 commit_and_push
 
 echo "Running ersilia test for model ID: $MODEL_ID..."
+ersilia -v fetch "$MODEL_ID" --from_github
 ersilia test "$MODEL_ID" --shallow --from_github
 
 echo "Reading reports with extract.py..."
