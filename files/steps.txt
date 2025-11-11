@@ -1,0 +1,11 @@
+python src/fetch_repos.py ✅
+
+python src/update_metadata.py python  ✅
+
+python src/update_open_issues.py  ✅
+
+python src/pick_repo.py ✅
+
+python src/stat.py
+
+python src/update_repo_doc.py

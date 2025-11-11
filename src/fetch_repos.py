@@ -1,99 +1,129 @@
-import requests
-import json
-import re
-import os
-from typing import List, Dict
-from pathlib import Path
+# src/fetch_repos.py
+from __future__ import annotations
 
-GITHUB_API_URL = "https://api.github.com/orgs/ersilia-os/repos"
-HEADERS = {"Accept": "application/vnd.github.v3+json"}
-DEFAULT_RECENT_CHECK = "2000-01-01T00:00:00Z"
+import json
+import os
+import re
+from pathlib import Path
+from typing import Any, Dict, List
+from github_utils import _headers
+
+import requests
+
+# --- Config ---------------------------------------------------------------
+
+API_URL = "https://api.github.com/orgs/ersilia-os/repos"
 REPO_PATTERN = re.compile(r"^eos[a-zA-Z0-9]{4}$")
 FILE_PATH = Path(__file__).parent.parent / "files" / "repo_info.json"
+DEFAULT_RECENT_CHECK = "2000-01-01T00:00:00Z"
 
+# --- IO helpers ------------------------------------------------------------
 
-def fetch_repositories() -> List[Dict[str, str]]:
-    """
-    Retrieve repositories from the 'ersilia-os' GitHub organization that match
-    a specific pattern.
+def _load_repo_info() -> List[Dict[str, Any]]:
+    if FILE_PATH.exists():
+        return json.loads(FILE_PATH.read_text(encoding="utf-8"))
+    return []
 
-    This function uses the GitHub API to fetch all repositories under 'ersilia-os',
-    filters them based on the regular expression as in `REPO_PATTERN`, and collects
-    their names, last updated timestamps, and a default recent check date.
+def _save_repo_info(data: List[Dict[str, Any]]) -> None:
+    FILE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    FILE_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    Returns
-    -------
-    List[Dict[str, str]]
-        A list of dictionaries containing repository information with keys:
-        'repository_name', 'last_updated', and 'most_recent_date_checked'.
-    """
-    page, repositories = 1, []
+# --- Fetch + merge ---------------------------------------------------------
+
+def _fetch_all_repos() -> List[Dict[str, Any]]:
+    """Fetch all repos from the org (paginated) and filter by pattern."""
+    page = 1
+    out: List[Dict[str, Any]] = []
+    headers=_headers()
 
     while True:
+        resp = requests.get(API_URL, headers=headers, params={"page": page})
         try:
-            response = requests.get(
-                GITHUB_API_URL, headers=HEADERS, params={"page": page}
-            )
-            response.raise_for_status()
-            repos_data = response.json()
-
-            if not repos_data:
-                break
-
-            for repo in repos_data:
-                if REPO_PATTERN.match(repo["name"]):
-                    repositories.append(
-                        {
-                            "repository_name": repo["name"],
-                            "last_updated": repo["updated_at"],
-                            "most_recent_date_checked": DEFAULT_RECENT_CHECK,
-                        }
-                    )
-            page += 1
-
+            resp.raise_for_status()
         except requests.RequestException as e:
-            print(f"Failed to fetch repositories: {e}")
+            print(f"[warn] Failed to fetch repositories (page {page}): {e}")
             break
 
-    return repositories
+        batch = resp.json()
+        if not batch:
+            break
+
+        for repo in batch:
+            name = repo["name"]
+            if REPO_PATTERN.match(name):
+                out.append(
+                    {
+                        "repository_name": repo["name"],
+                        "last_updated": repo["updated_at"],
+                        "most_recent_date_checked": DEFAULT_RECENT_CHECK,
+                    }
+                )
+        page += 1
+
+    print(f"[info] Fetched {len(out)} repositories matching pattern.")
+    return out
 
 
-def update_repository_file(file_path: str, data: List[Dict[str, str]]):
+def _ensure_fields(entry: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Save repository data to a JSON file, updating existing entries if necessary.
-
-    Parameters
-    ----------
-    file_path : str
-        The path to the JSON file where repository data will be saved.
-    data : List[Dict[str, str]]
-        The repository data to save.
+    Make sure optional fields exist so later scripts don't crash.
     """
-    if os.path.exists(file_path):
-        with open(file_path, "r") as json_file:
-            existing_data = json.load(json_file)
-        current_repos = {repo["repository_name"]: repo for repo in existing_data}
-    else:
-        current_repos = {}
+    # Core indexing fields
+    entry.setdefault("repository_name", None)
+    entry.setdefault("last_updated", None)
+    entry.setdefault("most_recent_date_checked", DEFAULT_RECENT_CHECK)
 
-    for repo in data:
-        repo_name = repo["repository_name"]
-        if repo_name in current_repos:
-            if repo["last_updated"] > current_repos[repo_name]["last_updated"]:
-                current_repos[repo_name]["last_updated"] = repo["last_updated"]
+    # Fields enriched by other steps/scripts
+    entry.setdefault("slug", entry.get("slug"))  
+    entry.setdefault("status", None)
+    entry.setdefault("last_test_date", None)
+    entry.setdefault("release", None)
+    entry.setdefault("last_packaging_date", None)
+    entry.setdefault("open_issues", None)
+    entry.setdefault("issues_last_updated", None)
+    return entry
+
+
+def _merge(existing: List[Dict[str, Any]], fetched: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Merge fetched records into existing data while preserving any extra fields
+    previously stored (release, last_packaging_date, open_issues, etc.).
+    """
+    by_name: Dict[str, Dict[str, Any]] = {e.get("repository_name"): _ensure_fields(dict(e)) for e in existing}
+
+    for rec in fetched:
+        name = rec["repository_name"]
+        if name not in by_name:
+            # New repository → seed with defaults + fetched core fields
+            new_entry = _ensure_fields({})
+            new_entry["repository_name"] = name
+            new_entry["last_updated"] = rec.get("last_updated")
+            new_entry["most_recent_date_checked"] = rec.get("most_recent_date_checked", DEFAULT_RECENT_CHECK)
+            # Optional convenience: use name as slug by default
+            by_name[name] = new_entry
         else:
-            current_repos[repo_name] = repo
+            # Existing → update only what comes from GitHub index
+            curr = by_name[name]
+            # Update 'last_updated' if newer
+            if rec.get("last_updated") and rec["last_updated"] != curr.get("last_updated"):
+                curr["last_updated"] = rec["last_updated"]
+            # Keep most_recent_date_checked unless you want to reset it here
 
-    with open(file_path, "w") as json_file:
-        json.dump(list(current_repos.values()), json_file, indent=4)
-    print(f"Repository data saved to {file_path}")
+    # Return sorted by repository_name for deterministic file diffs
+    merged = list(by_name.values())
+    merged.sort(key=lambda x: x.get("repository_name") or "")
+    return merged
 
+# --- Main -------------------------------------------------------------------
 
-def main():
-    print("Fetching repository data...")
-    repositories = fetch_repositories()
-    update_repository_file(FILE_PATH, repositories)
+def main() -> int:
+    existing = _load_repo_info()
+    fetched = _fetch_all_repos()
+    updated = _merge(existing, fetched)
+    _save_repo_info(updated)
+    print(f"[ok] Saved index to {FILE_PATH}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

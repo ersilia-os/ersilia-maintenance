@@ -1,4 +1,4 @@
-name: Inspect Model
+name: Test Models
 
 on:
   workflow_dispatch:
@@ -42,7 +42,7 @@ jobs:
           python -m pip install -e .
           pip install .[test]
 
-      - name: Run Inspection Script
+      - name: Run Testing Script
         env:
           MODEL_ID: ${{ github.event.inputs.model_id }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -50,5 +50,5 @@ jobs:
           REPO_OWNER: "ersilia-os"
           REPO_NAME: "ersilia-maintenance"
         run: |
-          chmod +x .github/scripts/inspect.sh
-          .github/scripts/inspect.sh
+          chmod +x .github/scripts/test_models.sh
+          .github/scripts/test_models.sh

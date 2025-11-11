@@ -1,0 +1,117 @@
+==============================================
+Testing model: eos157v
+==============================================
+✅ [eos157v] metadata_checks: last_packaging_date
+✅ [eos157v] metadata_checks: model_biomodel_area
+✅ [eos157v] metadata_checks: model_computational_performance_for_10000_input
+✅ [eos157v] metadata_checks: model_computational_performance_for_1000_input
+✅ [eos157v] metadata_checks: model_computational_performance_for_100_input
+✅ [eos157v] metadata_checks: model_computational_performance_for_10_input
+✅ [eos157v] metadata_checks: model_computational_performance_for_1_input
+✅ [eos157v] metadata_checks: model_contribution_date
+✅ [eos157v] metadata_checks: model_contributor
+✅ [eos157v] metadata_checks: model_description
+✅ [eos157v] metadata_checks: model_directory_size
+✅ [eos157v] metadata_checks: model_docker_architecture
+✅ [eos157v] metadata_checks: model_dockerhub_url
+✅ [eos157v] metadata_checks: model_environment_size
+✅ [eos157v] metadata_checks: model_id
+✅ [eos157v] metadata_checks: model_image_size
+✅ [eos157v] metadata_checks: model_input
+✅ [eos157v] metadata_checks: model_input_dimensions
+✅ [eos157v] metadata_checks: model_interpretation
+✅ [eos157v] metadata_checks: model_output
+✅ [eos157v] metadata_checks: model_output_consistency
+✅ [eos157v] metadata_checks: model_output_dimension
+✅ [eos157v] metadata_checks: model_publication
+✅ [eos157v] metadata_checks: model_release_version
+✅ [eos157v] metadata_checks: model_s3_url
+✅ [eos157v] metadata_checks: model_slug
+✅ [eos157v] metadata_checks: model_source
+✅ [eos157v] metadata_checks: model_source_code
+✅ [eos157v] metadata_checks: model_source_type
+✅ [eos157v] metadata_checks: model_status
+✅ [eos157v] metadata_checks: model_sub_tasks
+✅ [eos157v] metadata_checks: model_tag
+✅ [eos157v] metadata_checks: model_target_organism
+✅ [eos157v] metadata_checks: model_task
+✅ [eos157v] metadata_checks: model_title
+✅ [eos157v] model_file_checks: dockerfile
+✅ [eos157v] model_file_checks: license
+✅ [eos157v] model_file_checks: metadata_json
+✅ [eos157v] model_file_checks: model_framework_columns_run_columns_csv
+✅ [eos157v] model_file_checks: model_framework_examples_run_input_csv
+✅ [eos157v] model_file_checks: model_framework_examples_run_output_csv
+✅ [eos157v] model_file_checks: model_framework_run_sh
+✅ [eos157v] model_file_checks: pack_py
+✅ [eos157v] model_file_checks: readme_md
+✅ [eos157v] model_file_checks: src_service_py
+✅ [eos157v] file_validity_check: columns
+✅ [eos157v] file_validity_check: dockerfile_check
+ℹ️ [eos157v] model_size_check: directory_size_mb = 1292.0
+ℹ️ [eos157v] model_size_check: environment_size_mb = 2400.0
+✅ [eos157v] model_run_check: simple_model_run
+✅ [eos157v] model_run_check: simple_model_run_columns
+✅ [eos157v] async_model_run_check: async_simple_model_run
+✅ [eos157v] input_output_check: csv_csv
+✅ [eos157v] model_output_consistency_check: check_consistency_of_model_output
+✅ [eos157v] consistency_summary_between_ersilia_and_bash_execution_outputs: rmse_mean
+==============================================
+Testing model: eos3cf4
+==============================================
+ersilia fetch/test failed for eos3cf4 (fetch_exit=0, test_exit=1).
+ℹ️ [eos3cf4] metadata_checks: last_packaging_date = not present
+✅ [eos3cf4] metadata_checks: model_biomodel_area
+✅ [eos3cf4] metadata_checks: model_computational_performance_for_10000_input
+✅ [eos3cf4] metadata_checks: model_computational_performance_for_1000_input
+✅ [eos3cf4] metadata_checks: model_computational_performance_for_100_input
+✅ [eos3cf4] metadata_checks: model_computational_performance_for_10_input
+✅ [eos3cf4] metadata_checks: model_computational_performance_for_1_input
+✅ [eos3cf4] metadata_checks: model_contribution_date
+✅ [eos3cf4] metadata_checks: model_contributor
+✅ [eos3cf4] metadata_checks: model_description
+✅ [eos3cf4] metadata_checks: model_directory_size
+✅ [eos3cf4] metadata_checks: model_docker_architecture
+✅ [eos3cf4] metadata_checks: model_dockerhub_url
+✅ [eos3cf4] metadata_checks: model_environment_size
+✅ [eos3cf4] metadata_checks: model_id
+✅ [eos3cf4] metadata_checks: model_image_size
+✅ [eos3cf4] metadata_checks: model_input
+✅ [eos3cf4] metadata_checks: model_input_dimensions
+✅ [eos3cf4] metadata_checks: model_interpretation
+✅ [eos3cf4] metadata_checks: model_output
+✅ [eos3cf4] metadata_checks: model_output_consistency
+✅ [eos3cf4] metadata_checks: model_output_dimension
+✅ [eos3cf4] metadata_checks: model_publication
+ℹ️ [eos3cf4] metadata_checks: model_release_version = not present
+✅ [eos3cf4] metadata_checks: model_s3_url
+✅ [eos3cf4] metadata_checks: model_slug
+✅ [eos3cf4] metadata_checks: model_source
+✅ [eos3cf4] metadata_checks: model_source_code
+✅ [eos3cf4] metadata_checks: model_source_type
+✅ [eos3cf4] metadata_checks: model_status
+✅ [eos3cf4] metadata_checks: model_sub_tasks
+✅ [eos3cf4] metadata_checks: model_tag
+✅ [eos3cf4] metadata_checks: model_target_organism
+✅ [eos3cf4] metadata_checks: model_task
+✅ [eos3cf4] metadata_checks: model_title
+✅ [eos3cf4] model_file_checks: dockerfile
+✅ [eos3cf4] model_file_checks: license
+✅ [eos3cf4] model_file_checks: metadata_json
+✅ [eos3cf4] model_file_checks: model_framework_columns_run_columns_csv
+✅ [eos3cf4] model_file_checks: model_framework_examples_run_input_csv
+✅ [eos3cf4] model_file_checks: model_framework_examples_run_output_csv
+✅ [eos3cf4] model_file_checks: model_framework_run_sh
+✅ [eos3cf4] model_file_checks: pack_py
+✅ [eos3cf4] model_file_checks: readme_md
+✅ [eos3cf4] model_file_checks: src_service_py
+✅ [eos3cf4] file_validity_check: columns
+✅ [eos3cf4] file_validity_check: dockerfile_check
+ℹ️ [eos3cf4] model_size_check: directory_size_mb = 1.0
+ℹ️ [eos3cf4] model_size_check: environment_size_mb = 7859.0
+🚨 [eos3cf4] model_run_check: simple_model_run
+🚨 [eos3cf4] model_run_check: simple_model_run_columns
+✅ [eos3cf4] async_model_run_check: async_simple_model_run
+🚨 [eos3cf4] input_output_check: csv_csv
+🚨 [eos3cf4] model_output_consistency_check: check_consistency_of_model_output
+🚨 [eos3cf4] consistency_summary_between_ersilia_and_bash_execution_outputs: rmse_mean

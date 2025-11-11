@@ -1,0 +1,23 @@
+[
+  {
+    "repository_name": "eos157v",
+    "slug": "grover-freesolv",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-14",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos3cf4",
+    "last_updated": "2025-10-07T16:01:59Z",
+    "most_recent_date_checked": "2000-01-01T00:00:00Z",
+    "slug": "molfeat-chemgpt",
+    "status": "Ready",
+    "last_test_date": null,
+    "release": null,
+    "last_packaging_date": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-11-04T15:03:16Z",
+    "metadata_last_updated": "2025-11-04T14:17:48Z"
+  }
+]
