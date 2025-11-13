@@ -1,13 +1,85 @@
 [
   {
-    "repository_name": "eos157v",
-    "slug": "grover-freesolv",
+    "repository_name": "eos21q7",
+    "slug": "inter-dili",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-14",
+    "last_packaging_date": null,
     "open_issues": 0
   },
   {
+    "repository_name": "eos22io",
+    "slug": "idl-ppbopt",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-16",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos238c",
+    "slug": "mesh-therapeutic-use",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-07-30",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2401",
+    "slug": "scaffold-decoration",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": null,
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos24jm",
+    "slug": "qcrb-tb",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-16",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos24ur",
+    "slug": "whales-scaled",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": null,
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2gw4",
+    "slug": "ersilia-compound-embedding",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-09-30",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2h1r",
+    "slug": "cc-signaturizer-3d-c",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2hbd",
+    "slug": "passive-permeability",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-07-17",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2l0q",
+    "slug": "schisto-swisstph",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": null,
+    "open_issues": 0
+  },
+    {
     "repository_name": "eos3cf4",
     "last_updated": "2025-10-07T16:01:59Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
