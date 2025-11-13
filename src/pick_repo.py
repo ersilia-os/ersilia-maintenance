@@ -1,108 +1,130 @@
-import json
-import os
+# src/pick_repo.py
+from __future__ import annotations
 import json
 import random
-from datetime import datetime
-from typing import List, Dict, Optional
-from pathlib import Path
+from typing import Any, Dict, List, Optional
+from datetime import datetime, timezone
+from ersilia_maintenance.config import PICKED_FILE, COUNT, EXCLUDE_OPEN_ISSUES
+from ersilia_maintenance.dates import parse_iso, days_since
+from ersilia_maintenance.io import load_repo_info
 
-REPO_INFO_FILE = Path(__file__).parent.parent / "files" / "repo_info.json"
-COMMONF_MODEL_FILE = Path(__file__).parent.parent / "files" / "common_models.json"
-DATE_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
+# --- IO ---------------------------------------------------------------------
+
+def _save_picked(rows: List[Dict[str, Any]]) -> None:
+    PICKED_FILE.parent.mkdir(parents=True, exist_ok=True)
+    PICKED_FILE.write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
-def get_repo_to_check(repos: List[Dict[str, str]]) -> Optional[str]:
+# --- Elegibility-----------------------------------------------------------
+def _eligible(entry: Dict[str, Any]) -> bool:
+
+    oi = entry.get("open_issues")
+
+    if EXCLUDE_OPEN_ISSUES and isinstance(oi, int) and oi > 0:
+        return False
+    
+    status= entry.get('status')
+    if status != 'Ready':
+        return False
+    
+    return True
+
+# --- Priority logic ---------------------------------------------------------
+
+def _priority_key(entry: Dict[str, Any], now: datetime) -> tuple:
     """
-    Determines which repository should be checked next based on the time it was last checked.
+    Sorting key:
+    - First by whether it has ever been tested:
+        * never tested (last_test_date is null) -> highest priority
+    - Then by how long ago it was last tested:
+        * older last_test_date -> higher priority
 
-    Parameters
-    ----------
-    repos : List[Dict[str, str]]
-        A list of dictionaries containing repository information. Each dictionary should have
-        'repository_name', 'last_updated', and 'most_recent_date_checked' keys.
+    Implemented as:
+        (group, secondary)
 
-    Returns
-    -------
-    Optional[str]
-        The name of the repository that should be checked next, or None if no repository needs checking.
+    Where:
+        group = 0 for never tested
+                1 for tested with valid date
+                2 for anything weird/unparseable (sent to the end)
+
+        secondary:
+            - for group 0: 0 (all never-tested together)
+            - for group 1: -days_since (more days -> smaller -> comes first)
+            - for group 2: 0
     """
-    longest_time_ago_repo = None
-    longest_time_ago = datetime.now()
+    ts = entry.get("last_test_date")
 
-    for repo_info in repos:
-        last_updated = datetime.strptime(repo_info["last_updated"], DATE_FORMAT)
-        last_checked = datetime.strptime(
-            repo_info["most_recent_date_checked"], DATE_FORMAT
+    # Never tested
+    if not ts:
+        return (0, 0)
+
+    ds = days_since(ts, now=now)
+
+    # Valid date
+    if ds is not None:
+        # more days_since -> higher priority, so we use -ds for ascending sort
+        return (1, -ds)
+    
+# --- Weakly pick ------------------------------------------------------
+
+def pick_weekly(count: int = COUNT) -> List[Dict[str, Any]]:
+    rows = load_repo_info()
+    if not rows:
+        _save_picked([])
+        return []
+
+    now = datetime.now(timezone.utc)
+
+    candidates = [r for r in rows if _eligible(r)]
+
+    if not candidates:
+        _save_picked([])
+        return []
+
+    # Sort by priority: never tested first, then oldest last_test_date
+    candidates.sort(key=lambda r: _priority_key(r, now=now))
+
+    picked = candidates[:count]
+
+    # Store a minimal, inspectable view (including a simple "priority_score")
+    minimal: List[Dict[str, Any]] = []
+    for r in picked:
+        ts = r.get("last_test_date")
+        ds = days_since(ts, now=now) if ts else None
+
+        if ts is None:
+            # Never tested: treat as max priority
+            priority_score = 10**9
+        elif ds is None:
+            # Unparseable: neutral / low priority
+            priority_score = 0
+        else:
+            # Larger "days since last test" = higher priority
+            priority_score = ds
+
+        minimal.append(
+            {
+                "repository_name": r["repository_name"],
+                "slug": r.get("slug"),
+                "priority_score": priority_score,
+                "last_test_date": ts,
+                "last_packaging_date": r.get("last_packaging_date"),
+                "open_issues": r.get("open_issues"),
+            }
         )
 
-        if last_updated > last_checked and last_checked < longest_time_ago:
-            longest_time_ago_repo = repo_info["repository_name"]
-            longest_time_ago = last_checked
-
-    return longest_time_ago_repo
+    _save_picked(minimal)
+    return minimal
 
 
-def update_repo_checked_time(repos: List[Dict[str, str]], repo_name: str):
-    """
-    Updates the 'most_recent_date_checked' field for the specified repository.
+def main() -> int:
+    picked = pick_weekly()
 
-    Parameters
-    ----------
-    repos : List[Dict[str, str]]
-        A list of dictionaries containing repository information.
-    repo_name : str
-        The name of the repository to update.
-    """
-    for repo_info in repos:
-        if repo_info["repository_name"] == repo_name:
-            repo_info["most_recent_date_checked"] = datetime.now().strftime(DATE_FORMAT)
-            break
-
-
-def _load_model_ids(file_path: str) -> List[str]:
-    with open(file_path, "r") as file:
-        data = json.load(file)
-    return data.get("model_ids", [])
-
-
-def select_random_models(file_path: str, count: int) -> List[str]:
-    """
-    Load model IDs from a file and randomly select a specified number of them.
-
-    Parameters:
-        file_path (str): Path to the JSON file containing model IDs.
-        count (int): Number of model IDs to select.
-
-    Returns:
-        List[str]: Randomly selected model IDs.
-    """
-    model_ids = _load_model_ids(file_path)
-    if count > len(model_ids):
-        raise ValueError("Count cannot exceed the number of available model IDs.")
-    return random.sample(model_ids, count)
-
-
-def main():
-    if not os.path.exists(REPO_INFO_FILE):
-        print(f"Error: File '{REPO_INFO_FILE}' does not exist.")
-        return
-
-    with open(REPO_INFO_FILE, "r") as json_file:
-        repos_data = json.load(json_file)
-
-    repo_to_check = get_repo_to_check(repos_data)
-
-    if repo_to_check:
-        update_repo_checked_time(repos_data, repo_to_check)
-
-        with open(REPO_INFO_FILE, "w") as json_file:
-            json.dump(repos_data, json_file, indent=4)
-
-        print(repo_to_check)
-    else:
-        model = select_random_models(COMMONF_MODEL_FILE, 1)[0]
-        print(model)
+    if picked:
+        for r in picked:
+            print(r["repository_name"])
+        return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
