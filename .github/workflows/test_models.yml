@@ -4,33 +4,78 @@ on:
   workflow_dispatch:
     inputs:
       model_id:
-        description: Model ID
+        description: Model ID (optional, currently not used)
         required: false
         type: string
   schedule:
-    - cron: '0 0 */3 * *' 
+    - cron: '0 10 * * 1' 
 
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
 jobs:
-  inspect-model:
+  #----------------------------
+  # JOB 1: pick models to test
+  #----------------------------
+  pick-models:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pyyaml
+      - name: Pick weekly models
+        run: |
+          python src/pick_repo.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Upload picked models artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: picked-weekly
+          path: files/picked_weekly.json
+  
+  #----------------------------
+  # JOB 2: test models
+  #----------------------------
+  test-model:
     runs-on: ubuntu-latest
     defaults:
       run:
         shell: bash -el {0}
     steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # pin@v3.5.3
-      - uses: conda-incubator/setup-miniconda@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Download picked models artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: picked-weekly
+          path: files
+ 
+      - name: Set up Minconda
+        uses: conda-incubator/setup-miniconda@v3
         with:
           auto-update-conda: true
           python-version: "3.10.10"
 
       - name: Install dependencies
         run: |
-          conda install git-lfs -c conda-forge
+          conda install -y git-lfs gh jq -c conda-forge
           git-lfs install
-          conda install gh -c conda-forge
 
       - name: Cloning ersilia
         run: |
@@ -39,16 +84,39 @@ jobs:
       - name: Install ersilia
         run: |
           cd ersilia
+          python -m pip install --upgrade pip
           python -m pip install -e .
           pip install .[test]
 
+      - name: Install Python dependencies for maintenance scripts
+        run: |
+          python -m pip install requests pyyaml
+
       - name: Run Testing Script
         env:
-          MODEL_ID: ${{ github.event.inputs.model_id }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
-          REPO_OWNER: "ersilia-os"
-          REPO_NAME: "ersilia-maintenance"
+            MODEL_ID: ${{ github.event.inputs.model_id }}
+            GITHUB_REPOSITORY: ${{ github.repository }}
+            GITHUB_RUN_ID: ${{ github.run_id }}
+            REPO_OWNER: "ersilia-os"
+            REPO_NAME: "ersilia-maintenance"
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            TEST_JSON_CLEANUP: "1"
         run: |
-          chmod +x .github/scripts/test_models.sh
-          .github/scripts/test_models.sh
+            chmod +x scripts/test_models.sh
+            scripts/test_models.sh
+        
+      - name: Commit and push changes
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        uses: EndBug/add-and-commit@v9
+
+        with:
+            add: |
+              files/repo_info.json
+              files/picked_weekly.json
+              files/weekly_test_results.txt
+              reports/weekly_model_testing.md
+              reports/weekly_test_summary.txt
+            message: "chore: weekly model tests"
+            push: true
+            author_name: ersilia-bot
+            author_email: ersilia-bot@users.noreply.github.com

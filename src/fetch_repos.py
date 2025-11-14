@@ -6,7 +6,7 @@ import os
 import re
 from pathlib import Path
 from typing import Any, Dict, List
-from github_utils import _headers
+from ersilia_maintenance.github import _headers
 
 import requests
 
