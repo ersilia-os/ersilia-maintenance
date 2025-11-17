@@ -72,11 +72,18 @@ jobs:
           # extract at repo root so we get files/picked_weekly.json
           path: .
 
-      - name: Set up Minconda
+      - name: Setup miniconda
         uses: conda-incubator/setup-miniconda@v3
         with:
           auto-update-conda: true
-          python-version: "3.10.10"
+          python-version: "3.12"
+          auto-activate-base: false
+
+      - name: Install dependencies
+        run: |
+          conda run -n base git-lfs install
+          conda run -n base conda install gh -c conda-forge
+          conda run -n base python -m pip install 'git+https://github.com/ersilia-os/ersilia.git#egg=ersilia[test]'
 
       - name: Install dependencies
         run: |
