@@ -53,7 +53,7 @@ jobs:
   # JOB 2: test models
   #----------------------------
   test-model:
-    needs: pick-models           # ensure this runs *after* pick-models
+    needs: pick-models
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -69,7 +69,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: picked-weekly
-          # extract at repo root so we get files/picked_weekly.json
           path: .
 
       - name: Setup miniconda
@@ -77,14 +76,14 @@ jobs:
         with:
           auto-update-conda: true
           python-version: "3.12"
-          auto-activate-base: false
+          auto-activate-base: true     #  activate base so we can just use conda/python directly
 
       - name: Install dependencies
         run: |
-          conda run -n base git-lfs install
-          conda run -n base conda install gh -c conda-forge
-          conda run -n base conda install jq -c conda-forge
-          conda run -n base python -m pip install 'git+https://github.com/ersilia-os/ersilia.git#egg=ersilia[test]'
+          conda install -y git-lfs gh jq -c conda-forge
+          git-lfs install
+          python -m pip install --upgrade pip
+          python -m pip install 'git+https://github.com/ersilia-os/ersilia.git#egg=ersilia[test]'
 
       - name: Install Python dependencies for maintenance scripts
         run: |
