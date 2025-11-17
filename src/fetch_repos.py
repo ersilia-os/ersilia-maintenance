@@ -81,6 +81,8 @@ def _ensure_fields(entry: Dict[str, Any]) -> Dict[str, Any]:
     entry.setdefault("last_packaging_date", None)
     entry.setdefault("open_issues", None)
     entry.setdefault("issues_last_updated", None)
+    entry.setdefault("subtask", None)
+    entry.setdefault("source_type",None)
     return entry
 
 

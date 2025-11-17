@@ -65,10 +65,8 @@ def load_metadata(repo:str)-> Optional[Dict[str,Any]]:
             continue
         
         if name.endswith(".json"):
-            print('metadata.json found')
             return json.loads(decoded)
         else:
-            print('metadata.yml found')
             data = yaml.safe_load(decoded)
             return data or {}
 
@@ -97,3 +95,11 @@ def extract_slug(meta: Dict[str,Any])-> Optional[str]:
 def extract_status(meta: Dict[str,Any])->Optional[str]:
     """Return Status from metadata if present."""
     return _extract_key('Status',meta)
+
+def extract_subtask(meta: Dict[str,Any])->Optional[str]:
+    """Return Task from metadata if present."""
+    return _extract_key('Subtask',meta)
+
+def extract_source_type(meta: Dict[str, Any])-> Optional[str]:
+    """Return source type if present"""
+    return _extract_key("Source Type",meta)

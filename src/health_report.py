@@ -2,41 +2,33 @@
 from __future__ import annotations
 
 import json
+from collections import Counter 
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Set
 
 import matplotlib
-matplotlib.use("Agg")  # safe for headless environments (CI)
-import matplotlib.pyplot as plt  # noqa: E402
+matplotlib.use("Agg")  
+import matplotlib.pyplot as plt  
 
-ROOT = Path(__file__).parent.parent
-REPO_INFO = ROOT / "files" / "repo_info.json"
-HISTORY_JSON = ROOT / "reports" / "monthly_health_history.json"
-MONTHLY_MD = ROOT / "reports" / "monthly_health_report.md"
+from ersilia_maintenance.config import (
+    PALETTE,
+    HEALTH_RECENT_DAYS,
+    OUTDATED_DAYS,
+    ROOT_DIR,
+    REPO_INFO_PATH,
+)
+
+HISTORY_JSON = ROOT_DIR / "reports" / "monthly_health_history.json"
+MONTHLY_MD = ROOT_DIR / "reports" / "monthly_health_report.md"
 
 # Plot output files
-HEALTH_PNG = ROOT / "reports" / "health_status_over_time.png"
-TESTED_PNG = ROOT / "reports" / "tested_vs_never_tested.png"
-OPEN_ISSUES_PNG = ROOT / "reports" / "open_issues_over_time.png"
-ADDED_PNG = ROOT / "reports" / "added_models_per_month.png"
-
-# Health classification thresholds (can be tuned later)
-HEALTH_RECENT_DAYS = 60   # days since last test to be considered "recent"
-OUTDATED_DAYS = 180       # days since last test to be considered "outdated"
-
-# Corporate color palette
-PALETTE = [
-    "#50285A",  # primary purple
-    "#FAD782",  # yellow
-    "#FAA08B",  # orange
-    "#DC9FDC",
-    "#AA96FA",
-    "#8DC7FA",
-    "#BEE6B4",
-    "#D2D2D2",
-]
-
+HEALTH_PNG = ROOT_DIR / "reports" / "health_status_over_time.png"
+TESTED_PNG = ROOT_DIR / "reports" / "tested_vs_never_tested.png"
+OPEN_ISSUES_PNG = ROOT_DIR / "reports" / "open_issues_over_time.png"
+ADDED_PNG = ROOT_DIR / "reports" / "added_models_per_month.png"
+TASK_PNG = ROOT_DIR / "reports" / "task_distribution.png"  
+SOURCE_PNG = ROOT_DIR / "reports" / "source_type_distribution.png"
 
 # -----------------------------
 # Data loading / saving
@@ -48,9 +40,9 @@ def _load_repo_info() -> List[Dict[str, Any]]:
     Returns:
         List[Dict[str, Any]]: Repository entries.
     """
-    if not REPO_INFO.exists():
+    if not REPO_INFO_PATH.exists():
         return []
-    return json.loads(REPO_INFO.read_text(encoding="utf-8"))
+    return json.loads(REPO_INFO_PATH.read_text(encoding="utf-8"))
 
 
 def _load_history() -> List[Dict[str, Any]]:
@@ -74,6 +66,26 @@ def _save_history(history: List[Dict[str, Any]]) -> None:
     """
     HISTORY_JSON.parent.mkdir(parents=True, exist_ok=True)
     HISTORY_JSON.write_text(json.dumps(history, indent=2), encoding="utf-8")
+
+def _filter_finalized_models(data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Filter out models that are still in progress / not finalized.
+
+    We exclude entries whose 'status' indicates a work-in-progress model,
+    so they don't affect health stats or plots.
+
+    Treated as "in progress" if status is (case-insensitive):
+      - "in progress"
+      - "in_progress"
+      - "draft"
+    """
+    filtered: List[Dict[str, Any]] = []
+    for r in data:
+        status = str(r.get("status", "")).strip().lower()
+        if status == "in progress":
+            continue
+        filtered.append(r)
+    return filtered
 
 
 # -----------------------------
@@ -233,8 +245,8 @@ def _detect_added_models(
     Detect models that were added since the previous snapshot.
 
     Args:
-        data: Current repository info.
-        previous_repos: Repositories present in the last snapshot.
+        data: Current repositoryRepositories info.
+        previous_repos:  present in the last snapshot.
 
     Returns:
         A list of "added model" summaries (repository_name + slug).
@@ -347,6 +359,107 @@ def _build_trend_plots(history: List[Dict[str, Any]]) -> None:
     fig.savefig(ADDED_PNG, dpi=150)
     plt.close(fig)
 
+def _build_subtask_distribution_pie(data: List[Dict[str, Any]]) -> None:
+    """
+    Generate a PNG pie chart showing the distribution of subtasks
+    in the current snapshot (based on the 'subtask' field in repo_info.json).
+
+    If subtasks are missing, they are grouped under 'Unknown'.
+    """
+    if not data:
+        return
+
+    # Count tasks
+    counter: Counter[str] = Counter()
+    for r in data:
+        task = r.get("subtask") or "Unknown"
+        counter[str(task)] += 1
+
+    if not counter:
+        return
+
+    # Sort tasks by frequency (descending)
+    items = sorted(counter.items(), key=lambda kv: kv[1], reverse=True)
+
+    # Keep top N tasks, group the rest as "Other" to keep the plot readable
+    max_slices = 7
+    main_items = items[:max_slices]
+    other_items = items[max_slices:]
+
+    labels = [name for name, _ in main_items]
+    sizes = [count for _, count in main_items]
+
+    if other_items:
+        labels.append("Other")
+        sizes.append(sum(count for _, count in other_items))
+
+    # Choose colors from the corporate palette (cycle if necessary)
+    colors: List[str] = []
+    for i in range(len(labels)):
+        colors.append(PALETTE[i % len(PALETTE)])
+
+    _ensure_reports_dir()
+    fig, ax = plt.subplots(figsize=(6, 6))
+    wedges, texts, autotexts = ax.pie(
+        sizes,
+        labels=labels,
+        colors=colors,
+        autopct="%1.1f%%",
+        startangle=90,
+        textprops={"fontsize": 9},
+    )
+    ax.axis("equal")
+    ax.set_title("SubTask distribution (current snapshot)")
+
+    fig.tight_layout()
+    fig.savefig(TASK_PNG, dpi=150)
+    plt.close(fig)
+
+def _build_source_type_pie(data: List[Dict[str, Any]]) -> None:
+    """
+    Generate a PNG pie chart showing the distribution of source types
+    in the current snapshot (based on the 'source_type' field in repo_info.json).
+
+    Expected values include: 'external', 'internal', 'replicated'.
+    Missing or unknown values are grouped under 'Unknown'.
+    """
+    if not data:
+        return
+
+    counter: Counter[str] = Counter()
+    for r in data:
+        src = r.get("source_type") or "Unknown"
+        counter[str(src)] += 1
+
+    if not counter:
+        return
+
+    # Sort by frequency, descending, to have a stable, readable order
+    items = sorted(counter.items(), key=lambda kv: kv[1], reverse=True)
+    labels = [name for name, _ in items]
+    sizes = [count for _, count in items]
+
+    # Use corporate palette (cycle if there are more labels than colors)
+    colors: List[str] = []
+    for i in range(len(labels)):
+        colors.append(PALETTE[i % len(PALETTE)])
+
+    _ensure_reports_dir()
+    fig, ax = plt.subplots(figsize=(6, 6))
+    wedges, texts, autotexts = ax.pie(
+        sizes,
+        labels=labels,
+        colors=colors,
+        autopct="%1.1f%%",
+        startangle=90,
+        textprops={"fontsize": 9},
+    )
+    ax.axis("equal")
+    ax.set_title("Source type distribution (current snapshot)")
+
+    fig.tight_layout()
+    fig.savefig(SOURCE_PNG, dpi=150)
+    plt.close(fig)
 
 # -----------------------------
 # Markdown builder
@@ -415,6 +528,14 @@ def _build_monthly_markdown(
         "",
         "![New models added per month](./added_models_per_month.png)",
         "",
+        "### 🌍 Source type distribution (current snapshot)",           # NEW
+        "",
+        "![Source type distribution](./source_type_distribution.png)",  # NEW
+        "",
+        "### 🧩 Task distribution (current snapshot)",
+        "",
+        "![Task distribution](./task_distribution.png)",
+        "",
         "## 🔢 Snapshot for this month",
         "",
         "\n".join(summary_lines),
@@ -423,6 +544,7 @@ def _build_monthly_markdown(
         "",
         added_table,
     ]
+
 
     return "\n".join(md_parts) + "\n"
 
@@ -443,7 +565,9 @@ def main() -> int:
         - Save history and write monthly markdown report
         - Generate PNG plots for time trends
     """
-    data = _load_repo_info()
+    raw_data = _load_repo_info()
+    # Exclude models that are still in progress
+   
     history = _load_history()
 
     month_id = _get_current_month_id()
@@ -454,9 +578,9 @@ def main() -> int:
     else:
         previous_repos = set()
 
-    totals = _compute_stats(data)
-    all_repos = _get_all_repo_names(data)
-    added_models = _detect_added_models(data, previous_repos)
+    totals = _compute_stats(raw_data)
+    all_repos = _get_all_repo_names(raw_data)
+    added_models = _detect_added_models(raw_data, previous_repos)
 
     snapshot = {
         "month": month_id,
@@ -472,10 +596,19 @@ def main() -> int:
     else:
         history.append(snapshot)
 
+    
+    data = _filter_finalized_models(raw_data)
+
     _save_history(history)
 
     # Generate plots based on full history (including this month)
     _build_trend_plots(history)
+
+    # Generate plots based on task distribution
+    _build_subtask_distribution_pie(data)
+
+    # Source type distribution pie for current snapshot
+    _build_source_type_pie(data)
 
     # Build and write markdown report
     _ensure_reports_dir()

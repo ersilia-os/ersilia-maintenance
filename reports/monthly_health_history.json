@@ -1,18 +1,95 @@
 [
   {
     "month": "2025-11",
-    "generated_at": "2025-11-14T15:53:33Z",
+    "generated_at": "2025-11-17T17:31:14Z",
     "totals": {
-      "total_models": 208,
+      "total_models": 209,
       "with_open_issues": 44,
-      "no_open_issues": 164,
-      "tested_at_least_once": 17,
-      "never_tested": 191,
-      "healthy": 16,
+      "no_open_issues": 165,
+      "tested_at_least_once": 0,
+      "never_tested": 209,
+      "healthy": 0,
       "failing": 44,
-      "outdated": 148
+      "outdated": 165
     },
-    "added_models": [],
+    "added_models": [
+      {
+        "repository_name": "eos1bba",
+        "slug": "gem-representation-learning"
+      },
+      {
+        "repository_name": "eos1fl3",
+        "slug": "macaw"
+      },
+      {
+        "repository_name": "eos1j4h",
+        "slug": "morgan-fingerprint-embedding"
+      },
+      {
+        "repository_name": "eos1tt2",
+        "slug": "mole-embeddings"
+      },
+      {
+        "repository_name": "eos3e6s",
+        "slug": "chembl-decoys"
+      },
+      {
+        "repository_name": "eos3l5f",
+        "slug": "clamp"
+      },
+      {
+        "repository_name": "eos3nl8",
+        "slug": "COVID-19-Drug-Repurposing"
+      },
+      {
+        "repository_name": "eos4f8y",
+        "slug": "one-molecule-mollib"
+      },
+      {
+        "repository_name": "eos69e6",
+        "slug": "pgmg-pharmacophore"
+      },
+      {
+        "repository_name": "eos69mr",
+        "slug": "reinvent4-linkinvent"
+      },
+      {
+        "repository_name": "eos6ru5",
+        "slug": "drugbank-11k-similarity-search"
+      },
+      {
+        "repository_name": "eos6wdw",
+        "slug": "dotP"
+      },
+      {
+        "repository_name": "eos7akz",
+        "slug": "pred-ms"
+      },
+      {
+        "repository_name": "eos7emx",
+        "slug": "small-world-sampler"
+      },
+      {
+        "repository_name": "eos85mn",
+        "slug": "farm-representation"
+      },
+      {
+        "repository_name": "eos8osp",
+        "slug": "hlm"
+      },
+      {
+        "repository_name": "eos8vud",
+        "slug": "squid"
+      },
+      {
+        "repository_name": "eos9aqt",
+        "slug": "delfta-qm"
+      },
+      {
+        "repository_name": "eos9uqy",
+        "slug": "cheese-sampler"
+      }
+    ],
     "all_repositories": [
       "eos11sr",
       "eos1579",
@@ -78,6 +155,7 @@
       "eos3b5e",
       "eos3cf4",
       "eos3d3r",
+      "eos3e6s",
       "eos3ev6",
       "eos3kcw",
       "eos3l5f",

@@ -16,7 +16,7 @@ def parse_iso(ts: Optional[str]) -> Optional[datetime]:
             return dt.replace(tzinfo=timezone.utc)
         return datetime.fromisoformat(ts).replace(tzinfo=timezone.utc)
     except Exception:
-        # fallback a format clàssic si cal
+        # fallback a format clàssic 
         try:
             return datetime.strptime(ts, DATE_FMT).replace(tzinfo=timezone.utc)
         except Exception:

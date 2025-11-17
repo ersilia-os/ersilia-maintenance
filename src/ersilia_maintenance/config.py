@@ -40,3 +40,21 @@ PER_PAGE = 100         # pagination size
 COUNT = int(os.getenv("WEEKLY_SHALLOW_COUNT", "10"))
 EXCLUDE_OPEN_ISSUES = os.getenv("EXCLUDE_OPEN_ISSUES", "true").lower() in {"1", "true", "yes"}
                         # per random estable (opcional)
+
+#-----Health report
+
+# Health classification thresholds (can be tuned later)
+HEALTH_RECENT_DAYS = 90   # days since last test to be considered "recent"
+OUTDATED_DAYS = 200       # days since last test to be considered "outdated"
+
+# Corporate color palette
+PALETTE = [
+    "#50285A",  
+    "#FAD782",  
+    "#FAA08B",  
+    "#DC9FDC",
+    "#AA96FA",
+    "#8DC7FA",
+    "#BEE6B4",
+    "#D2D2D2",
+]
