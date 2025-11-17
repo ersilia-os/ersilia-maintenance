@@ -83,12 +83,7 @@ jobs:
         run: |
           conda run -n base git-lfs install
           conda run -n base conda install gh -c conda-forge
-          conda run -n base python -m pip install 'git+https://github.com/ersilia-os/ersilia.git#egg=ersilia[test]'
-
-      - name: Install dependencies
-        run: |
-          conda install -y git-lfs gh jq -c conda-forge
-          git-lfs install
+          conda run -n base conda install jq -c conda-forge
           conda run -n base python -m pip install 'git+https://github.com/ersilia-os/ersilia.git#egg=ersilia[test]'
 
       - name: Install Python dependencies for maintenance scripts
