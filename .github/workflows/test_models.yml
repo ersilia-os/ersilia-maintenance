@@ -82,17 +82,7 @@ jobs:
         run: |
           conda install -y git-lfs gh jq -c conda-forge
           git-lfs install
-
-      - name: Cloning ersilia
-        run: |
-          git clone https://github.com/ersilia-os/ersilia.git
-
-      - name: Install ersilia
-        run: |
-          cd ersilia
-          python -m pip install --upgrade pip
-          python -m pip install -e .
-          pip install .[test]
+          conda run -n base python -m pip install 'git+https://github.com/ersilia-os/ersilia.git#egg=ersilia[test]'
 
       - name: Install Python dependencies for maintenance scripts
         run: |
