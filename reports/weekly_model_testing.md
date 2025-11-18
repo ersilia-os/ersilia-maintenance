@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2025-11-17T15:13:51Z
+**🗓️ Date:** 2025-11-18T13:50:31Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,5 +24,6 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos21q7 | inter-dili | ✅ | 2025-11-17T15:17:00Z |
-| eos22io | idl-ppbopt | ✅ | 2025-11-17T15:22:13Z |
+| eos157v | grover-freesolv | ✅ | 2025-11-18T13:57:24Z |
+| eos18ie | antibiotics-ai-saureus | ✅ | 2025-11-18T14:08:04Z |
+| eos1af5 | molgrad-caco2 | ✅ | 2025-11-18T14:11:35Z |
