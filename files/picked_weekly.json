@@ -1,26 +1,82 @@
 [
   {
-    "repository_name": "eos157v",
-    "slug": "grover-freesolv",
+    "repository_name": "eos1amr",
+    "slug": "grover-bbbp",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-14",
+    "last_packaging_date": "2025-10-08",
     "open_issues": 0
   },
   {
-    "repository_name": "eos18ie",
-    "slug": "antibiotics-ai-saureus",
+    "repository_name": "eos1d7r",
+    "slug": "small-world-zinc",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-09-15",
+    "last_packaging_date": "2025-10-22",
     "open_issues": 0
   },
   {
-    "repository_name": "eos1af5",
-    "slug": "molgrad-caco2",
+    "repository_name": "eos1mxi",
+    "slug": "smiles-pe",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-13",
+    "last_packaging_date": "2025-10-17",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos1n4b",
+    "slug": "hdac3-inhibition",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-10",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos1noy",
+    "slug": "chembl-sampler",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-22",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos1pu1",
+    "slug": "cardiotox-dictrank",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": null,
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos1ut3",
+    "slug": "molfeat-usrcat",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-11-14",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos21q7",
+    "slug": "inter-dili",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": null,
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos22io",
+    "slug": "idl-ppbopt",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-16",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos238c",
+    "slug": "mesh-therapeutic-use",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-07-30",
     "open_issues": 0
   }
 ]
