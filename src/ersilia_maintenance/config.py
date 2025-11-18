@@ -37,7 +37,7 @@ THROTTLE_DELAY = 0.15  # seconds between GitHub requests
 PER_PAGE = 100         # pagination size
 
 #----Model Picking-----------------------------------------------------------
-COUNT = int(os.getenv("WEEKLY_SHALLOW_COUNT", "3"))
+COUNT = int(os.getenv("WEEKLY_SHALLOW_COUNT", "10"))
 EXCLUDE_OPEN_ISSUES = os.getenv("EXCLUDE_OPEN_ISSUES", "true").lower() in {"1", "true", "yes"}
                         # per random estable (opcional)
 
