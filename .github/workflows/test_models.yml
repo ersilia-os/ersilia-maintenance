@@ -116,6 +116,13 @@ jobs:
           chmod +x scripts/test_models.sh
           scripts/test_models.sh
 
+      - name: Configure git auth for push
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        run: |
+          git config user.name "ersilia-bot"
+          git config user.email "ersilia-bot@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+
       - name: Commit and push changes
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
         uses: EndBug/add-and-commit@v9
