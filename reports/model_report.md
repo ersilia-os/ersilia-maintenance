@@ -4,15 +4,15 @@
 <!-- MODELS_TABLE_START -->
 ## 📚 Model registry snapshot
 
-_Last updated: **2025-11-14 14:00:55Z** (UTC)_
+_Last updated: **2025-11-18 12:09:22Z** (UTC)_
 
 ### 🔢 Summary
 
-- 📦 **Total models:** 208
-- ✅ **Models with no open issues:** 164
-- ❗ **Models with open issues:** 44
-- 🧪 **Models tested at least once:** 17
-- ⏳ **Models never tested:** 191
+- 📦 **Total models:** 209
+- ✅ **Models with no open issues:** 167
+- ❗ **Models with open issues:** 42
+- 🧪 **Models tested at least once:** 0
+- ⏳ **Models never tested:** 209
 
 The table below summarizes the current state of the models tracked in `repo_info.json`.
 
@@ -20,31 +20,31 @@ The table below summarizes the current state of the models tracked in `repo_info
 |---------------|---------|-------------------|--------------|------------|----------------|
 | eos11sr | emfps | 2025-10-23 | — | v1.0.0 | 🟡 2 |
 | eos1579 | metabokiller | — | — | — | 🟢 0 |
-| eos157v | grover-freesolv | 2025-10-14 | 2025-11-11T14:51:21Z | v1.0.0 | 🟢 0 |
-| eos18ie | antibiotics-ai-saureus | 2025-09-15 | 2025-11-11T12:01:07Z | v1.0.0 | 🟢 0 |
+| eos157v | grover-freesolv | 2025-10-14 | — | v1.0.0 | 🟢 0 |
+| eos18ie | antibiotics-ai-saureus | 2025-09-15 | — | v1.0.0 | 🟢 0 |
 | eos19mt | chebifier-antibiotic | 2025-09-05 | — | v1.0.0 | 🟡 2 |
-| eos1af5 | molgrad-caco2 | 2025-10-13 | 2025-11-11T12:04:37Z | v1.0.0 | 🟢 0 |
+| eos1af5 | molgrad-caco2 | 2025-10-13 | — | v1.0.0 | 🟢 0 |
 | eos1amn | — | — | — | — | 🟢 0 |
-| eos1amr | grover-bbbp | 2025-10-08 | 2025-11-11T12:14:46Z | v1.0.0 | 🟢 0 |
+| eos1amr | grover-bbbp | 2025-10-08 | — | v1.0.0 | 🟢 0 |
 | eos1bba | gem-representation-learning | — | — | — | 🟡 1 |
-| eos1d7r | small-world-zinc | 2025-10-22 | 2025-11-11T12:20:26Z | v1.0.0 | 🟢 0 |
+| eos1d7r | small-world-zinc | 2025-10-22 | — | v1.0.0 | 🟢 0 |
 | eos1fl3 | macaw | — | — | — | 🟢 0 |
 | eos1j4h | morgan-fingerprint-embedding | — | — | — | 🟡 1 |
-| eos1mxi | smiles-pe | 2025-10-17 | 2025-11-11T12:23:04Z | v1.0.0 | 🟢 0 |
-| eos1n4b | hdac3-inhibition | 2025-10-10 | 2025-11-11T12:42:15Z | v1.0.0 | 🟢 0 |
-| eos1noy | chembl-sampler | 2025-10-22 | 2025-11-11T12:45:19Z | v1.0.0 | 🟢 0 |
-| eos1pu1 | cardiotox-dictrank | — | 2025-11-11T12:47:06Z | — | 🟢 0 |
+| eos1mxi | smiles-pe | 2025-10-17 | — | v1.0.0 | 🟢 0 |
+| eos1n4b | hdac3-inhibition | 2025-10-10 | — | v1.0.0 | 🟢 0 |
+| eos1noy | chembl-sampler | 2025-10-22 | — | v1.0.0 | 🟢 0 |
+| eos1pu1 | cardiotox-dictrank | — | — | — | 🟢 0 |
 | eos1tt2 | mole-embeddings | — | — | — | 🟢 0 |
-| eos1ut3 | molfeat-usrcat | — | 2025-11-11T12:55:22Z | — | 🟢 0 |
+| eos1ut3 | molfeat-usrcat | 2025-11-14 | — | v1.0.0 | 🟢 0 |
 | eos1vms | chembl-multitask-descriptor | 2025-10-08 | — | v1.0.0 | 🟡 1 |
 | eos1xje | biogpt-embeddings | — | — | — | 🟡 1 |
-| eos21q7 | inter-dili | — | 2025-11-13T08:38:48Z | — | 🟢 0 |
-| eos22io | idl-ppbopt | 2025-10-16 | 2025-11-13T08:43:25Z | v1.0.0 | 🟢 0 |
-| eos238c | mesh-therapeutic-use | 2025-07-30 | 2025-11-13T08:51:49Z | — | 🟢 0 |
-| eos2401 | scaffold-decoration | — | 2025-11-13T09:14:04Z | — | 🟢 0 |
+| eos21q7 | inter-dili | — | — | — | 🟢 0 |
+| eos22io | idl-ppbopt | 2025-10-16 | — | v1.0.0 | 🟢 0 |
+| eos238c | mesh-therapeutic-use | 2025-07-30 | — | — | 🟢 0 |
+| eos2401 | scaffold-decoration | — | — | — | 🟢 0 |
 | eos24ci | drugtax | 2025-10-15 | — | v1.0.0 | 🟡 1 |
-| eos24jm | qcrb-tb | 2025-10-16 | 2025-11-13T09:16:47Z | v1.0.0 | 🟢 0 |
-| eos24ur | whales-scaled | — | 2025-11-13T09:22:17Z | — | 🟢 0 |
+| eos24jm | qcrb-tb | 2025-10-16 | — | v1.0.0 | 🟢 0 |
+| eos24ur | whales-scaled | — | — | — | 🟢 0 |
 | eos2a9n | chembl-similarity | 2025-10-22 | — | v1.0.0 | 🟡 1 |
 | eos2b6f | pkasolver | 2025-10-14 | — | v1.0.0 | 🟡 1 |
 | eos2db3 | chemical-space-projections-chemdiv | — | — | — | 🟡 1 |
@@ -52,9 +52,9 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos2gth | maip-malaria-surrogate | — | — | — | 🟡 1 |
 | eos2gw4 | ersilia-compound-embedding | 2025-09-30 | — | v1.1.0 | 🟢 0 |
 | eos2h1r | cc-signaturizer-3d-c | 2025-10-15 | — | v1.0.0 | 🟢 0 |
-| eos2hbd | passive-permeability | 2025-07-17 | — | — | 🟢 0 |
+| eos2hbd | passive-permeability | 2025-11-14 | — | v1.0.0 | 🟢 0 |
 | eos2hzy | pubchem-sampler | — | — | — | 🟡 2 |
-| eos2l0q | schisto-swisstph | — | — | — | 🟢 0 |
+| eos2l0q | schisto-swisstph | 2025-11-12 | — | v2.0.0 | 🟢 0 |
 | eos2lm8 | smiles-transformer | 2025-10-22 | — | v1.0.0 | 🟡 1 |
 | eos2lqb | hob-pre | 2025-10-16 | — | v1.0.0 | 🟡 1 |
 | eos2m0f | chembl-saureus | 2025-08-27 | — | v1.0.0 | 🟢 0 |
@@ -79,9 +79,10 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos39dp | phakinpro | 2025-10-10 | — | v1.0.0 | 🟢 0 |
 | eos3ae6 | whales-descriptor | 2025-10-07 | — | v1.0.0 | 🟢 0 |
 | eos3ae7 | chemical-vae | — | — | — | 🟢 0 |
-| eos3b5e | molecular-weight | 2025-09-16 | — | v1.0.0 | 🟢 0 |
-| eos3cf4 | molfeat-chemgpt | — | 2025-11-11T15:03:46Z | — | 🟡 1 |
+| eos3b5e | molecular-weight | 2025-11-11 | — | v1.0.0 | 🟢 0 |
+| eos3cf4 | molfeat-chemgpt | — | — | — | 🟡 1 |
 | eos3d3r | — | — | — | — | 🟢 0 |
+| eos3e6s | chembl-decoys | — | — | — | 🟢 0 |
 | eos3ev6 | ncats-cyp3a4 | 2025-10-17 | — | v1.0.0 | 🟡 1 |
 | eos3kcw | small-world-wuxi | 2025-10-23 | — | v1.0.0 | 🟢 0 |
 | eos3l5f | clamp | — | — | — | 🟢 0 |
@@ -126,12 +127,12 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos57bx | reinvent4-mol2mol-scaffold | 2025-07-16 | — | — | 🟢 0 |
 | eos59rr | bidd-molmap-fingerprint | 2025-10-17 | — | v1.0.0 | 🟢 0 |
 | eos5axz | morgan-counts | 2025-08-29 | — | v1.0.0 | 🟢 0 |
-| eos5cl7 | ngonorrhoeae-inhibition | 2025-09-05 | — | v2.0.0 | 🟢 0 |
+| eos5cl7 | ngonorrhoeae-inhibition | 2025-11-12 | — | v2.0.0 | 🟢 0 |
 | eos5dti | chembl-abaumannii | 2025-08-27 | — | v1.0.0 | 🟢 0 |
 | eos5gge | dili-predictor | 2025-07-31 | — | — | 🟢 0 |
 | eos5guo | erg-fingerprints | 2025-10-23 | — | v1.0.0 | 🟢 0 |
 | eos5jz9 | ncats-cyp2c9 | 2025-10-17 | — | v1.0.0 | 🟢 0 |
-| eos5pt8 | druglikeness-unsupervised | — | — | — | 🟢 0 |
+| eos5pt8 | druglikeness-unsupervised | 2025-11-16 | — | v1.0.0 | 🟢 0 |
 | eos5qfo | rexgen | — | — | — | 🟢 0 |
 | eos5smc | grover-tox21 | 2025-10-13 | — | v1.0.0 | 🟢 0 |
 | eos5xng | chemprop-burkholderia | 2025-09-15 | — | v1.0.0 | 🟢 0 |
@@ -157,7 +158,7 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos6ru5 | drugbank-11k-similarity-search | — | — | — | 🟢 0 |
 | eos6tg8 | natural-product-fingerprint | 2025-10-13 | — | v1.0.0 | 🟡 1 |
 | eos6tpo | chebifier | 2025-09-05 | — | v1.0.0 | 🟢 0 |
-| eos6wdw | dotP | — | — | — | 🟡 1 |
+| eos6wdw | dotP | — | — | — | 🔴 -1 |
 | eos74bo | ncats-solubility | 2025-10-28 | — | v1.0.0 | 🟡 1 |
 | eos74km | antimicrobial-kg-ml | 2025-08-27 | — | v1.0.0 | 🟢 0 |
 | eos77jk | cc-signaturizer-3d-d | 2025-10-15 | — | v1.0.0 | 🟢 0 |
@@ -165,7 +166,7 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos78ao | mordred | 2025-10-22 | — | v1.0.0 | 🟢 0 |
 | eos7a04 | cdd-descriptor | — | — | — | 🟢 0 |
 | eos7a45 | coprinet-molecule-price | 2025-10-13 | — | v1.0.0 | 🟢 0 |
-| eos7ack | swiss-adme | — | — | — | 🟡 1 |
+| eos7ack | swiss-adme | — | — | — | 🔴 -1 |
 | eos7akz | pred-ms | — | — | — | 🟢 0 |
 | eos7asg | padel | 2025-10-10 | — | v1.0.0 | 🟡 1 |
 | eos7d58 | admet-ai-percentile | 2025-09-16 | — | v1.0.0 | 🟡 1 |
@@ -214,7 +215,7 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos9f6t | chemprop-sars-cov-inhibition | 2025-10-08 | — | v1.0.0 | 🟢 0 |
 | eos9gg2 | chemical-space-projections-drugbank | — | — | — | 🟢 0 |
 | eos9ivc | anti-mtb-seattle | — | — | — | 🟢 0 |
-| eos9o72 | chemeleon | 2025-08-29 | — | v1.0.0 | 🟡 1 |
+| eos9o72 | chemeleon | 2025-11-12 | — | v1.0.0 | 🟡 1 |
 | eos9p4a | deep-dl | 2025-10-23 | — | v1.0.0 | 🟢 0 |
 | eos9sa2 | bayesian-drug-likeness | — | — | — | 🟡 1 |
 | eos9taz | moler-enamine-fragments | 2025-10-22 | — | v1.0.0 | 🟢 0 |
