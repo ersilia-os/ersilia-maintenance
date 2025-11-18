@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import numpy as np
 from collections import Counter 
 from datetime import datetime, timezone
 from pathlib import Path
@@ -22,13 +23,10 @@ from ersilia_maintenance.config import (
 HISTORY_JSON = ROOT_DIR / "reports" / "monthly_health_history.json"
 MONTHLY_MD = ROOT_DIR / "reports" / "monthly_health_report.md"
 
-# Plot output files
-HEALTH_PNG = ROOT_DIR / "reports" / "health_status_over_time.png"
-TESTED_PNG = ROOT_DIR / "reports" / "tested_vs_never_tested.png"
-OPEN_ISSUES_PNG = ROOT_DIR / "reports" / "open_issues_over_time.png"
-ADDED_PNG = ROOT_DIR / "reports" / "added_models_per_month.png"
-TASK_PNG = ROOT_DIR / "reports" / "task_distribution.png"  
-SOURCE_PNG = ROOT_DIR / "reports" / "source_type_distribution.png"
+# Plot output files (grouped figures)
+HEALTH_TESTED_PNG = ROOT_DIR / "reports" / "health_and_testing.png"
+ISSUES_ADDED_PNG = ROOT_DIR / "reports" / "issues_and_added.png"
+DISTRIBUTIONS_PNG = ROOT_DIR / "reports" / "distributions_tasks_source.png"
 
 # -----------------------------
 # Data loading / saving
@@ -239,14 +237,17 @@ def _get_all_repo_names(data: List[Dict[str, Any]]) -> Set[str]:
 
 def _detect_added_models(
     data: List[Dict[str, Any]],
-    previous_repos: Set[str],
-) -> List[Dict[str, Any]]:
+    month_id: str, ) -> List[Dict[str, Any]]:
     """
-    Detect models that were added since the previous snapshot.
+    Detect models that were (packaged) in the given month.
+
+    A model is considered "added" in a month if its 'last_packaging_date'
+    falls within that calendar month (based on the current snapshot in
+    repo_info.json).
 
     Args:
-        data: Current repositoryRepositories info.
-        previous_repos:  present in the last snapshot.
+        data: Current repository info (already filtered, e.g. no in-progress).
+        month_id: Target month in 'YYYY-MM' format (e.g. '2025-10').
 
     Returns:
         A list of "added model" summaries (repository_name + slug).
@@ -254,8 +255,23 @@ def _detect_added_models(
     added: List[Dict[str, Any]] = []
     for r in data:
         repo_name = r.get("repository_name")
-        if not repo_name or repo_name in previous_repos:
+        if not repo_name:
             continue
+
+        lp = r.get("last_packaging_date")
+        if not lp:
+            continue
+
+        try:
+            # last_packaging_date is 'YYYY-MM-DD'
+            dt = datetime.fromisoformat(str(lp))
+        except ValueError:
+            # If the format is weird, skip this entry
+            continue
+
+        if dt.strftime("%Y-%m") != month_id:
+            continue
+
         added.append(
             {
                 "repository_name": repo_name,
@@ -277,19 +293,15 @@ def _build_trend_plots(history: List[Dict[str, Any]]) -> None:
     """
     Generate PNG plots for the main trends based on monthly history.
 
-    Produces:
-        - health_status_over_time.png
-        - tested_vs_never_tested.png
-        - open_issues_over_time.png
-        - added_models_per_month.png
+    Produces two grouped figures:
+        - health_and_testing.png  (health over time + tested vs never tested)
+        - issues_and_added.png    (models with open issues + added per month)
     """
     if not history:
-        # Nothing to plot yet
         return
 
     snapshots = sorted(history, key=lambda s: s.get("month", ""))
     months = [s.get("month", "—") for s in snapshots]
-
     totals_list = [s.get("totals", {}) for s in snapshots]
 
     healthy = [t.get("healthy", 0) for t in totals_list]
@@ -300,165 +312,285 @@ def _build_trend_plots(history: List[Dict[str, Any]]) -> None:
     never_tested = [t.get("never_tested", 0) for t in totals_list]
 
     with_open_issues = [t.get("with_open_issues", 0) for t in totals_list]
-
     added_counts = [len(s.get("added_models", [])) for s in snapshots]
 
     x = list(range(len(months)))
     _ensure_reports_dir()
 
-    # 1) Health stacked bar plot
-    fig, ax = plt.subplots(figsize=(9, 4))
-    ax.bar(x, healthy, color=PALETTE[0], label="Healthy")
-    ax.bar(x, failing, bottom=healthy, color=PALETTE[1], label="Failing")
-    bottom_outdated = [healthy[i] + failing[i] for i in range(len(x))]
-    ax.bar(x, outdated, bottom=bottom_outdated, color=PALETTE[2], label="Outdated")
-    ax.set_xticks(x)
-    ax.set_xticklabels(months, rotation=45, ha="right")
-    ax.set_ylabel("Number of models")
-    ax.set_title("Model health over time")
-    ax.legend()
-    fig.tight_layout()
-    fig.savefig(HEALTH_PNG, dpi=150)
-    plt.close(fig)
-
-    # 2) Tested vs never tested stacked bar
-    fig, ax = plt.subplots(figsize=(9, 4))
-    ax.bar(x, tested, color=PALETTE[3], label="Tested at least once")
-    ax.bar(x, never_tested, bottom=tested, color=PALETTE[4], label="Never tested")
-    ax.set_xticks(x)
-    ax.set_xticklabels(months, rotation=45, ha="right")
-    ax.set_ylabel("Number of models")
-    ax.set_title("Tested vs never tested")
-    ax.legend()
-    fig.tight_layout()
-    fig.savefig(TESTED_PNG, dpi=150)
-    plt.close(fig)
-
-    # 3) Open issues line chart
-    fig, ax = plt.subplots(figsize=(9, 4))
-    ax.plot(x, with_open_issues, marker="o", color=PALETTE[5], label="Models with open issues")
-    ax.set_xticks(x)
-    ax.set_xticklabels(months, rotation=45, ha="right")
-    ax.set_ylabel("Models with open issues")
-    ax.set_title("Models with open issues over time")
-    ax.grid(True, linestyle="--", linewidth=0.5, alpha=0.5)
-    ax.legend()
-    fig.tight_layout()
-    fig.savefig(OPEN_ISSUES_PNG, dpi=150)
-    plt.close(fig)
-
-    # 4) Added models per month bar chart
-    fig, ax = plt.subplots(figsize=(9, 4))
-    ax.bar(x, added_counts, color=PALETTE[6], label="Added models")
-    ax.set_xticks(x)
-    ax.set_xticklabels(months, rotation=45, ha="right")
-    ax.set_ylabel("Models added")
-    ax.set_title("New models added per month")
-    ax.legend()
-    fig.tight_layout()
-    fig.savefig(ADDED_PNG, dpi=150)
-    plt.close(fig)
-
-def _build_subtask_distribution_pie(data: List[Dict[str, Any]]) -> None:
-    """
-    Generate a PNG pie chart showing the distribution of subtasks
-    in the current snapshot (based on the 'subtask' field in repo_info.json).
-
-    If subtasks are missing, they are grouped under 'Unknown'.
-    """
-    if not data:
-        return
-
-    # Count tasks
-    counter: Counter[str] = Counter()
-    for r in data:
-        task = r.get("subtask") or "Unknown"
-        counter[str(task)] += 1
-
-    if not counter:
-        return
-
-    # Sort tasks by frequency (descending)
-    items = sorted(counter.items(), key=lambda kv: kv[1], reverse=True)
-
-    # Keep top N tasks, group the rest as "Other" to keep the plot readable
-    max_slices = 7
-    main_items = items[:max_slices]
-    other_items = items[max_slices:]
-
-    labels = [name for name, _ in main_items]
-    sizes = [count for _, count in main_items]
-
-    if other_items:
-        labels.append("Other")
-        sizes.append(sum(count for _, count in other_items))
-
-    # Choose colors from the corporate palette (cycle if necessary)
-    colors: List[str] = []
-    for i in range(len(labels)):
-        colors.append(PALETTE[i % len(PALETTE)])
-
-    _ensure_reports_dir()
-    fig, ax = plt.subplots(figsize=(6, 6))
-    wedges, texts, autotexts = ax.pie(
-        sizes,
-        labels=labels,
-        colors=colors,
-        autopct="%1.1f%%",
-        startangle=90,
-        textprops={"fontsize": 9},
+    # ------------------------------------------------------------------
+    # Figure 1: Health + testing (restyled)
+    # ------------------------------------------------------------------
+    fig, (ax1, ax2) = plt.subplots(
+        1,
+        2,
+        figsize=(12, 4.5),
+        sharex=True,
+        constrained_layout=False,
     )
-    ax.axis("equal")
-    ax.set_title("SubTask distribution (current snapshot)")
 
+    # Bar width (dynamic)
+    n_months = max(1, len(months))
+    if n_months <= 2:
+        bar_width = 0.2
+    elif n_months <= 4:
+        bar_width = 0.35
+    else:
+        bar_width = 0.55
+
+    # Cleaner axes style
+    for ax in (ax1, ax2):
+        ax.spines["top"].set_visible(False)
+        ax.spines["right"].set_visible(False)
+        ax.spines["left"].set_color("#AAAAAA")
+        ax.spines["bottom"].set_color("#AAAAAA")
+        ax.grid(axis="y", linestyle="--", linewidth=0.5, alpha=0.4)
+        ax.set_axisbelow(True)
+
+    # ───────────────────────
+    # Health stacked bar plot
+    # ───────────────────────
+    bottom_failing = healthy
+    bottom_outdated = [healthy[i] + failing[i] for i in range(len(x))]
+
+    ax1.bar(x, healthy, width=bar_width, color=PALETTE[0], edgecolor="none", label="Healthy")
+    ax1.bar(x, failing, width=bar_width, bottom=bottom_failing, color=PALETTE[1],
+            edgecolor="none", label="Failing")
+    ax1.bar(x, outdated, width=bar_width, bottom=bottom_outdated, color=PALETTE[2],
+            edgecolor="none", label="Outdated")
+
+    ax1.set_title("Model health over time", fontsize=12)
+    ax1.set_ylabel("Number of models")
+    ax1.set_xticks(x)
+    ax1.set_xticklabels(months, rotation=45, ha="right", fontsize=9)
+
+    # Legend just below the axes (tidy spacing)
+    ax1.legend(
+        loc="upper center",
+        bbox_to_anchor=(0.5, -0.25),
+        ncol=3,
+        frameon=False,
+        fontsize=10,
+    )
+
+    # ───────────────────────
+    # Test coverage plot
+    # ───────────────────────
+    ax2.bar(x, tested, width=bar_width, color=PALETTE[3], edgecolor="none",
+            label="Tested at least once")
+    ax2.bar(x, never_tested, width=bar_width, bottom=tested, color=PALETTE[4],
+            edgecolor="none", label="Never tested")
+
+    ax2.set_title("Test coverage over time", fontsize=12)
+    ax2.set_xticks(x)
+    ax2.set_xticklabels(months, rotation=45, ha="right", fontsize=9)
+
+    ax2.legend(
+        loc="upper center",
+        bbox_to_anchor=(0.5, -0.25),
+        ncol=2,
+        frameon=False,
+        fontsize=10,
+    )
+
+    # Main title, move up slightly
+    fig.suptitle("Health & testing overview", fontsize=13, y=0.97)
+
+    # Reduce bottom whitespace (previously too big)
     fig.tight_layout()
-    fig.savefig(TASK_PNG, dpi=150)
+    fig.savefig(HEALTH_TESTED_PNG, dpi=150)
     plt.close(fig)
 
-def _build_source_type_pie(data: List[Dict[str, Any]]) -> None:
-    """
-    Generate a PNG pie chart showing the distribution of source types
-    in the current snapshot (based on the 'source_type' field in repo_info.json).
+    # -------------------------
+    # Figure 2: Issues + added
+    # -------------------------
+    fig, (ax3, ax4) = plt.subplots(
+        1,
+        2,
+        figsize=(12, 4),
+        sharex=True,
+        constrained_layout=True,
+    )
 
-    Expected values include: 'external', 'internal', 'replicated'.
-    Missing or unknown values are grouped under 'Unknown'.
+    # Open issues line chart
+    ax3.plot(
+        x,
+        with_open_issues,
+        marker="o",
+        linewidth=2.0,
+        color=PALETTE[5],
+        label="Models with open issues",
+    )
+    ax3.set_title("Models with open issues")
+    ax3.set_ylabel("Number of models")
+    ax3.set_xticks(x)
+    ax3.set_xticklabels(months, rotation=45, ha="right")
+    ax3.grid(True, linestyle="--", linewidth=0.5, alpha=0.5)
+    ax3.legend(frameon=False)
+
+    # Added models per month
+    ax4.bar(x, added_counts, color=PALETTE[6], label="New models")
+    ax4.set_title("New models added per month")
+    ax4.set_xticks(x)
+    ax4.set_xticklabels(months, rotation=45, ha="right")
+    ax4.grid(axis="y", linestyle="--", linewidth=0.5, alpha=0.5)
+
+
+    fig.suptitle("Issues & growth", fontsize=13, y=1.02)
+    fig.savefig(ISSUES_ADDED_PNG, dpi=150, bbox_inches="tight")
+    plt.close(fig)
+
+
+def _add_smart_labels(ax, wedges, labels, sizes, small_thresh=5.0):
+    """
+    Attach labels to wedges, placing labels inside large slices and outside
+    with callouts for very small slices.
+    """
+    total = sum(sizes)
+
+    for w, label, size in zip(wedges, labels, sizes):
+        pct = (size / total) * 100
+        ang = (w.theta2 + w.theta1) / 2.0
+        x = np.cos(np.deg2rad(ang))
+        y = np.sin(np.deg2rad(ang))
+
+        # Decide text color based on wedge face color
+        face = w.get_facecolor()  # RGBA
+        r, g, b = face[:3]
+        luminance = 0.299 * r + 0.587 * g + 0.114 * b
+        inside_color = "white" if luminance < 0.5 else "black"
+
+        if pct >= small_thresh:
+            ax.text(
+                x * 0.55,
+                y * 0.55,
+                f"{pct:.1f}%",
+                ha="center",
+                va="center",
+                fontsize=9,
+                color=inside_color
+            )
+        else:
+            ax.text(
+                x * 1.15,
+                y * 1.15,
+                f"({pct:.1f}%)",
+                ha="center",
+                va="center",
+                fontsize=9,
+                color=inside_color
+            )
+            ax.plot([x * 0.8, x * 1.05], [y * 0.8, y * 1.05], color="gray", lw=0.8)
+
+def _build_distributions_figure(data: List[Dict[str, Any]]) -> None:
+    """
+    Build a single figure with two pie charts:
+
+      - Left:  source_type distribution
+      - Right: subtask distribution (with rare subtasks grouped into 'Other')
+
+    Both pies include legends and smart label placement for tiny slices.
     """
     if not data:
         return
 
-    counter: Counter[str] = Counter()
+    # ----------- Source type counts -----------
+    source_counter: Counter[str] = Counter()
     for r in data:
         src = r.get("source_type") or "Unknown"
-        counter[str(src)] += 1
+        source_counter[str(src)] += 1
 
-    if not counter:
-        return
+    source_labels = list(source_counter.keys()) or ["No data"]
+    source_sizes = list(source_counter.values()) or [1]
 
-    # Sort by frequency, descending, to have a stable, readable order
-    items = sorted(counter.items(), key=lambda kv: kv[1], reverse=True)
-    labels = [name for name, _ in items]
-    sizes = [count for _, count in items]
+    # ----------- Subtask counts -----------
+    task_counter: Counter[str] = Counter()
+    for r in data:
+        task = r.get("subtask") or "Unknown"
+        task_counter[str(task)] += 1
 
-    # Use corporate palette (cycle if there are more labels than colors)
-    colors: List[str] = []
-    for i in range(len(labels)):
-        colors.append(PALETTE[i % len(PALETTE)])
+    if not task_counter:
+        task_labels = ["No data"]
+        task_sizes = [1]
+    else:
+        items = sorted(task_counter.items(), key=lambda kv: kv[1], reverse=True)
+        max_slices = 7
+        main_items = items[:max_slices]
+        other_items = items[max_slices:]
 
+        task_labels = [name for name, _ in main_items]
+        task_sizes = [count for _, count in main_items]
+
+        if other_items:
+            task_labels.append("Other")
+            task_sizes.append(sum(count for _, count in other_items))
+
+    # ----------- Colors -----------
+    def _colors_for(n: int) -> List[str]:
+        return [PALETTE[i % len(PALETTE)] for i in range(n)]
+
+    source_colors = _colors_for(len(source_labels))
+    task_colors = _colors_for(len(task_labels))
+
+    # ----------- Build figure -----------
     _ensure_reports_dir()
-    fig, ax = plt.subplots(figsize=(6, 6))
-    wedges, texts, autotexts = ax.pie(
-        sizes,
-        labels=labels,
-        colors=colors,
-        autopct="%1.1f%%",
-        startangle=90,
-        textprops={"fontsize": 9},
-    )
-    ax.axis("equal")
-    ax.set_title("Source type distribution (current snapshot)")
+    fig, (ax_left, ax_right) = plt.subplots(1, 2, figsize=(13, 6))
 
-    fig.tight_layout()
-    fig.savefig(SOURCE_PNG, dpi=150)
+    fig.suptitle(
+        "Model distributions (current snapshot)",
+        fontsize=18,
+        y=0.97,
+    )
+
+    # ----------- LEFT PIE (Source Types) -----------
+    wedges_l, texts_l = ax_left.pie(
+        source_sizes,
+        labels=None,   # we handle labels manually
+        colors=source_colors,
+        startangle=90,
+    )
+    ax_left.set_title("Source type distribution", fontsize=14)
+    ax_left.axis("equal")
+
+    _add_smart_labels(ax_left, wedges_l, source_labels, source_sizes)
+
+    # Legend
+    ax_left.legend(
+        wedges_l,
+        source_labels,
+        title="Source types",
+        loc="center left",
+        bbox_to_anchor=(1.0, 0.5),
+        fontsize=10,
+        title_fontsize=11,
+    )
+
+    # ----------- RIGHT PIE (Subtasks) -----------
+    wedges_r, texts_r = ax_right.pie(
+        task_sizes,
+        labels=None,
+        colors=task_colors,
+        startangle=90,
+    )
+    ax_right.set_title("Subtask distribution", fontsize=14)
+    ax_right.axis("equal")
+
+    _add_smart_labels(ax_right, wedges_r, task_labels, task_sizes)
+
+    # Legend
+    ax_right.legend(
+        wedges_r,
+        task_labels,
+        title="Subtasks",
+        loc="center left",
+        bbox_to_anchor=(1.0, 0.5),
+        fontsize=10,
+        title_fontsize=11,
+    )
+
+    # Improve spacing
+    fig.tight_layout(rect=[0.0, 0.0, 0.85, 0.90])
+
+    fig.savefig(DISTRIBUTIONS_PNG, dpi=150, bbox_inches="tight")
     plt.close(fig)
 
 # -----------------------------
@@ -467,8 +599,7 @@ def _build_source_type_pie(data: List[Dict[str, Any]]) -> None:
 def _build_monthly_markdown(
     month_id: str,
     snapshot: Dict[str, Any],
-    history: List[Dict[str, Any]],
-) -> str:
+    history: List[Dict[str, Any]],) -> str:
     """
     Build the monthly health report markdown content, including:
       - PNG charts for the main time trends
@@ -510,39 +641,28 @@ def _build_monthly_markdown(
         f"**Month:** {month_id}",
         f"**Generated at:** {now_utc} (UTC)",
         "",
-        "## 📈 Global trends over time",
-        "",
-        "### 🩺 Health status (Healthy / Failing / Outdated)",
-        "",
-        "![Health status over time](./health_status_over_time.png)",
-        "",
-        "### 🧪 Tested vs never tested",
-        "",
-        "![Tested vs never tested](./tested_vs_never_tested.png)",
-        "",
-        "### ❗ Models with open issues",
-        "",
-        "![Models with open issues](./open_issues_over_time.png)",
-        "",
-        "### 🆕 Models added per month",
-        "",
-        "![New models added per month](./added_models_per_month.png)",
-        "",
-        "### 🌍 Source type distribution (current snapshot)",           # NEW
-        "",
-        "![Source type distribution](./source_type_distribution.png)",  # NEW
-        "",
-        "### 🧩 Task distribution (current snapshot)",
-        "",
-        "![Task distribution](./task_distribution.png)",
-        "",
         "## 🔢 Snapshot for this month",
         "",
         "\n".join(summary_lines),
         "",
-        "## 🆕 Models added this month",
+        "## 🆕 Models packaged this month",
         "",
         added_table,
+
+        "## 📈 Global trends over time",
+        "",
+        "### 🩺 Health & testing overview",
+        "",
+        "![Health & testing](./health_and_testing.png)",
+        "",
+        "### ❗ Issues & new models",
+        "",
+        "![Issues & added models](./issues_and_added.png)",
+        "",
+        "### 🧩 Task & source type distributions (current snapshot)",
+        "",
+        "![Distributions](./distributions_tasks_source.png)",
+        ""
     ]
 
 
@@ -567,20 +687,18 @@ def main() -> int:
     """
     raw_data = _load_repo_info()
     # Exclude models that are still in progress
-   
+    data = _filter_finalized_models(raw_data)
+
     history = _load_history()
 
     month_id = _get_current_month_id()
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    if history:
-        previous_repos = set(history[-1].get("all_repositories", []))
-    else:
-        previous_repos = set()
+    totals = _compute_stats(data)
+    all_repos = _get_all_repo_names(data)
 
-    totals = _compute_stats(raw_data)
-    all_repos = _get_all_repo_names(raw_data)
-    added_models = _detect_added_models(raw_data, previous_repos)
+    # Added models for *this* month, based on last_packaging_date
+    added_models = _detect_added_models(data, month_id)
 
     snapshot = {
         "month": month_id,
@@ -601,14 +719,11 @@ def main() -> int:
 
     _save_history(history)
 
-    # Generate plots based on full history (including this month)
+        # Generate plots based on full history (including this month)
     _build_trend_plots(history)
 
-    # Generate plots based on task distribution
-    _build_subtask_distribution_pie(data)
-
-    # Source type distribution pie for current snapshot
-    _build_source_type_pie(data)
+    # Generate grouped distributions figure (source type + subtask)
+    _build_distributions_figure(data)
 
     # Build and write markdown report
     _ensure_reports_dir()
