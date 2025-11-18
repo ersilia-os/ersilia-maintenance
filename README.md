@@ -1,108 +1,152 @@
-# Ersilia Maintenance
+# 🛠️ Ersilia Maintenance  
+Automated infrastructure for maintaining the **Ersilia Model Hub**, including metadata syncing, model testing, and ecosystem-level analytics.
 
-Welcome to the **Ersilia Maintenance** repository! This project provides automated workflows and scripts to ensure the efficient operation of the Ersilia Model Hub. The system performs periodic inspections of models from the hub, identifies issues, and creates GitHub issues when errors are detected.
+This repository runs multiple automated workflows that keep the Ersilia ecosystem up-to-date, healthy, and continuously monitored.  
+It also generates **three public reports**, updated automatically.
 
-## Overview of Workflows
+---
 
-### Key Workflows
+# 🔗 Quick Links to Reports
 
-#### `inspect_model.yml`
-This GitHub Actions workflow is responsible for inspecting repositories within the Ersilia Model Hub. It follows these steps:
+- 📘 **Monthly Health Report**  
+  → [`reports/monthly_health_report.md`](reports/monthly_health_report.md)
 
-1. **Determine the Model to Inspect**:
-   - Uses the `MODEL_ID` environment variable if provided.
-   - If `MODEL_ID` is absent, runs the `pick_repo.py` script to select a repository.
+- 📙 **Weekly Model Testing Report**  
+  → [`reports/weekly_model_testing.md`](reports/weekly_model_testing.md)
 
-2. **Run Inspection**:
-   - Executes the `inspect.sh` script to conduct the inspection process.
+- 📒 **Model Report (Full Catalog Overview)**  
+  → [`reports/model_report.md`](reports/model_report.md)
 
-3. **Process Results**:
-   - Utilizes the `extract.py` script to process the inspection output.
-   - Automatically creates GitHub issues for any failed checks.
+---
 
-4. **Update Repository Data**:
-   - Updates the `repo_info.json` file with the inspection timestamp.
+# 📚 Table of Contents  
+- [🔧 Workflows Overview](#-workflows-overview)  
+- [📅 Workflow Schedule](#-workflow-schedule)  
+- [📄 Reports](#-reports)  
+- [📁 Repository Structure](#-repository-structure)
 
-#### `fetch_repos.yml`
-This workflow ensures the repository data is regularly updated. Key steps include:
+---
 
-1. **Fetch Data**:
-   - Runs `fetch_repos.py` to initialize or refresh `repo_info.json` with repository metadata.
-   - Executes `update_repo_doc.py` to synchronize the latest repository details.
+# 🔧 Workflows Overview
 
-2. **Commit Changes**:
-   - Commits and pushes updates to `repo_info.json` back to the repository.
+This repository contains **three major automated workflows**.
 
-## Key Components
+---
 
-- **`inspect_model.yml`**: Defines the main inspection workflow.
-- **`inspect.sh`**: A shell script that runs the inspection process.
-- **`extract.py`**: Extract inspection results from a test commands and print dump them, for the `inspect.sh` to be able to process them.
-- **`repo_info.json`**: Stores metadata about repositories, including the last inspection timestamp.
-- **`fetch_repos.yml`**: Periodically updates repository data.
+## 1. **Repo Data Sync**  
+**File:** `.github/workflows/repo_data_sync.yml`  
+**Runs:** Every **10 days**  
+**Purpose:** Synchronizes Ersilia model metadata + generates the **Model Report**.
 
-## Adding New Inspection Checks
-To introduce additional checks, modify the following files:
+### What it does:
+- Fetches metadata from all model repositories.
+- Updates:
+  - `repo_info.json` (core dataset)
+  - last update/test dates
+  - open issues
+  - release + packaging dates
+  - source type & subtask
+- Updates rolling history (`monthly_health_history.json`).
+- Rebuilds the monthly health plots.
+- **Generates:**  
+  📄 `reports/model_report.md` → *Full model catalog summary*
 
-1. **`publish/test.py`**:
-   - Implement the new check function here.
+---
 
-2. **`commands/test.py`**:
-   - Invoke the new function and store its results.
+## 2. **Weekly Model Testing**  
+**File:** `.github/workflows/test_models.yml`  
+**Runs:** Every **Monday at 10:00 UTC**  
+**Purpose:** Select and test a weekly subset of models.
 
-3. **`inspect_model.yml`**:
-   - Update the workflow to utilize the new check results.
+### Workflow stages:
+#### 🔹 **Job 1 – Pick weekly models**
+- Runs `pick_repo.py`.
+- Writes list to:  
+  - `files/picked_weekly.json`  
+- Commits changes back to the repo.
 
-## Maintaining Repository Metadata
+#### 🔹 **Job 2 – Test models**
+- Pulls the newly generated `picked_weekly.json`.
+- Tests models using the Ersilia CLI.
+- Generates:
+  - `weekly_test_results.txt`
+  - `weekly_test_summary.txt`
+  - `weekly_model_testing.md`
 
-The `repo_info.json` file tracks the repositories managed by the Ersilia organization. It includes metadata such as the last inspection date and repository status.
+---
 
-### Key Scripts
+## 3. **Monthly Model Health Report**  
+**File:** `.github/workflows/monthly_health.yml`  
+**Runs:** **1st day of each month at 00:00 UTC**  
+**Purpose:** Generate ecosystem-level analytics and trend plots.
 
-- **`fetch_repos.py`**:
-  - Initializes or updates `repo_info.json` with repository details.
+### What it produces:
+- Trends over time:
+  - Healthy / failing / outdated
+  - Tested vs never tested
+  - Open issues
+  - Newly packaged models
+- Current snapshot distributions:
+  - Source type
+  - Subtask
+- Updates `monthly_health_history.json`
+- Generates final report:  
+  📄 `monthly_health_report.md`
 
-- **`update_repo_doc.py`**:
-  - Updates existing entries in `repo_info.json` with the latest information.
+---
 
-- **`pick_repo.py`**:
-  - Selects the next repository for inspection. If no models require immediate attention, a random model from `common_files.json` is chosen.
+# 📅 Workflow Schedule
 
-- **`inspect.sh`**:
-  - Executes the inspection process for a specified repository.
+### 🔄 Automatic Workflow Schedule
 
-## Inspection Workflow Details
+| Workflow | Description | Frequency | File |
+|---------|-------------|-----------|------|
+| **Repo Data Sync** | Metadata sync + issue refresh + global model report | Every 10 days | `.github/workflows/repo_data_sync.yml` |
+| **Weekly Model Testing** | Select & test a weekly subset of models | Mondays at 10:00 UTC | `.github/workflows/test_models.yml` |
+| **Monthly Health Report** | Global ecosystem analytics | 1st of each month at 00:00 UTC | `.github/workflows/monthly_health.yml` |
 
-### Inspection Process (`inspect.sh`)
+---
 
-1. **Environment Setup**:
-   - Configures necessary environment variables and dependencies.
+# 📄 Reports
 
-2. **Run Inspection**:
-   - Executes the `ersilia test` command to inspect the repository. This includes fetching models and performing checks.
+This repository produces **three reports**, all automatically updated.
 
-3. **Save Results**:
-   - Stores results in `result.txt`.
-   - Uses `extract.py` to read output JSON report file from the test command which has structure like this:
+---
 
-```json
-{
-    "model_file_checks": {
-        "dockerfile": true,
-        "metadata_json": true,
-        "model_framework_run_sh": true,
-        "src_service_py": true,
-        "pack_py": true,
-        "readme_md": true,
-        "license": true
-    },
-    ...
-}
-```
+## 📘 **Monthly Health Report**  
+📁 `reports/monthly_health_report.md`  
+A complete overview of the state of the Ersilia ecosystem, including:  
+- Health trends  
+- Testing coverage trends  
+- Open issue trends  
+- Subtask + source type distributions  
+- New models added  
+- Full monthly snapshot  
 
-4. **Error Handling**:
-   - For checks with a `false` status in each check fields (eg. `model_file_checks`).
+👉 **Link:** `reports/monthly_health_report.md`
 
-## License
+---
 
-This project is licensed under the GNU General Public License v3.0. For details, refer to the [LICENSE](LICENSE) file.
+## 📙 **Weekly Model Testing Report**  
+📁 `reports/weekly_model_testing.md`  
+A detailed breakdown of tests executed during the last weekly cycle.
+
+👉 **Link:** `reports/weekly_model_testing.md`
+
+---
+
+## 📒 **Model Report (Full Catalog Overview)**  
+📁 `reports/model_report.md`  
+Generated by the Repo Data Sync workflow.  
+This report is a full snapshot of the Ersilia Model Hub including:  
+- All models  
+- Status & health  
+- Packaging dates  
+- Subtask & source type  
+- Open issues  
+- Links to repositories  
+- Summary tables  
+
+👉 **Link:** `reports/model_report.md`
+
+---
