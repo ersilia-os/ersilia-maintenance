@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2025-11-18T13:50:31Z
+**🗓️ Date:** 2025-11-18T17:20:47Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,6 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos157v | grover-freesolv | ✅ | 2025-11-18T13:57:24Z |
-| eos18ie | antibiotics-ai-saureus | ✅ | 2025-11-18T14:08:04Z |
-| eos1af5 | molgrad-caco2 | ✅ | 2025-11-18T14:11:35Z |
+| eos1amr | grover-bbbp | ✅ | 2025-11-18T17:27:37Z |
+| eos1d7r | small-world-zinc | 🚨 | 2025-11-18T17:31:36Z |
+| eos1mxi | smiles-pe | ✅ | 2025-11-18T17:34:12Z |
+| eos1n4b | hdac3-inhibition | ✅ | 2025-11-18T17:38:07Z |
+| eos1noy | chembl-sampler | ✅ | 2025-11-18T17:40:41Z |
+| eos1pu1 | cardiotox-dictrank | 🚨 | 2025-11-18T17:42:15Z |
+| eos1ut3 | molfeat-usrcat | ✅ | 2025-11-18T17:48:34Z |
+| eos21q7 | inter-dili | ✅ | 2025-11-18T17:51:36Z |
+| eos22io | idl-ppbopt | ✅ | 2025-11-18T17:56:39Z |
+| eos238c | mesh-therapeutic-use | 🚨 | 2025-11-18T18:01:55Z |
