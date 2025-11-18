@@ -34,7 +34,7 @@ jobs:
 
       - name: Generate monthly health report
         run: |
-          python src/monthly_health_report.py
+          python src/health_report.py
 
       # Optional: keep the report as a workflow artifact as well
       - name: Upload monthly report artifact
