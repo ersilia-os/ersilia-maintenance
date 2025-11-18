@@ -4,7 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     # Every 10 days at 00:00 UTC
-    - cron: '0 0 */10 * *' 
+    - cron: '0 0 */10 * *'
+
+# Needed so the workflow can push commits
+permissions:
+  contents: write
 
 env:
   # Exposed to Python for GitHub API auth
@@ -17,11 +21,10 @@ jobs:
     defaults:
       run:
         shell: bash -el {0}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -45,13 +48,22 @@ jobs:
         run: |
           python src/update_open_issues.py
 
+      - name: Ensure reports directory exists
+        run: |
+          mkdir -p reports
+
+      - name: Update model report markdown
+        run: |
+          python src/update_repo_doc.py
+
       - name: Commit and push changes
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
         uses: EndBug/add-and-commit@v9
         with:
           add: |
             files/repo_info.json
-          message: "chore: update repo_info.json via scheduled workflow"
+            reports/model_report.md
+          message: "chore: update repo_info and model report via scheduled workflow"
           push: true
           author_name: ersilia-bot
           author_email: ersilia-bot@users.noreply.github.com

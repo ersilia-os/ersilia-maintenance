@@ -1,0 +1,62 @@
+name: Monthly Health Report
+
+on:
+  workflow_dispatch:
+  schedule:
+    # First day of every month at 01:00 UTC
+    - cron: "0 1 1 * *"
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  monthly-health-report:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash -el {0}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # matplotlib is needed for the PNG plots
+          python -m pip install matplotlib
+
+      - name: Generate monthly health report
+        run: |
+          python src/monthly_health_report.py
+
+      # Optional: keep the report as a workflow artifact as well
+      - name: Upload monthly report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: monthly-health-report
+          path: |
+            reports/monthly_health_report.md
+            reports/monthly_health_history.json
+            reports/*.png
+          if-no-files-found: error
+
+      - name: Commit and push changes
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: |
+            reports/monthly_health_report.md
+            reports/monthly_health_history.json
+            reports/*.png
+          message: "chore: monthly health report"
+          push: true
+          author_name: ersilia-bot
+          author_email: ersilia-bot@users.noreply.github.com
+          github_token: ${{ secrets.GITHUB_TOKEN }}
