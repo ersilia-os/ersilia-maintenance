@@ -1,16 +1,16 @@
 [
   {
     "month": "2025-11",
-    "generated_at": "2025-11-18T12:14:34Z",
+    "generated_at": "2025-11-18T19:37:33Z",
     "totals": {
       "total_models": 190,
       "with_open_issues": 37,
       "no_open_issues": 153,
-      "tested_at_least_once": 0,
-      "never_tested": 190,
-      "healthy": 0,
+      "tested_at_least_once": 13,
+      "never_tested": 177,
+      "healthy": 13,
       "failing": 37,
-      "outdated": 153
+      "outdated": 140
     },
     "added_models": [
       {

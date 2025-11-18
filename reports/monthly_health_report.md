@@ -1,16 +1,16 @@
 # 📊 Monthly Health Report
 
 **Month:** 2025-11
-**Generated at:** 2025-11-18 12:14:35Z (UTC)
+**Generated at:** 2025-11-18 19:37:33Z (UTC)
 
 ## 🔢 Snapshot for this month
 
 - 📦 **Total models:** 190
-- ✅ **Healthy models:** 0
+- ✅ **Healthy models:** 13
 - 🔴 **Failing models:** 37
-- ⏳ **Outdated models:** 153
-- 🧪 **Tested at least once:** 0
-- 🕳️ **Never tested:** 190
+- ⏳ **Outdated models:** 140
+- 🧪 **Tested at least once:** 13
+- 🕳️ **Never tested:** 177
 - ❗ **With open issues:** 37
 
 ## 🆕 Models packaged this month
