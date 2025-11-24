@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos1amr",
-    "slug": "grover-bbbp",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-08",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos1d7r",
-    "slug": "small-world-zinc",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-22",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos1mxi",
-    "slug": "smiles-pe",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-17",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos1n4b",
-    "slug": "hdac3-inhibition",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-10",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos1noy",
-    "slug": "chembl-sampler",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-22",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos1pu1",
-    "slug": "cardiotox-dictrank",
+    "repository_name": "eos2401",
+    "slug": "scaffold-decoration",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": null,
     "open_issues": 0
   },
   {
-    "repository_name": "eos1ut3",
-    "slug": "molfeat-usrcat",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-11-14",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos21q7",
-    "slug": "inter-dili",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": null,
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos22io",
-    "slug": "idl-ppbopt",
+    "repository_name": "eos24jm",
+    "slug": "qcrb-tb",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-16",
     "open_issues": 0
   },
   {
-    "repository_name": "eos238c",
-    "slug": "mesh-therapeutic-use",
+    "repository_name": "eos24ur",
+    "slug": "whales-scaled",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-07-30",
+    "last_packaging_date": null,
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2db3",
+    "slug": "chemical-space-projections-chemdiv",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-11-18",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2gth",
+    "slug": "maip-malaria-surrogate",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-11-19",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2gw4",
+    "slug": "ersilia-compound-embedding",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-09-30",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2h1r",
+    "slug": "cc-signaturizer-3d-c",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2hbd",
+    "slug": "passive-permeability",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-11-14",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2l0q",
+    "slug": "schisto-swisstph",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-11-12",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2lm8",
+    "slug": "smiles-transformer",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-22",
     "open_issues": 0
   }
 ]
