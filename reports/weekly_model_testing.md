@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2025-11-18T17:20:47Z
+**🗓️ Date:** 2025-11-24T10:10:33Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos1amr | grover-bbbp | ✅ | 2025-11-18T17:27:37Z |
-| eos1d7r | small-world-zinc | 🚨 | 2025-11-18T17:31:36Z |
-| eos1mxi | smiles-pe | ✅ | 2025-11-18T17:34:12Z |
-| eos1n4b | hdac3-inhibition | ✅ | 2025-11-18T17:38:07Z |
-| eos1noy | chembl-sampler | ✅ | 2025-11-18T17:40:41Z |
-| eos1pu1 | cardiotox-dictrank | 🚨 | 2025-11-18T17:42:15Z |
-| eos1ut3 | molfeat-usrcat | ✅ | 2025-11-18T17:48:34Z |
-| eos21q7 | inter-dili | ✅ | 2025-11-18T17:51:36Z |
-| eos22io | idl-ppbopt | ✅ | 2025-11-18T17:56:39Z |
-| eos238c | mesh-therapeutic-use | 🚨 | 2025-11-18T18:01:55Z |
+| eos2401 | scaffold-decoration | ✅ | 2025-11-24T10:50:39Z |
+| eos24jm | qcrb-tb | ✅ | 2025-11-24T10:53:31Z |
+| eos24ur | whales-scaled | 🚨 | 2025-11-24T10:56:45Z |
+| eos2db3 | chemical-space-projections-chemdiv | ✅ | 2025-11-24T11:06:24Z |
+| eos2gth | maip-malaria-surrogate | ✅ | 2025-11-24T11:10:24Z |
+| eos2gw4 | ersilia-compound-embedding | ✅ | 2025-11-24T11:13:12Z |
+| eos2h1r | cc-signaturizer-3d-c | ✅ | 2025-11-24T11:20:34Z |
+| eos2hbd | passive-permeability | ✅ | 2025-11-24T11:28:25Z |
+| eos2l0q | schisto-swisstph | ✅ | 2025-11-24T11:35:09Z |
+| eos2lm8 | smiles-transformer | ✅ | 2025-11-24T11:38:01Z |
