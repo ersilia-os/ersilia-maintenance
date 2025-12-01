@@ -1,79 +1,79 @@
 [
   {
-    "repository_name": "eos2401",
-    "slug": "scaffold-decoration",
+    "repository_name": "eos11sm",
+    "slug": "known-antibiotic-ressemblance",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": null,
+    "last_packaging_date": "2025-11-25",
     "open_issues": 0
   },
   {
-    "repository_name": "eos24jm",
-    "slug": "qcrb-tb",
+    "repository_name": "eos1lb5",
+    "slug": "mycobacterium-permeability",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-16",
+    "last_packaging_date": "2025-11-26",
     "open_issues": 0
   },
   {
-    "repository_name": "eos24ur",
-    "slug": "whales-scaled",
+    "repository_name": "eos2m0f",
+    "slug": "chembl-saureus",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": null,
+    "last_packaging_date": "2025-08-27",
     "open_issues": 0
   },
   {
-    "repository_name": "eos2db3",
-    "slug": "chemical-space-projections-chemdiv",
+    "repository_name": "eos2mhp",
+    "slug": "grover-bace",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-11-18",
+    "last_packaging_date": "2025-09-04",
     "open_issues": 0
   },
   {
-    "repository_name": "eos2gth",
-    "slug": "maip-malaria-surrogate",
+    "repository_name": "eos2mrz",
+    "slug": "deepsmiles",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-11-19",
+    "last_packaging_date": "2025-10-14",
     "open_issues": 0
   },
   {
-    "repository_name": "eos2gw4",
-    "slug": "ersilia-compound-embedding",
+    "repository_name": "eos2mxh",
+    "slug": "cc-signaturizer-3d-b",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-09-30",
+    "last_packaging_date": "2025-10-22",
     "open_issues": 0
   },
   {
-    "repository_name": "eos2h1r",
-    "slug": "cc-signaturizer-3d-c",
+    "repository_name": "eos2r5a",
+    "slug": "retrosynthetic-accessibility",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-09-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2rd8",
+    "slug": "molt5-smiles-to-caption",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-15",
     "open_issues": 0
   },
   {
-    "repository_name": "eos2hbd",
-    "slug": "passive-permeability",
+    "repository_name": "eos2re5",
+    "slug": "admetlab",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-11-14",
+    "last_packaging_date": null,
     "open_issues": 0
   },
   {
-    "repository_name": "eos2l0q",
-    "slug": "schisto-swisstph",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-11-12",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos2lm8",
-    "slug": "smiles-transformer",
+    "repository_name": "eos2sbn",
+    "slug": "cc-signaturizer-3d-a",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-22",
