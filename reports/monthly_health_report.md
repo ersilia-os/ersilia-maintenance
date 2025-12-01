@@ -1,30 +1,21 @@
 # 📊 Monthly Health Report
 
-**Month:** 2025-11
-**Generated at:** 2025-11-18 19:37:33Z (UTC)
+**Month:** 2025-12
+**Generated at:** 2025-12-01 01:34:05Z (UTC)
 
 ## 🔢 Snapshot for this month
 
-- 📦 **Total models:** 190
-- ✅ **Healthy models:** 13
-- 🔴 **Failing models:** 37
+- 📦 **Total models:** 196
+- ✅ **Healthy models:** 23
+- 🔴 **Failing models:** 33
 - ⏳ **Outdated models:** 140
-- 🧪 **Tested at least once:** 13
-- 🕳️ **Never tested:** 177
-- ❗ **With open issues:** 37
+- 🧪 **Tested at least once:** 23
+- 🕳️ **Never tested:** 173
+- ❗ **With open issues:** 33
 
 ## 🆕 Models packaged this month
 
-| 🧬 Repository | 🪪 Slug |
-|---------------|---------|
-| eos1ut3 | molfeat-usrcat |
-| eos2hbd | passive-permeability |
-| eos2l0q | schisto-swisstph |
-| eos3b5e | molecular-weight |
-| eos5cl7 | ngonorrhoeae-inhibition |
-| eos5pt8 | druglikeness-unsupervised |
-| eos6ojg | antibioticdb-similarity-matches |
-| eos9o72 | chemeleon |
+_No new models were added this month._
 
 ## 📈 Global trends over time
 
