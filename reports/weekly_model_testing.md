@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2025-11-24T10:10:33Z
+**🗓️ Date:** 2025-12-01T10:09:58Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos2401 | scaffold-decoration | ✅ | 2025-11-24T10:50:39Z |
-| eos24jm | qcrb-tb | ✅ | 2025-11-24T10:53:31Z |
-| eos24ur | whales-scaled | 🚨 | 2025-11-24T10:56:45Z |
-| eos2db3 | chemical-space-projections-chemdiv | ✅ | 2025-11-24T11:06:24Z |
-| eos2gth | maip-malaria-surrogate | ✅ | 2025-11-24T11:10:24Z |
-| eos2gw4 | ersilia-compound-embedding | ✅ | 2025-11-24T11:13:12Z |
-| eos2h1r | cc-signaturizer-3d-c | ✅ | 2025-11-24T11:20:34Z |
-| eos2hbd | passive-permeability | ✅ | 2025-11-24T11:28:25Z |
-| eos2l0q | schisto-swisstph | ✅ | 2025-11-24T11:35:09Z |
-| eos2lm8 | smiles-transformer | ✅ | 2025-11-24T11:38:01Z |
+| eos11sm | known-antibiotic-ressemblance | ✅ | 2025-12-01T10:13:06Z |
+| eos1lb5 | mycobacterium-permeability | ✅ | 2025-12-01T10:20:41Z |
+| eos2m0f | chembl-saureus | ✅ | 2025-12-01T10:28:49Z |
+| eos2mhp | grover-bace | ✅ | 2025-12-01T10:36:37Z |
+| eos2mrz | deepsmiles | ✅ | 2025-12-01T10:39:03Z |
+| eos2mxh | cc-signaturizer-3d-b | ✅ | 2025-12-01T10:47:59Z |
+| eos2r5a | retrosynthetic-accessibility | ✅ | 2025-12-01T10:51:52Z |
+| eos2rd8 | molt5-smiles-to-caption | ✅ | 2025-12-01T11:09:33Z |
+| eos2re5 | admetlab | 🚨 | 2025-12-01T15:54:09Z |
+| eos2sbn | cc-signaturizer-3d-a | ✅ | 2025-12-01T16:03:22Z |
