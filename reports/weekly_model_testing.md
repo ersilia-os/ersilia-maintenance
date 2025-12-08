@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2025-12-01T10:09:58Z
+**🗓️ Date:** 2025-12-08T10:09:24Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos11sm | known-antibiotic-ressemblance | ✅ | 2025-12-01T10:13:06Z |
-| eos1lb5 | mycobacterium-permeability | ✅ | 2025-12-01T10:20:41Z |
-| eos2m0f | chembl-saureus | ✅ | 2025-12-01T10:28:49Z |
-| eos2mhp | grover-bace | ✅ | 2025-12-01T10:36:37Z |
-| eos2mrz | deepsmiles | ✅ | 2025-12-01T10:39:03Z |
-| eos2mxh | cc-signaturizer-3d-b | ✅ | 2025-12-01T10:47:59Z |
-| eos2r5a | retrosynthetic-accessibility | ✅ | 2025-12-01T10:51:52Z |
-| eos2rd8 | molt5-smiles-to-caption | ✅ | 2025-12-01T11:09:33Z |
-| eos2re5 | admetlab | 🚨 | 2025-12-01T15:54:09Z |
-| eos2sbn | cc-signaturizer-3d-a | ✅ | 2025-12-01T16:03:22Z |
+| eos2ta5 | cardiotoxnet-herg | ✅ | 2025-12-08T10:15:06Z |
+| eos2thm | molbert | ✅ | 2025-12-08T10:24:30Z |
+| eos2xeq | antibiotics-downselection | ✅ | 2025-12-08T10:27:19Z |
+| eos2zmb | hdac1-inhibition | ✅ | 2025-12-08T10:35:20Z |
+| eos30f3 | dmpnn-herg | ✅ | 2025-12-08T10:41:32Z |
+| eos30gr | deepherg | ✅ | 2025-12-08T10:47:10Z |
+| eos31ve | ncats-hlm | ✅ | 2025-12-08T10:52:08Z |
+| eos37l0 | chembl-kpneumoniae | ✅ | 2025-12-08T10:58:10Z |
+| eos39co | unimol-representation | ✅ | 2025-12-08T11:04:17Z |
+| eos39dp | phakinpro | ✅ | 2025-12-08T11:08:40Z |
