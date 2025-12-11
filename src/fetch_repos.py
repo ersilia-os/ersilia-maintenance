@@ -50,12 +50,17 @@ def _fetch_all_repos() -> List[Dict[str, Any]]:
 
         for repo in batch:
             name = repo["name"]
+            is_archived = repo["archived"]
+            status_string = "Archived" if is_archived else ""
+            
             if REPO_PATTERN.match(name):
                 out.append(
                     {
                         "repository_name": repo["name"],
                         "last_updated": repo["updated_at"],
                         "most_recent_date_checked": DEFAULT_RECENT_CHECK,
+                        "status": status_string,
+                        "private": repo["private"]
                     }
                 )
         page += 1
@@ -72,7 +77,7 @@ def _ensure_fields(entry: Dict[str, Any]) -> Dict[str, Any]:
     entry.setdefault("repository_name", None)
     entry.setdefault("last_updated", None)
     entry.setdefault("most_recent_date_checked", DEFAULT_RECENT_CHECK)
-
+    entry.setdefault("private",None)
     # Fields enriched by other steps/scripts
     entry.setdefault("slug", entry.get("slug"))  
     entry.setdefault("status", None)
@@ -83,6 +88,7 @@ def _ensure_fields(entry: Dict[str, Any]) -> Dict[str, Any]:
     entry.setdefault("issues_last_updated", None)
     entry.setdefault("subtask", None)
     entry.setdefault("source_type",None)
+    entry.setdefault("last_test_outcome",None)
     return entry
 
 
@@ -101,6 +107,8 @@ def _merge(existing: List[Dict[str, Any]], fetched: List[Dict[str, Any]]) -> Lis
             new_entry["repository_name"] = name
             new_entry["last_updated"] = rec.get("last_updated")
             new_entry["most_recent_date_checked"] = rec.get("most_recent_date_checked", DEFAULT_RECENT_CHECK)
+            new_entry['private'] = rec.get('private')
+            new_entry['status'] = rec.get('status')
             # Optional convenience: use name as slug by default
             by_name[name] = new_entry
         else:
@@ -110,6 +118,12 @@ def _merge(existing: List[Dict[str, Any]], fetched: List[Dict[str, Any]]) -> Lis
             if rec.get("last_updated") and rec["last_updated"] != curr.get("last_updated"):
                 curr["last_updated"] = rec["last_updated"]
             # Keep most_recent_date_checked unless you want to reset it here
+
+            # Update 'private' status with fresh data
+            curr["private"] = rec.get("private")
+            
+            # Update 'status' (archived status) with fresh data
+            curr["status"] = rec.get("status")
 
     # Return sorted by repository_name for deterministic file diffs
     merged = list(by_name.values())

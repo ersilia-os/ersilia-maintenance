@@ -58,6 +58,25 @@ update_json_last_test_date() {
   mv "${REPO_INFO_FILE}.tmp" "${REPO_INFO_FILE}"
 }
 
+# --- NEW FUNCTION FOR TEST OUTCOME ---
+update_json_last_test_outcome() {
+  local repo_name="$1"
+  local outcome="$2" # Expected: "success" or "failed"
+
+  echo "Updating last_test_outcome for repository: ${repo_name} to ${outcome}"
+
+  jq --arg rn "${repo_name}" --arg outcome "${outcome}" '
+    map(
+      if .repository_name == $rn
+      then .last_test_outcome = $outcome
+      else .
+      end
+    )
+  ' "${REPO_INFO_FILE}" > "${REPO_INFO_FILE}.tmp"
+
+  mv "${REPO_INFO_FILE}.tmp" "${REPO_INFO_FILE}"
+}
+
 commit_and_push() {
   echo "Skipping git commit & push (local mode)."
   # For CI:
@@ -230,8 +249,10 @@ for MODEL_ID in ${models_to_test}; do
 
   if [[ "${MODEL_HAS_FAILURE}" == true ]]; then
     append_model_to_markdown "${MODEL_ID}" "${slug}" "🚨"
+    update_json_last_test_outcome "${MODEL_ID}" "failed"
   else
     append_model_to_markdown "${MODEL_ID}" "${slug}" "✅"
+    update_json_last_test_outcome "${MODEL_ID}" "success"
   fi
 
   # Cleanup test JSON file unless explicitly disabled

@@ -28,9 +28,12 @@ def main() -> int:
     changed = False
     for e in data:
         repo = e.get("repository_name")
+        is_private=e.get("private")
         if not repo:
             continue
         if not should_refresh("issues_last_updated",e):
+            continue
+        if is_private:
             continue
         try:
             total = count_open_issues(repo)

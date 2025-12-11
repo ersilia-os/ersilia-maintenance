@@ -14,7 +14,6 @@ import matplotlib.pyplot as plt
 
 from ersilia_maintenance.config import (
     PALETTE,
-    HEALTH_RECENT_DAYS,
     OUTDATED_DAYS,
     ROOT_DIR,
     REPO_INFO_PATH,
@@ -129,9 +128,9 @@ def _classify_health(entry: Dict[str, Any]) -> str:
     Classify model health as 'healthy', 'failing', or 'outdated'.
 
     Rules:
-        - failing: open_issues > 0
+        - failing: last_test_outcome is failed
         - outdated: last_test_date missing or older than OUTDATED_DAYS
-        - healthy: last_test_date within HEALTH_RECENT_DAYS and no open issues
+        - healthy: last_test_outcome is success
         - otherwise: 'outdated' (conservative)
 
     Args:
@@ -140,21 +139,17 @@ def _classify_health(entry: Dict[str, Any]) -> str:
     Returns:
         Health label: 'healthy', 'failing', or 'outdated'.
     """
-    open_issues = entry.get("open_issues") or 0
-    try:
-        oi = int(open_issues)
-    except (TypeError, ValueError):
-        oi = 0
+    test_outcome = entry.get("last_test_outcome")
 
     days_since_test = _days_since(entry.get("last_test_date"))
 
-    if oi > 0:
+    if test_outcome == 'failed':
         return "failing"
 
     if days_since_test is None or days_since_test > OUTDATED_DAYS:
         return "outdated"
 
-    if days_since_test <= HEALTH_RECENT_DAYS:
+    if test_outcome == 'success':
         return "healthy"
 
     return "outdated"

@@ -4,7 +4,7 @@
     "last_updated": "2025-11-25T08:08:13Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "known-antibiotic-ressemblance",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-01T10:13:06Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-25",
@@ -12,14 +12,16 @@
     "issues_last_updated": "2025-12-11T00:11:13Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:09:21Z"
+    "metadata_last_updated": "2025-12-11T13:45:23Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos11sr",
     "last_updated": "2025-10-23T10:42:51Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "emfps",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
@@ -27,7 +29,9 @@
     "issues_last_updated": "2025-12-11T00:11:14Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:21Z"
+    "metadata_last_updated": "2025-12-11T13:45:23Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1579",
@@ -42,14 +46,16 @@
     "issues_last_updated": "2025-12-11T00:11:14Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:09:22Z"
+    "metadata_last_updated": "2025-12-11T13:45:24Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos157v",
     "last_updated": "2025-10-14T10:34:18Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "grover-freesolv",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-18T13:57:24Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
@@ -57,14 +63,16 @@
     "issues_last_updated": "2025-12-11T00:11:14Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:22Z"
+    "metadata_last_updated": "2025-12-11T13:45:25Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos18ie",
     "last_updated": "2025-09-15T11:16:55Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "antibiotics-ai-saureus",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-18T14:08:04Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
@@ -72,14 +80,16 @@
     "issues_last_updated": "2025-12-11T00:11:15Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:23Z"
+    "metadata_last_updated": "2025-12-11T13:45:25Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos19mt",
     "last_updated": "2025-09-05T16:13:59Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chebifier-antibiotic",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-05",
@@ -87,14 +97,16 @@
     "issues_last_updated": "2025-12-11T00:11:15Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:09:23Z"
+    "metadata_last_updated": "2025-12-11T13:45:26Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1af5",
     "last_updated": "2025-10-13T14:47:11Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "molgrad-caco2",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-18T14:11:35Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
@@ -102,14 +114,16 @@
     "issues_last_updated": "2025-12-11T00:11:16Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:24Z"
+    "metadata_last_updated": "2025-12-11T13:45:26Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1amn",
     "last_updated": "2023-08-23T08:38:56Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": null,
-    "status": null,
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -117,14 +131,16 @@
     "issues_last_updated": "2025-12-11T00:11:16Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:09:24Z"
+    "metadata_last_updated": "2025-12-11T13:45:27Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1amr",
     "last_updated": "2025-10-08T18:32:11Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "grover-bbbp",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-18T17:27:37Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-08",
@@ -132,14 +148,16 @@
     "issues_last_updated": "2025-12-11T00:11:16Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:25Z"
+    "metadata_last_updated": "2025-12-11T13:45:28Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1bba",
     "last_updated": "2023-08-10T17:45:17Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "gem-representation-learning",
-    "status": "In progress",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -147,14 +165,16 @@
     "issues_last_updated": "2025-12-11T00:11:17Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:09:25Z"
+    "metadata_last_updated": "2025-12-11T13:45:29Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1d7r",
     "last_updated": "2025-10-22T11:04:48Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "small-world-zinc",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-18T17:31:36Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
@@ -162,29 +182,16 @@
     "issues_last_updated": "2025-12-11T00:11:17Z",
     "subtask": "Similarity search",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:26Z"
-  },
-  {
-    "repository_name": "eos1fl3",
-    "last_updated": "2025-10-13T14:00:40Z",
-    "most_recent_date_checked": "2000-01-01T00:00:00Z",
-    "slug": "macaw",
-    "status": "In progress",
-    "last_test_date": null,
-    "release": null,
-    "last_packaging_date": null,
-    "open_issues": -1,
-    "issues_last_updated": "2025-12-11T00:11:18Z",
-    "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
-    "source_type": "Internal, Replicated, External",
-    "metadata_last_updated": "2025-12-11T00:09:26Z"
+    "metadata_last_updated": "2025-12-11T13:45:30Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1j4h",
     "last_updated": "2025-08-27T06:04:52Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "morgan-fingerprint-embedding",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -192,14 +199,16 @@
     "issues_last_updated": "2025-12-11T00:11:18Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
-    "metadata_last_updated": "2025-12-11T00:09:27Z"
+    "metadata_last_updated": "2025-12-11T13:45:30Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1lb5",
     "last_updated": "2025-11-26T19:28:06Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "mycobacterium-permeability",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-01T10:20:41Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-26",
@@ -207,14 +216,16 @@
     "issues_last_updated": "2025-12-11T00:11:19Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:09:27Z"
+    "metadata_last_updated": "2025-12-11T13:45:30Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1mxi",
     "last_updated": "2025-10-17T14:15:17Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "smiles-pe",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-18T17:34:12Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
@@ -222,14 +233,16 @@
     "issues_last_updated": "2025-12-11T00:11:19Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:28Z"
+    "metadata_last_updated": "2025-12-11T13:45:31Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1n4b",
     "last_updated": "2025-10-10T16:13:28Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "hdac3-inhibition",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-18T17:38:07Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
@@ -237,14 +250,16 @@
     "issues_last_updated": "2025-12-11T00:11:20Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:28Z"
+    "metadata_last_updated": "2025-12-11T13:45:32Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1noy",
     "last_updated": "2025-10-22T15:22:55Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chembl-sampler",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-18T17:40:41Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
@@ -252,14 +267,16 @@
     "issues_last_updated": "2025-12-11T00:11:20Z",
     "subtask": "Similarity search",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:29Z"
+    "metadata_last_updated": "2025-12-11T13:45:33Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1pu1",
     "last_updated": "2025-11-19T16:02:23Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "cardiotox-dictrank",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-18T17:42:15Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-19",
@@ -267,14 +284,16 @@
     "issues_last_updated": "2025-12-11T00:11:21Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:29Z"
+    "metadata_last_updated": "2025-12-11T13:45:34Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1tt2",
     "last_updated": "2025-08-27T05:59:05Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "mole-embeddings",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -282,14 +301,16 @@
     "issues_last_updated": "2025-12-11T00:11:21Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
-    "metadata_last_updated": "2025-12-11T00:09:30Z"
+    "metadata_last_updated": "2025-12-11T13:45:34Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1ut3",
     "last_updated": "2025-11-14T12:40:58Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "molfeat-usrcat",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-18T17:48:34Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-14",
@@ -297,14 +318,16 @@
     "issues_last_updated": "2025-12-11T00:11:21Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:30Z"
+    "metadata_last_updated": "2025-12-11T13:45:35Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1vms",
     "last_updated": "2025-10-08T11:24:20Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chembl-multitask-descriptor",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-08",
@@ -312,14 +335,16 @@
     "issues_last_updated": "2025-12-11T00:11:22Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:31Z"
+    "metadata_last_updated": "2025-12-11T13:45:36Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos1xje",
     "last_updated": "2024-12-30T10:18:02Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "biogpt-embeddings",
-    "status": "Ready",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -327,14 +352,16 @@
     "issues_last_updated": "2025-12-11T00:11:22Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:09:31Z"
+    "metadata_last_updated": "2025-12-11T13:45:36Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos21q7",
     "last_updated": "2025-11-20T07:53:43Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "inter-dili",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-18T17:51:36Z",
     "release": "v2.0.0",
     "last_packaging_date": "2025-11-19",
@@ -342,14 +369,16 @@
     "issues_last_updated": "2025-12-11T00:11:23Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
-    "metadata_last_updated": "2025-12-11T00:09:32Z"
+    "metadata_last_updated": "2025-12-11T13:45:37Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos22io",
     "last_updated": "2025-10-16T12:25:12Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "idl-ppbopt",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-18T17:56:39Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -357,14 +386,16 @@
     "issues_last_updated": "2025-12-11T00:11:23Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:32Z"
+    "metadata_last_updated": "2025-12-11T13:45:38Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos238c",
     "last_updated": "2025-11-24T10:02:31Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "mesh-therapeutic-use",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-18T18:01:55Z",
     "release": "v2.0.0",
     "last_packaging_date": "2025-11-22",
@@ -372,14 +403,16 @@
     "issues_last_updated": "2025-12-11T00:11:24Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
-    "metadata_last_updated": "2025-12-11T00:09:33Z"
+    "metadata_last_updated": "2025-12-11T13:45:39Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2401",
     "last_updated": "2025-12-04T14:25:54Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "scaffold-decoration",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-24T10:50:39Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-04",
@@ -387,14 +420,16 @@
     "issues_last_updated": "2025-12-11T00:11:24Z",
     "subtask": "Generation",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:34Z"
+    "metadata_last_updated": "2025-12-11T13:45:39Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos24ci",
     "last_updated": "2025-10-15T12:43:44Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "drugtax",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
@@ -402,14 +437,16 @@
     "issues_last_updated": "2025-12-11T00:11:24Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:34Z"
+    "metadata_last_updated": "2025-12-11T13:45:40Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos24jm",
     "last_updated": "2025-10-16T14:16:59Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "qcrb-tb",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-24T10:53:31Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -417,14 +454,16 @@
     "issues_last_updated": "2025-12-11T00:11:25Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:35Z"
+    "metadata_last_updated": "2025-12-11T13:45:41Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos24ur",
     "last_updated": "2025-06-30T09:51:41Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "whales-scaled",
-    "status": "Ready",
+    "status": "Archived",
     "last_test_date": "2025-11-24T10:56:45Z",
     "release": null,
     "last_packaging_date": null,
@@ -432,14 +471,16 @@
     "issues_last_updated": "2025-12-11T00:11:25Z",
     "subtask": "Featurization",
     "source_type": "Replicated",
-    "metadata_last_updated": "2025-12-11T00:09:35Z"
+    "metadata_last_updated": "2025-12-11T13:45:42Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2a9n",
     "last_updated": "2025-10-22T12:43:33Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chembl-similarity",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
@@ -447,14 +488,16 @@
     "issues_last_updated": "2025-12-11T00:11:26Z",
     "subtask": "Similarity search",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:36Z"
+    "metadata_last_updated": "2025-12-11T13:45:42Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2b6f",
     "last_updated": "2025-10-14T10:05:16Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "pkasolver",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
@@ -462,14 +505,16 @@
     "issues_last_updated": "2025-12-11T00:11:26Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:36Z"
+    "metadata_last_updated": "2025-12-11T13:45:43Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2db3",
     "last_updated": "2025-11-18T15:05:35Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chemical-space-projections-chemdiv",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-24T11:06:24Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-18",
@@ -477,14 +522,16 @@
     "issues_last_updated": "2025-12-11T00:11:27Z",
     "subtask": "Projection",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:09:37Z"
+    "metadata_last_updated": "2025-12-11T13:45:44Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2fy6",
     "last_updated": "2025-10-10T15:20:15Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "s2dv-hepg2-toxicity",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
@@ -492,14 +539,16 @@
     "issues_last_updated": "2025-12-11T00:11:27Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:37Z"
+    "metadata_last_updated": "2025-12-11T13:45:44Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2gth",
     "last_updated": "2025-11-19T08:37:18Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "maip-malaria-surrogate",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-24T11:10:24Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-19",
@@ -507,14 +556,16 @@
     "issues_last_updated": "2025-12-11T00:11:27Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
-    "metadata_last_updated": "2025-12-11T00:09:38Z"
+    "metadata_last_updated": "2025-12-11T13:45:45Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2gw4",
     "last_updated": "2025-10-07T14:44:42Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "ersilia-compound-embedding",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-24T11:13:12Z",
     "release": "v1.1.0",
     "last_packaging_date": "2025-09-30",
@@ -522,14 +573,16 @@
     "issues_last_updated": "2025-12-11T00:11:28Z",
     "subtask": "Featurization",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:09:38Z"
+    "metadata_last_updated": "2025-12-11T13:45:46Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2h1r",
     "last_updated": "2025-10-15T11:11:04Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "cc-signaturizer-3d-c",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-24T11:20:34Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
@@ -537,14 +590,16 @@
     "issues_last_updated": "2025-12-11T00:11:28Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:39Z"
+    "metadata_last_updated": "2025-12-11T13:45:47Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2hbd",
     "last_updated": "2025-11-14T15:34:34Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "passive-permeability",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-24T11:28:25Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-14",
@@ -552,14 +607,16 @@
     "issues_last_updated": "2025-12-11T00:11:29Z",
     "subtask": "Property calculation or prediction",
     "source_type": "Replicated",
-    "metadata_last_updated": "2025-12-11T00:09:39Z"
+    "metadata_last_updated": "2025-12-11T13:45:48Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2hzy",
     "last_updated": "2025-12-01T14:04:42Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "pubchem-sampler",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-01",
@@ -567,14 +624,16 @@
     "issues_last_updated": "2025-12-11T00:11:29Z",
     "subtask": "Similarity search",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:40Z"
+    "metadata_last_updated": "2025-12-11T13:45:49Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2l0q",
     "last_updated": "2025-11-25T16:50:00Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "schisto-swisstph",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-24T11:35:09Z",
     "release": "v3.0.0",
     "last_packaging_date": "2025-11-25",
@@ -582,14 +641,16 @@
     "issues_last_updated": "2025-12-11T00:11:30Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:09:40Z"
+    "metadata_last_updated": "2025-12-11T13:45:50Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2lm8",
     "last_updated": "2025-10-22T13:17:35Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "smiles-transformer",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-11-24T11:38:01Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
@@ -597,14 +658,16 @@
     "issues_last_updated": "2025-12-11T00:11:30Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:41Z"
+    "metadata_last_updated": "2025-12-11T13:45:51Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2lqb",
     "last_updated": "2025-10-16T13:35:34Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "hob-pre",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -612,7 +675,9 @@
     "issues_last_updated": "2025-12-11T00:11:31Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:41Z"
+    "metadata_last_updated": "2025-12-11T13:45:51Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2m0f",
@@ -627,14 +692,16 @@
     "issues_last_updated": "2025-12-11T00:11:31Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:09:42Z"
+    "metadata_last_updated": "2025-12-11T13:45:52Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2mhp",
     "last_updated": "2025-09-04T16:49:01Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "grover-bace",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-01T10:36:37Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-04",
@@ -642,14 +709,16 @@
     "issues_last_updated": "2025-12-11T00:11:32Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:42Z"
+    "metadata_last_updated": "2025-12-11T13:45:52Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2mrz",
     "last_updated": "2025-10-14T13:56:27Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "deepsmiles",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-01T10:39:03Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
@@ -657,14 +726,16 @@
     "issues_last_updated": "2025-12-11T00:11:32Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:43Z"
+    "metadata_last_updated": "2025-12-11T13:45:53Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2mxh",
     "last_updated": "2025-10-22T15:39:13Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "cc-signaturizer-3d-b",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-01T10:47:59Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
@@ -672,14 +743,16 @@
     "issues_last_updated": "2025-12-11T00:11:32Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:43Z"
+    "metadata_last_updated": "2025-12-11T13:45:53Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2r5a",
     "last_updated": "2025-09-15T13:33:01Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "retrosynthetic-accessibility",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-01T10:51:52Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
@@ -687,14 +760,16 @@
     "issues_last_updated": "2025-12-11T00:11:33Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:44Z"
+    "metadata_last_updated": "2025-12-11T13:45:54Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2rd8",
     "last_updated": "2025-10-15T14:31:23Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "molt5-smiles-to-caption",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-01T11:09:33Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
@@ -702,14 +777,16 @@
     "issues_last_updated": "2025-12-11T00:11:33Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:44Z"
+    "metadata_last_updated": "2025-12-11T13:45:55Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2re5",
     "last_updated": "2025-04-24T13:57:37Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "admetlab",
-    "status": "Ready",
+    "status": "Archived",
     "last_test_date": "2025-12-01T15:54:09Z",
     "release": null,
     "last_packaging_date": null,
@@ -717,14 +794,16 @@
     "issues_last_updated": "2025-12-11T00:11:34Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:09:45Z"
+    "metadata_last_updated": "2025-12-11T13:45:56Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2sbn",
     "last_updated": "2025-10-22T15:23:22Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "cc-signaturizer-3d-a",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-01T16:03:22Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
@@ -732,14 +811,16 @@
     "issues_last_updated": "2025-12-11T00:11:34Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:45Z"
+    "metadata_last_updated": "2025-12-11T13:45:56Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2ta5",
     "last_updated": "2025-10-13T14:39:52Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "cardiotoxnet-herg",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-08T10:15:06Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
@@ -747,14 +828,16 @@
     "issues_last_updated": "2025-12-11T00:11:35Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:46Z"
+    "metadata_last_updated": "2025-12-11T13:45:57Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2thm",
     "last_updated": "2025-10-09T16:35:51Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "molbert",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-08T10:24:30Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-09",
@@ -762,7 +845,9 @@
     "issues_last_updated": "2025-12-11T00:11:35Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:46Z"
+    "metadata_last_updated": "2025-12-11T13:45:58Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2v11",
@@ -777,14 +862,16 @@
     "issues_last_updated": "2025-12-11T00:11:35Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:09:47Z"
+    "metadata_last_updated": "2025-12-11T13:45:59Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2xeq",
     "last_updated": "2025-09-22T18:48:15Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "antibiotics-downselection",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-08T10:27:19Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-22",
@@ -792,14 +879,16 @@
     "issues_last_updated": "2025-12-11T00:11:36Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:47Z"
+    "metadata_last_updated": "2025-12-11T13:45:59Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos2zmb",
     "last_updated": "2025-11-20T09:48:20Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "hdac1-inhibition",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-08T10:35:20Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-20",
@@ -807,14 +896,16 @@
     "issues_last_updated": "2025-12-11T00:11:36Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:09:48Z"
+    "metadata_last_updated": "2025-12-11T13:46:00Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos30f3",
     "last_updated": "2025-10-23T14:30:12Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "dmpnn-herg",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-08T10:41:32Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
@@ -822,14 +913,16 @@
     "issues_last_updated": "2025-12-11T00:11:37Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:48Z"
+    "metadata_last_updated": "2025-12-11T13:46:00Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos30gr",
     "last_updated": "2025-10-14T14:22:30Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "deepherg",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-08T10:47:10Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
@@ -837,14 +930,16 @@
     "issues_last_updated": "2025-12-11T00:11:37Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:49Z"
+    "metadata_last_updated": "2025-12-11T13:46:01Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos31ve",
     "last_updated": "2025-10-16T14:25:00Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "ncats-hlm",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-08T10:52:08Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -852,7 +947,9 @@
     "issues_last_updated": "2025-12-11T00:11:38Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:49Z"
+    "metadata_last_updated": "2025-12-11T13:46:02Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos37l0",
@@ -867,14 +964,16 @@
     "issues_last_updated": "2025-12-11T00:11:38Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:09:50Z"
+    "metadata_last_updated": "2025-12-11T13:46:02Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3804",
     "last_updated": "2025-09-17T08:18:40Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chemprop-abaumannii",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-17",
@@ -882,14 +981,16 @@
     "issues_last_updated": "2025-12-11T00:11:39Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:50Z"
+    "metadata_last_updated": "2025-12-11T13:46:03Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos39co",
     "last_updated": "2025-09-05T18:47:21Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "unimol-representation",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-08T11:04:17Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-05",
@@ -897,14 +998,16 @@
     "issues_last_updated": "2025-12-11T00:11:39Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:51Z"
+    "metadata_last_updated": "2025-12-11T13:46:04Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos39dp",
     "last_updated": "2025-10-10T15:06:58Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "phakinpro",
-    "status": "Ready",
+    "status": "",
     "last_test_date": "2025-12-08T11:08:40Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
@@ -912,14 +1015,16 @@
     "issues_last_updated": "2025-12-11T00:11:39Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:51Z"
+    "metadata_last_updated": "2025-12-11T13:46:04Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3ae6",
     "last_updated": "2025-10-07T17:53:29Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "whales-descriptor",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-07",
@@ -927,14 +1032,16 @@
     "issues_last_updated": "2025-12-11T00:11:40Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:52Z"
+    "metadata_last_updated": "2025-12-11T13:46:05Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3ae7",
     "last_updated": "2025-05-14T15:37:20Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chemical-vae",
-    "status": "Ready",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -942,14 +1049,16 @@
     "issues_last_updated": "2025-12-11T00:11:40Z",
     "subtask": "Generation",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:52Z"
+    "metadata_last_updated": "2025-12-11T13:46:06Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3b5e",
     "last_updated": "2025-11-11T13:26:38Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "molecular-weight",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-11",
@@ -957,7 +1066,9 @@
     "issues_last_updated": "2025-12-11T00:11:41Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:53Z"
+    "metadata_last_updated": "2025-12-11T13:46:07Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3cf4",
@@ -972,14 +1083,16 @@
     "issues_last_updated": "2025-12-11T00:11:41Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:53Z"
+    "metadata_last_updated": "2025-12-11T13:46:08Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3d3r",
     "last_updated": "2023-08-23T08:02:58Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": null,
-    "status": null,
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -987,14 +1100,16 @@
     "issues_last_updated": "2025-12-11T00:11:42Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:09:54Z"
+    "metadata_last_updated": "2025-12-11T13:46:08Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3e6s",
     "last_updated": "2025-11-24T19:28:30Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chembl-decoys",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-24",
@@ -1002,14 +1117,16 @@
     "issues_last_updated": "2025-12-11T00:11:42Z",
     "subtask": "Similarity search",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:09:54Z"
+    "metadata_last_updated": "2025-12-11T13:46:09Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3ev6",
     "last_updated": "2025-10-17T15:12:49Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "ncats-cyp3a4",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
@@ -1017,14 +1134,16 @@
     "issues_last_updated": "2025-12-11T00:11:43Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:55Z"
+    "metadata_last_updated": "2025-12-11T13:46:10Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3kcw",
     "last_updated": "2025-10-23T15:31:12Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "small-world-wuxi",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
@@ -1032,14 +1151,16 @@
     "issues_last_updated": "2025-12-11T00:11:43Z",
     "subtask": "Similarity search",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:55Z"
+    "metadata_last_updated": "2025-12-11T13:46:10Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3l5f",
     "last_updated": "2025-12-01T09:13:32Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "clamp",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-01",
@@ -1047,14 +1168,16 @@
     "issues_last_updated": "2025-12-11T00:11:44Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:56Z"
+    "metadata_last_updated": "2025-12-11T13:46:11Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3le9",
     "last_updated": "2025-11-21T17:52:12Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "hepg2-mmv",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-21",
@@ -1062,14 +1185,16 @@
     "issues_last_updated": "2025-12-11T00:11:44Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:09:56Z"
+    "metadata_last_updated": "2025-12-11T13:46:12Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3mk2",
     "last_updated": "2025-11-19T14:36:23Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "bbbp-marine-kinase-inhibitors",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-19",
@@ -1077,14 +1202,16 @@
     "issues_last_updated": "2025-12-11T00:11:44Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
-    "metadata_last_updated": "2025-12-11T00:09:57Z"
+    "metadata_last_updated": "2025-12-11T13:46:12Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3nl8",
     "last_updated": "2024-03-04T08:10:57Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "COVID-19-Drug-Repurposing",
-    "status": "In progress",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -1092,14 +1219,16 @@
     "issues_last_updated": "2025-12-11T00:11:45Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:09:57Z"
+    "metadata_last_updated": "2025-12-11T13:46:13Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3nn9",
     "last_updated": "2025-10-23T14:13:37Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "mpro-covid19",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
@@ -1107,14 +1236,16 @@
     "issues_last_updated": "2025-12-11T00:11:45Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:58Z"
+    "metadata_last_updated": "2025-12-11T13:46:14Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3sa2",
     "last_updated": "2023-08-23T07:20:49Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": null,
-    "status": null,
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -1122,14 +1253,16 @@
     "issues_last_updated": "2025-12-11T00:11:46Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:09:58Z"
+    "metadata_last_updated": "2025-12-11T13:46:15Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3ujl",
     "last_updated": "2025-10-23T15:19:08Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "mtb-permeability",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
@@ -1137,14 +1270,16 @@
     "issues_last_updated": "2025-12-11T00:11:46Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:59Z"
+    "metadata_last_updated": "2025-12-11T13:46:15Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3wzy",
     "last_updated": "2025-11-21T15:52:32Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "qupkake",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-21",
@@ -1152,14 +1287,16 @@
     "issues_last_updated": "2025-12-11T00:11:47Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:09:59Z"
+    "metadata_last_updated": "2025-12-11T13:46:16Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3xip",
     "last_updated": "2025-10-14T10:37:37Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "grover-qm8",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
@@ -1167,14 +1304,16 @@
     "issues_last_updated": "2025-12-11T00:11:47Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:00Z"
+    "metadata_last_updated": "2025-12-11T13:46:17Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos3zur",
     "last_updated": "2025-10-17T14:30:42Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "molfeat-estate",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
@@ -1182,14 +1321,16 @@
     "issues_last_updated": "2025-12-11T00:11:47Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:00Z"
+    "metadata_last_updated": "2025-12-11T13:46:18Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos42ez",
     "last_updated": "2025-10-30T18:56:12Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "antibiotics-ai-cytotox",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-30",
@@ -1197,14 +1338,16 @@
     "issues_last_updated": "2025-12-11T00:11:48Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:01Z"
+    "metadata_last_updated": "2025-12-11T13:46:18Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos43at",
     "last_updated": "2025-09-17T13:24:59Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "molgrad-herg",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-17",
@@ -1212,14 +1355,16 @@
     "issues_last_updated": "2025-12-11T00:11:48Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:01Z"
+    "metadata_last_updated": "2025-12-11T13:46:19Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos44zp",
     "last_updated": "2025-12-01T11:18:00Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "ncats-cyp450",
-    "status": "Ready",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -1227,14 +1372,16 @@
     "issues_last_updated": "2025-12-11T00:11:49Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:02Z"
+    "metadata_last_updated": "2025-12-11T13:46:20Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos46ev",
     "last_updated": "2025-12-04T11:58:28Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chemtb",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-04",
@@ -1242,14 +1389,16 @@
     "issues_last_updated": "2025-12-11T00:11:49Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:03Z"
+    "metadata_last_updated": "2025-12-11T13:46:21Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos481p",
     "last_updated": "2025-10-13T20:17:08Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "grover-toxcast",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
@@ -1257,14 +1406,16 @@
     "issues_last_updated": "2025-12-11T00:11:50Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:03Z"
+    "metadata_last_updated": "2025-12-11T13:46:22Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4avb",
     "last_updated": "2025-10-16T11:13:59Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "image-mol-embeddings",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -1272,14 +1423,16 @@
     "issues_last_updated": "2025-12-11T00:11:50Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:04Z"
+    "metadata_last_updated": "2025-12-11T13:46:22Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4b8j",
     "last_updated": "2025-10-21T16:32:27Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "gdbchembl-similarity",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-21",
@@ -1287,14 +1440,16 @@
     "issues_last_updated": "2025-12-11T00:11:51Z",
     "subtask": "Similarity search",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:04Z"
+    "metadata_last_updated": "2025-12-11T13:46:23Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4cxk",
     "last_updated": "2025-10-16T12:26:30Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "image-mol-sars-cov2",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -1302,14 +1457,16 @@
     "issues_last_updated": "2025-12-11T00:11:51Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:05Z"
+    "metadata_last_updated": "2025-12-11T13:46:24Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4djh",
     "last_updated": "2025-10-07T16:56:27Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "datamol-basic-descriptors",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-07",
@@ -1317,14 +1474,16 @@
     "issues_last_updated": "2025-12-11T00:11:51Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:05Z"
+    "metadata_last_updated": "2025-12-11T13:46:24Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4e40",
     "last_updated": "2025-08-27T17:13:17Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chemprop-antibiotic",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-27",
@@ -1332,14 +1491,16 @@
     "issues_last_updated": "2025-12-11T00:11:52Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:06Z"
+    "metadata_last_updated": "2025-12-11T13:46:25Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4e41",
     "last_updated": "2024-12-20T09:24:27Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chemprop-antibiotic-lite",
-    "status": "Ready",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -1347,14 +1508,16 @@
     "issues_last_updated": "2025-12-11T00:11:52Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:06Z"
+    "metadata_last_updated": "2025-12-11T13:46:26Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4ex3",
     "last_updated": "2025-12-02T12:37:06Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "mole-representations",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.1.0",
     "last_packaging_date": "2025-12-02",
@@ -1362,14 +1525,16 @@
     "issues_last_updated": "2025-12-11T00:11:53Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:07Z"
+    "metadata_last_updated": "2025-12-11T13:46:26Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4f8y",
     "last_updated": "2025-08-27T05:58:25Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "one-molecule-mollib",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -1377,14 +1542,16 @@
     "issues_last_updated": "2025-12-11T00:11:53Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:07Z"
+    "metadata_last_updated": "2025-12-11T13:46:27Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4f95",
     "last_updated": "2025-12-10T17:29:48Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "mycetos",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-10",
@@ -1392,14 +1559,16 @@
     "issues_last_updated": "2025-12-11T00:11:54Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:10:08Z"
+    "metadata_last_updated": "2025-12-11T13:46:28Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4jcv",
     "last_updated": "2025-10-15T16:48:31Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "cc-signaturizer-3d-e",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
@@ -1407,14 +1576,16 @@
     "issues_last_updated": "2025-12-11T00:11:54Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:08Z"
+    "metadata_last_updated": "2025-12-11T13:46:28Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4q1a",
     "last_updated": "2025-10-22T14:47:06Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "crem-structure-generation",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
@@ -1422,14 +1593,16 @@
     "issues_last_updated": "2025-12-11T00:11:55Z",
     "subtask": "Generation",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:09Z"
+    "metadata_last_updated": "2025-12-11T13:46:29Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4qda",
-    "last_updated": "2025-12-02T17:14:28Z",
+    "last_updated": "2025-12-11T09:52:27Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "fasmifra",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -1437,14 +1610,16 @@
     "issues_last_updated": "2025-12-11T00:11:55Z",
     "subtask": "Generation",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:09Z"
+    "metadata_last_updated": "2025-12-11T13:46:30Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4rta",
     "last_updated": "2025-11-24T19:55:03Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "malaria-mmv",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-24",
@@ -1452,14 +1627,16 @@
     "issues_last_updated": "2025-12-11T00:11:56Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:10:10Z"
+    "metadata_last_updated": "2025-12-11T13:46:31Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4rw4",
     "last_updated": "2025-12-10T16:02:07Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "cddd-onnx",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.1.0",
     "last_packaging_date": "2025-12-10",
@@ -1467,14 +1644,16 @@
     "issues_last_updated": "2025-12-11T00:11:56Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:10Z"
+    "metadata_last_updated": "2025-12-11T13:46:31Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4se9",
     "last_updated": "2025-10-15T14:23:31Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "smiles2iupac",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
@@ -1482,14 +1661,16 @@
     "issues_last_updated": "2025-12-11T00:11:57Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:11Z"
+    "metadata_last_updated": "2025-12-11T13:46:32Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4tcc",
     "last_updated": "2025-10-14T14:15:49Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "bayesherg",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
@@ -1497,14 +1678,16 @@
     "issues_last_updated": "2025-12-11T00:11:57Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:11Z"
+    "metadata_last_updated": "2025-12-11T13:46:33Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4u6p",
     "last_updated": "2025-12-02T18:25:24Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "cc-signaturizer",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-02",
@@ -1512,14 +1695,16 @@
     "issues_last_updated": "2025-12-11T00:11:58Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:12Z"
+    "metadata_last_updated": "2025-12-11T13:46:33Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4wt0",
     "last_updated": "2025-10-09T14:27:02Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "morgan-binary-fps",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-09",
@@ -1527,14 +1712,16 @@
     "issues_last_updated": "2025-12-11T00:11:58Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:12Z"
+    "metadata_last_updated": "2025-12-11T13:46:34Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4x30",
     "last_updated": "2025-12-01T11:51:40Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "pmapper-3d",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-01",
@@ -1542,14 +1729,16 @@
     "issues_last_updated": "2025-12-11T00:11:59Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:13Z"
+    "metadata_last_updated": "2025-12-11T13:46:35Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4xb1",
     "last_updated": "2025-11-27T17:38:58Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "antihypertension-prediction",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-27",
@@ -1557,14 +1746,16 @@
     "issues_last_updated": "2025-12-11T00:11:59Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:10:13Z"
+    "metadata_last_updated": "2025-12-11T13:46:36Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4ywv",
     "last_updated": "2025-12-06T19:56:56Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "macaw",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-06",
@@ -1572,14 +1763,16 @@
     "issues_last_updated": "2025-12-11T00:12:00Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:14Z"
+    "metadata_last_updated": "2025-12-11T13:46:36Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos4zfy",
     "last_updated": "2025-10-22T14:04:26Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "maip-malaria",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
@@ -1587,14 +1780,16 @@
     "issues_last_updated": "2025-12-11T00:12:00Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:14Z"
+    "metadata_last_updated": "2025-12-11T13:46:37Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos526j",
     "last_updated": "2025-12-01T13:18:34Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "aizynthfinder",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-01",
@@ -1602,14 +1797,16 @@
     "issues_last_updated": "2025-12-11T00:12:01Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:15Z"
+    "metadata_last_updated": "2025-12-11T13:46:37Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos54c7",
     "last_updated": "2023-08-21T17:28:17Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "zinc-similarity",
-    "status": "Ready",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -1617,14 +1814,16 @@
     "issues_last_updated": "2025-12-11T00:12:01Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:15Z"
+    "metadata_last_updated": "2025-12-11T13:46:38Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos54ij",
     "last_updated": "2025-03-28T18:44:46Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "pred-herg",
-    "status": "Ready",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -1632,14 +1831,16 @@
     "issues_last_updated": "2025-12-11T00:12:01Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:16Z"
+    "metadata_last_updated": "2025-12-11T13:46:39Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos5505",
     "last_updated": "2025-10-15T13:27:40Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "ncats-rlm",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
@@ -1647,14 +1848,16 @@
     "issues_last_updated": "2025-12-11T00:12:02Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:16Z"
+    "metadata_last_updated": "2025-12-11T13:46:40Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos57bx",
     "last_updated": "2025-11-20T15:04:23Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "reinvent4-mol2mol-scaffold",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-20",
@@ -1662,14 +1865,16 @@
     "issues_last_updated": "2025-12-11T00:12:02Z",
     "subtask": "Generation",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:17Z"
+    "metadata_last_updated": "2025-12-11T13:46:41Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos59rr",
     "last_updated": "2025-10-17T14:44:01Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "bidd-molmap-fingerprint",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
@@ -1677,14 +1882,16 @@
     "issues_last_updated": "2025-12-11T00:12:03Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:18Z"
+    "metadata_last_updated": "2025-12-11T13:46:41Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos5axz",
     "last_updated": "2025-08-29T16:04:07Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "morgan-counts",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-29",
@@ -1692,14 +1899,16 @@
     "issues_last_updated": "2025-12-11T00:12:03Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:18Z"
+    "metadata_last_updated": "2025-12-11T13:46:42Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos5cl7",
     "last_updated": "2025-11-19T07:39:44Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "ngonorrhoeae-inhibition",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v3.0.0",
     "last_packaging_date": "2025-11-18",
@@ -1707,7 +1916,9 @@
     "issues_last_updated": "2025-12-11T00:12:04Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:10:19Z"
+    "metadata_last_updated": "2025-12-11T13:46:43Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos5dti",
@@ -1722,14 +1933,16 @@
     "issues_last_updated": "2025-12-11T00:12:04Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:10:19Z"
+    "metadata_last_updated": "2025-12-11T13:46:43Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos5gge",
     "last_updated": "2025-12-01T16:27:43Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "dili-predictor",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-01",
@@ -1737,14 +1950,16 @@
     "issues_last_updated": "2025-12-11T00:12:05Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:20Z"
+    "metadata_last_updated": "2025-12-11T13:46:44Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos5guo",
     "last_updated": "2025-10-23T13:59:40Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "erg-fingerprints",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
@@ -1752,14 +1967,16 @@
     "issues_last_updated": "2025-12-11T00:12:05Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:20Z"
+    "metadata_last_updated": "2025-12-11T13:46:45Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos5jz9",
     "last_updated": "2025-10-17T14:37:35Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "ncats-cyp2c9",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
@@ -1767,29 +1984,33 @@
     "issues_last_updated": "2025-12-11T00:12:05Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:21Z"
+    "metadata_last_updated": "2025-12-11T13:46:46Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos5nqn",
-    "last_updated": "2025-12-10T23:40:35Z",
+    "last_updated": "2025-12-11T12:10:46Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "gneprop-ecoli",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
-    "release": null,
-    "last_packaging_date": null,
+    "release": "v1.0.0",
+    "last_packaging_date": "2025-12-11",
     "open_issues": 0,
     "issues_last_updated": "2025-12-11T00:12:06Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:21Z"
+    "metadata_last_updated": "2025-12-11T13:46:46Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos5pt8",
     "last_updated": "2025-11-16T01:08:35Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "druglikeness-unsupervised",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-16",
@@ -1797,14 +2018,16 @@
     "issues_last_updated": "2025-12-11T00:12:06Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:21Z"
+    "metadata_last_updated": "2025-12-11T13:46:47Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos5qfo",
     "last_updated": "2025-04-24T13:59:30Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "rexgen",
-    "status": "Ready",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -1812,14 +2035,16 @@
     "issues_last_updated": "2025-12-11T00:12:07Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:22Z"
+    "metadata_last_updated": "2025-12-11T13:46:47Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos5smc",
     "last_updated": "2025-10-13T20:08:38Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "grover-tox21",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
@@ -1827,14 +2052,16 @@
     "issues_last_updated": "2025-12-11T00:12:07Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:22Z"
+    "metadata_last_updated": "2025-12-11T13:46:48Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos5xng",
     "last_updated": "2025-09-15T15:08:34Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chemprop-burkholderia",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
@@ -1842,14 +2069,16 @@
     "issues_last_updated": "2025-12-11T00:12:08Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:23Z"
+    "metadata_last_updated": "2025-12-11T13:46:49Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos5y9f",
     "last_updated": "2023-08-23T08:57:00Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": null,
-    "status": null,
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -1857,14 +2086,16 @@
     "issues_last_updated": "2025-12-11T00:12:08Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:24Z"
+    "metadata_last_updated": "2025-12-11T13:46:50Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos633t",
     "last_updated": "2025-11-20T18:30:01Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "moler-enamine-blocks",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-20",
@@ -1872,14 +2103,16 @@
     "issues_last_updated": "2025-12-11T00:12:09Z",
     "subtask": "Generation",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:24Z"
+    "metadata_last_updated": "2025-12-11T13:46:51Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos65rt",
     "last_updated": "2025-10-13T16:04:58Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "deepfl-logp",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
@@ -1887,14 +2120,16 @@
     "issues_last_updated": "2025-12-11T00:12:09Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:25Z"
+    "metadata_last_updated": "2025-12-11T13:46:51Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos694w",
     "last_updated": "2025-11-20T13:18:02Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "reinvent4-mol2mol-medium-similarity",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-20",
@@ -1902,14 +2137,16 @@
     "issues_last_updated": "2025-12-11T00:12:09Z",
     "subtask": "Generation",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:26Z"
+    "metadata_last_updated": "2025-12-11T13:46:52Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos69e6",
     "last_updated": "2025-11-04T14:07:07Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "pgmg-pharmacophore",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -1917,14 +2154,16 @@
     "issues_last_updated": "2025-12-11T00:12:10Z",
     "subtask": "Generation",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:26Z"
+    "metadata_last_updated": "2025-12-11T13:46:53Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos69mr",
     "last_updated": "2025-08-27T06:04:41Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "reinvent4-linkinvent",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -1932,14 +2171,16 @@
     "issues_last_updated": "2025-12-11T00:12:10Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:27Z"
+    "metadata_last_updated": "2025-12-11T13:46:54Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos69p9",
     "last_updated": "2025-10-13T18:22:59Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "ssl-gcn-tox21",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
@@ -1947,14 +2188,16 @@
     "issues_last_updated": "2025-12-11T00:12:11Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:27Z"
+    "metadata_last_updated": "2025-12-11T13:46:55Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6ao8",
     "last_updated": "2025-10-13T14:59:09Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "molgrad-ppb",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
@@ -1962,14 +2205,16 @@
     "issues_last_updated": "2025-12-11T00:12:11Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:28Z"
+    "metadata_last_updated": "2025-12-11T13:46:56Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6aun",
     "last_updated": "2025-10-16T15:05:58Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "rxn-fingerprint",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -1977,14 +2222,16 @@
     "issues_last_updated": "2025-12-11T00:12:12Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:28Z"
+    "metadata_last_updated": "2025-12-11T13:46:57Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6fza",
     "last_updated": "2025-10-13T20:12:09Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "grover-clintox",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
@@ -1992,14 +2239,16 @@
     "issues_last_updated": "2025-12-11T00:12:12Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:29Z"
+    "metadata_last_updated": "2025-12-11T13:46:58Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6hy3",
     "last_updated": "2025-10-16T10:47:04Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "image-mol-hiv",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -2007,14 +2256,16 @@
     "issues_last_updated": "2025-12-11T00:12:13Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:29Z"
+    "metadata_last_updated": "2025-12-11T13:46:58Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6m2k",
     "last_updated": "2025-09-05T13:59:57Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "mole-antimicrobial",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v2.0.1",
     "last_packaging_date": "2025-09-05",
@@ -2022,14 +2273,16 @@
     "issues_last_updated": "2025-12-11T00:12:13Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:30Z"
+    "metadata_last_updated": "2025-12-11T13:46:59Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6m4j",
     "last_updated": "2025-10-14T15:37:29Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "bidd-molmap-desc",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
@@ -2037,14 +2290,16 @@
     "issues_last_updated": "2025-12-11T00:12:14Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:30Z"
+    "metadata_last_updated": "2025-12-11T13:46:59Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6o0z",
     "last_updated": "2025-10-14T10:42:33Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "grover-qm7",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
@@ -2052,14 +2307,16 @@
     "issues_last_updated": "2025-12-11T00:12:14Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:31Z"
+    "metadata_last_updated": "2025-12-11T13:47:00Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6ojg",
     "last_updated": "2025-11-04T11:53:33Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "antibioticdb-similarity-matches",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-04",
@@ -2067,14 +2324,16 @@
     "issues_last_updated": "2025-12-11T00:12:14Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:10:31Z"
+    "metadata_last_updated": "2025-12-11T13:47:00Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6oli",
     "last_updated": "2025-10-13T15:46:15Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "soltrannet-aqueous-solubility",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
@@ -2082,14 +2341,16 @@
     "issues_last_updated": "2025-12-11T00:12:15Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:32Z"
+    "metadata_last_updated": "2025-12-11T13:47:01Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6ost",
     "last_updated": "2025-11-20T12:59:27Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "reinvent4-libinvent",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-20",
@@ -2097,14 +2358,16 @@
     "issues_last_updated": "2025-12-11T00:12:15Z",
     "subtask": "Generation",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:32Z"
+    "metadata_last_updated": "2025-12-11T13:47:02Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6pbf",
     "last_updated": "2025-10-14T13:54:26Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "selfies",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
@@ -2112,14 +2375,16 @@
     "issues_last_updated": "2025-12-11T00:12:16Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:33Z"
+    "metadata_last_updated": "2025-12-11T13:47:03Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6ru3",
     "last_updated": "2025-11-18T17:16:23Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "whales-qmug",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-18",
@@ -2127,14 +2392,16 @@
     "issues_last_updated": "2025-12-11T00:12:16Z",
     "subtask": "Similarity search",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:10:33Z"
+    "metadata_last_updated": "2025-12-11T13:47:03Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6ru5",
     "last_updated": "2025-08-27T06:03:08Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "drugbank-11k-similarity-search",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -2142,14 +2409,16 @@
     "issues_last_updated": "2025-12-11T00:12:17Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
-    "metadata_last_updated": "2025-12-11T00:10:34Z"
+    "metadata_last_updated": "2025-12-11T13:47:04Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6tg8",
     "last_updated": "2025-10-13T16:04:03Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "natural-product-fingerprint",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
@@ -2157,14 +2426,16 @@
     "issues_last_updated": "2025-12-11T00:12:17Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:34Z"
+    "metadata_last_updated": "2025-12-11T13:47:05Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6tpo",
     "last_updated": "2025-09-05T20:04:31Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chebifier",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-05",
@@ -2172,14 +2443,16 @@
     "issues_last_updated": "2025-12-11T00:12:18Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:35Z"
+    "metadata_last_updated": "2025-12-11T13:47:05Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos6wdw",
     "last_updated": "2025-09-18T09:24:53Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "dotP",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -2187,14 +2460,16 @@
     "issues_last_updated": "2025-12-11T00:12:18Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
-    "metadata_last_updated": "2025-12-11T00:10:35Z"
+    "metadata_last_updated": "2025-12-11T13:47:05Z",
+    "private": true,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos74bo",
     "last_updated": "2025-10-28T14:47:30Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "ncats-solubility",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-28",
@@ -2202,14 +2477,16 @@
     "issues_last_updated": "2025-12-11T00:12:18Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:36Z"
+    "metadata_last_updated": "2025-12-11T13:47:06Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos74km",
     "last_updated": "2025-08-27T16:00:55Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "antimicrobial-kg-ml",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-27",
@@ -2217,14 +2494,16 @@
     "issues_last_updated": "2025-12-11T00:12:19Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:36Z"
+    "metadata_last_updated": "2025-12-11T13:47:07Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos77jk",
     "last_updated": "2025-10-15T11:44:34Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "cc-signaturizer-3d-d",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
@@ -2232,14 +2511,16 @@
     "issues_last_updated": "2025-12-11T00:12:19Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:37Z"
+    "metadata_last_updated": "2025-12-11T13:47:07Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos77w8",
     "last_updated": "2025-10-10T11:25:55Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "grover-sider",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
@@ -2247,14 +2528,16 @@
     "issues_last_updated": "2025-12-11T00:12:20Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:37Z"
+    "metadata_last_updated": "2025-12-11T13:47:08Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos78ao",
     "last_updated": "2025-10-22T11:54:59Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "mordred",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
@@ -2262,7 +2545,9 @@
     "issues_last_updated": "2025-12-11T00:12:20Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:38Z"
+    "metadata_last_updated": "2025-12-11T13:47:09Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7a04",
@@ -2277,14 +2562,16 @@
     "issues_last_updated": "2025-12-11T00:12:21Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:38Z"
+    "metadata_last_updated": "2025-12-11T13:47:10Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7a45",
     "last_updated": "2025-10-13T18:55:53Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "coprinet-molecule-price",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
@@ -2292,14 +2579,16 @@
     "issues_last_updated": "2025-12-11T00:12:21Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:39Z"
+    "metadata_last_updated": "2025-12-11T13:47:10Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7ack",
     "last_updated": "2023-07-24T15:57:57Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "swiss-adme",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -2307,14 +2596,16 @@
     "issues_last_updated": "2025-12-11T00:12:21Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:40Z"
+    "metadata_last_updated": "2025-12-11T13:47:11Z",
+    "private": true,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7akz",
     "last_updated": "2023-02-27T09:12:28Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "pred-ms",
-    "status": "In progress",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -2322,14 +2613,16 @@
     "issues_last_updated": "2025-12-11T00:12:22Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:40Z"
+    "metadata_last_updated": "2025-12-11T13:47:12Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7asg",
     "last_updated": "2025-10-10T16:11:29Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "padel",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
@@ -2337,14 +2630,16 @@
     "issues_last_updated": "2025-12-11T00:12:22Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:41Z"
+    "metadata_last_updated": "2025-12-11T13:47:13Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7d58",
     "last_updated": "2025-09-16T12:30:21Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "admet-ai-percentile",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-16",
@@ -2352,14 +2647,16 @@
     "issues_last_updated": "2025-12-11T00:12:23Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:41Z"
+    "metadata_last_updated": "2025-12-11T13:47:14Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7e3s",
     "last_updated": "2024-03-06T07:52:09Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "dili-pred",
-    "status": "Ready",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -2367,14 +2664,16 @@
     "issues_last_updated": "2025-12-11T00:12:23Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:42Z"
+    "metadata_last_updated": "2025-12-11T13:47:15Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7emx",
     "last_updated": "2023-11-06T11:06:45Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "small-world-sampler",
-    "status": "In progress",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -2382,14 +2681,16 @@
     "issues_last_updated": "2025-12-11T00:12:24Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:43Z"
+    "metadata_last_updated": "2025-12-11T13:47:15Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7ike",
     "last_updated": "2025-12-10T16:02:47Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "entry-rules",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -2397,14 +2698,16 @@
     "issues_last_updated": "2025-12-11T00:12:24Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:43Z"
+    "metadata_last_updated": "2025-12-11T13:47:16Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7jio",
     "last_updated": "2025-10-09T17:25:33Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "rdkit-fingerprint",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-09",
@@ -2412,14 +2715,16 @@
     "issues_last_updated": "2025-12-11T00:12:25Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:43Z"
+    "metadata_last_updated": "2025-12-11T13:47:17Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7jlv",
     "last_updated": "2025-10-22T10:22:31Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "gdbmedchem-similarity",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
@@ -2427,14 +2732,16 @@
     "issues_last_updated": "2025-12-11T00:12:25Z",
     "subtask": "Similarity search",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:44Z"
+    "metadata_last_updated": "2025-12-11T13:47:18Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7kpb",
     "last_updated": "2025-11-18T16:25:50Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "h3d-virtual-screening-cascade-light",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-18",
@@ -2442,14 +2749,16 @@
     "issues_last_updated": "2025-12-11T00:12:26Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:10:45Z"
+    "metadata_last_updated": "2025-12-11T13:47:18Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7m30",
     "last_updated": "2025-08-27T16:01:51Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "admet-ai-exact",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-27",
@@ -2457,14 +2766,16 @@
     "issues_last_updated": "2025-12-11T00:12:26Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:45Z"
+    "metadata_last_updated": "2025-12-11T13:47:19Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7nno",
     "last_updated": "2025-10-17T14:48:01Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "ncats-cyp2d6",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
@@ -2472,14 +2783,16 @@
     "issues_last_updated": "2025-12-11T00:12:27Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:45Z"
+    "metadata_last_updated": "2025-12-11T13:47:20Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7pw8",
     "last_updated": "2025-10-13T17:18:45Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "syba-synthetic-accessibility",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
@@ -2487,14 +2800,16 @@
     "issues_last_updated": "2025-12-11T00:12:27Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:46Z"
+    "metadata_last_updated": "2025-12-11T13:47:20Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7qga",
     "last_updated": "2025-10-16T11:27:34Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "datamol-smiles2canonical",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -2502,14 +2817,16 @@
     "issues_last_updated": "2025-12-11T00:12:28Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:46Z"
+    "metadata_last_updated": "2025-12-11T13:47:21Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7w6n",
     "last_updated": "2025-10-10T09:57:05Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "grover-embedding",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
@@ -2517,14 +2834,16 @@
     "issues_last_updated": "2025-12-11T00:12:28Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:47Z"
+    "metadata_last_updated": "2025-12-11T13:47:22Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7ye0",
     "last_updated": "2025-09-09T13:34:03Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chemfh",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-03",
@@ -2532,14 +2851,16 @@
     "issues_last_updated": "2025-12-11T00:12:29Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:47Z"
+    "metadata_last_updated": "2025-12-11T13:47:22Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos7yti",
     "last_updated": "2025-11-20T07:56:52Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "osm-series4",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v2.0.0",
     "last_packaging_date": "2025-11-19",
@@ -2547,14 +2868,16 @@
     "issues_last_updated": "2025-12-11T00:12:29Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:10:48Z"
+    "metadata_last_updated": "2025-12-11T13:47:23Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos80ch",
     "last_updated": "2025-10-17T14:25:17Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "malaria-mam",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
@@ -2562,14 +2885,16 @@
     "issues_last_updated": "2025-12-11T00:12:30Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:48Z"
+    "metadata_last_updated": "2025-12-11T13:47:23Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos81ew",
     "last_updated": "2025-10-16T11:48:07Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "ncats-pampa5",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -2577,14 +2902,16 @@
     "issues_last_updated": "2025-12-11T00:12:30Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:49Z"
+    "metadata_last_updated": "2025-12-11T13:47:24Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos82v1",
     "last_updated": "2025-12-03T12:51:48Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "smi-ted",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-03",
@@ -2592,14 +2919,16 @@
     "issues_last_updated": "2025-12-11T00:12:30Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:49Z"
+    "metadata_last_updated": "2025-12-11T13:47:25Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8451",
     "last_updated": "2025-10-14T10:37:14Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "grover-esol",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
@@ -2607,14 +2936,16 @@
     "issues_last_updated": "2025-12-11T00:12:31Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:50Z"
+    "metadata_last_updated": "2025-12-11T13:47:25Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos85a3",
     "last_updated": "2025-10-14T10:32:33Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "grover-lipo",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
@@ -2622,14 +2953,16 @@
     "issues_last_updated": "2025-12-11T00:12:31Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:50Z"
+    "metadata_last_updated": "2025-12-11T13:47:26Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos85mn",
     "last_updated": "2025-08-27T15:00:46Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "farm-representation",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -2637,14 +2970,16 @@
     "issues_last_updated": "2025-12-11T00:12:32Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
-    "metadata_last_updated": "2025-12-11T00:10:51Z"
+    "metadata_last_updated": "2025-12-11T13:47:27Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8a4x",
     "last_updated": "2025-12-04T08:16:04Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "rdkit-descriptors",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-04",
@@ -2652,14 +2987,16 @@
     "issues_last_updated": "2025-12-11T00:12:32Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:51Z"
+    "metadata_last_updated": "2025-12-11T13:47:27Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8a5g",
     "last_updated": "2025-10-14T14:49:24Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "molbloom",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
@@ -2667,14 +3004,16 @@
     "issues_last_updated": "2025-12-11T00:12:33Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:52Z"
+    "metadata_last_updated": "2025-12-11T13:47:29Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8aa5",
     "last_updated": "2025-12-02T11:03:56Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "kgpgt-embedding",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.1.0",
     "last_packaging_date": "2025-10-22",
@@ -2682,7 +3021,9 @@
     "issues_last_updated": "2025-12-11T00:12:33Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:52Z"
+    "metadata_last_updated": "2025-12-11T13:47:29Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8aox",
@@ -2697,14 +3038,16 @@
     "issues_last_updated": "2025-12-11T00:12:34Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:53Z"
+    "metadata_last_updated": "2025-12-11T13:47:30Z",
+    "private": null,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8bhe",
     "last_updated": "2025-11-21T08:55:48Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "scaffold-morphing",
-    "status": "In maintenance",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -2712,14 +3055,16 @@
     "issues_last_updated": "2025-12-11T00:12:34Z",
     "subtask": "Generation",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:53Z"
+    "metadata_last_updated": "2025-12-11T13:47:30Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8c0o",
     "last_updated": "2025-10-16T10:49:58Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "image-mol-bace",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -2727,14 +3072,16 @@
     "issues_last_updated": "2025-12-11T00:12:35Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:54Z"
+    "metadata_last_updated": "2025-12-11T13:47:31Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8d8a",
     "last_updated": "2025-11-24T19:48:41Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "mycpermcheck",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-24",
@@ -2742,14 +3089,16 @@
     "issues_last_updated": "2025-12-11T00:12:36Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
-    "metadata_last_updated": "2025-12-11T00:10:55Z"
+    "metadata_last_updated": "2025-12-11T13:47:32Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8fma",
     "last_updated": "2025-12-04T15:17:23Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "stoned-sampler",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-04",
@@ -2757,14 +3106,16 @@
     "issues_last_updated": "2025-12-11T00:12:36Z",
     "subtask": "Generation",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:55Z"
+    "metadata_last_updated": "2025-12-11T13:47:33Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8fth",
     "last_updated": "2025-10-16T13:51:22Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "redial-2020",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -2772,14 +3123,16 @@
     "issues_last_updated": "2025-12-11T00:12:37Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:56Z"
+    "metadata_last_updated": "2025-12-11T13:47:34Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8g50",
     "last_updated": "2025-09-04T07:10:29Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "fastsolv",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-02",
@@ -2787,14 +3140,16 @@
     "issues_last_updated": "2025-12-11T00:12:37Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:56Z"
+    "metadata_last_updated": "2025-12-11T13:47:34Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8h6g",
     "last_updated": "2025-12-05T22:18:01Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "avalon",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-09",
@@ -2802,14 +3157,16 @@
     "issues_last_updated": "2025-12-11T00:12:37Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:57Z"
+    "metadata_last_updated": "2025-12-11T13:47:35Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8ioa",
     "last_updated": "2025-10-15T09:26:33Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "natural-product-score",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
@@ -2817,14 +3174,16 @@
     "issues_last_updated": "2025-12-11T00:12:38Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:57Z"
+    "metadata_last_updated": "2025-12-11T13:47:36Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8lok",
     "last_updated": "2025-10-16T12:14:50Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "s2dv-hbv",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -2832,14 +3191,16 @@
     "issues_last_updated": "2025-12-11T00:12:38Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:10:58Z"
+    "metadata_last_updated": "2025-12-11T13:47:36Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8osp",
     "last_updated": "2023-03-01T09:00:47Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "hlm",
-    "status": "In progress",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -2847,14 +3208,16 @@
     "issues_last_updated": "2025-12-11T00:12:39Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:58Z"
+    "metadata_last_updated": "2025-12-11T13:47:37Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8ub5",
     "last_updated": "2025-11-18T17:16:22Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chemical-space-projections-coconut",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-18",
@@ -2862,14 +3225,16 @@
     "issues_last_updated": "2025-12-11T00:12:39Z",
     "subtask": "Projection",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:10:59Z"
+    "metadata_last_updated": "2025-12-11T13:47:38Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos8vud",
     "last_updated": "2025-08-27T05:57:26Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "squid",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -2877,14 +3242,16 @@
     "issues_last_updated": "2025-12-11T00:12:40Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:10:59Z"
+    "metadata_last_updated": "2025-12-11T13:47:38Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos92sw",
     "last_updated": "2025-10-08T10:04:28Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "etoxpred",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-08",
@@ -2892,14 +3259,16 @@
     "issues_last_updated": "2025-12-11T00:12:40Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:00Z"
+    "metadata_last_updated": "2025-12-11T13:47:39Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos935d",
     "last_updated": "2025-10-22T16:13:36Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "meta-trans",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
@@ -2907,14 +3276,16 @@
     "issues_last_updated": "2025-12-11T00:12:41Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:00Z"
+    "metadata_last_updated": "2025-12-11T13:47:40Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos93h2",
     "last_updated": "2025-10-16T12:53:52Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "image-mol-gpcr",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -2922,14 +3293,16 @@
     "issues_last_updated": "2025-12-11T00:12:41Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:01Z"
+    "metadata_last_updated": "2025-12-11T13:47:41Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos96ia",
     "last_updated": "2025-10-10T13:50:44Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "molgrad-cyp3a4",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
@@ -2937,7 +3310,9 @@
     "issues_last_updated": "2025-12-11T00:12:42Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:01Z"
+    "metadata_last_updated": "2025-12-11T13:47:42Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos97yu",
@@ -2952,14 +3327,16 @@
     "issues_last_updated": "2025-12-11T00:12:42Z",
     "subtask": "Property calculation or prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:11:02Z"
+    "metadata_last_updated": "2025-12-11T13:47:43Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9aqt",
     "last_updated": "2025-08-27T06:01:07Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "delfta-qm",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -2967,14 +3344,16 @@
     "issues_last_updated": "2025-12-11T00:12:42Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:11:03Z"
+    "metadata_last_updated": "2025-12-11T13:47:44Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9be7",
     "last_updated": "2025-04-24T13:58:39Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chemnet-distance",
-    "status": "Ready",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -2982,14 +3361,16 @@
     "issues_last_updated": "2025-12-11T00:12:43Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:11:03Z"
+    "metadata_last_updated": "2025-12-11T13:47:44Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9c7k",
     "last_updated": "2025-10-22T11:44:42Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "medchem17-similarity",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
@@ -2997,14 +3378,16 @@
     "issues_last_updated": "2025-12-11T00:12:43Z",
     "subtask": "Similarity search",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:04Z"
+    "metadata_last_updated": "2025-12-11T13:47:45Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9ei3",
     "last_updated": "2025-09-15T06:39:28Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "sa-score",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
@@ -3012,14 +3395,16 @@
     "issues_last_updated": "2025-12-11T00:12:44Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:04Z"
+    "metadata_last_updated": "2025-12-11T13:47:46Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9f6t",
     "last_updated": "2025-10-08T08:39:21Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chemprop-sars-cov-inhibition",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-08",
@@ -3027,14 +3412,16 @@
     "issues_last_updated": "2025-12-11T00:12:44Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:05Z"
+    "metadata_last_updated": "2025-12-11T13:47:47Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9gg2",
     "last_updated": "2025-11-18T16:30:14Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chemical-space-projections-drugbank",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-18",
@@ -3042,14 +3429,16 @@
     "issues_last_updated": "2025-12-11T00:12:45Z",
     "subtask": "Projection",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:11:05Z"
+    "metadata_last_updated": "2025-12-11T13:47:47Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9ivc",
     "last_updated": "2025-11-21T15:48:34Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "anti-mtb-seattle",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-21",
@@ -3057,14 +3446,16 @@
     "issues_last_updated": "2025-12-11T00:12:45Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
-    "metadata_last_updated": "2025-12-11T00:11:06Z"
+    "metadata_last_updated": "2025-12-11T13:47:48Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9o72",
     "last_updated": "2025-11-12T15:52:09Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "chemeleon",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-12",
@@ -3072,14 +3463,16 @@
     "issues_last_updated": "2025-12-11T00:12:46Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:06Z"
+    "metadata_last_updated": "2025-12-11T13:47:49Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9p4a",
     "last_updated": "2025-10-23T15:29:03Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "deep-dl",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
@@ -3087,7 +3480,9 @@
     "issues_last_updated": "2025-12-11T00:12:46Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:07Z"
+    "metadata_last_updated": "2025-12-11T13:47:49Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9sa2",
@@ -3102,14 +3497,16 @@
     "issues_last_updated": "2025-12-11T00:12:46Z",
     "subtask": "Property calculation or prediction",
     "source_type": "Replicated",
-    "metadata_last_updated": "2025-12-11T00:11:07Z"
+    "metadata_last_updated": "2025-12-11T13:47:50Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9taz",
     "last_updated": "2025-10-22T14:23:15Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "moler-enamine-fragments",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
@@ -3117,14 +3514,16 @@
     "issues_last_updated": "2025-12-11T00:12:47Z",
     "subtask": "Generation",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:08Z"
+    "metadata_last_updated": "2025-12-11T13:47:51Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9tyg",
     "last_updated": "2025-10-16T14:27:27Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "ncats-pampa74",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -3132,14 +3531,16 @@
     "issues_last_updated": "2025-12-11T00:12:47Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:08Z"
+    "metadata_last_updated": "2025-12-11T13:47:52Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9ueu",
     "last_updated": "2025-10-24T11:48:02Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "small-world-enamine-real",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-24",
@@ -3147,14 +3548,16 @@
     "issues_last_updated": "2025-12-11T00:12:48Z",
     "subtask": "Similarity search",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:09Z"
+    "metadata_last_updated": "2025-12-11T13:47:53Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9uqy",
     "last_updated": "2025-08-27T06:02:10Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "cheese-sampler",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -3162,29 +3565,33 @@
     "issues_last_updated": "2025-12-11T00:12:48Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:11:09Z"
+    "metadata_last_updated": "2025-12-11T13:47:53Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9x3z",
-    "last_updated": "2025-12-10T23:47:05Z",
+    "last_updated": "2025-12-11T00:57:08Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "gram-negative-permeability-proxy",
-    "status": "In progress",
+    "status": "",
     "last_test_date": null,
-    "release": null,
-    "last_packaging_date": null,
+    "release": "v1.0.0",
+    "last_packaging_date": "2025-12-11",
     "open_issues": 0,
     "issues_last_updated": "2025-12-11T00:12:49Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:10Z"
+    "metadata_last_updated": "2025-12-11T13:47:54Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9ym3",
     "last_updated": "2025-10-23T15:31:13Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "mrlogp",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
@@ -3192,14 +3599,16 @@
     "issues_last_updated": "2025-12-11T00:12:49Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:10Z"
+    "metadata_last_updated": "2025-12-11T13:47:55Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9yui",
     "last_updated": "2025-09-15T06:54:08Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "natural-product-likeness",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
@@ -3207,14 +3616,16 @@
     "issues_last_updated": "2025-12-11T00:12:50Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:11Z"
+    "metadata_last_updated": "2025-12-11T13:47:55Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9yy1",
     "last_updated": "2025-10-16T12:15:09Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "ncats-hlcs",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
@@ -3222,14 +3633,16 @@
     "issues_last_updated": "2025-12-11T00:12:50Z",
     "subtask": "Activity prediction",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:11Z"
+    "metadata_last_updated": "2025-12-11T13:47:56Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9zfb",
     "last_updated": "2024-01-19T17:12:39Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "",
-    "status": "",
+    "status": "Archived",
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
@@ -3237,14 +3650,16 @@
     "issues_last_updated": "2025-12-11T00:12:51Z",
     "subtask": null,
     "source_type": null,
-    "metadata_last_updated": "2025-12-11T00:11:12Z"
+    "metadata_last_updated": "2025-12-11T13:47:57Z",
+    "private": false,
+    "last_test_outcome": null
   },
   {
     "repository_name": "eos9zw0",
     "last_updated": "2025-11-27T14:30:09Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "slug": "molpmofit",
-    "status": "Ready",
+    "status": "",
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-27",
@@ -3252,6 +3667,8 @@
     "issues_last_updated": "2025-12-11T00:12:51Z",
     "subtask": "Featurization",
     "source_type": "External",
-    "metadata_last_updated": "2025-12-11T00:11:13Z"
+    "metadata_last_updated": "2025-12-11T13:47:58Z",
+    "private": false,
+    "last_test_outcome": null
   }
 ]

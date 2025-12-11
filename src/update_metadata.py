@@ -61,7 +61,8 @@ def main() -> int:
         if rel is not None:   e["release"] = rel
         if pack is not None:  e["last_packaging_date"] = pack
         if slug is not None:  e["slug"] = slug
-        if stat is not None:  e["status"] = stat
+        if e["status"] != "Archived":
+            if stat is not None:  e["status"] = stat
         if task is not None: e['subtask'] = task
         if source is not None: e["source_type"] = source
 
