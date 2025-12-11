@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "repository_name": "eos11sm",
+    "slug": "known-antibiotic-ressemblance",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-11-25",
+    "open_issues": null
+  },
+  {
+    "repository_name": "eos11sr",
+    "slug": "emfps",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-23",
+    "open_issues": null
+  },
+  {
+    "repository_name": "eos157v",
+    "slug": "grover-freesolv",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-14",
+    "open_issues": null
+  },
+  {
+    "repository_name": "eos18ie",
+    "slug": "antibiotics-ai-saureus",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-09-15",
+    "open_issues": null
+  },
+  {
+    "repository_name": "eos19mt",
+    "slug": "chebifier-antibiotic",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-09-05",
+    "open_issues": null
+  },
+  {
+    "repository_name": "eos1af5",
+    "slug": "molgrad-caco2",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-13",
+    "open_issues": null
+  },
+  {
+    "repository_name": "eos1amr",
+    "slug": "grover-bbbp",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-08",
+    "open_issues": null
+  },
+  {
+    "repository_name": "eos1d7r",
+    "slug": "small-world-zinc",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-22",
+    "open_issues": null
+  },
+  {
+    "repository_name": "eos1lb5",
+    "slug": "mycobacterium-permeability",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-11-26",
+    "open_issues": null
+  },
+  {
+    "repository_name": "eos1mxi",
+    "slug": "smiles-pe",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-17",
+    "open_issues": null
+  }
+]
