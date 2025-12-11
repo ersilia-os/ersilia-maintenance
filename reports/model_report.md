@@ -4,15 +4,15 @@
 <!-- MODELS_TABLE_START -->
 ## 📚 Model registry snapshot
 
-_Last updated: **2025-12-11 00:12:51Z** (UTC)_
+_Last updated: **2025-12-11 14:51:21Z** (UTC)_
 
 ### 🔢 Summary
 
-- 📦 **Total models:** 217
-- ✅ **Models with no open issues:** 178
+- 📦 **Total models:** 216
+- ✅ **Models with no open issues:** 177
 - ❗ **Models with open issues:** 39
 - 🧪 **Models tested at least once:** 43
-- ⏳ **Models never tested:** 174
+- ⏳ **Models never tested:** 173
 
 The table below summarizes the current state of the models tracked in `repo_info.json`.
 
@@ -29,7 +29,6 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos1amr | grover-bbbp | 2025-10-08 | 2025-11-18T17:27:37Z | v1.0.0 | 🟢 0 |
 | eos1bba | gem-representation-learning | — | — | — | 🟡 1 |
 | eos1d7r | small-world-zinc | 2025-10-22 | 2025-11-18T17:31:36Z | v1.0.0 | 🟢 0 |
-| eos1fl3 | macaw | — | — | — | 🔴 -1 |
 | eos1j4h | morgan-fingerprint-embedding | — | — | — | 🟡 1 |
 | eos1lb5 | mycobacterium-permeability | 2025-11-26 | 2025-12-01T10:20:41Z | v1.0.0 | 🟢 0 |
 | eos1mxi | smiles-pe | 2025-10-17 | 2025-11-18T17:34:12Z | v1.0.0 | 🟢 0 |
@@ -136,7 +135,7 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos5gge | dili-predictor | 2025-12-01 | — | v1.0.0 | 🟢 0 |
 | eos5guo | erg-fingerprints | 2025-10-23 | — | v1.0.0 | 🟢 0 |
 | eos5jz9 | ncats-cyp2c9 | 2025-10-17 | — | v1.0.0 | 🟢 0 |
-| eos5nqn | gneprop-ecoli | — | — | — | 🟢 0 |
+| eos5nqn | gneprop-ecoli | 2025-12-11 | — | v1.0.0 | 🟢 0 |
 | eos5pt8 | druglikeness-unsupervised | 2025-11-16 | — | v1.0.0 | 🟢 0 |
 | eos5qfo | rexgen | — | — | — | 🟢 0 |
 | eos5smc | grover-tox21 | 2025-10-13 | — | v1.0.0 | 🟢 0 |
@@ -229,7 +228,7 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos9tyg | ncats-pampa74 | 2025-10-16 | — | v1.0.0 | 🟢 0 |
 | eos9ueu | small-world-enamine-real | 2025-10-24 | — | v1.0.0 | 🟢 0 |
 | eos9uqy | cheese-sampler | — | — | — | 🟡 1 |
-| eos9x3z | gram-negative-permeability-proxy | — | — | — | 🟢 0 |
+| eos9x3z | gram-negative-permeability-proxy | 2025-12-11 | — | v1.0.0 | 🟢 0 |
 | eos9ym3 | mrlogp | 2025-10-23 | — | v1.0.0 | 🟢 0 |
 | eos9yui | natural-product-likeness | 2025-09-15 | — | v1.0.0 | 🟢 0 |
 | eos9yy1 | ncats-hlcs | 2025-10-16 | — | v1.0.0 | 🟢 0 |
