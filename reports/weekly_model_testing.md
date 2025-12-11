@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2025-12-08T10:09:24Z
+**🗓️ Date:** 2025-12-11T15:17:39Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos2ta5 | cardiotoxnet-herg | ✅ | 2025-12-08T10:15:06Z |
-| eos2thm | molbert | ✅ | 2025-12-08T10:24:30Z |
-| eos2xeq | antibiotics-downselection | ✅ | 2025-12-08T10:27:19Z |
-| eos2zmb | hdac1-inhibition | ✅ | 2025-12-08T10:35:20Z |
-| eos30f3 | dmpnn-herg | ✅ | 2025-12-08T10:41:32Z |
-| eos30gr | deepherg | ✅ | 2025-12-08T10:47:10Z |
-| eos31ve | ncats-hlm | ✅ | 2025-12-08T10:52:08Z |
-| eos37l0 | chembl-kpneumoniae | ✅ | 2025-12-08T10:58:10Z |
-| eos39co | unimol-representation | ✅ | 2025-12-08T11:04:17Z |
-| eos39dp | phakinpro | ✅ | 2025-12-08T11:08:40Z |
+| eos11sm | known-antibiotic-ressemblance | ✅ | 2025-12-11T15:20:39Z |
+| eos11sr | emfps | ✅ | 2025-12-11T15:23:58Z |
+| eos157v | grover-freesolv | ✅ | 2025-12-11T15:30:47Z |
+| eos18ie | antibiotics-ai-saureus | ✅ | 2025-12-11T15:41:31Z |
+| eos19mt | chebifier-antibiotic | 🚨 | 2025-12-11T15:50:09Z |
+| eos1af5 | molgrad-caco2 | ✅ | 2025-12-11T15:53:45Z |
+| eos1amr | grover-bbbp | ✅ | 2025-12-11T16:00:22Z |
+| eos1d7r | small-world-zinc | 🚨 | 2025-12-11T16:04:13Z |
+| eos1lb5 | mycobacterium-permeability | ✅ | 2025-12-11T16:11:41Z |
+| eos1mxi | smiles-pe | ✅ | 2025-12-11T16:14:20Z |
