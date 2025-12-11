@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2025-12-11T15:17:39Z
+**🗓️ Date:** 2025-12-11T20:51:15Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos11sm | known-antibiotic-ressemblance | ✅ | 2025-12-11T15:20:39Z |
-| eos11sr | emfps | ✅ | 2025-12-11T15:23:58Z |
-| eos157v | grover-freesolv | ✅ | 2025-12-11T15:30:47Z |
-| eos18ie | antibiotics-ai-saureus | ✅ | 2025-12-11T15:41:31Z |
-| eos19mt | chebifier-antibiotic | 🚨 | 2025-12-11T15:50:09Z |
-| eos1af5 | molgrad-caco2 | ✅ | 2025-12-11T15:53:45Z |
-| eos1amr | grover-bbbp | ✅ | 2025-12-11T16:00:22Z |
-| eos1d7r | small-world-zinc | 🚨 | 2025-12-11T16:04:13Z |
-| eos1lb5 | mycobacterium-permeability | ✅ | 2025-12-11T16:11:41Z |
-| eos1mxi | smiles-pe | ✅ | 2025-12-11T16:14:20Z |
+| eos1n4b | hdac3-inhibition | ✅ | 2025-12-11T20:55:35Z |
+| eos1noy | chembl-sampler | ✅ | 2025-12-11T20:58:18Z |
+| eos1pu1 | cardiotox-dictrank | ✅ | 2025-12-11T21:02:42Z |
+| eos1ut3 | molfeat-usrcat | ✅ | 2025-12-11T21:09:19Z |
+| eos1vms | chembl-multitask-descriptor | ✅ | 2025-12-11T21:12:32Z |
+| eos21q7 | inter-dili | ✅ | 2025-12-11T21:19:18Z |
+| eos22io | idl-ppbopt | ✅ | 2025-12-11T21:24:43Z |
+| eos238c | mesh-therapeutic-use | 🚨 | 2025-12-11T21:24:48Z |
+| eos2401 | scaffold-decoration | ✅ | 2025-12-11T22:02:23Z |
+| eos24ci | drugtax | ✅ | 2025-12-11T22:05:27Z |
