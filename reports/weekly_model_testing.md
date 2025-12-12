@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2025-12-12T09:44:43Z
+**🗓️ Date:** 2025-12-12T12:20:33Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos24jm | qcrb-tb | ✅ | 2025-12-12T09:47:42Z |
-| eos2a9n | chembl-similarity | 🚨 | 2025-12-12T09:54:36Z |
-| eos2b6f | pkasolver | ✅ | 2025-12-12T10:00:46Z |
-| eos2db3 | chemical-space-projections-chemdiv | ✅ | 2025-12-12T10:11:24Z |
-| eos2fy6 | s2dv-hepg2-toxicity | ✅ | 2025-12-12T10:15:04Z |
-| eos2gth | maip-malaria-surrogate | ✅ | 2025-12-12T10:19:08Z |
-| eos2gw4 | ersilia-compound-embedding | ✅ | 2025-12-12T10:22:06Z |
-| eos2h1r | cc-signaturizer-3d-c | ✅ | 2025-12-12T10:31:14Z |
-| eos2hbd | passive-permeability | 🚨 | 2025-12-12T10:31:18Z |
-| eos2hzy | pubchem-sampler | 🚨 | 2025-12-12T10:34:21Z |
+| eos2l0q | schisto-swisstph | ✅ | 2025-12-12T12:28:06Z |
+| eos2lm8 | smiles-transformer | ✅ | 2025-12-12T12:31:14Z |
+| eos2lqb | hob-pre | ✅ | 2025-12-12T12:34:45Z |
+| eos2mhp | grover-bace | ✅ | 2025-12-12T12:41:26Z |
+| eos2mrz | deepsmiles | ✅ | 2025-12-12T12:43:51Z |
+| eos2mxh | cc-signaturizer-3d-b | ✅ | 2025-12-12T12:51:31Z |
+| eos2r5a | retrosynthetic-accessibility | ✅ | 2025-12-12T12:55:05Z |
+| eos2rd8 | molt5-smiles-to-caption | 🚨 | 2025-12-12T12:55:09Z |
+| eos2sbn | cc-signaturizer-3d-a | ✅ | 2025-12-12T13:02:55Z |
+| eos2ta5 | cardiotoxnet-herg | ✅ | 2025-12-12T13:07:43Z |
