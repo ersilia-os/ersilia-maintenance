@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos2l0q",
-    "slug": "schisto-swisstph",
+    "repository_name": "eos2thm",
+    "slug": "molbert",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-11-25",
+    "last_packaging_date": "2025-10-09",
     "open_issues": null
   },
   {
-    "repository_name": "eos2lm8",
-    "slug": "smiles-transformer",
+    "repository_name": "eos2xeq",
+    "slug": "antibiotics-downselection",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-22",
+    "last_packaging_date": "2025-09-22",
     "open_issues": null
   },
   {
-    "repository_name": "eos2lqb",
-    "slug": "hob-pre",
+    "repository_name": "eos2zmb",
+    "slug": "hdac1-inhibition",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-16",
+    "last_packaging_date": "2025-11-20",
     "open_issues": null
   },
   {
-    "repository_name": "eos2mhp",
-    "slug": "grover-bace",
+    "repository_name": "eos30f3",
+    "slug": "dmpnn-herg",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-09-04",
+    "last_packaging_date": "2025-10-23",
     "open_issues": null
   },
   {
-    "repository_name": "eos2mrz",
-    "slug": "deepsmiles",
+    "repository_name": "eos30gr",
+    "slug": "deepherg",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-14",
     "open_issues": null
   },
   {
-    "repository_name": "eos2mxh",
-    "slug": "cc-signaturizer-3d-b",
+    "repository_name": "eos31ve",
+    "slug": "ncats-hlm",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-22",
+    "last_packaging_date": "2025-10-16",
     "open_issues": null
   },
   {
-    "repository_name": "eos2r5a",
-    "slug": "retrosynthetic-accessibility",
+    "repository_name": "eos3804",
+    "slug": "chemprop-abaumannii",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-09-15",
+    "last_packaging_date": "2025-09-17",
     "open_issues": null
   },
   {
-    "repository_name": "eos2rd8",
-    "slug": "molt5-smiles-to-caption",
+    "repository_name": "eos39co",
+    "slug": "unimol-representation",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-15",
+    "last_packaging_date": "2025-09-05",
     "open_issues": null
   },
   {
-    "repository_name": "eos2sbn",
-    "slug": "cc-signaturizer-3d-a",
+    "repository_name": "eos39dp",
+    "slug": "phakinpro",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-22",
+    "last_packaging_date": "2025-10-10",
     "open_issues": null
   },
   {
-    "repository_name": "eos2ta5",
-    "slug": "cardiotoxnet-herg",
+    "repository_name": "eos3ae6",
+    "slug": "whales-descriptor",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-13",
+    "last_packaging_date": "2025-10-07",
     "open_issues": null
   }
 ]
