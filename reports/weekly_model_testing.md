@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2025-12-11T20:51:15Z
+**🗓️ Date:** 2025-12-12T09:44:43Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos1n4b | hdac3-inhibition | ✅ | 2025-12-11T20:55:35Z |
-| eos1noy | chembl-sampler | ✅ | 2025-12-11T20:58:18Z |
-| eos1pu1 | cardiotox-dictrank | ✅ | 2025-12-11T21:02:42Z |
-| eos1ut3 | molfeat-usrcat | ✅ | 2025-12-11T21:09:19Z |
-| eos1vms | chembl-multitask-descriptor | ✅ | 2025-12-11T21:12:32Z |
-| eos21q7 | inter-dili | ✅ | 2025-12-11T21:19:18Z |
-| eos22io | idl-ppbopt | ✅ | 2025-12-11T21:24:43Z |
-| eos238c | mesh-therapeutic-use | 🚨 | 2025-12-11T21:24:48Z |
-| eos2401 | scaffold-decoration | ✅ | 2025-12-11T22:02:23Z |
-| eos24ci | drugtax | ✅ | 2025-12-11T22:05:27Z |
+| eos24jm | qcrb-tb | ✅ | 2025-12-12T09:47:42Z |
+| eos2a9n | chembl-similarity | 🚨 | 2025-12-12T09:54:36Z |
+| eos2b6f | pkasolver | ✅ | 2025-12-12T10:00:46Z |
+| eos2db3 | chemical-space-projections-chemdiv | ✅ | 2025-12-12T10:11:24Z |
+| eos2fy6 | s2dv-hepg2-toxicity | ✅ | 2025-12-12T10:15:04Z |
+| eos2gth | maip-malaria-surrogate | ✅ | 2025-12-12T10:19:08Z |
+| eos2gw4 | ersilia-compound-embedding | ✅ | 2025-12-12T10:22:06Z |
+| eos2h1r | cc-signaturizer-3d-c | ✅ | 2025-12-12T10:31:14Z |
+| eos2hbd | passive-permeability | 🚨 | 2025-12-12T10:31:18Z |
+| eos2hzy | pubchem-sampler | 🚨 | 2025-12-12T10:34:21Z |
