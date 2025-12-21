@@ -1,20 +1,20 @@
 [
   {
     "repository_name": "eos11sm",
-    "last_updated": "2025-11-25T08:08:13Z",
+    "last_updated": "2025-12-17T13:46:41Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
-    "slug": "known-antibiotic-ressemblance",
+    "slug": "known-antibiotic-resemblance",
     "status": "Ready",
     "last_test_date": "2025-12-11T15:20:39Z",
     "release": "v1.0.0",
-    "last_packaging_date": "2025-11-25",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "last_packaging_date": "2025-12-17",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:11:55Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:17Z"
+    "metadata_last_updated": "2025-12-21T00:09:30Z"
   },
   {
     "repository_name": "eos11sr",
@@ -26,12 +26,12 @@
     "last_test_date": "2025-12-11T15:23:58Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 2,
+    "issues_last_updated": "2025-12-21T00:11:55Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:17Z"
+    "metadata_last_updated": "2025-12-21T00:09:30Z"
   },
   {
     "repository_name": "eos1579",
@@ -43,12 +43,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:11:56Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:08:18Z"
+    "metadata_last_updated": "2025-12-21T00:09:31Z"
   },
   {
     "repository_name": "eos157v",
@@ -60,12 +60,12 @@
     "last_test_date": "2025-12-11T15:30:47Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:11:56Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:18Z"
+    "metadata_last_updated": "2025-12-21T00:09:31Z"
   },
   {
     "repository_name": "eos18ie",
@@ -77,12 +77,12 @@
     "last_test_date": "2025-12-11T15:41:31Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:11:57Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:19Z"
+    "metadata_last_updated": "2025-12-21T00:09:32Z"
   },
   {
     "repository_name": "eos19mt",
@@ -94,12 +94,12 @@
     "last_test_date": "2025-12-11T15:50:09Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-05",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 2,
+    "issues_last_updated": "2025-12-21T00:11:57Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2025-12-11T15:08:20Z"
+    "metadata_last_updated": "2025-12-21T00:09:33Z"
   },
   {
     "repository_name": "eos1af5",
@@ -111,12 +111,12 @@
     "last_test_date": "2025-12-11T15:53:45Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:11:58Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:20Z"
+    "metadata_last_updated": "2025-12-21T00:09:34Z"
   },
   {
     "repository_name": "eos1amn",
@@ -128,12 +128,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:11:58Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:08:21Z"
+    "metadata_last_updated": "2025-12-21T00:09:34Z"
   },
   {
     "repository_name": "eos1amr",
@@ -145,12 +145,12 @@
     "last_test_date": "2025-12-11T16:00:22Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-08",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:11:59Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:22Z"
+    "metadata_last_updated": "2025-12-21T00:09:35Z"
   },
   {
     "repository_name": "eos1bba",
@@ -162,12 +162,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:11:59Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:08:23Z"
+    "metadata_last_updated": "2025-12-21T00:09:36Z"
   },
   {
     "repository_name": "eos1d7r",
@@ -179,12 +179,12 @@
     "last_test_date": "2025-12-11T16:04:13Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:00Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2025-12-11T15:08:24Z"
+    "metadata_last_updated": "2025-12-21T00:09:37Z"
   },
   {
     "repository_name": "eos1j4h",
@@ -196,12 +196,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:00Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:08:24Z"
+    "metadata_last_updated": "2025-12-21T00:09:37Z"
   },
   {
     "repository_name": "eos1lb5",
@@ -213,12 +213,12 @@
     "last_test_date": "2025-12-11T16:11:41Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-26",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:01Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:25Z"
+    "metadata_last_updated": "2025-12-21T00:09:37Z"
   },
   {
     "repository_name": "eos1mxi",
@@ -230,12 +230,12 @@
     "last_test_date": "2025-12-11T16:14:20Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:02Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:25Z"
+    "metadata_last_updated": "2025-12-21T00:09:38Z"
   },
   {
     "repository_name": "eos1n4b",
@@ -247,12 +247,12 @@
     "last_test_date": "2025-12-11T20:55:35Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:02Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:26Z"
+    "metadata_last_updated": "2025-12-21T00:09:39Z"
   },
   {
     "repository_name": "eos1noy",
@@ -264,12 +264,12 @@
     "last_test_date": "2025-12-11T20:58:18Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:03Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:27Z"
+    "metadata_last_updated": "2025-12-21T00:09:40Z"
   },
   {
     "repository_name": "eos1pu1",
@@ -281,12 +281,29 @@
     "last_test_date": "2025-12-11T21:02:42Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-19",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:03Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:28Z"
+    "metadata_last_updated": "2025-12-21T00:09:41Z"
+  },
+  {
+    "repository_name": "eos1soi",
+    "last_updated": "2025-12-18T13:22:57Z",
+    "most_recent_date_checked": "2000-01-01T00:00:00Z",
+    "private": false,
+    "slug": "non-growing-antimicrobial",
+    "status": "Ready",
+    "last_test_date": null,
+    "release": "v1.0.0",
+    "last_packaging_date": "2025-12-18",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:04Z",
+    "subtask": "Activity prediction",
+    "source_type": "Internal",
+    "last_test_outcome": null,
+    "metadata_last_updated": "2025-12-21T00:09:41Z"
   },
   {
     "repository_name": "eos1tt2",
@@ -298,12 +315,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:04Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:08:28Z"
+    "metadata_last_updated": "2025-12-21T00:09:41Z"
   },
   {
     "repository_name": "eos1ut3",
@@ -315,12 +332,12 @@
     "last_test_date": "2025-12-11T21:09:19Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:05Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:29Z"
+    "metadata_last_updated": "2025-12-21T00:09:42Z"
   },
   {
     "repository_name": "eos1vms",
@@ -332,12 +349,12 @@
     "last_test_date": "2025-12-11T21:12:32Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-08",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:05Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:30Z"
+    "metadata_last_updated": "2025-12-21T00:09:43Z"
   },
   {
     "repository_name": "eos1xje",
@@ -349,12 +366,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:06Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:08:30Z"
+    "metadata_last_updated": "2025-12-21T00:09:44Z"
   },
   {
     "repository_name": "eos21q7",
@@ -366,12 +383,12 @@
     "last_test_date": "2025-12-11T21:19:18Z",
     "release": "v2.0.0",
     "last_packaging_date": "2025-11-19",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:06Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:31Z"
+    "metadata_last_updated": "2025-12-21T00:09:44Z"
   },
   {
     "repository_name": "eos22io",
@@ -383,12 +400,12 @@
     "last_test_date": "2025-12-11T21:24:43Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:07Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:32Z"
+    "metadata_last_updated": "2025-12-21T00:09:45Z"
   },
   {
     "repository_name": "eos238c",
@@ -400,12 +417,12 @@
     "last_test_date": "2025-12-11T21:24:48Z",
     "release": "v2.0.0",
     "last_packaging_date": "2025-11-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:07Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2025-12-11T15:08:33Z"
+    "metadata_last_updated": "2025-12-21T00:09:46Z"
   },
   {
     "repository_name": "eos2401",
@@ -417,12 +434,12 @@
     "last_test_date": "2025-12-11T22:02:23Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-04",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:08Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:33Z"
+    "metadata_last_updated": "2025-12-21T00:09:46Z"
   },
   {
     "repository_name": "eos24ci",
@@ -434,12 +451,12 @@
     "last_test_date": "2025-12-11T22:05:27Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:08Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:34Z"
+    "metadata_last_updated": "2025-12-21T00:09:47Z"
   },
   {
     "repository_name": "eos24jm",
@@ -451,12 +468,12 @@
     "last_test_date": "2025-12-12T09:47:42Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:09Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:35Z"
+    "metadata_last_updated": "2025-12-21T00:09:48Z"
   },
   {
     "repository_name": "eos24ur",
@@ -468,12 +485,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:09Z",
     "subtask": "Featurization",
     "source_type": "Replicated",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:08:36Z"
+    "metadata_last_updated": "2025-12-21T00:09:49Z"
   },
   {
     "repository_name": "eos2a9n",
@@ -485,12 +502,12 @@
     "last_test_date": "2025-12-12T09:54:36Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:10Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2025-12-11T15:08:37Z"
+    "metadata_last_updated": "2025-12-21T00:09:49Z"
   },
   {
     "repository_name": "eos2b6f",
@@ -502,29 +519,29 @@
     "last_test_date": "2025-12-12T10:00:46Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:10Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:37Z"
+    "metadata_last_updated": "2025-12-21T00:09:50Z"
   },
   {
     "repository_name": "eos2db3",
-    "last_updated": "2025-11-18T15:05:35Z",
+    "last_updated": "2025-12-16T15:19:38Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "chemical-space-projections-chemdiv",
     "status": "Ready",
     "last_test_date": "2025-12-12T10:11:24Z",
     "release": "v1.0.0",
-    "last_packaging_date": "2025-11-18",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "last_packaging_date": "2025-12-16",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:11Z",
     "subtask": "Projection",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:38Z"
+    "metadata_last_updated": "2025-12-21T00:09:50Z"
   },
   {
     "repository_name": "eos2fy6",
@@ -536,12 +553,12 @@
     "last_test_date": "2025-12-12T10:15:04Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:12Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:39Z"
+    "metadata_last_updated": "2025-12-21T00:09:51Z"
   },
   {
     "repository_name": "eos2gth",
@@ -553,29 +570,29 @@
     "last_test_date": "2025-12-12T10:19:08Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-19",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:12Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:40Z"
+    "metadata_last_updated": "2025-12-21T00:09:52Z"
   },
   {
     "repository_name": "eos2gw4",
-    "last_updated": "2025-10-07T14:44:42Z",
+    "last_updated": "2025-12-16T12:42:43Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "ersilia-compound-embedding",
     "status": "Ready",
     "last_test_date": "2025-12-12T10:22:06Z",
     "release": "v1.1.0",
-    "last_packaging_date": "2025-09-30",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "last_packaging_date": "2025-12-16",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:13Z",
     "subtask": "Featurization",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:41Z"
+    "metadata_last_updated": "2025-12-21T00:09:53Z"
   },
   {
     "repository_name": "eos2h1r",
@@ -587,12 +604,12 @@
     "last_test_date": "2025-12-12T10:31:14Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:13Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:41Z"
+    "metadata_last_updated": "2025-12-21T00:09:53Z"
   },
   {
     "repository_name": "eos2hbd",
@@ -604,12 +621,12 @@
     "last_test_date": "2025-12-12T10:31:18Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:14Z",
     "subtask": "Property calculation or prediction",
     "source_type": "Replicated",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2025-12-11T15:08:42Z"
+    "metadata_last_updated": "2025-12-21T00:09:54Z"
   },
   {
     "repository_name": "eos2hzy",
@@ -621,12 +638,12 @@
     "last_test_date": "2025-12-12T10:34:21Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-01",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 2,
+    "issues_last_updated": "2025-12-21T00:12:14Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2025-12-11T15:08:42Z"
+    "metadata_last_updated": "2025-12-21T00:09:54Z"
   },
   {
     "repository_name": "eos2l0q",
@@ -638,12 +655,12 @@
     "last_test_date": "2025-12-12T12:28:06Z",
     "release": "v3.0.0",
     "last_packaging_date": "2025-11-25",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:15Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:43Z"
+    "metadata_last_updated": "2025-12-21T00:09:55Z"
   },
   {
     "repository_name": "eos2lm8",
@@ -655,12 +672,12 @@
     "last_test_date": "2025-12-12T12:31:14Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:15Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:44Z"
+    "metadata_last_updated": "2025-12-21T00:09:56Z"
   },
   {
     "repository_name": "eos2lqb",
@@ -672,12 +689,12 @@
     "last_test_date": "2025-12-12T12:34:45Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:16Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:45Z"
+    "metadata_last_updated": "2025-12-21T00:09:57Z"
   },
   {
     "repository_name": "eos2m0f",
@@ -689,12 +706,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-27",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:16Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:08:45Z"
+    "metadata_last_updated": "2025-12-21T00:09:57Z"
   },
   {
     "repository_name": "eos2mhp",
@@ -706,12 +723,12 @@
     "last_test_date": "2025-12-12T12:41:26Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-04",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:17Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:46Z"
+    "metadata_last_updated": "2025-12-21T00:09:58Z"
   },
   {
     "repository_name": "eos2mrz",
@@ -723,12 +740,12 @@
     "last_test_date": "2025-12-12T12:43:51Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:17Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:47Z"
+    "metadata_last_updated": "2025-12-21T00:09:59Z"
   },
   {
     "repository_name": "eos2mxh",
@@ -740,12 +757,12 @@
     "last_test_date": "2025-12-12T12:51:31Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:18Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:47Z"
+    "metadata_last_updated": "2025-12-21T00:09:59Z"
   },
   {
     "repository_name": "eos2r5a",
@@ -757,12 +774,12 @@
     "last_test_date": "2025-12-12T12:55:05Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:18Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:48Z"
+    "metadata_last_updated": "2025-12-21T00:10:00Z"
   },
   {
     "repository_name": "eos2rd8",
@@ -774,12 +791,12 @@
     "last_test_date": "2025-12-12T12:55:09Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:19Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2025-12-11T15:08:49Z"
+    "metadata_last_updated": "2025-12-21T00:10:01Z"
   },
   {
     "repository_name": "eos2re5",
@@ -791,12 +808,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:19Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:08:50Z"
+    "metadata_last_updated": "2025-12-21T00:10:01Z"
   },
   {
     "repository_name": "eos2sbn",
@@ -808,12 +825,12 @@
     "last_test_date": "2025-12-12T13:02:55Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:20Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:50Z"
+    "metadata_last_updated": "2025-12-21T00:10:02Z"
   },
   {
     "repository_name": "eos2ta5",
@@ -825,12 +842,12 @@
     "last_test_date": "2025-12-12T13:07:43Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:20Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:51Z"
+    "metadata_last_updated": "2025-12-21T00:10:03Z"
   },
   {
     "repository_name": "eos2thm",
@@ -842,12 +859,12 @@
     "last_test_date": "2025-12-12T13:24:41Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-09",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:21Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:51Z"
+    "metadata_last_updated": "2025-12-21T00:10:03Z"
   },
   {
     "repository_name": "eos2v11",
@@ -859,12 +876,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:21Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:08:52Z"
+    "metadata_last_updated": "2025-12-21T00:10:04Z"
   },
   {
     "repository_name": "eos2xeq",
@@ -876,12 +893,12 @@
     "last_test_date": "2025-12-12T13:27:39Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:22Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:53Z"
+    "metadata_last_updated": "2025-12-21T00:10:04Z"
   },
   {
     "repository_name": "eos2zmb",
@@ -893,12 +910,12 @@
     "last_test_date": "2025-12-12T13:35:10Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-20",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:22Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:53Z"
+    "metadata_last_updated": "2025-12-21T00:10:05Z"
   },
   {
     "repository_name": "eos30f3",
@@ -910,12 +927,12 @@
     "last_test_date": "2025-12-12T13:41:00Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:23Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:54Z"
+    "metadata_last_updated": "2025-12-21T00:10:06Z"
   },
   {
     "repository_name": "eos30gr",
@@ -927,12 +944,12 @@
     "last_test_date": "2025-12-12T13:46:41Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:23Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:55Z"
+    "metadata_last_updated": "2025-12-21T00:10:07Z"
   },
   {
     "repository_name": "eos31ve",
@@ -944,12 +961,12 @@
     "last_test_date": "2025-12-12T13:50:45Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:24Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:56Z"
+    "metadata_last_updated": "2025-12-21T00:10:07Z"
   },
   {
     "repository_name": "eos37l0",
@@ -961,12 +978,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-27",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:24Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:08:56Z"
+    "metadata_last_updated": "2025-12-21T00:10:08Z"
   },
   {
     "repository_name": "eos3804",
@@ -978,12 +995,12 @@
     "last_test_date": "2025-12-12T13:56:30Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-17",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:25Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:57Z"
+    "metadata_last_updated": "2025-12-21T00:10:08Z"
   },
   {
     "repository_name": "eos39co",
@@ -995,12 +1012,12 @@
     "last_test_date": "2025-12-12T14:02:38Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-05",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:25Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:58Z"
+    "metadata_last_updated": "2025-12-21T00:10:09Z"
   },
   {
     "repository_name": "eos39dp",
@@ -1012,12 +1029,12 @@
     "last_test_date": "2025-12-12T14:07:03Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:26Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:58Z"
+    "metadata_last_updated": "2025-12-21T00:10:10Z"
   },
   {
     "repository_name": "eos3ae6",
@@ -1029,12 +1046,12 @@
     "last_test_date": "2025-12-12T14:10:29Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-07",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:27Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:08:59Z"
+    "metadata_last_updated": "2025-12-21T00:10:10Z"
   },
   {
     "repository_name": "eos3ae7",
@@ -1046,12 +1063,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:27Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:00Z"
+    "metadata_last_updated": "2025-12-21T00:10:11Z"
   },
   {
     "repository_name": "eos3b5e",
@@ -1063,12 +1080,12 @@
     "last_test_date": "2025-12-15T10:13:01Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-11",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:28Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:09:01Z"
+    "metadata_last_updated": "2025-12-21T00:10:12Z"
   },
   {
     "repository_name": "eos3cf4",
@@ -1080,12 +1097,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-03",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:28Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:01Z"
+    "metadata_last_updated": "2025-12-21T00:10:12Z"
   },
   {
     "repository_name": "eos3d3r",
@@ -1097,12 +1114,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:29Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:02Z"
+    "metadata_last_updated": "2025-12-21T00:10:13Z"
   },
   {
     "repository_name": "eos3e6s",
@@ -1114,12 +1131,12 @@
     "last_test_date": "2025-12-15T10:18:46Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-24",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:29Z",
     "subtask": "Similarity search",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:09:03Z"
+    "metadata_last_updated": "2025-12-21T00:10:13Z"
   },
   {
     "repository_name": "eos3ev6",
@@ -1131,12 +1148,12 @@
     "last_test_date": "2025-12-15T10:18:50Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:30Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2025-12-11T15:09:04Z"
+    "metadata_last_updated": "2025-12-21T00:10:14Z"
   },
   {
     "repository_name": "eos3kcw",
@@ -1148,29 +1165,29 @@
     "last_test_date": "2025-12-15T10:21:11Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:30Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2025-12-11T15:09:05Z"
+    "metadata_last_updated": "2025-12-21T00:10:15Z"
   },
   {
     "repository_name": "eos3l5f",
-    "last_updated": "2025-12-01T09:13:32Z",
+    "last_updated": "2025-12-16T13:14:14Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "clamp",
     "status": "Ready",
     "last_test_date": "2025-12-15T10:31:17Z",
-    "release": "v1.0.0",
-    "last_packaging_date": "2025-12-01",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "release": "v1.0.1",
+    "last_packaging_date": "2025-12-16",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:31Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:09:05Z"
+    "metadata_last_updated": "2025-12-21T00:10:15Z"
   },
   {
     "repository_name": "eos3le9",
@@ -1182,12 +1199,29 @@
     "last_test_date": "2025-12-15T10:38:19Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-21",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:31Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:09:06Z"
+    "metadata_last_updated": "2025-12-21T00:10:16Z"
+  },
+  {
+    "repository_name": "eos3lyd",
+    "last_updated": "2025-12-15T14:28:28Z",
+    "most_recent_date_checked": "2000-01-01T00:00:00Z",
+    "private": false,
+    "slug": "efflux-pump-avoidance-gram-negative",
+    "status": "Ready",
+    "last_test_date": null,
+    "release": "v1.0.0",
+    "last_packaging_date": "2025-12-15",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:32Z",
+    "subtask": "Activity prediction",
+    "source_type": "Internal",
+    "last_test_outcome": null,
+    "metadata_last_updated": "2025-12-21T00:10:16Z"
   },
   {
     "repository_name": "eos3mk2",
@@ -1199,12 +1233,12 @@
     "last_test_date": "2025-12-15T10:41:47Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-19",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:32Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:09:06Z"
+    "metadata_last_updated": "2025-12-21T00:10:17Z"
   },
   {
     "repository_name": "eos3nl8",
@@ -1216,12 +1250,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:33Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:07Z"
+    "metadata_last_updated": "2025-12-21T00:10:17Z"
   },
   {
     "repository_name": "eos3nn9",
@@ -1233,12 +1267,12 @@
     "last_test_date": "2025-12-15T10:45:34Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:33Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:09:08Z"
+    "metadata_last_updated": "2025-12-21T00:10:18Z"
   },
   {
     "repository_name": "eos3sa2",
@@ -1250,12 +1284,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:34Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:09Z"
+    "metadata_last_updated": "2025-12-21T00:10:19Z"
   },
   {
     "repository_name": "eos3ujl",
@@ -1267,12 +1301,12 @@
     "last_test_date": "2025-12-15T10:49:12Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:34Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:09:09Z"
+    "metadata_last_updated": "2025-12-21T00:10:19Z"
   },
   {
     "repository_name": "eos3wzy",
@@ -1284,12 +1318,12 @@
     "last_test_date": "2025-12-15T11:02:03Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-21",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:35Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2025-12-11T15:09:10Z"
+    "metadata_last_updated": "2025-12-21T00:10:20Z"
   },
   {
     "repository_name": "eos3xip",
@@ -1301,12 +1335,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:35Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:11Z"
+    "metadata_last_updated": "2025-12-21T00:10:21Z"
   },
   {
     "repository_name": "eos3zur",
@@ -1318,12 +1352,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:36Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:11Z"
+    "metadata_last_updated": "2025-12-21T00:10:21Z"
   },
   {
     "repository_name": "eos42ez",
@@ -1335,12 +1369,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-30",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:37Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:12Z"
+    "metadata_last_updated": "2025-12-21T00:10:22Z"
   },
   {
     "repository_name": "eos43at",
@@ -1352,12 +1386,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-17",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 2,
+    "issues_last_updated": "2025-12-21T00:12:37Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:13Z"
+    "metadata_last_updated": "2025-12-21T00:10:23Z"
   },
   {
     "repository_name": "eos44zp",
@@ -1369,12 +1403,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:38Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:14Z"
+    "metadata_last_updated": "2025-12-21T00:10:24Z"
   },
   {
     "repository_name": "eos46ev",
@@ -1386,12 +1420,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-04",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:38Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:15Z"
+    "metadata_last_updated": "2025-12-21T00:10:24Z"
   },
   {
     "repository_name": "eos481p",
@@ -1403,12 +1437,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:39Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:16Z"
+    "metadata_last_updated": "2025-12-21T00:10:25Z"
   },
   {
     "repository_name": "eos4avb",
@@ -1420,12 +1454,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:39Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:16Z"
+    "metadata_last_updated": "2025-12-21T00:10:26Z"
   },
   {
     "repository_name": "eos4b8j",
@@ -1437,12 +1471,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-21",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:40Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:17Z"
+    "metadata_last_updated": "2025-12-21T00:10:26Z"
   },
   {
     "repository_name": "eos4cxk",
@@ -1454,12 +1488,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:40Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:18Z"
+    "metadata_last_updated": "2025-12-21T00:10:27Z"
   },
   {
     "repository_name": "eos4djh",
@@ -1471,12 +1505,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-07",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:41Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:18Z"
+    "metadata_last_updated": "2025-12-21T00:10:28Z"
   },
   {
     "repository_name": "eos4e40",
@@ -1488,12 +1522,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-27",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:41Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:19Z"
+    "metadata_last_updated": "2025-12-21T00:10:28Z"
   },
   {
     "repository_name": "eos4e41",
@@ -1505,29 +1539,29 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 3,
+    "issues_last_updated": "2025-12-21T00:12:42Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:20Z"
+    "metadata_last_updated": "2025-12-21T00:10:29Z"
   },
   {
     "repository_name": "eos4ex3",
-    "last_updated": "2025-12-02T12:37:06Z",
+    "last_updated": "2025-12-16T13:08:45Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "mole-representations",
     "status": "Ready",
     "last_test_date": null,
     "release": "v1.1.0",
-    "last_packaging_date": "2025-12-02",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "last_packaging_date": "2025-12-16",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:42Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:21Z"
+    "metadata_last_updated": "2025-12-21T00:10:29Z"
   },
   {
     "repository_name": "eos4f8y",
@@ -1539,12 +1573,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:43Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:21Z"
+    "metadata_last_updated": "2025-12-21T00:10:30Z"
   },
   {
     "repository_name": "eos4f95",
@@ -1556,12 +1590,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-10",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:43Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:22Z"
+    "metadata_last_updated": "2025-12-21T00:10:31Z"
   },
   {
     "repository_name": "eos4jcv",
@@ -1573,12 +1607,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:44Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:23Z"
+    "metadata_last_updated": "2025-12-21T00:10:31Z"
   },
   {
     "repository_name": "eos4q1a",
@@ -1590,12 +1624,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:44Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:23Z"
+    "metadata_last_updated": "2025-12-21T00:10:32Z"
   },
   {
     "repository_name": "eos4qda",
@@ -1607,12 +1641,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 2,
+    "issues_last_updated": "2025-12-21T00:12:45Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:24Z"
+    "metadata_last_updated": "2025-12-21T00:10:33Z"
   },
   {
     "repository_name": "eos4rta",
@@ -1624,29 +1658,29 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-24",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:46Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:25Z"
+    "metadata_last_updated": "2025-12-21T00:10:33Z"
   },
   {
     "repository_name": "eos4rw4",
-    "last_updated": "2025-12-10T16:02:07Z",
+    "last_updated": "2025-12-16T12:46:56Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "cddd-onnx",
     "status": "Ready",
     "last_test_date": null,
     "release": "v1.1.0",
-    "last_packaging_date": "2025-12-10",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "last_packaging_date": "2025-12-16",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:46Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:25Z"
+    "metadata_last_updated": "2025-12-21T00:10:34Z"
   },
   {
     "repository_name": "eos4se9",
@@ -1658,12 +1692,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:47Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:26Z"
+    "metadata_last_updated": "2025-12-21T00:10:34Z"
   },
   {
     "repository_name": "eos4tcc",
@@ -1675,29 +1709,29 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:47Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:27Z"
+    "metadata_last_updated": "2025-12-21T00:10:35Z"
   },
   {
     "repository_name": "eos4u6p",
-    "last_updated": "2025-12-02T18:25:24Z",
+    "last_updated": "2025-12-17T09:44:27Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "cc-signaturizer",
     "status": "Ready",
     "last_test_date": null,
     "release": "v1.0.0",
-    "last_packaging_date": "2025-12-02",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "last_packaging_date": "2025-12-17",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:48Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:27Z"
+    "metadata_last_updated": "2025-12-21T00:10:36Z"
   },
   {
     "repository_name": "eos4wt0",
@@ -1709,12 +1743,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-09",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:48Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:28Z"
+    "metadata_last_updated": "2025-12-21T00:10:37Z"
   },
   {
     "repository_name": "eos4x30",
@@ -1726,12 +1760,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-01",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:49Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:29Z"
+    "metadata_last_updated": "2025-12-21T00:10:37Z"
   },
   {
     "repository_name": "eos4xb1",
@@ -1743,29 +1777,29 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-27",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:49Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:29Z"
+    "metadata_last_updated": "2025-12-21T00:10:38Z"
   },
   {
     "repository_name": "eos4ywv",
-    "last_updated": "2025-12-06T19:56:56Z",
+    "last_updated": "2025-12-16T12:56:24Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "macaw",
     "status": "Ready",
     "last_test_date": null,
     "release": "v1.0.0",
-    "last_packaging_date": "2025-12-06",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "last_packaging_date": "2025-12-16",
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:12:50Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:30Z"
+    "metadata_last_updated": "2025-12-21T00:10:38Z"
   },
   {
     "repository_name": "eos4zfy",
@@ -1777,12 +1811,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:50Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:30Z"
+    "metadata_last_updated": "2025-12-21T00:10:39Z"
   },
   {
     "repository_name": "eos526j",
@@ -1794,12 +1828,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-01",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:51Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:32Z"
+    "metadata_last_updated": "2025-12-21T00:10:40Z"
   },
   {
     "repository_name": "eos54c7",
@@ -1811,12 +1845,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:52Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:33Z"
+    "metadata_last_updated": "2025-12-21T00:10:40Z"
   },
   {
     "repository_name": "eos54ij",
@@ -1828,12 +1862,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:52Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:34Z"
+    "metadata_last_updated": "2025-12-21T00:10:41Z"
   },
   {
     "repository_name": "eos5505",
@@ -1845,12 +1879,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:53Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:34Z"
+    "metadata_last_updated": "2025-12-21T00:10:42Z"
   },
   {
     "repository_name": "eos57bx",
@@ -1862,12 +1896,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-20",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:53Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:35Z"
+    "metadata_last_updated": "2025-12-21T00:10:42Z"
   },
   {
     "repository_name": "eos59rr",
@@ -1879,29 +1913,46 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:54Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:36Z"
+    "metadata_last_updated": "2025-12-21T00:10:43Z"
   },
   {
     "repository_name": "eos5axz",
-    "last_updated": "2025-08-29T16:04:07Z",
+    "last_updated": "2025-12-16T12:37:42Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "morgan-counts",
     "status": "Ready",
     "last_test_date": null,
     "release": "v1.0.0",
-    "last_packaging_date": "2025-08-29",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "last_packaging_date": "2025-12-16",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:54Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:37Z"
+    "metadata_last_updated": "2025-12-21T00:10:44Z"
+  },
+  {
+    "repository_name": "eos5bsw",
+    "last_updated": "2025-12-15T16:20:55Z",
+    "most_recent_date_checked": "2000-01-01T00:00:00Z",
+    "private": false,
+    "slug": "ecoli-retention",
+    "status": "Ready",
+    "last_test_date": null,
+    "release": "v1.0.0",
+    "last_packaging_date": "2025-12-15",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:55Z",
+    "subtask": "Activity prediction",
+    "source_type": "Internal",
+    "last_test_outcome": null,
+    "metadata_last_updated": "2025-12-21T00:10:44Z"
   },
   {
     "repository_name": "eos5cl7",
@@ -1913,12 +1964,12 @@
     "last_test_date": null,
     "release": "v3.0.0",
     "last_packaging_date": "2025-11-18",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:55Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:37Z"
+    "metadata_last_updated": "2025-12-21T00:10:45Z"
   },
   {
     "repository_name": "eos5dti",
@@ -1930,12 +1981,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-27",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:56Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:38Z"
+    "metadata_last_updated": "2025-12-21T00:10:46Z"
   },
   {
     "repository_name": "eos5gge",
@@ -1947,12 +1998,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-01",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:56Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:39Z"
+    "metadata_last_updated": "2025-12-21T00:10:46Z"
   },
   {
     "repository_name": "eos5guo",
@@ -1964,12 +2015,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:57Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:39Z"
+    "metadata_last_updated": "2025-12-21T00:10:47Z"
   },
   {
     "repository_name": "eos5jz9",
@@ -1981,29 +2032,29 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:57Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:40Z"
+    "metadata_last_updated": "2025-12-21T00:10:48Z"
   },
   {
     "repository_name": "eos5nqn",
-    "last_updated": "2025-12-11T12:10:46Z",
+    "last_updated": "2025-12-18T12:11:12Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "gneprop-ecoli",
     "status": "Ready",
     "last_test_date": null,
-    "release": "v1.0.0",
-    "last_packaging_date": "2025-12-11",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "release": "v2.0.0",
+    "last_packaging_date": "2025-12-17",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:58Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:41Z"
+    "metadata_last_updated": "2025-12-21T00:10:48Z"
   },
   {
     "repository_name": "eos5pt8",
@@ -2015,12 +2066,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:58Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:41Z"
+    "metadata_last_updated": "2025-12-21T00:10:48Z"
   },
   {
     "repository_name": "eos5qfo",
@@ -2032,12 +2083,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:12:59Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:42Z"
+    "metadata_last_updated": "2025-12-21T00:10:49Z"
   },
   {
     "repository_name": "eos5smc",
@@ -2049,12 +2100,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:00Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:43Z"
+    "metadata_last_updated": "2025-12-21T00:10:50Z"
   },
   {
     "repository_name": "eos5xng",
@@ -2066,12 +2117,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:00Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:44Z"
+    "metadata_last_updated": "2025-12-21T00:10:50Z"
   },
   {
     "repository_name": "eos5y9f",
@@ -2083,12 +2134,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:01Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:45Z"
+    "metadata_last_updated": "2025-12-21T00:10:51Z"
   },
   {
     "repository_name": "eos633t",
@@ -2100,12 +2151,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-20",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:02Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:45Z"
+    "metadata_last_updated": "2025-12-21T00:10:52Z"
   },
   {
     "repository_name": "eos65rt",
@@ -2117,12 +2168,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:02Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:46Z"
+    "metadata_last_updated": "2025-12-21T00:10:53Z"
   },
   {
     "repository_name": "eos694w",
@@ -2134,12 +2185,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-20",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:03Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:47Z"
+    "metadata_last_updated": "2025-12-21T00:10:54Z"
   },
   {
     "repository_name": "eos69e6",
@@ -2151,12 +2202,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:03Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:48Z"
+    "metadata_last_updated": "2025-12-21T00:10:54Z"
   },
   {
     "repository_name": "eos69mr",
@@ -2168,12 +2219,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:04Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:48Z"
+    "metadata_last_updated": "2025-12-21T00:10:55Z"
   },
   {
     "repository_name": "eos69p9",
@@ -2185,12 +2236,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:04Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:49Z"
+    "metadata_last_updated": "2025-12-21T00:10:56Z"
   },
   {
     "repository_name": "eos6ao8",
@@ -2202,12 +2253,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:05Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:50Z"
+    "metadata_last_updated": "2025-12-21T00:10:56Z"
   },
   {
     "repository_name": "eos6aun",
@@ -2219,12 +2270,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:05Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:51Z"
+    "metadata_last_updated": "2025-12-21T00:10:57Z"
   },
   {
     "repository_name": "eos6fza",
@@ -2236,12 +2287,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:06Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:52Z"
+    "metadata_last_updated": "2025-12-21T00:10:58Z"
   },
   {
     "repository_name": "eos6hy3",
@@ -2253,12 +2304,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:06Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:53Z"
+    "metadata_last_updated": "2025-12-21T00:10:59Z"
   },
   {
     "repository_name": "eos6m2k",
@@ -2270,12 +2321,12 @@
     "last_test_date": null,
     "release": "v2.0.1",
     "last_packaging_date": "2025-09-05",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:07Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:53Z"
+    "metadata_last_updated": "2025-12-21T00:10:59Z"
   },
   {
     "repository_name": "eos6m4j",
@@ -2287,12 +2338,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:07Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:54Z"
+    "metadata_last_updated": "2025-12-21T00:11:00Z"
   },
   {
     "repository_name": "eos6o0z",
@@ -2304,12 +2355,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:08Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:55Z"
+    "metadata_last_updated": "2025-12-21T00:11:00Z"
   },
   {
     "repository_name": "eos6ojg",
@@ -2321,12 +2372,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-04",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:08Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:56Z"
+    "metadata_last_updated": "2025-12-21T00:11:01Z"
   },
   {
     "repository_name": "eos6oli",
@@ -2338,12 +2389,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:09Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:57Z"
+    "metadata_last_updated": "2025-12-21T00:11:01Z"
   },
   {
     "repository_name": "eos6ost",
@@ -2355,12 +2406,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-20",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:09Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:58Z"
+    "metadata_last_updated": "2025-12-21T00:11:02Z"
   },
   {
     "repository_name": "eos6pbf",
@@ -2372,12 +2423,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:10Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:58Z"
+    "metadata_last_updated": "2025-12-21T00:11:03Z"
   },
   {
     "repository_name": "eos6ru3",
@@ -2389,12 +2440,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-18",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:10Z",
     "subtask": "Similarity search",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:59Z"
+    "metadata_last_updated": "2025-12-21T00:11:04Z"
   },
   {
     "repository_name": "eos6ru5",
@@ -2406,12 +2457,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:11Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:09:59Z"
+    "metadata_last_updated": "2025-12-21T00:11:04Z"
   },
   {
     "repository_name": "eos6tg8",
@@ -2423,12 +2474,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:11Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:00Z"
+    "metadata_last_updated": "2025-12-21T00:11:05Z"
   },
   {
     "repository_name": "eos6tpo",
@@ -2440,12 +2491,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-05",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:12Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:01Z"
+    "metadata_last_updated": "2025-12-21T00:11:05Z"
   },
   {
     "repository_name": "eos6wdw",
@@ -2462,7 +2513,7 @@
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:01Z"
+    "metadata_last_updated": "2025-12-21T00:11:06Z"
   },
   {
     "repository_name": "eos74bo",
@@ -2474,16 +2525,16 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-28",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:12Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:02Z"
+    "metadata_last_updated": "2025-12-21T00:11:07Z"
   },
   {
     "repository_name": "eos74km",
-    "last_updated": "2025-08-27T16:00:55Z",
+    "last_updated": "2025-12-15T08:24:40Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "antimicrobial-kg-ml",
@@ -2491,12 +2542,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-27",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:13Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:02Z"
+    "metadata_last_updated": "2025-12-21T00:11:07Z"
   },
   {
     "repository_name": "eos77jk",
@@ -2508,12 +2559,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:13Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:03Z"
+    "metadata_last_updated": "2025-12-21T00:11:07Z"
   },
   {
     "repository_name": "eos77w8",
@@ -2525,12 +2576,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:14Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:04Z"
+    "metadata_last_updated": "2025-12-21T00:11:08Z"
   },
   {
     "repository_name": "eos78ao",
@@ -2542,12 +2593,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:14Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:05Z"
+    "metadata_last_updated": "2025-12-21T00:11:09Z"
   },
   {
     "repository_name": "eos7a04",
@@ -2559,12 +2610,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:15Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:05Z"
+    "metadata_last_updated": "2025-12-21T00:11:10Z"
   },
   {
     "repository_name": "eos7a45",
@@ -2576,12 +2627,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:15Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:06Z"
+    "metadata_last_updated": "2025-12-21T00:11:10Z"
   },
   {
     "repository_name": "eos7ack",
@@ -2598,7 +2649,7 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:07Z"
+    "metadata_last_updated": "2025-12-21T00:11:11Z"
   },
   {
     "repository_name": "eos7akz",
@@ -2610,12 +2661,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:16Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:08Z"
+    "metadata_last_updated": "2025-12-21T00:11:12Z"
   },
   {
     "repository_name": "eos7asg",
@@ -2627,12 +2678,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:16Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:09Z"
+    "metadata_last_updated": "2025-12-21T00:11:12Z"
   },
   {
     "repository_name": "eos7d58",
@@ -2644,12 +2695,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:17Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:09Z"
+    "metadata_last_updated": "2025-12-21T00:11:13Z"
   },
   {
     "repository_name": "eos7e3s",
@@ -2661,12 +2712,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:17Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:10Z"
+    "metadata_last_updated": "2025-12-21T00:11:14Z"
   },
   {
     "repository_name": "eos7emx",
@@ -2678,29 +2729,29 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:18Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:11Z"
+    "metadata_last_updated": "2025-12-21T00:11:15Z"
   },
   {
     "repository_name": "eos7ike",
-    "last_updated": "2025-12-10T16:02:47Z",
+    "last_updated": "2025-12-19T17:56:42Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "entry-rules",
-    "status": "In progress",
+    "status": "Ready",
     "last_test_date": null,
-    "release": null,
-    "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "release": "v1.0.0",
+    "last_packaging_date": "2025-12-19",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:18Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:11Z"
+    "metadata_last_updated": "2025-12-21T00:11:15Z"
   },
   {
     "repository_name": "eos7jio",
@@ -2712,12 +2763,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-09",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:19Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:12Z"
+    "metadata_last_updated": "2025-12-21T00:11:16Z"
   },
   {
     "repository_name": "eos7jlv",
@@ -2729,12 +2780,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:20Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:13Z"
+    "metadata_last_updated": "2025-12-21T00:11:17Z"
   },
   {
     "repository_name": "eos7kpb",
@@ -2746,12 +2797,29 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-18",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:20Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:14Z"
+    "metadata_last_updated": "2025-12-21T00:11:17Z"
+  },
+  {
+    "repository_name": "eos7l5m",
+    "last_updated": "2025-12-18T16:53:31Z",
+    "most_recent_date_checked": "2000-01-01T00:00:00Z",
+    "private": false,
+    "slug": "efflux-gram-negative",
+    "status": "Ready",
+    "last_test_date": null,
+    "release": "v1.0.0",
+    "last_packaging_date": "2025-12-18",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:21Z",
+    "subtask": "Activity prediction",
+    "source_type": "Internal",
+    "last_test_outcome": null,
+    "metadata_last_updated": "2025-12-21T00:11:18Z"
   },
   {
     "repository_name": "eos7m30",
@@ -2763,12 +2831,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-27",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:21Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:14Z"
+    "metadata_last_updated": "2025-12-21T00:11:18Z"
   },
   {
     "repository_name": "eos7nno",
@@ -2780,12 +2848,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:22Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:15Z"
+    "metadata_last_updated": "2025-12-21T00:11:19Z"
   },
   {
     "repository_name": "eos7pw8",
@@ -2797,12 +2865,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:22Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:16Z"
+    "metadata_last_updated": "2025-12-21T00:11:19Z"
   },
   {
     "repository_name": "eos7qga",
@@ -2814,12 +2882,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:23Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:17Z"
+    "metadata_last_updated": "2025-12-21T00:11:20Z"
   },
   {
     "repository_name": "eos7w6n",
@@ -2831,12 +2899,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:23Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:17Z"
+    "metadata_last_updated": "2025-12-21T00:11:21Z"
   },
   {
     "repository_name": "eos7ye0",
@@ -2848,12 +2916,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-03",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:24Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:18Z"
+    "metadata_last_updated": "2025-12-21T00:11:21Z"
   },
   {
     "repository_name": "eos7yti",
@@ -2865,12 +2933,12 @@
     "last_test_date": null,
     "release": "v2.0.0",
     "last_packaging_date": "2025-11-19",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:24Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:19Z"
+    "metadata_last_updated": "2025-12-21T00:11:22Z"
   },
   {
     "repository_name": "eos80ch",
@@ -2882,12 +2950,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:25Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:20Z"
+    "metadata_last_updated": "2025-12-21T00:11:23Z"
   },
   {
     "repository_name": "eos81ew",
@@ -2899,29 +2967,29 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:25Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:21Z"
+    "metadata_last_updated": "2025-12-21T00:11:23Z"
   },
   {
     "repository_name": "eos82v1",
-    "last_updated": "2025-12-03T12:51:48Z",
+    "last_updated": "2025-12-16T13:30:32Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "smi-ted",
     "status": "Ready",
     "last_test_date": null,
     "release": "v1.0.0",
-    "last_packaging_date": "2025-12-03",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "last_packaging_date": "2025-12-16",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:26Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:21Z"
+    "metadata_last_updated": "2025-12-21T00:11:24Z"
   },
   {
     "repository_name": "eos8451",
@@ -2933,12 +3001,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:26Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:22Z"
+    "metadata_last_updated": "2025-12-21T00:11:24Z"
   },
   {
     "repository_name": "eos85a3",
@@ -2950,12 +3018,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:27Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:23Z"
+    "metadata_last_updated": "2025-12-21T00:11:25Z"
   },
   {
     "repository_name": "eos85mn",
@@ -2967,29 +3035,29 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:27Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:23Z"
+    "metadata_last_updated": "2025-12-21T00:11:26Z"
   },
   {
     "repository_name": "eos8a4x",
-    "last_updated": "2025-12-04T08:16:04Z",
+    "last_updated": "2025-12-18T16:38:01Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "rdkit-descriptors",
     "status": "Ready",
     "last_test_date": null,
     "release": "v1.0.0",
-    "last_packaging_date": "2025-12-04",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "last_packaging_date": "2025-12-16",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:28Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:24Z"
+    "metadata_last_updated": "2025-12-21T00:11:26Z"
   },
   {
     "repository_name": "eos8a5g",
@@ -3001,29 +3069,29 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:29Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:25Z"
+    "metadata_last_updated": "2025-12-21T00:11:27Z"
   },
   {
     "repository_name": "eos8aa5",
-    "last_updated": "2025-12-02T11:03:56Z",
+    "last_updated": "2025-12-16T20:03:59Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "kgpgt-embedding",
     "status": "Ready",
     "last_test_date": null,
     "release": "v1.1.0",
-    "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "last_packaging_date": "2025-12-16",
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:29Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:26Z"
+    "metadata_last_updated": "2025-12-21T00:11:27Z"
   },
   {
     "repository_name": "eos8bhe",
@@ -3035,12 +3103,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:30Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:26Z"
+    "metadata_last_updated": "2025-12-21T00:11:28Z"
   },
   {
     "repository_name": "eos8c0o",
@@ -3052,12 +3120,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:30Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:27Z"
+    "metadata_last_updated": "2025-12-21T00:11:29Z"
   },
   {
     "repository_name": "eos8d8a",
@@ -3069,12 +3137,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-24",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:31Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:28Z"
+    "metadata_last_updated": "2025-12-21T00:11:29Z"
   },
   {
     "repository_name": "eos8fma",
@@ -3086,12 +3154,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-04",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:31Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:29Z"
+    "metadata_last_updated": "2025-12-21T00:11:30Z"
   },
   {
     "repository_name": "eos8fth",
@@ -3103,12 +3171,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:32Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:30Z"
+    "metadata_last_updated": "2025-12-21T00:11:31Z"
   },
   {
     "repository_name": "eos8g50",
@@ -3120,12 +3188,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-02",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:32Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:30Z"
+    "metadata_last_updated": "2025-12-21T00:11:31Z"
   },
   {
     "repository_name": "eos8h6g",
@@ -3137,12 +3205,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-09",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:33Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:31Z"
+    "metadata_last_updated": "2025-12-21T00:11:32Z"
   },
   {
     "repository_name": "eos8ioa",
@@ -3154,12 +3222,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:33Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:32Z"
+    "metadata_last_updated": "2025-12-21T00:11:33Z"
   },
   {
     "repository_name": "eos8lok",
@@ -3171,12 +3239,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:34Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:32Z"
+    "metadata_last_updated": "2025-12-21T00:11:34Z"
   },
   {
     "repository_name": "eos8osp",
@@ -3188,12 +3256,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 2,
+    "issues_last_updated": "2025-12-21T00:13:34Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:33Z"
+    "metadata_last_updated": "2025-12-21T00:11:34Z"
   },
   {
     "repository_name": "eos8ub5",
@@ -3205,12 +3273,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-18",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 2,
+    "issues_last_updated": "2025-12-21T00:13:35Z",
     "subtask": "Projection",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:34Z"
+    "metadata_last_updated": "2025-12-21T00:11:35Z"
   },
   {
     "repository_name": "eos8vud",
@@ -3222,12 +3290,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:35Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:35Z"
+    "metadata_last_updated": "2025-12-21T00:11:35Z"
   },
   {
     "repository_name": "eos92sw",
@@ -3239,12 +3307,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-08",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:36Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:36Z"
+    "metadata_last_updated": "2025-12-21T00:11:36Z"
   },
   {
     "repository_name": "eos935d",
@@ -3256,12 +3324,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:36Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:37Z"
+    "metadata_last_updated": "2025-12-21T00:11:37Z"
   },
   {
     "repository_name": "eos93h2",
@@ -3273,12 +3341,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:37Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:37Z"
+    "metadata_last_updated": "2025-12-21T00:11:38Z"
   },
   {
     "repository_name": "eos96ia",
@@ -3290,12 +3358,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:37Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:38Z"
+    "metadata_last_updated": "2025-12-21T00:11:38Z"
   },
   {
     "repository_name": "eos97yu",
@@ -3307,12 +3375,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:38Z",
     "subtask": "Property calculation or prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:39Z"
+    "metadata_last_updated": "2025-12-21T00:11:39Z"
   },
   {
     "repository_name": "eos9aqt",
@@ -3324,12 +3392,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:38Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:40Z"
+    "metadata_last_updated": "2025-12-21T00:11:40Z"
   },
   {
     "repository_name": "eos9be7",
@@ -3341,12 +3409,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:39Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:41Z"
+    "metadata_last_updated": "2025-12-21T00:11:41Z"
   },
   {
     "repository_name": "eos9c7k",
@@ -3358,12 +3426,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:39Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:42Z"
+    "metadata_last_updated": "2025-12-21T00:11:41Z"
   },
   {
     "repository_name": "eos9ei3",
@@ -3375,12 +3443,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:40Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:42Z"
+    "metadata_last_updated": "2025-12-21T00:11:42Z"
   },
   {
     "repository_name": "eos9f6t",
@@ -3392,12 +3460,29 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-08",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:40Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:43Z"
+    "metadata_last_updated": "2025-12-21T00:11:43Z"
+  },
+  {
+    "repository_name": "eos9f7c",
+    "last_updated": "2025-12-15T14:25:39Z",
+    "most_recent_date_checked": "2000-01-01T00:00:00Z",
+    "private": false,
+    "slug": "paeruginosa-permeation",
+    "status": "Ready",
+    "last_test_date": null,
+    "release": "v1.0.0",
+    "last_packaging_date": "2025-12-15",
+    "open_issues": 2,
+    "issues_last_updated": "2025-12-21T00:13:41Z",
+    "subtask": "Activity prediction",
+    "source_type": "Internal",
+    "last_test_outcome": null,
+    "metadata_last_updated": "2025-12-21T00:11:43Z"
   },
   {
     "repository_name": "eos9gg2",
@@ -3409,12 +3494,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-18",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:41Z",
     "subtask": "Projection",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:44Z"
+    "metadata_last_updated": "2025-12-21T00:11:43Z"
   },
   {
     "repository_name": "eos9ivc",
@@ -3426,29 +3511,29 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-21",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:42Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:44Z"
+    "metadata_last_updated": "2025-12-21T00:11:44Z"
   },
   {
     "repository_name": "eos9o72",
-    "last_updated": "2025-11-12T15:52:09Z",
+    "last_updated": "2025-12-16T13:04:39Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "chemeleon",
     "status": "Ready",
     "last_test_date": null,
     "release": "v1.0.0",
-    "last_packaging_date": "2025-11-12",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "last_packaging_date": "2025-12-16",
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:42Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:45Z"
+    "metadata_last_updated": "2025-12-21T00:11:44Z"
   },
   {
     "repository_name": "eos9p4a",
@@ -3460,12 +3545,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:43Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:46Z"
+    "metadata_last_updated": "2025-12-21T00:11:45Z"
   },
   {
     "repository_name": "eos9sa2",
@@ -3477,12 +3562,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:43Z",
     "subtask": "Property calculation or prediction",
     "source_type": "Replicated",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:46Z"
+    "metadata_last_updated": "2025-12-21T00:11:46Z"
   },
   {
     "repository_name": "eos9taz",
@@ -3494,12 +3579,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:44Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:47Z"
+    "metadata_last_updated": "2025-12-21T00:11:47Z"
   },
   {
     "repository_name": "eos9tyg",
@@ -3511,12 +3596,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:45Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:48Z"
+    "metadata_last_updated": "2025-12-21T00:11:47Z"
   },
   {
     "repository_name": "eos9ueu",
@@ -3528,12 +3613,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-24",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:45Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:49Z"
+    "metadata_last_updated": "2025-12-21T00:11:48Z"
   },
   {
     "repository_name": "eos9uqy",
@@ -3545,12 +3630,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 1,
+    "issues_last_updated": "2025-12-21T00:13:46Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:49Z"
+    "metadata_last_updated": "2025-12-21T00:11:49Z"
   },
   {
     "repository_name": "eos9x3z",
@@ -3562,12 +3647,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-11",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:46Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:50Z"
+    "metadata_last_updated": "2025-12-21T00:11:49Z"
   },
   {
     "repository_name": "eos9ym3",
@@ -3579,12 +3664,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:47Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:51Z"
+    "metadata_last_updated": "2025-12-21T00:11:50Z"
   },
   {
     "repository_name": "eos9yui",
@@ -3596,12 +3681,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:47Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:52Z"
+    "metadata_last_updated": "2025-12-21T00:11:50Z"
   },
   {
     "repository_name": "eos9yy1",
@@ -3613,12 +3698,12 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:48Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:52Z"
+    "metadata_last_updated": "2025-12-21T00:11:51Z"
   },
   {
     "repository_name": "eos9zfb",
@@ -3630,12 +3715,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:48Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:53Z"
+    "metadata_last_updated": "2025-12-21T00:11:54Z"
   },
   {
     "repository_name": "eos9zw0",
@@ -3647,11 +3732,11 @@
     "last_test_date": null,
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-27",
-    "open_issues": null,
-    "issues_last_updated": null,
+    "open_issues": 0,
+    "issues_last_updated": "2025-12-21T00:13:49Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2025-12-11T15:10:54Z"
+    "metadata_last_updated": "2025-12-21T00:11:54Z"
   }
 ]
