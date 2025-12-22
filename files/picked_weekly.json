@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos3b5e",
-    "slug": "molecular-weight",
+    "repository_name": "eos1soi",
+    "slug": "non-growing-antimicrobial",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-11-11",
-    "open_issues": null
+    "last_packaging_date": "2025-12-18",
+    "open_issues": 0
   },
   {
-    "repository_name": "eos3e6s",
-    "slug": "chembl-decoys",
+    "repository_name": "eos3lyd",
+    "slug": "efflux-pump-avoidance-gram-negative",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-11-24",
-    "open_issues": null
+    "last_packaging_date": "2025-12-15",
+    "open_issues": 0
   },
   {
-    "repository_name": "eos3ev6",
-    "slug": "ncats-cyp3a4",
+    "repository_name": "eos3xip",
+    "slug": "grover-qm8",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-14",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos3zur",
+    "slug": "molfeat-estate",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-17",
-    "open_issues": null
+    "open_issues": 0
   },
   {
-    "repository_name": "eos3kcw",
-    "slug": "small-world-wuxi",
+    "repository_name": "eos42ez",
+    "slug": "antibiotics-ai-cytotox",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-23",
-    "open_issues": null
+    "last_packaging_date": "2025-10-30",
+    "open_issues": 0
   },
   {
-    "repository_name": "eos3l5f",
-    "slug": "clamp",
+    "repository_name": "eos46ev",
+    "slug": "chemtb",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-12-01",
-    "open_issues": null
+    "last_packaging_date": "2025-12-04",
+    "open_issues": 0
   },
   {
-    "repository_name": "eos3le9",
-    "slug": "hepg2-mmv",
+    "repository_name": "eos481p",
+    "slug": "grover-toxcast",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-11-21",
-    "open_issues": null
+    "last_packaging_date": "2025-10-13",
+    "open_issues": 0
   },
   {
-    "repository_name": "eos3mk2",
-    "slug": "bbbp-marine-kinase-inhibitors",
+    "repository_name": "eos4b8j",
+    "slug": "gdbchembl-similarity",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-11-19",
-    "open_issues": null
+    "last_packaging_date": "2025-10-21",
+    "open_issues": 0
   },
   {
-    "repository_name": "eos3nn9",
-    "slug": "mpro-covid19",
+    "repository_name": "eos4cxk",
+    "slug": "image-mol-sars-cov2",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-23",
-    "open_issues": null
+    "last_packaging_date": "2025-10-16",
+    "open_issues": 0
   },
   {
-    "repository_name": "eos3ujl",
-    "slug": "mtb-permeability",
+    "repository_name": "eos4djh",
+    "slug": "datamol-basic-descriptors",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-23",
-    "open_issues": null
-  },
-  {
-    "repository_name": "eos3wzy",
-    "slug": "qupkake",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-11-21",
-    "open_issues": null
+    "last_packaging_date": "2025-10-07",
+    "open_issues": 0
   }
 ]
