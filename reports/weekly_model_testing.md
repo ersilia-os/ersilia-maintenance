@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2025-12-15T10:10:19Z
+**🗓️ Date:** 2025-12-22T10:09:20Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos3b5e | molecular-weight | ✅ | 2025-12-15T10:13:01Z |
-| eos3e6s | chembl-decoys | ✅ | 2025-12-15T10:18:46Z |
-| eos3ev6 | ncats-cyp3a4 | 🚨 | 2025-12-15T10:18:50Z |
-| eos3kcw | small-world-wuxi | 🚨 | 2025-12-15T10:21:11Z |
-| eos3l5f | clamp | ✅ | 2025-12-15T10:31:17Z |
-| eos3le9 | hepg2-mmv | ✅ | 2025-12-15T10:38:19Z |
-| eos3mk2 | bbbp-marine-kinase-inhibitors | ✅ | 2025-12-15T10:41:47Z |
-| eos3nn9 | mpro-covid19 | ✅ | 2025-12-15T10:45:34Z |
-| eos3ujl | mtb-permeability | ✅ | 2025-12-15T10:49:12Z |
-| eos3wzy | qupkake | ✅ | 2025-12-15T11:02:03Z |
+| eos1soi | non-growing-antimicrobial | ✅ | 2025-12-22T10:17:38Z |
+| eos3lyd | efflux-pump-avoidance-gram-negative | ✅ | 2025-12-22T10:22:33Z |
+| eos3xip | grover-qm8 | ✅ | 2025-12-22T10:30:13Z |
+| eos3zur | molfeat-estate | ✅ | 2025-12-22T10:36:40Z |
+| eos42ez | antibiotics-ai-cytotox | ✅ | 2025-12-22T10:51:14Z |
+| eos46ev | chemtb | ✅ | 2025-12-22T10:57:05Z |
+| eos481p | grover-toxcast | ✅ | 2025-12-22T11:04:38Z |
+| eos4b8j | gdbchembl-similarity | ✅ | 2025-12-22T11:08:02Z |
+| eos4cxk | image-mol-sars-cov2 | ✅ | 2025-12-22T11:14:42Z |
+| eos4djh | datamol-basic-descriptors | ✅ | 2025-12-22T11:17:52Z |
