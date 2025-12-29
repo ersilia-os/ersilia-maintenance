@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos1soi",
-    "slug": "non-growing-antimicrobial",
+    "repository_name": "eos4e40",
+    "slug": "chemprop-antibiotic",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-12-18",
+    "last_packaging_date": "2025-08-27",
     "open_issues": 0
   },
   {
-    "repository_name": "eos3lyd",
-    "slug": "efflux-pump-avoidance-gram-negative",
+    "repository_name": "eos4ex3",
+    "slug": "mole-representations",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-12-15",
+    "last_packaging_date": "2025-12-16",
     "open_issues": 0
   },
   {
-    "repository_name": "eos3xip",
-    "slug": "grover-qm8",
+    "repository_name": "eos4f95",
+    "slug": "mycetos",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-12-10",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4jcv",
+    "slug": "cc-signaturizer-3d-e",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4q1a",
+    "slug": "crem-structure-generation",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-22",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4rta",
+    "slug": "malaria-mmv",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-11-24",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4rw4",
+    "slug": "cddd-onnx",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-12-16",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4se9",
+    "slug": "smiles2iupac",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4tcc",
+    "slug": "bayesherg",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-14",
     "open_issues": 0
   },
   {
-    "repository_name": "eos3zur",
-    "slug": "molfeat-estate",
+    "repository_name": "eos4u6p",
+    "slug": "cc-signaturizer",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-17",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos42ez",
-    "slug": "antibiotics-ai-cytotox",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-30",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos46ev",
-    "slug": "chemtb",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-12-04",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos481p",
-    "slug": "grover-toxcast",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-13",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4b8j",
-    "slug": "gdbchembl-similarity",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-21",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4cxk",
-    "slug": "image-mol-sars-cov2",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-16",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4djh",
-    "slug": "datamol-basic-descriptors",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-07",
+    "last_packaging_date": "2025-12-17",
     "open_issues": 0
   }
 ]
