@@ -4,7 +4,7 @@
 <!-- MODELS_TABLE_START -->
 ## 📚 Model registry snapshot
 
-_Last updated: **2025-12-31 00:13:02Z** (UTC)_
+_Last updated: **2026-01-01 00:13:28Z** (UTC)_
 
 ### 🔢 Summary
 
