@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 import numpy as np
 from collections import Counter 
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Set
 
@@ -229,6 +229,16 @@ def _get_all_repo_names(data: List[Dict[str, Any]]) -> Set[str]:
             names.add(str(name))
     return names
 
+def _get_previous_month_id() -> str:
+    """
+    Get the identifier for previous month.
+    """
+    now = datetime.now(timezone.utc)
+    # Move to the first day of the current month
+    first_day_this_month = now.replace(day=1)
+    # Subtract one day to get into the previous month
+    last_day_prev_month = first_day_this_month - timedelta(days=1)
+    return last_day_prev_month.strftime("%Y-%m")
 
 def _detect_added_models(
     data: List[Dict[str, Any]],
@@ -424,7 +434,7 @@ def _build_trend_plots(history: List[Dict[str, Any]]) -> None:
 
     # Added models per month
     ax4.bar(x, added_counts, color=PALETTE[6], label="New models")
-    ax4.set_title("New models added per month")
+    ax4.set_title("Packaged models per month")
     ax4.set_xticks(x)
     ax4.set_xticklabels(months, rotation=45, ha="right")
     ax4.grid(axis="y", linestyle="--", linewidth=0.5, alpha=0.5)
@@ -650,7 +660,7 @@ def _build_monthly_markdown(
         "",
         "![Health & testing](./health_and_testing.png)",
         "",
-        "### ❗ Issues & new models",
+        "### ❗ Issues & Packaged models",
         "",
         "![Issues & added models](./issues_and_added.png)",
         "",
@@ -692,7 +702,16 @@ def main() -> int:
     totals = _compute_stats(data)
     all_repos = _get_all_repo_names(data)
 
-    # Added models for *this* month, based on last_packaging_date
+    # Added models for previous month, based on last_packaging_date
+    previous_month_id = _get_previous_month_id()
+    previous_month_added_models = _detect_added_models(data,previous_month_id)
+
+    
+    for entry in history:
+        if entry.get("month") == previous_month_id:
+            entry["added_models"] = previous_month_added_models
+            break
+
     added_models = _detect_added_models(data, month_id)
 
     snapshot = {
@@ -702,6 +721,7 @@ def main() -> int:
         "added_models": added_models,
         "all_repositories": sorted(all_repos),
     }
+
 
     # Append or replace snapshot for this month
     if history and history[-1].get("month") == month_id:

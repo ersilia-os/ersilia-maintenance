@@ -252,7 +252,172 @@
       "failing": 33,
       "outdated": 140
     },
-    "added_models": [],
+    "added_models": [
+      {
+        "repository_name": "eos11sm",
+        "slug": "known-antibiotic-resemblance"
+      },
+      {
+        "repository_name": "eos11sr",
+        "slug": "emfps"
+      },
+      {
+        "repository_name": "eos1soi",
+        "slug": "non-growing-antimicrobial"
+      },
+      {
+        "repository_name": "eos2401",
+        "slug": "scaffold-decoration"
+      },
+      {
+        "repository_name": "eos2db3",
+        "slug": "chemical-space-projections-chemdiv"
+      },
+      {
+        "repository_name": "eos2gw4",
+        "slug": "ersilia-compound-embedding"
+      },
+      {
+        "repository_name": "eos2h1r",
+        "slug": "cc-signaturizer-3d-c"
+      },
+      {
+        "repository_name": "eos2hzy",
+        "slug": "pubchem-sampler"
+      },
+      {
+        "repository_name": "eos2mxh",
+        "slug": "cc-signaturizer-3d-b"
+      },
+      {
+        "repository_name": "eos2sbn",
+        "slug": "cc-signaturizer-3d-a"
+      },
+      {
+        "repository_name": "eos3ae6",
+        "slug": "whales-descriptor"
+      },
+      {
+        "repository_name": "eos3cf4",
+        "slug": "molfeat-chemgpt"
+      },
+      {
+        "repository_name": "eos3l5f",
+        "slug": "clamp"
+      },
+      {
+        "repository_name": "eos3lyd",
+        "slug": "efflux-pump-avoidance-gram-negative"
+      },
+      {
+        "repository_name": "eos46ev",
+        "slug": "chemtb"
+      },
+      {
+        "repository_name": "eos4djh",
+        "slug": "datamol-basic-descriptors"
+      },
+      {
+        "repository_name": "eos4ex3",
+        "slug": "mole-representations"
+      },
+      {
+        "repository_name": "eos4f95",
+        "slug": "mycetos"
+      },
+      {
+        "repository_name": "eos4jcv",
+        "slug": "cc-signaturizer-3d-e"
+      },
+      {
+        "repository_name": "eos4r1g",
+        "slug": "entry-classifier"
+      },
+      {
+        "repository_name": "eos4rw4",
+        "slug": "cddd-onnx"
+      },
+      {
+        "repository_name": "eos4u6p",
+        "slug": "cc-signaturizer"
+      },
+      {
+        "repository_name": "eos4wt0",
+        "slug": "morgan-binary-fps"
+      },
+      {
+        "repository_name": "eos4x30",
+        "slug": "pmapper-3d"
+      },
+      {
+        "repository_name": "eos4ywv",
+        "slug": "macaw"
+      },
+      {
+        "repository_name": "eos526j",
+        "slug": "aizynthfinder"
+      },
+      {
+        "repository_name": "eos5axz",
+        "slug": "morgan-counts"
+      },
+      {
+        "repository_name": "eos5bsw",
+        "slug": "ecoli-retention"
+      },
+      {
+        "repository_name": "eos5gge",
+        "slug": "dili-predictor"
+      },
+      {
+        "repository_name": "eos5nqn",
+        "slug": "gneprop-ecoli"
+      },
+      {
+        "repository_name": "eos77jk",
+        "slug": "cc-signaturizer-3d-d"
+      },
+      {
+        "repository_name": "eos7ike",
+        "slug": "entry-rules"
+      },
+      {
+        "repository_name": "eos7l5m",
+        "slug": "efflux-gram-negative"
+      },
+      {
+        "repository_name": "eos82v1",
+        "slug": "smi-ted"
+      },
+      {
+        "repository_name": "eos8a4x",
+        "slug": "rdkit-descriptors"
+      },
+      {
+        "repository_name": "eos8aa5",
+        "slug": "kgpgt-embedding"
+      },
+      {
+        "repository_name": "eos8d8a",
+        "slug": "mycpermcheck"
+      },
+      {
+        "repository_name": "eos8fma",
+        "slug": "stoned-sampler"
+      },
+      {
+        "repository_name": "eos9f7c",
+        "slug": "paeruginosa-permeation"
+      },
+      {
+        "repository_name": "eos9o72",
+        "slug": "chemeleon"
+      },
+      {
+        "repository_name": "eos9x3z",
+        "slug": "gram-negative-permeability-proxy"
+      }
+    ],
     "all_repositories": [
       "eos11sm",
       "eos11sr",
@@ -454,7 +619,7 @@
   },
   {
     "month": "2026-01",
-    "generated_at": "2026-01-01T01:34:21Z",
+    "generated_at": "2026-01-04T11:18:50Z",
     "totals": {
       "total_models": 210,
       "with_open_issues": 35,

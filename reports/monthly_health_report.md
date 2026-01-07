@@ -1,7 +1,7 @@
 # 📊 Monthly Health Report
 
 **Month:** 2026-01
-**Generated at:** 2026-01-01 01:34:22Z (UTC)
+**Generated at:** 2026-01-04 11:18:51Z (UTC)
 
 ## 🔢 Snapshot for this month
 
@@ -23,7 +23,7 @@ _No new models were added this month._
 
 ![Health & testing](./health_and_testing.png)
 
-### ❗ Issues & new models
+### ❗ Issues & Packaged models
 
 ![Issues & added models](./issues_and_added.png)
 
