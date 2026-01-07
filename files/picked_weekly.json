@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos4e40",
-    "slug": "chemprop-antibiotic",
+    "repository_name": "eos4r1g",
+    "slug": "entry-classifier",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-08-27",
+    "last_packaging_date": "2025-12-27",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4ex3",
-    "slug": "mole-representations",
+    "repository_name": "eos4wt0",
+    "slug": "morgan-binary-fps",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-12-16",
+    "last_packaging_date": "2025-12-24",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4f95",
-    "slug": "mycetos",
+    "repository_name": "eos4x30",
+    "slug": "pmapper-3d",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-12-10",
+    "last_packaging_date": "2025-12-01",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4jcv",
-    "slug": "cc-signaturizer-3d-e",
+    "repository_name": "eos4xb1",
+    "slug": "antihypertension-prediction",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-15",
+    "last_packaging_date": "2025-11-27",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4q1a",
-    "slug": "crem-structure-generation",
+    "repository_name": "eos4ywv",
+    "slug": "macaw",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-12-24",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4zfy",
+    "slug": "maip-malaria",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-22",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4rta",
-    "slug": "malaria-mmv",
+    "repository_name": "eos526j",
+    "slug": "aizynthfinder",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-11-24",
+    "last_packaging_date": "2025-12-01",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4rw4",
-    "slug": "cddd-onnx",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-12-16",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4se9",
-    "slug": "smiles2iupac",
+    "repository_name": "eos5505",
+    "slug": "ncats-rlm",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-15",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4tcc",
-    "slug": "bayesherg",
+    "repository_name": "eos57bx",
+    "slug": "reinvent4-mol2mol-scaffold",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-14",
+    "last_packaging_date": "2025-11-20",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4u6p",
-    "slug": "cc-signaturizer",
+    "repository_name": "eos59rr",
+    "slug": "bidd-molmap-fingerprint",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-12-17",
+    "last_packaging_date": "2025-10-17",
     "open_issues": 0
   }
 ]

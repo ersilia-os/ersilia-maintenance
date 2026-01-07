@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2025-12-29T10:08:34Z
+**🗓️ Date:** 2026-01-05T10:09:53Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos4e40 | chemprop-antibiotic | 🚨 | 2025-12-29T10:13:42Z |
-| eos4ex3 | mole-representations | ✅ | 2025-12-29T10:20:35Z |
-| eos4f95 | mycetos | ✅ | 2025-12-29T10:31:59Z |
-| eos4jcv | cc-signaturizer-3d-e | ✅ | 2025-12-29T10:40:06Z |
-| eos4q1a | crem-structure-generation | ✅ | 2025-12-29T10:45:07Z |
-| eos4rta | malaria-mmv | ✅ | 2025-12-29T10:54:09Z |
-| eos4rw4 | cddd-onnx | ✅ | 2025-12-29T11:00:07Z |
-| eos4se9 | smiles2iupac | ✅ | 2025-12-29T11:12:48Z |
-| eos4tcc | bayesherg | ✅ | 2025-12-29T11:17:31Z |
-| eos4u6p | cc-signaturizer | ✅ | 2025-12-29T11:27:35Z |
+| eos4r1g | entry-classifier | ✅ | 2026-01-05T10:17:57Z |
+| eos4wt0 | morgan-binary-fps | ✅ | 2026-01-05T10:20:33Z |
+| eos4x30 | pmapper-3d | ✅ | 2026-01-05T10:26:50Z |
+| eos4xb1 | antihypertension-prediction | ✅ | 2026-01-05T10:34:09Z |
+| eos4ywv | macaw | ✅ | 2026-01-05T10:37:45Z |
+| eos4zfy | maip-malaria | ✅ | 2026-01-05T10:40:47Z |
+| eos526j | aizynthfinder | ✅ | 2026-01-05T10:51:09Z |
+| eos5505 | ncats-rlm | ✅ | 2026-01-05T10:55:26Z |
+| eos57bx | reinvent4-mol2mol-scaffold | ✅ | 2026-01-05T11:45:56Z |
+| eos59rr | bidd-molmap-fingerprint | ✅ | 2026-01-05T11:52:35Z |
