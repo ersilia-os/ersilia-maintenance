@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-01-05T10:09:53Z
+**🗓️ Date:** 2026-01-08T14:23:18Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos4r1g | entry-classifier | ✅ | 2026-01-05T10:17:57Z |
-| eos4wt0 | morgan-binary-fps | ✅ | 2026-01-05T10:20:33Z |
-| eos4x30 | pmapper-3d | ✅ | 2026-01-05T10:26:50Z |
-| eos4xb1 | antihypertension-prediction | ✅ | 2026-01-05T10:34:09Z |
-| eos4ywv | macaw | ✅ | 2026-01-05T10:37:45Z |
-| eos4zfy | maip-malaria | ✅ | 2026-01-05T10:40:47Z |
-| eos526j | aizynthfinder | ✅ | 2026-01-05T10:51:09Z |
-| eos5505 | ncats-rlm | ✅ | 2026-01-05T10:55:26Z |
-| eos57bx | reinvent4-mol2mol-scaffold | ✅ | 2026-01-05T11:45:56Z |
-| eos59rr | bidd-molmap-fingerprint | ✅ | 2026-01-05T11:52:35Z |
+| eos5axz | morgan-counts | ✅ | 2026-01-08T14:25:54Z |
+| eos5bsw | ecoli-retention | ✅ | 2026-01-08T14:33:59Z |
+| eos5cl7 | ngonorrhoeae-inhibition | ✅ | 2026-01-08T14:41:58Z |
+| eos5guo | erg-fingerprints | ✅ | 2026-01-08T14:44:34Z |
+| eos5jz9 | ncats-cyp2c9 | ✅ | 2026-01-08T14:50:57Z |
+| eos5nqn | gneprop-ecoli | ✅ | 2026-01-08T15:02:45Z |
+| eos5pt8 | druglikeness-unsupervised | ✅ | 2026-01-08T15:08:34Z |
+| eos5smc | grover-tox21 | ✅ | 2026-01-08T15:16:02Z |
+| eos5xng | chemprop-burkholderia | ✅ | 2026-01-08T15:23:39Z |
+| eos633t | moler-enamine-blocks | 🚨 | 2026-01-08T15:34:26Z |
