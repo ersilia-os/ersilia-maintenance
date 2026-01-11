@@ -4,15 +4,15 @@
 <!-- MODELS_TABLE_START -->
 ## 📚 Model registry snapshot
 
-_Last updated: **2026-01-01 00:13:28Z** (UTC)_
+_Last updated: **2026-01-11 00:14:24Z** (UTC)_
 
 ### 🔢 Summary
 
-- 📦 **Total models:** 222
-- ✅ **Models with no open issues:** 182
-- ❗ **Models with open issues:** 40
-- 🧪 **Models tested at least once:** 80
-- ⏳ **Models never tested:** 142
+- 📦 **Total models:** 223
+- ✅ **Models with no open issues:** 188
+- ❗ **Models with open issues:** 35
+- 🧪 **Models tested at least once:** 100
+- ⏳ **Models never tested:** 123
 
 The table below summarizes the current state of the models tracked in `repo_info.json`.
 
@@ -48,14 +48,14 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos24jm | qcrb-tb | 2025-10-16 | 2025-12-12T09:47:42Z | v1.0.0 | 🟢 0 |
 | eos24ur | whales-scaled | — | — | — | 🟢 0 |
 | eos2a9n | chembl-similarity | 2025-10-22 | 2025-12-12T09:54:36Z | v1.0.0 | 🟡 1 |
-| eos2b6f | pkasolver | 2025-10-14 | 2025-12-12T10:00:46Z | v1.0.0 | 🟡 1 |
+| eos2b6f | pkasolver | 2025-10-14 | 2025-12-12T10:00:46Z | v1.0.0 | 🟢 0 |
 | eos2db3 | chemical-space-projections-chemdiv | 2025-12-16 | 2025-12-12T10:11:24Z | v1.0.0 | 🟢 0 |
 | eos2fy6 | s2dv-hepg2-toxicity | 2025-10-10 | 2025-12-12T10:15:04Z | v1.0.0 | 🟡 1 |
 | eos2gth | maip-malaria-surrogate | 2025-11-19 | 2025-12-12T10:19:08Z | v1.0.0 | 🟢 0 |
 | eos2gw4 | ersilia-compound-embedding | 2025-12-24 | 2025-12-12T10:22:06Z | v1.2.0 | 🟢 0 |
 | eos2h1r | cc-signaturizer-3d-c | 2025-12-30 | 2025-12-12T10:31:14Z | v1.0.0 | 🟢 0 |
 | eos2hbd | passive-permeability | 2025-11-14 | 2025-12-12T10:31:18Z | v1.0.0 | 🟢 0 |
-| eos2hzy | pubchem-sampler | 2025-12-01 | 2025-12-12T10:34:21Z | v1.0.0 | 🟡 2 |
+| eos2hzy | pubchem-sampler | 2025-12-01 | 2025-12-12T10:34:21Z | v1.0.0 | 🟡 1 |
 | eos2i82 | pksmart | — | — | — | 🟡 1 |
 | eos2l0q | schisto-swisstph | 2025-11-25 | 2025-12-12T12:28:06Z | v3.0.0 | 🟢 0 |
 | eos2lm8 | smiles-transformer | 2025-10-22 | 2025-12-12T12:31:14Z | v1.0.0 | 🟢 0 |
@@ -86,7 +86,7 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos3cf4 | molfeat-chemgpt | 2025-12-03 | — | v1.0.0 | 🟢 0 |
 | eos3d3r | — | — | — | — | 🟢 0 |
 | eos3e6s | chembl-decoys | 2025-11-24 | 2025-12-15T10:18:46Z | v1.0.0 | 🟢 0 |
-| eos3ev6 | ncats-cyp3a4 | 2025-10-17 | 2025-12-15T10:18:50Z | v1.0.0 | 🟡 1 |
+| eos3ev6 | ncats-cyp3a4 | 2025-10-17 | 2025-12-15T10:18:50Z | v1.0.0 | 🟢 0 |
 | eos3kcw | small-world-wuxi | 2025-10-23 | 2025-12-15T10:21:11Z | v1.0.0 | 🟢 0 |
 | eos3l5f | clamp | 2025-12-24 | 2025-12-15T10:31:17Z | v1.1.1 | 🟢 0 |
 | eos3le9 | hepg2-mmv | 2025-11-21 | 2025-12-15T10:38:19Z | v1.0.0 | 🟢 0 |
@@ -104,7 +104,7 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos44zp | ncats-cyp450 | — | — | — | 🟢 0 |
 | eos46ev | chemtb | 2025-12-04 | 2025-12-22T10:57:05Z | v1.0.0 | 🟢 0 |
 | eos481p | grover-toxcast | 2025-10-13 | 2025-12-22T11:04:38Z | v1.0.0 | 🟢 0 |
-| eos4avb | image-mol-embeddings | 2025-10-16 | — | v1.0.0 | 🟡 1 |
+| eos4avb | image-mol-embeddings | 2025-10-16 | — | v1.0.0 | 🟢 0 |
 | eos4b8j | gdbchembl-similarity | 2025-10-21 | 2025-12-22T11:08:02Z | v1.0.0 | 🟢 0 |
 | eos4cxk | image-mol-sars-cov2 | 2025-10-16 | 2025-12-22T11:14:42Z | v1.0.0 | 🟢 0 |
 | eos4djh | datamol-basic-descriptors | 2025-12-24 | 2025-12-22T11:17:52Z | v1.1.0 | 🟢 0 |
@@ -114,39 +114,40 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos4f8y | one-molecule-mollib | — | — | — | 🟡 1 |
 | eos4f95 | mycetos | 2025-12-10 | 2025-12-29T10:31:59Z | v1.0.0 | 🟢 0 |
 | eos4jcv | cc-signaturizer-3d-e | 2025-12-30 | 2025-12-29T10:40:06Z | v1.0.0 | 🟢 0 |
+| eos4k4f | standardization | — | — | — | 🟢 0 |
 | eos4q1a | crem-structure-generation | 2025-10-22 | 2025-12-29T10:45:07Z | v1.0.0 | 🟢 0 |
 | eos4qda | fasmifra | — | — | — | 🟡 2 |
-| eos4r1g | entry-classifier | 2025-12-27 | — | v1.0.0 | 🟢 0 |
+| eos4r1g | entry-classifier | 2025-12-27 | 2026-01-05T10:17:57Z | v1.0.0 | 🟢 0 |
 | eos4rta | malaria-mmv | 2025-11-24 | 2025-12-29T10:54:09Z | v1.0.0 | 🟢 0 |
 | eos4rw4 | cddd-onnx | 2025-12-24 | 2025-12-29T11:00:07Z | v1.2.0 | 🟢 0 |
 | eos4se9 | smiles2iupac | 2025-10-15 | 2025-12-29T11:12:48Z | v1.0.0 | 🟢 0 |
 | eos4tcc | bayesherg | 2025-10-14 | 2025-12-29T11:17:31Z | v1.0.0 | 🟢 0 |
 | eos4u6p | cc-signaturizer | 2025-12-24 | 2025-12-29T11:27:35Z | v1.1.0 | 🟢 0 |
-| eos4wt0 | morgan-binary-fps | 2025-12-24 | — | v1.1.0 | 🟢 0 |
-| eos4x30 | pmapper-3d | 2025-12-01 | — | v1.0.0 | 🟢 0 |
-| eos4xb1 | antihypertension-prediction | 2025-11-27 | — | v1.0.0 | 🟢 0 |
-| eos4ywv | macaw | 2025-12-24 | — | v1.1.0 | 🟢 0 |
-| eos4zfy | maip-malaria | 2025-10-22 | — | v1.0.0 | 🟢 0 |
-| eos526j | aizynthfinder | 2025-12-01 | — | v1.0.0 | 🟢 0 |
+| eos4wt0 | morgan-binary-fps | 2025-12-24 | 2026-01-05T10:20:33Z | v1.1.0 | 🟢 0 |
+| eos4x30 | pmapper-3d | 2025-12-01 | 2026-01-05T10:26:50Z | v1.0.0 | 🟢 0 |
+| eos4xb1 | antihypertension-prediction | 2025-11-27 | 2026-01-05T10:34:09Z | v1.0.0 | 🟢 0 |
+| eos4ywv | macaw | 2025-12-24 | 2026-01-05T10:37:45Z | v1.1.0 | 🟢 0 |
+| eos4zfy | maip-malaria | 2025-10-22 | 2026-01-05T10:40:47Z | v1.0.0 | 🟢 0 |
+| eos526j | aizynthfinder | 2025-12-01 | 2026-01-05T10:51:09Z | v1.0.0 | 🟢 0 |
 | eos54c7 | zinc-similarity | — | — | — | 🟢 0 |
 | eos54ij | pred-herg | — | — | — | 🟢 0 |
-| eos5505 | ncats-rlm | 2025-10-15 | — | v1.0.0 | 🟢 0 |
-| eos57bx | reinvent4-mol2mol-scaffold | 2025-11-20 | — | v1.0.0 | 🟢 0 |
-| eos59rr | bidd-molmap-fingerprint | 2025-10-17 | — | v1.0.0 | 🟢 0 |
-| eos5axz | morgan-counts | 2025-12-24 | — | v1.1.0 | 🟢 0 |
-| eos5bsw | ecoli-retention | 2025-12-15 | — | v1.0.0 | 🟢 0 |
-| eos5cl7 | ngonorrhoeae-inhibition | 2025-11-18 | — | v3.0.0 | 🟢 0 |
+| eos5505 | ncats-rlm | 2025-10-15 | 2026-01-05T10:55:26Z | v1.0.0 | 🟢 0 |
+| eos57bx | reinvent4-mol2mol-scaffold | 2025-11-20 | 2026-01-05T11:45:56Z | v1.0.0 | 🟢 0 |
+| eos59rr | bidd-molmap-fingerprint | 2025-10-17 | 2026-01-05T11:52:35Z | v1.0.0 | 🟢 0 |
+| eos5axz | morgan-counts | 2025-12-24 | 2026-01-08T14:25:54Z | v1.1.0 | 🟢 0 |
+| eos5bsw | ecoli-retention | 2025-12-15 | 2026-01-08T14:33:59Z | v1.0.0 | 🟢 0 |
+| eos5cl7 | ngonorrhoeae-inhibition | 2025-11-18 | 2026-01-08T14:41:58Z | v3.0.0 | 🟢 0 |
 | eos5dti | chembl-abaumannii | 2025-08-27 | — | v1.0.0 | 🟢 0 |
 | eos5gge | dili-predictor | 2025-12-01 | — | v1.0.0 | 🟡 1 |
-| eos5guo | erg-fingerprints | 2025-10-23 | — | v1.0.0 | 🟢 0 |
-| eos5jz9 | ncats-cyp2c9 | 2025-10-17 | — | v1.0.0 | 🟢 0 |
-| eos5nqn | gneprop-ecoli | 2025-12-17 | — | v2.0.0 | 🟢 0 |
-| eos5pt8 | druglikeness-unsupervised | 2025-11-16 | — | v1.0.0 | 🟢 0 |
+| eos5guo | erg-fingerprints | 2025-10-23 | 2026-01-08T14:44:34Z | v1.0.0 | 🟢 0 |
+| eos5jz9 | ncats-cyp2c9 | 2025-10-17 | 2026-01-08T14:50:57Z | v1.0.0 | 🟢 0 |
+| eos5nqn | gneprop-ecoli | 2025-12-17 | 2026-01-08T15:02:45Z | v2.0.0 | 🟢 0 |
+| eos5pt8 | druglikeness-unsupervised | 2025-11-16 | 2026-01-08T15:08:34Z | v1.0.0 | 🟢 0 |
 | eos5qfo | rexgen | — | — | — | 🟢 0 |
-| eos5smc | grover-tox21 | 2025-10-13 | — | v1.0.0 | 🟢 0 |
-| eos5xng | chemprop-burkholderia | 2025-09-15 | — | v1.0.0 | 🟢 0 |
+| eos5smc | grover-tox21 | 2025-10-13 | 2026-01-08T15:16:02Z | v1.0.0 | 🟢 0 |
+| eos5xng | chemprop-burkholderia | 2025-09-15 | 2026-01-08T15:23:39Z | v1.0.0 | 🟢 0 |
 | eos5y9f | — | — | — | — | 🟢 0 |
-| eos633t | moler-enamine-blocks | 2025-11-20 | — | v1.0.0 | 🟢 0 |
+| eos633t | moler-enamine-blocks | 2025-11-20 | 2026-01-08T15:34:26Z | v1.0.0 | 🟢 0 |
 | eos65rt | deepfl-logp | 2025-10-13 | — | v1.0.0 | 🟡 1 |
 | eos694w | reinvent4-mol2mol-medium-similarity | 2025-11-20 | — | v1.0.0 | 🟢 0 |
 | eos69e6 | pgmg-pharmacophore | — | — | — | 🟢 0 |
@@ -196,7 +197,7 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos80ch | malaria-mam | 2025-10-17 | — | v1.0.0 | 🟢 0 |
 | eos81ew | ncats-pampa5 | 2025-10-16 | — | v1.0.0 | 🟢 0 |
 | eos82v1 | smi-ted | 2025-12-24 | — | v1.1.0 | 🟢 0 |
-| eos8451 | grover-esol | 2025-10-14 | — | v1.0.0 | 🟡 1 |
+| eos8451 | grover-esol | 2025-10-14 | — | v1.0.0 | 🟢 0 |
 | eos85a3 | grover-lipo | 2025-10-14 | — | v1.0.0 | 🟢 0 |
 | eos85mn | farm-representation | — | — | — | 🟢 0 |
 | eos8a4x | rdkit-descriptors | 2025-12-22 | — | v1.1.0 | 🟢 0 |
@@ -212,7 +213,7 @@ The table below summarizes the current state of the models tracked in `repo_info
 | eos8ioa | natural-product-score | 2025-10-15 | — | v1.0.0 | 🟢 0 |
 | eos8lok | s2dv-hbv | 2025-10-16 | — | v1.0.0 | 🟢 0 |
 | eos8osp | hlm | — | — | — | 🟡 2 |
-| eos8ub5 | chemical-space-projections-coconut | 2025-11-18 | — | v1.0.0 | 🟡 2 |
+| eos8ub5 | chemical-space-projections-coconut | 2025-11-18 | — | v1.0.0 | 🟢 0 |
 | eos8vud | squid | — | — | — | 🟢 0 |
 | eos92sw | etoxpred | 2025-10-08 | — | v1.0.0 | 🟢 0 |
 | eos935d | meta-trans | 2025-10-22 | — | v1.0.0 | 🟢 0 |
