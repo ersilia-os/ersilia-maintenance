@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-01-08T14:23:18Z
+**🗓️ Date:** 2026-01-12T10:12:47Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos5axz | morgan-counts | ✅ | 2026-01-08T14:25:54Z |
-| eos5bsw | ecoli-retention | ✅ | 2026-01-08T14:33:59Z |
-| eos5cl7 | ngonorrhoeae-inhibition | ✅ | 2026-01-08T14:41:58Z |
-| eos5guo | erg-fingerprints | ✅ | 2026-01-08T14:44:34Z |
-| eos5jz9 | ncats-cyp2c9 | ✅ | 2026-01-08T14:50:57Z |
-| eos5nqn | gneprop-ecoli | ✅ | 2026-01-08T15:02:45Z |
-| eos5pt8 | druglikeness-unsupervised | ✅ | 2026-01-08T15:08:34Z |
-| eos5smc | grover-tox21 | ✅ | 2026-01-08T15:16:02Z |
-| eos5xng | chemprop-burkholderia | ✅ | 2026-01-08T15:23:39Z |
-| eos633t | moler-enamine-blocks | 🚨 | 2026-01-08T15:34:26Z |
+| eos4avb | image-mol-embeddings | ✅ | 2026-01-12T10:15:59Z |
+| eos694w | reinvent4-mol2mol-medium-similarity | ✅ | 2026-01-12T10:47:38Z |
+| eos69p9 | ssl-gcn-tox21 | ✅ | 2026-01-12T10:52:56Z |
+| eos6ao8 | molgrad-ppb | ✅ | 2026-01-12T10:56:30Z |
+| eos6aun | rxn-fingerprint | ✅ | 2026-01-12T11:02:17Z |
+| eos6fza | grover-clintox | ✅ | 2026-01-12T11:08:38Z |
+| eos6m2k | mole-antimicrobial | ✅ | 2026-01-12T11:15:39Z |
+| eos6m4j | bidd-molmap-desc | ✅ | 2026-01-12T11:23:34Z |
+| eos6o0z | grover-qm7 | ✅ | 2026-01-12T11:30:07Z |
+| eos6ojg | antibioticdb-similarity-matches | ✅ | 2026-01-12T11:33:51Z |
