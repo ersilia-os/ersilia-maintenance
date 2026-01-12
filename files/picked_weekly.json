@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos5axz",
-    "slug": "morgan-counts",
+    "repository_name": "eos4avb",
+    "slug": "image-mol-embeddings",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-12-24",
+    "last_packaging_date": "2025-10-16",
     "open_issues": 0
   },
   {
-    "repository_name": "eos5bsw",
-    "slug": "ecoli-retention",
+    "repository_name": "eos694w",
+    "slug": "reinvent4-mol2mol-medium-similarity",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-12-15",
+    "last_packaging_date": "2025-11-20",
     "open_issues": 0
   },
   {
-    "repository_name": "eos5cl7",
-    "slug": "ngonorrhoeae-inhibition",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-11-18",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos5guo",
-    "slug": "erg-fingerprints",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-23",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos5jz9",
-    "slug": "ncats-cyp2c9",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-17",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos5nqn",
-    "slug": "gneprop-ecoli",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-12-17",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos5pt8",
-    "slug": "druglikeness-unsupervised",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-11-16",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos5smc",
-    "slug": "grover-tox21",
+    "repository_name": "eos69p9",
+    "slug": "ssl-gcn-tox21",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-13",
     "open_issues": 0
   },
   {
-    "repository_name": "eos5xng",
-    "slug": "chemprop-burkholderia",
+    "repository_name": "eos6ao8",
+    "slug": "molgrad-ppb",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-09-15",
+    "last_packaging_date": "2025-10-13",
     "open_issues": 0
   },
   {
-    "repository_name": "eos633t",
-    "slug": "moler-enamine-blocks",
+    "repository_name": "eos6aun",
+    "slug": "rxn-fingerprint",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-11-20",
+    "last_packaging_date": "2025-10-16",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos6fza",
+    "slug": "grover-clintox",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-13",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos6m2k",
+    "slug": "mole-antimicrobial",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-09-05",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos6m4j",
+    "slug": "bidd-molmap-desc",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-14",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos6o0z",
+    "slug": "grover-qm7",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-14",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos6ojg",
+    "slug": "antibioticdb-similarity-matches",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-11-04",
     "open_issues": 0
   }
 ]
