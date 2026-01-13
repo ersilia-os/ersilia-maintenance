@@ -2,245 +2,167 @@
 from __future__ import annotations
 
 import json
-import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List
 
+# File Paths
 REPO_INFO = Path(__file__).parent.parent / "files" / "repo_info.json"
 REPORT_MD = Path(__file__).parent.parent / "reports" / "model_report.md"
 
-START = "<!-- MODELS_TABLE_START -->"
-END = "<!-- MODELS_TABLE_END -->"
+# Updated markers as requested
+START_MARKER = "<------START TABLE"
+END_MARKER = "<------END TABLE"
 
 
 def _load_repo_info() -> List[Dict[str, Any]]:
-    """
-    Load repository metadata from the repo_info.json file.
-
-    Returns:
-        List[Dict[str, Any]]: A list of repository metadata dictionaries.
-    """
+    """Load metadata with error handling."""
     if not REPO_INFO.exists():
         return []
-    return json.loads(REPO_INFO.read_text(encoding="utf-8"))
+    try:
+        return json.loads(REPO_INFO.read_text(encoding="utf-8"))
+    except Exception:
+        return []
 
 
 def _format_field(value: Any, default: str = "—") -> str:
-    """
-    Format a generic field for Markdown output.
-
-    Args:
-        value (Any): The value to format.
-        default (str, optional): Default text when value is missing or empty.
-
-    Returns:
-        str: A user-friendly string representation.
-    """
+    """Format field or return dash."""
     if value in (None, "", "null"):
         return default
     return str(value)
 
 
 def _format_open_issues(value: Any) -> str:
-    """
-    Format the open issues count with a colored icon.
-
-    Rules:
-        - 0   -> 🟢 0
-        - 1-4 -> 🟡 n
-        - 5+  -> 🔴 n
-
-    Args:
-        value (Any): The open issues value.
-
-    Returns:
-        str: A formatted string with an emoji and the count.
-    """
+    """Format issues with colored icons."""
     try:
         n = int(value)
     except (TypeError, ValueError):
         return "❓"
-
-    if n == 0:
-        return f"🟢 {n}"
-    if 1 <= n <= 4:
-        return f"🟡 {n}"
+    if n == 0: return f"🟢 {n}"
+    if 1 <= n <= 4: return f"🟡 {n}"
     return f"🔴 {n}"
 
 
 def _build_stats_summary(data: List[Dict[str, Any]]) -> str:
-    """
-    Build a small stats summary block for the model registry.
-
-    Stats included:
-        - Total models
-        - Models with no open issues
-        - Models with open issues
-        - Models never tested
-
-    Args:
-        data (List[Dict[str, Any]]): Repository metadata entries.
-
-    Returns:
-        str: A Markdown-formatted bullet list.
-    """
-    total = len(data)
-
-    with_open_issues = 0
+    """Build summary including In Progress and In Maintenance stats."""
+    counts = {"archived": 0, "in progress": 0, "in maintenance": 0, "total": len(data)}
+    issues_count = 0
     never_tested = 0
 
     for r in data:
-        oi = r.get("open_issues")
-        try:
-            oi_int = int(oi) if oi is not None else 0
-        except (TypeError, ValueError):
-            oi_int = 0
+        status = str(r.get("status", "")).strip().lower()
+        
+        if status in counts:
+            counts[status] += 1
+        
+        # Logic: Track issues for everything EXCEPT 'archived' and 'in progress'
+        if status not in ["archived", "in progress"]:
+            try:
+                if int(r.get("open_issues", 0)) > 0:
+                    issues_count += 1
+            except (TypeError, ValueError):
+                pass
 
-        if oi_int > 0:
-            with_open_issues += 1
-
-        last_test = r.get("last_test_date")
-        if not last_test:
+        if not r.get("last_test_date"):
             never_tested += 1
 
-    no_open_issues = total - with_open_issues
-    tested_at_least_once = total - never_tested
+    # Healthy active models (Total non-archived/non-progress minus those with issues)
+    active_health_total = counts["total"] - counts["archived"] - counts["in progress"]
+    no_issues = active_health_total - issues_count
 
-    lines = [
-        f"- 📦 **Total models:** {total}",
-        f"- ✅ **Models with no open issues:** {no_open_issues}",
-        f"- ❗ **Models with open issues:** {with_open_issues}",
-        f"- 🧪 **Models tested at least once:** {tested_at_least_once}",
-        f"- ⏳ **Models never tested:** {never_tested}",
-    ]
-    return "\n".join(lines)
+    return "\n".join([
+        f"- 📦 **Total models:** {counts['total']}",
+        f"  - 📂 **In progress:** {counts['in progress']}",
+        f"  - 🛠️ **In maintenance:** {counts['in maintenance']}",
+        f"  - 🗄️ **Archived:** {counts['archived']}",
+        f"- ✅ **Active/Maintenance models with no issues:** {no_issues}",
+        f"- ❗ **Active/Maintenance models with open issues:** {issues_count}",
+        f"- 🧪 **Total models tested at least once:** {counts['total'] - never_tested}",
+        f"- ⏳ **Total models never tested:** {never_tested}",
+    ])
 
 
 def _build_table_from_repo_info(data: List[Dict[str, Any]]) -> str:
-    """
-    Build a Markdown table summarizing repository information.
-
-    The table includes:
-        - repository_name
-        - slug
-        - last_packaging_date
-        - last_test_date
-        - release
-        - open_issues (with colored icons)
-
-    Args:
-        data (List[Dict[str, Any]]): Repository metadata entries.
-
-    Returns:
-        str: A Markdown-formatted table.
-    """
-    # Sort repositories alphabetically by name for a stable view
-    data = sorted(
-        data,
-        key=lambda r: _format_field(r.get("repository_name", "")).lower()
-    )
+    """Build the markdown table."""
+    sorted_data = sorted(data, key=lambda r: str(r.get("repository_name", "")).lower())
 
     header = (
-        "| 🧬 Repository | 🪪 Slug | 📦 Last packaging | 🧪 Last test | 🔖 Release | ❗ Open issues |\n"
-        "|---------------|---------|-------------------|--------------|------------|----------------|\n"
+        "| 🧬 Repository | 🪪 Slug | 📍 Status | 📦 Last packaging | 🧪 Last test | 🔖 Release | ❗ Open issues |\n"
+        "|---------------|---------|-----------|-------------------|--------------|------------|----------------|\n"
     )
 
-    rows: List[str] = []
-    for r in data:
-        rows.append(
-            "| "
-            + " | ".join(
-                [
-                    _format_field(r.get("repository_name")),
-                    _format_field(r.get("slug")),
-                    _format_field(r.get("last_packaging_date")),
-                    _format_field(r.get("last_test_date")),
-                    _format_field(r.get("release")),
-                    _format_open_issues(r.get("open_issues", 0)),
-                ]
-            )
-            + " |"
-        )
+    rows = []
+    for r in sorted_data:
+        status = _format_field(r.get("status"))
+        # Only Archived gets a dash; Maintenance and Progress still show issue counts
+        issue_col = "—" if status.lower() == "archived" else _format_open_issues(r.get("open_issues", 0))
+        
+        row = [
+            _format_field(r.get("repository_name")),
+            _format_field(r.get("slug")),
+            status,
+            _format_field(r.get("last_packaging_date")),
+            _format_field(r.get("last_test_date")),
+            _format_field(r.get("release")),
+            issue_col
+        ]
+        rows.append(f"| {' | '.join(row)} |")
 
-    return header + ("\n".join(rows) + "\n" if rows else "")
+    return header + "\n".join(rows) + "\n"
 
 
 def _build_block() -> str:
-    """
-    Build the full Markdown block to inject between markers.
-
-    The block includes:
-        - A heading
-        - A "Last updated" timestamp in UTC
-        - A small stats summary
-        - The models table
-    """
+    """Build the full content block."""
     data = _load_repo_info()
-    table_md = _build_table_from_repo_info(data)
-    stats_md = _build_stats_summary(data)
-
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%SZ")
-
-    block = (
-        "## 📚 Model registry snapshot\n\n"
-        f"_Last updated: **{now_utc}** (UTC)_\n\n"
-        "### 🔢 Summary\n\n"
-        f"{stats_md}\n\n"
-        "The table below summarizes the current state of the models tracked in "
-        "`repo_info.json`.\n\n"
-        + table_md
-    )
-    return block
+    
+    return "\n".join([
+        "## 📚 Model registry snapshot", "",
+        f"_Last updated: **{now_utc}** (UTC)_", "",
+        "### 🔢 Summary", "",
+        _build_stats_summary(data), "",
+        "The table below summarizes the current state of the models.", "",
+        _build_table_from_repo_info(data)
+    ])
 
 
 def _inject_table(report_text: str, block_md: str) -> str:
     """
-    Inject the generated block into the report between START and END markers.
-
-    If the markers do not exist, they are appended at the end of the document.
-
-    Args:
-        report_text (str): Existing report markdown text.
-        block_md (str): Markdown block to inject.
-
-    Returns:
-        str: Updated report markdown text.
+    Finds the first START and last END. 
+    Replaces everything in between to clean up duplicate entries.
     """
-    pattern = re.compile(rf"({re.escape(START)})(.*?){re.escape(END)}", re.S)
+    start_idx = report_text.find(START_MARKER)
+    last_end_idx = report_text.rfind(END_MARKER) # Search from the end of the file backwards
 
-    if pattern.search(report_text):
-        # Replace existing block (anything between START and END) with the new block
-        return pattern.sub(rf"\1\n{block_md}\n{END}", report_text)
+    new_full_block = f"{START_MARKER}\n\n{block_md}\n\n{END_MARKER}"
 
-    # If markers are not present, append the block at the end
-    block = f"\n\n{START}\n{block_md}\n{END}\n"
-    return report_text + block
+    if start_idx != -1 and last_end_idx != -1 and last_end_idx > start_idx:
+        # Replaces everything from the very first start to the very last end
+        return (
+            report_text[:start_idx] + 
+            new_full_block + 
+            report_text[last_end_idx + len(END_MARKER):]
+        )
+    
+    # If markers are missing, append to end
+    return report_text.strip() + f"\n\n{new_full_block}\n"
 
 
 def main() -> int:
-    """
-    Entry point to update the model report markdown file.
-
-    The function:
-        - Builds a Markdown block from repo_info.json.
-        - Ensures the report file exists.
-        - Injects or updates the block between the START/END markers.
-    """
-    block = _build_block()
-
+    REPORT_MD.parent.mkdir(parents=True, exist_ok=True)
+    
     if not REPORT_MD.exists():
-        REPORT_MD.parent.mkdir(parents=True, exist_ok=True)
         REPORT_MD.write_text("# 🛠️ Ersilia Maintenance Report\n", encoding="utf-8")
 
-    report = REPORT_MD.read_text(encoding="utf-8")
-    new_report = _inject_table(report, block)
+    new_block_content = _build_block()
+    current_content = REPORT_MD.read_text(encoding="utf-8")
+    
+    updated_content = _inject_table(current_content, new_block_content)
 
-    if new_report != report:
-        REPORT_MD.write_text(new_report, encoding="utf-8")
-        print("model_report.md updated with models table.")
-    else:
-        print("model_report.md unchanged.")
+    # Final write
+    REPORT_MD.write_text(updated_content, encoding="utf-8")
+    print(f"Update successful. Markers used: {START_MARKER} / {END_MARKER}")
+    
     return 0
 
 

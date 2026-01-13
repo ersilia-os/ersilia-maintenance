@@ -158,6 +158,7 @@ def _classify_health(entry: Dict[str, Any]) -> str:
 def _compute_stats(data: List[Dict[str, Any]]) -> Dict[str, Any]:
     """
     Compute aggregate statistics for the current snapshot.
+    Archived models are excluded from the open issues count.
 
     Args:
         data: Repository metadata entries.
@@ -168,30 +169,46 @@ def _compute_stats(data: List[Dict[str, Any]]) -> Dict[str, Any]:
     total = len(data)
     with_open_issues = 0
     never_tested = 0
+    archived_count = 0
     health_counts = {"healthy": 0, "failing": 0, "outdated": 0}
 
     for r in data:
-        open_issues = r.get("open_issues") or 0
-        try:
-            oi = int(open_issues)
-        except (TypeError, ValueError):
-            oi = 0
+        # Normalize status
+        status = str(r.get("status", "")).strip().lower()
+        
+        # 1. Handle Archived Status
+        if status == "archived":
+            archived_count += 1
+            oi = 0  # Do not count issues for archived models
+        else:
+            # 2. Extract Open Issues for active models
+            open_issues = r.get("open_issues") or 0
+            try:
+                oi = int(open_issues)
+            except (TypeError, ValueError):
+                oi = 0
 
         if oi > 0:
             with_open_issues += 1
 
+        # 3. Global Testing Stats (usually kept for all models)
         if not r.get("last_test_date"):
             never_tested += 1
 
+        # 4. Classify Health (this helper likely already handles status)
         label = _classify_health(r)
         if label in health_counts:
             health_counts[label] += 1
 
-    no_open_issues = total - with_open_issues
+    # Calculate active stats
+    # We define "no open issues" as Active Models minus those with issues
+    active_total = total - archived_count
+    no_open_issues = active_total - with_open_issues
     tested_at_least_once = total - never_tested
 
     return {
         "total_models": total,
+        "active_models": active_total,
         "with_open_issues": with_open_issues,
         "no_open_issues": no_open_issues,
         "tested_at_least_once": tested_at_least_once,
@@ -488,12 +505,8 @@ def _add_smart_labels(ax, wedges, labels, sizes, small_thresh=5.0):
 
 def _build_distributions_figure(data: List[Dict[str, Any]]) -> None:
     """
-    Build a single figure with two pie charts:
-
-      - Left:  source_type distribution
-      - Right: subtask distribution (with rare subtasks grouped into 'Other')
-
-    Both pies include legends and smart label placement for tiny slices.
+    Build a single figure with two pie charts.
+    Excludes Archived models and skips entries with null/missing task or source data.
     """
     if not data:
         return
@@ -501,18 +514,35 @@ def _build_distributions_figure(data: List[Dict[str, Any]]) -> None:
     # ----------- Source type counts -----------
     source_counter: Counter[str] = Counter()
     for r in data:
-        src = r.get("source_type") or "Unknown"
+        # 1. Skip Archived models
+        if str(r.get("status", "")).strip().lower() == "archived":
+            continue
+            
+        src = r.get("source_type")
+        # 2. Skip if null or empty
+        if src in (None, "", "null", "Unknown"):
+            continue
+            
         source_counter[str(src)] += 1
 
-    source_labels = list(source_counter.keys()) or ["No data"]
-    source_sizes = list(source_counter.values()) or [1]
+    source_labels = list(source_counter.keys())
+    source_sizes = list(source_counter.values())
 
     # ----------- Subtask counts -----------
     task_counter: Counter[str] = Counter()
     for r in data:
-        task = r.get("subtask") or "Unknown"
+        # 1. Skip Archived models
+        if str(r.get("status", "")).strip().lower() == "archived":
+            continue
+            
+        task = r.get("subtask")
+        # 2. Skip if null or empty
+        if task in (None, "", "null", "Unknown"):
+            continue
+            
         task_counter[str(task)] += 1
 
+    # Check if we have data to plot after filtering
     if not task_counter:
         task_labels = ["No data"]
         task_sizes = [1]
@@ -541,60 +571,52 @@ def _build_distributions_figure(data: List[Dict[str, Any]]) -> None:
     fig, (ax_left, ax_right) = plt.subplots(1, 2, figsize=(13, 6))
 
     fig.suptitle(
-        "Model distributions (current snapshot)",
+        "Model distributions (Active models with assigned tasks)",
         fontsize=18,
         y=0.97,
     )
 
     # ----------- LEFT PIE (Source Types) -----------
-    wedges_l, texts_l = ax_left.pie(
-        source_sizes,
-        labels=None,   # we handle labels manually
-        colors=source_colors,
-        startangle=90,
-    )
-    ax_left.set_title("Source type distribution", fontsize=14)
-    ax_left.axis("equal")
-
-    _add_smart_labels(ax_left, wedges_l, source_labels, source_sizes)
-
-    # Legend
-    ax_left.legend(
-        wedges_l,
-        source_labels,
-        title="Source types",
-        loc="center left",
-        bbox_to_anchor=(1.0, 0.5),
-        fontsize=10,
-        title_fontsize=11,
-    )
+    if source_sizes:
+        wedges_l, texts_l = ax_left.pie(
+            source_sizes,
+            labels=None,
+            colors=source_colors,
+            startangle=90,
+        )
+        ax_left.set_title("Source type distribution", fontsize=14)
+        ax_left.axis("equal")
+        _add_smart_labels(ax_left, wedges_l, source_labels, source_sizes)
+        
+        ax_left.legend(
+            wedges_l, source_labels, title="Source types",
+            loc="center left", bbox_to_anchor=(1.0, 0.5),
+            fontsize=10, title_fontsize=11
+        )
+    else:
+        ax_left.text(0.5, 0.5, "No source data available", ha='center')
 
     # ----------- RIGHT PIE (Subtasks) -----------
-    wedges_r, texts_r = ax_right.pie(
-        task_sizes,
-        labels=None,
-        colors=task_colors,
-        startangle=90,
-    )
-    ax_right.set_title("Subtask distribution", fontsize=14)
-    ax_right.axis("equal")
+    if any(s > 0 for s in task_sizes if task_labels != ["No data"]):
+        wedges_r, texts_r = ax_right.pie(
+            task_sizes,
+            labels=None,
+            colors=task_colors,
+            startangle=90,
+        )
+        ax_right.set_title("Subtask distribution", fontsize=14)
+        ax_right.axis("equal")
+        _add_smart_labels(ax_right, wedges_r, task_labels, task_sizes)
+        
+        ax_right.legend(
+            wedges_r, task_labels, title="Subtasks",
+            loc="center left", bbox_to_anchor=(1.0, 0.5),
+            fontsize=10, title_fontsize=11
+        )
+    else:
+        ax_right.text(0.5, 0.5, "No subtask data available", ha='center')
 
-    _add_smart_labels(ax_right, wedges_r, task_labels, task_sizes)
-
-    # Legend
-    ax_right.legend(
-        wedges_r,
-        task_labels,
-        title="Subtasks",
-        loc="center left",
-        bbox_to_anchor=(1.0, 0.5),
-        fontsize=10,
-        title_fontsize=11,
-    )
-
-    # Improve spacing
     fig.tight_layout(rect=[0.0, 0.0, 0.85, 0.90])
-
     fig.savefig(DISTRIBUTIONS_PNG, dpi=150, bbox_inches="tight")
     plt.close(fig)
 

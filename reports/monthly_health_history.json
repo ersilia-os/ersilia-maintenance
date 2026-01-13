@@ -619,16 +619,17 @@
   },
   {
     "month": "2026-01",
-    "generated_at": "2026-01-04T11:18:50Z",
+    "generated_at": "2026-01-13T13:16:07Z",
     "totals": {
       "total_models": 210,
-      "with_open_issues": 35,
-      "no_open_issues": 175,
-      "tested_at_least_once": 80,
-      "never_tested": 130,
-      "healthy": 70,
-      "failing": 10,
-      "outdated": 130
+      "active_models": 180,
+      "with_open_issues": 24,
+      "no_open_issues": 156,
+      "tested_at_least_once": 110,
+      "never_tested": 100,
+      "healthy": 99,
+      "failing": 11,
+      "outdated": 100
     },
     "added_models": [],
     "all_repositories": [
