@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos6oli",
-    "slug": "soltrannet-aqueous-solubility",
+    "repository_name": "eos12x7",
+    "slug": "spacial-score-complexity",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-13",
+    "last_packaging_date": "2026-01-20",
     "open_issues": 0
   },
   {
-    "repository_name": "eos6ost",
-    "slug": "reinvent4-libinvent",
+    "repository_name": "eos43at",
+    "slug": "molgrad-herg",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-11-20",
+    "last_packaging_date": "2025-09-17",
     "open_issues": 0
   },
   {
-    "repository_name": "eos6pbf",
-    "slug": "selfies",
+    "repository_name": "eos4k4f",
+    "slug": "standardization",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-14",
+    "last_packaging_date": "2026-01-18",
     "open_issues": 0
   },
   {
-    "repository_name": "eos6tpo",
-    "slug": "chebifier",
+    "repository_name": "eos7ike",
+    "slug": "entry-rules",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-09-05",
+    "last_packaging_date": "2025-12-19",
     "open_issues": 0
   },
   {
-    "repository_name": "eos74km",
-    "slug": "antimicrobial-kg-ml",
+    "repository_name": "eos7jio",
+    "slug": "rdkit-fingerprint",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-08-27",
+    "last_packaging_date": "2025-10-09",
     "open_issues": 0
   },
   {
-    "repository_name": "eos77jk",
-    "slug": "cc-signaturizer-3d-d",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-12-30",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos77w8",
-    "slug": "grover-sider",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-10",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos78ao",
-    "slug": "mordred",
+    "repository_name": "eos7jlv",
+    "slug": "gdbmedchem-similarity",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-22",
     "open_issues": 0
   },
   {
-    "repository_name": "eos7a45",
-    "slug": "coprinet-molecule-price",
+    "repository_name": "eos7kpb",
+    "slug": "h3d-virtual-screening-cascade-light",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-11-18",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos7l5m",
+    "slug": "efflux-gram-negative",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-12-18",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos7m30",
+    "slug": "admet-ai-exact",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-08-27",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos7pw8",
+    "slug": "syba-synthetic-accessibility",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-13",
     "open_issues": 0
-  },
-  {
-    "repository_name": "eos7ack",
-    "slug": "swiss-adme",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": null,
-    "open_issues": null
   }
 ]
