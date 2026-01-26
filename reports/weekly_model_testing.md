@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-01-19T10:12:23Z
+**🗓️ Date:** 2026-01-26T10:11:05Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos6oli | soltrannet-aqueous-solubility | ✅ | 2026-01-19T10:17:50Z |
-| eos6ost | reinvent4-libinvent | ✅ | 2026-01-19T10:48:54Z |
-| eos6pbf | selfies | ✅ | 2026-01-19T10:51:21Z |
-| eos6tpo | chebifier | 🚨 | 2026-01-19T11:00:04Z |
-| eos74km | antimicrobial-kg-ml | ✅ | 2026-01-19T11:04:10Z |
-| eos77jk | cc-signaturizer-3d-d | ✅ | 2026-01-19T11:13:01Z |
-| eos77w8 | grover-sider | ✅ | 2026-01-19T11:19:51Z |
-| eos78ao | mordred | ✅ | 2026-01-19T11:23:44Z |
-| eos7a45 | coprinet-molecule-price | ✅ | 2026-01-19T11:32:32Z |
-| eos7ack | swiss-adme | 🚨 | 2026-01-19T11:32:37Z |
+| eos12x7 | spacial-score-complexity | ✅ | 2026-01-26T10:13:29Z |
+| eos43at | molgrad-herg | ✅ | 2026-01-26T10:17:44Z |
+| eos4k4f | standardization | ✅ | 2026-01-26T10:20:20Z |
+| eos7ike | entry-rules | ✅ | 2026-01-26T10:24:22Z |
+| eos7jio | rdkit-fingerprint | ✅ | 2026-01-26T10:26:45Z |
+| eos7jlv | gdbmedchem-similarity | ✅ | 2026-01-26T10:29:24Z |
+| eos7kpb | h3d-virtual-screening-cascade-light | ✅ | 2026-01-26T10:33:20Z |
+| eos7l5m | efflux-gram-negative | ✅ | 2026-01-26T10:39:56Z |
+| eos7m30 | admet-ai-exact | ✅ | 2026-01-26T10:45:00Z |
+| eos7pw8 | syba-synthetic-accessibility | ✅ | 2026-01-26T10:59:18Z |
