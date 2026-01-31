@@ -4,18 +4,18 @@
 
 ## 📚 Model registry snapshot
 
-_Last updated: **2026-01-21 00:13:53Z** (UTC)_
+_Last updated: **2026-01-31 00:14:37Z** (UTC)_
 
 ### 🔢 Summary
 
-- 📦 **Total models:** 224
-  - 📂 **In progress:** 12
+- 📦 **Total models:** 225
+  - 📂 **In progress:** 13
   - 🛠️ **In maintenance:** 2
   - 🗄️ **Archived:** 30
-- ✅ **Active/Maintenance models with no issues:** 162
-- ❗ **Active/Maintenance models with open issues:** 20
-- 🧪 **Total models tested at least once:** 120
-- ⏳ **Total models never tested:** 104
+- ✅ **Active/Maintenance models with no issues:** 163
+- ❗ **Active/Maintenance models with open issues:** 19
+- 🧪 **Total models tested at least once:** 130
+- ⏳ **Total models never tested:** 95
 
 The table below summarizes the current state of the models.
 
@@ -23,7 +23,7 @@ The table below summarizes the current state of the models.
 |---------------|---------|-----------|-------------------|--------------|------------|----------------|
 | eos11sm | known-antibiotic-resemblance | Ready | 2025-12-17 | 2025-12-11T15:20:39Z | v1.0.0 | 🟢 0 |
 | eos11sr | emfps | Ready | 2025-12-24 | 2025-12-11T15:23:58Z | v1.1.0 | 🟡 1 |
-| eos12x7 | spacial-score-complexity | Ready | 2026-01-20 | — | v1.0.0 | 🟢 0 |
+| eos12x7 | spacial-score-complexity | Ready | 2026-01-20 | 2026-01-26T10:13:29Z | v1.0.0 | 🟢 0 |
 | eos1579 | metabokiller | Archived | — | — | — | — |
 | eos157v | grover-freesolv | Ready | 2025-10-14 | 2025-12-11T15:30:47Z | v1.0.0 | 🟢 0 |
 | eos18ie | antibiotics-ai-saureus | Ready | 2025-09-15 | 2025-12-11T15:41:31Z | v1.0.0 | 🟢 0 |
@@ -59,7 +59,7 @@ The table below summarizes the current state of the models.
 | eos2gw4 | ersilia-compound-embedding | Ready | 2025-12-24 | 2025-12-12T10:22:06Z | v1.2.0 | 🟢 0 |
 | eos2h1r | cc-signaturizer-3d-c | Ready | 2025-12-30 | 2025-12-12T10:31:14Z | v1.0.0 | 🟢 0 |
 | eos2hbd | passive-permeability | Ready | 2025-11-14 | 2025-12-12T10:31:18Z | v1.0.0 | 🟢 0 |
-| eos2hzy | pubchem-sampler | Ready | 2025-12-01 | 2025-12-12T10:34:21Z | v1.0.0 | 🟡 1 |
+| eos2hzy | pubchem-sampler | Ready | 2025-12-01 | 2025-12-12T10:34:21Z | v1.0.0 | 🟢 0 |
 | eos2i82 | pksmart | In progress | — | — | — | 🟡 1 |
 | eos2l0q | schisto-swisstph | Ready | 2025-11-25 | 2025-12-12T12:28:06Z | v3.0.0 | 🟢 0 |
 | eos2lm8 | smiles-transformer | Ready | 2025-10-22 | 2025-12-12T12:31:14Z | v1.0.0 | 🟢 0 |
@@ -86,7 +86,7 @@ The table below summarizes the current state of the models.
 | eos39dp | phakinpro | Ready | 2025-10-10 | 2025-12-12T14:07:03Z | v1.0.0 | 🟢 0 |
 | eos3ae6 | whales-descriptor | Ready | 2025-12-24 | 2025-12-12T14:10:29Z | v1.1.0 | 🟢 0 |
 | eos3ae7 | chemical-vae | Archived | — | — | — | — |
-| eos3b5e | molecular-weight | Ready | 2025-11-11 | 2025-12-15T10:13:01Z | v1.0.0 | 🟢 0 |
+| eos3b5e | molecular-weight | Ready | 2025-09-16 | 2025-12-15T10:13:01Z | v1.0.0 | 🟢 0 |
 | eos3cf4 | molfeat-chemgpt | Archived | 2025-12-03 | — | v1.0.0 | — |
 | eos3d3r | — | Archived | — | — | — | — |
 | eos3e6s | chembl-decoys | Ready | 2025-11-24 | 2025-12-15T10:18:46Z | v1.0.0 | 🟢 0 |
@@ -104,7 +104,7 @@ The table below summarizes the current state of the models.
 | eos3xip | grover-qm8 | Ready | 2025-10-14 | 2025-12-22T10:30:13Z | v1.0.0 | 🟢 0 |
 | eos3zur | molfeat-estate | Ready | 2025-10-17 | 2025-12-22T10:36:40Z | v1.0.0 | 🟢 0 |
 | eos42ez | antibiotics-ai-cytotox | Ready | 2025-10-30 | 2025-12-22T10:51:14Z | v1.0.0 | 🟢 0 |
-| eos43at | molgrad-herg | Ready | 2025-09-17 | — | v1.0.0 | 🟢 0 |
+| eos43at | molgrad-herg | Ready | 2025-09-17 | 2026-01-26T10:17:44Z | v1.0.0 | 🟢 0 |
 | eos44zp | ncats-cyp450 | Archived | — | — | — | — |
 | eos46ev | chemtb | Ready | 2025-12-04 | 2025-12-22T10:57:05Z | v1.0.0 | 🟢 0 |
 | eos481p | grover-toxcast | Ready | 2025-10-13 | 2025-12-22T11:04:38Z | v1.0.0 | 🟢 0 |
@@ -118,7 +118,7 @@ The table below summarizes the current state of the models.
 | eos4f8y | one-molecule-mollib | In progress | — | — | — | 🟡 1 |
 | eos4f95 | mycetos | Ready | 2025-12-10 | 2025-12-29T10:31:59Z | v1.0.0 | 🟢 0 |
 | eos4jcv | cc-signaturizer-3d-e | Ready | 2025-12-30 | 2025-12-29T10:40:06Z | v1.0.0 | 🟢 0 |
-| eos4k4f | standardization | Ready | 2026-01-18 | — | v1.0.0 | 🟢 0 |
+| eos4k4f | standardization | Ready | 2026-01-22 | 2026-01-26T10:20:20Z | v1.0.0 | 🟢 0 |
 | eos4q1a | crem-structure-generation | Ready | 2025-10-22 | 2025-12-29T10:45:07Z | v1.0.0 | 🟢 0 |
 | eos4qda | fasmifra | In maintenance | — | — | — | 🟡 2 |
 | eos4r1g | entry-classifier | Ready | 2025-12-27 | 2026-01-05T10:17:57Z | v1.0.0 | 🟢 0 |
@@ -186,14 +186,14 @@ The table below summarizes the current state of the models.
 | eos7d58 | admet-ai-percentile | Ready | 2025-09-16 | — | v1.0.0 | 🟡 1 |
 | eos7e3s | dili-pred | Archived | — | — | — | — |
 | eos7emx | small-world-sampler | Archived | — | — | — | — |
-| eos7ike | entry-rules | Ready | 2025-12-19 | — | v1.0.0 | 🟢 0 |
-| eos7jio | rdkit-fingerprint | Ready | 2025-10-09 | — | v1.0.0 | 🟢 0 |
-| eos7jlv | gdbmedchem-similarity | Ready | 2025-10-22 | — | v1.0.0 | 🟢 0 |
-| eos7kpb | h3d-virtual-screening-cascade-light | Ready | 2025-11-18 | — | v1.0.0 | 🟢 0 |
-| eos7l5m | efflux-gram-negative | Ready | 2025-12-18 | — | v1.0.0 | 🟢 0 |
-| eos7m30 | admet-ai-exact | Ready | 2025-08-27 | — | v1.0.0 | 🟢 0 |
+| eos7ike | entry-rules | Ready | 2026-01-23 | 2026-01-26T10:24:22Z | v1.0.0 | 🟢 0 |
+| eos7jio | rdkit-fingerprint | Ready | 2025-10-09 | 2026-01-26T10:26:45Z | v1.0.0 | 🟢 0 |
+| eos7jlv | gdbmedchem-similarity | Ready | 2025-10-22 | 2026-01-26T10:29:24Z | v1.0.0 | 🟢 0 |
+| eos7kpb | h3d-virtual-screening-cascade-light | Ready | 2025-11-18 | 2026-01-26T10:33:20Z | v1.0.0 | 🟢 0 |
+| eos7l5m | efflux-gram-negative | Ready | 2025-12-18 | 2026-01-26T10:39:56Z | v1.0.0 | 🟢 0 |
+| eos7m30 | admet-ai-exact | Ready | 2025-08-27 | 2026-01-26T10:45:00Z | v1.0.0 | 🟢 0 |
 | eos7nno | ncats-cyp2d6 | Ready | 2025-10-17 | — | v1.0.0 | 🟡 1 |
-| eos7pw8 | syba-synthetic-accessibility | Ready | 2025-10-13 | — | v1.0.0 | 🟢 0 |
+| eos7pw8 | syba-synthetic-accessibility | Ready | 2025-10-13 | 2026-01-26T10:59:18Z | v1.0.0 | 🟢 0 |
 | eos7qga | datamol-smiles2canonical | Ready | 2025-10-16 | — | v1.0.0 | 🟢 0 |
 | eos7w6n | grover-embedding | Ready | 2025-10-10 | — | v1.0.0 | 🟢 0 |
 | eos7ye0 | chemfh | Ready | 2025-09-03 | — | v1.0.0 | 🟢 0 |
@@ -222,6 +222,7 @@ The table below summarizes the current state of the models.
 | eos92sw | etoxpred | Ready | 2025-10-08 | — | v1.0.0 | 🟢 0 |
 | eos935d | meta-trans | Ready | 2025-10-22 | — | v1.0.0 | 🟢 0 |
 | eos93h2 | image-mol-gpcr | Ready | 2025-10-16 | — | v1.0.0 | 🟡 1 |
+| eos96f4 | digitization-complexity | In progress | — | — | — | 🟢 0 |
 | eos96ia | molgrad-cyp3a4 | Ready | 2025-10-10 | — | v1.0.0 | 🟢 0 |
 | eos97yu | pampa-permeability | Archived | — | — | — | — |
 | eos9aqt | delfta-qm | In progress | — | — | — | 🟢 0 |
