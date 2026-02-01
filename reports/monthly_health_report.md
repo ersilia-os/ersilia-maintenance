@@ -1,17 +1,17 @@
 # 📊 Monthly Health Report
 
-**Month:** 2026-01
-**Generated at:** 2026-01-13 13:16:07Z (UTC)
+**Month:** 2026-02
+**Generated at:** 2026-02-01 01:34:30Z (UTC)
 
 ## 🔢 Snapshot for this month
 
-- 📦 **Total models:** 210
-- ✅ **Healthy models:** 99
-- 🔴 **Failing models:** 11
-- ⏳ **Outdated models:** 100
-- 🧪 **Tested at least once:** 110
-- 🕳️ **Never tested:** 100
-- ❗ **With open issues:** 24
+- 📦 **Total models:** 212
+- ✅ **Healthy models:** 117
+- 🔴 **Failing models:** 13
+- ⏳ **Outdated models:** 82
+- 🧪 **Tested at least once:** 130
+- 🕳️ **Never tested:** 82
+- ❗ **With open issues:** 19
 
 ## 🆕 Models packaged this month
 
