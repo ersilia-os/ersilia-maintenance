@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos12x7",
-    "slug": "spacial-score-complexity",
+    "repository_name": "eos7qga",
+    "slug": "datamol-smiles2canonical",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2026-01-20",
+    "last_packaging_date": "2025-10-16",
     "open_issues": 0
   },
   {
-    "repository_name": "eos43at",
-    "slug": "molgrad-herg",
+    "repository_name": "eos7w6n",
+    "slug": "grover-embedding",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-09-17",
+    "last_packaging_date": "2025-10-10",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4k4f",
-    "slug": "standardization",
+    "repository_name": "eos7ye0",
+    "slug": "chemfh",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2026-01-18",
+    "last_packaging_date": "2025-09-03",
     "open_issues": 0
   },
   {
-    "repository_name": "eos7ike",
-    "slug": "entry-rules",
+    "repository_name": "eos7yti",
+    "slug": "osm-series4",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-12-19",
+    "last_packaging_date": "2025-11-19",
     "open_issues": 0
   },
   {
-    "repository_name": "eos7jio",
-    "slug": "rdkit-fingerprint",
+    "repository_name": "eos80ch",
+    "slug": "malaria-mam",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-09",
+    "last_packaging_date": "2025-10-17",
     "open_issues": 0
   },
   {
-    "repository_name": "eos7jlv",
-    "slug": "gdbmedchem-similarity",
+    "repository_name": "eos81ew",
+    "slug": "ncats-pampa5",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-22",
+    "last_packaging_date": "2025-10-16",
     "open_issues": 0
   },
   {
-    "repository_name": "eos7kpb",
-    "slug": "h3d-virtual-screening-cascade-light",
+    "repository_name": "eos82v1",
+    "slug": "smi-ted",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-11-18",
+    "last_packaging_date": "2025-12-24",
     "open_issues": 0
   },
   {
-    "repository_name": "eos7l5m",
-    "slug": "efflux-gram-negative",
+    "repository_name": "eos8451",
+    "slug": "grover-esol",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-12-18",
+    "last_packaging_date": "2025-10-14",
     "open_issues": 0
   },
   {
-    "repository_name": "eos7m30",
-    "slug": "admet-ai-exact",
+    "repository_name": "eos85a3",
+    "slug": "grover-lipo",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-08-27",
+    "last_packaging_date": "2025-10-14",
     "open_issues": 0
   },
   {
-    "repository_name": "eos7pw8",
-    "slug": "syba-synthetic-accessibility",
+    "repository_name": "eos8a4x",
+    "slug": "rdkit-descriptors",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-13",
+    "last_packaging_date": "2025-12-22",
     "open_issues": 0
   }
 ]
