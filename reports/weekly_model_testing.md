@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-01-26T10:11:05Z
+**🗓️ Date:** 2026-02-02T11:55:00Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos12x7 | spacial-score-complexity | ✅ | 2026-01-26T10:13:29Z |
-| eos43at | molgrad-herg | ✅ | 2026-01-26T10:17:44Z |
-| eos4k4f | standardization | ✅ | 2026-01-26T10:20:20Z |
-| eos7ike | entry-rules | ✅ | 2026-01-26T10:24:22Z |
-| eos7jio | rdkit-fingerprint | ✅ | 2026-01-26T10:26:45Z |
-| eos7jlv | gdbmedchem-similarity | ✅ | 2026-01-26T10:29:24Z |
-| eos7kpb | h3d-virtual-screening-cascade-light | ✅ | 2026-01-26T10:33:20Z |
-| eos7l5m | efflux-gram-negative | ✅ | 2026-01-26T10:39:56Z |
-| eos7m30 | admet-ai-exact | ✅ | 2026-01-26T10:45:00Z |
-| eos7pw8 | syba-synthetic-accessibility | ✅ | 2026-01-26T10:59:18Z |
+| eos7qga | datamol-smiles2canonical | ✅ | 2026-02-02T11:57:25Z |
+| eos7w6n | grover-embedding | ✅ | 2026-02-02T12:01:24Z |
+| eos7ye0 | chemfh | ✅ | 2026-02-02T12:09:43Z |
+| eos7yti | osm-series4 | ✅ | 2026-02-02T12:14:59Z |
+| eos80ch | malaria-mam | ✅ | 2026-02-02T12:17:31Z |
+| eos81ew | ncats-pampa5 | ✅ | 2026-02-02T12:20:29Z |
+| eos82v1 | smi-ted | ✅ | 2026-02-02T12:26:49Z |
+| eos8451 | grover-esol | ✅ | 2026-02-02T12:33:01Z |
+| eos85a3 | grover-lipo | ✅ | 2026-02-02T12:38:40Z |
+| eos8a4x | rdkit-descriptors | ✅ | 2026-02-02T12:40:52Z |
