@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-02-02T11:55:00Z
+**🗓️ Date:** 2026-02-09T10:28:17Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos7qga | datamol-smiles2canonical | ✅ | 2026-02-02T11:57:25Z |
-| eos7w6n | grover-embedding | ✅ | 2026-02-02T12:01:24Z |
-| eos7ye0 | chemfh | ✅ | 2026-02-02T12:09:43Z |
-| eos7yti | osm-series4 | ✅ | 2026-02-02T12:14:59Z |
-| eos80ch | malaria-mam | ✅ | 2026-02-02T12:17:31Z |
-| eos81ew | ncats-pampa5 | ✅ | 2026-02-02T12:20:29Z |
-| eos82v1 | smi-ted | ✅ | 2026-02-02T12:26:49Z |
-| eos8451 | grover-esol | ✅ | 2026-02-02T12:33:01Z |
-| eos85a3 | grover-lipo | ✅ | 2026-02-02T12:38:40Z |
-| eos8a4x | rdkit-descriptors | ✅ | 2026-02-02T12:40:52Z |
+| eos8a5g | molbloom | ✅ | 2026-02-09T10:31:42Z |
+| eos8aa5 | kgpgt-embedding | ✅ | 2026-02-09T10:40:40Z |
+| eos8d8a | mycpermcheck | ✅ | 2026-02-09T10:48:36Z |
+| eos8fma | stoned-sampler | ✅ | 2026-02-09T10:56:37Z |
+| eos8fth | redial-2020 | ✅ | 2026-02-09T11:05:54Z |
+| eos8g50 | fastsolv | 🚨 | 2026-02-09T11:11:07Z |
+| eos8h6g | avalon | ✅ | 2026-02-09T11:14:51Z |
+| eos8ioa | natural-product-score | ✅ | 2026-02-09T11:18:29Z |
+| eos8lok | s2dv-hbv | ✅ | 2026-02-09T11:22:56Z |
+| eos8ub5 | chemical-space-projections-coconut | 🚨 | 2026-02-09T11:30:40Z |
