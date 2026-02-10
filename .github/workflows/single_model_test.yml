@@ -1,0 +1,90 @@
+name: Test Single Model
+
+on:
+  workflow_dispatch:
+    inputs:
+      model_id:
+        description: "Model ID to test (e.g. eos4e40)"
+        required: true
+        type: string
+
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  test-model:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -el {0}
+
+    steps:
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          swap-storage: true
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Setup miniconda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: "3.12"
+          auto-activate-base: true
+
+      - name: Install dependencies
+        run: |
+          conda install -y git-lfs gh jq -c conda-forge
+          git-lfs install
+          python -m pip install --upgrade pip
+          python -m pip install 'ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git'
+
+      - name: Install Python dependencies for maintenance scripts
+        run: |
+          python -m pip install requests pyyaml
+
+      - name: Run Single Model Test
+        env:
+          MODEL_ID: ${{ github.event.inputs.model_id }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          REPO_OWNER: "ersilia-os"
+          REPO_NAME: "ersilia-maintenance"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TEST_JSON_CLEANUP: "1"
+        run: |
+          chmod +x scripts/test_single_model.sh
+          scripts/test_single_model.sh "${MODEL_ID}"
+
+      - name: Configure git auth for push
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        run: |
+          git config user.name "ersilia-bot"
+          git config user.email "ersilia-bot@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+
+      - name: Commit and push changes
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: |
+            files/repo_info.json
+            reports/single_model_test.md
+            reports/single_model_test_summary.txt
+          message: "chore: single model test for ${{ github.event.inputs.model_id }}"
+          push: true
+          author_name: ersilia-bot
+          author_email: ersilia-bot@users.noreply.github.com
+          github_token: ${{ secrets.GITHUB_TOKEN }}

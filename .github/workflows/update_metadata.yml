@@ -1,0 +1,51 @@
+name: Update_metadata
+
+on:
+  workflow_call:
+    inputs:
+      branch:
+        required: false
+        type: string
+        default: "main"
+      repo_name:
+        required: true
+        type: string
+      runner:
+        required: true
+        type: string
+    secrets:
+      AIRTABLE_API_KEY:
+        required: true
+      AWS_ACCESS_KEY:
+        required: true
+      AWS_SECRET_ACCESS_KEY:
+        required: true
+
+jobs:
+  update_metadata:
+    runs-on: ${{ inputs.runner }}
+    steps:
+      - name: Update metadata to AirTable
+        uses: nick-fields/retry@v3
+        env:
+          USER_NAME: ${{ github.repository_owner }}
+          BRANCH: ${{ inputs.branch }}
+          REPO_NAME: ${{ inputs.repo_name }}
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          command: |
+            set -e  # Ensure failure stops execution
+            conda run -n base pip install requests pyairtable
+            wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/airtableops.py
+            wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/readme_formatter.py
+
+            echo "Updating metadata to AirTable looking at owner: $USER_NAME"
+            echo "Metadata Content"
+            cat "$METADATA_FILE"
+            conda run -n base python3 airtableops.py airtable-update --user $USER_NAME --repo $REPO_NAME --branch $BRANCH --api-key $AIRTABLE_API_KEY
+
+            # remove file
+            rm airtableops.py
+            rm readme_formatter.py
