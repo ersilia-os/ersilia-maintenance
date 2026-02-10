@@ -516,14 +516,14 @@
     "private": false,
     "slug": "chembl-similarity",
     "status": "Ready",
-    "last_test_date": "2025-12-12T09:54:36Z",
+    "last_test_date": "2026-02-10T14:47:40Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
     "open_issues": 1,
     "issues_last_updated": "2026-02-01T00:14:18Z",
     "subtask": "Similarity search",
     "source_type": "External",
-    "last_test_outcome": "failed",
+    "last_test_outcome": "success",
     "metadata_last_updated": "2026-02-01T00:12:32Z"
   },
   {
