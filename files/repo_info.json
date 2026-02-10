@@ -635,14 +635,14 @@
     "private": false,
     "slug": "passive-permeability",
     "status": "Ready",
-    "last_test_date": "2025-12-12T10:31:18Z",
+    "last_test_date": "2026-02-10T15:35:32Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-14",
     "open_issues": 0,
     "issues_last_updated": "2026-02-01T00:14:21Z",
     "subtask": "Property calculation or prediction",
     "source_type": "Replicated",
-    "last_test_outcome": "failed",
+    "last_test_outcome": "success",
     "metadata_last_updated": "2026-02-01T00:12:35Z"
   },
   {
