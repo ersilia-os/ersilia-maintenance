@@ -43,3 +43,14 @@ jobs:
             # remove file
             rm airtableops.py
             rm readme_formatter.py
+      - name: sync metadata to S3 JSON
+        id: sync-metadata-to-s3
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/convert_airtable_to_json.py
+          conda run -n base pip install boto3 requests pyairtable
+          conda run -n base python convert_airtable_to_json.py $AIRTABLE_API_KEY $AWS_ACCESS_KEY_ID $AWS_SECRET_ACCESS_KEY
+          rm convert_airtable_to_json.py
