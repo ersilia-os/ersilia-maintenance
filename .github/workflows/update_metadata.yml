@@ -1,7 +1,7 @@
 name: Update_metadata
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       branch:
         required: false
@@ -11,15 +11,9 @@ on:
         required: true
         type: string
       runner:
-        required: true
+        required: false
         type: string
-    secrets:
-      AIRTABLE_API_KEY:
-        required: true
-      AWS_ACCESS_KEY:
-        required: true
-      AWS_SECRET_ACCESS_KEY:
-        required: true
+        default: ubuntu-latest
 
 jobs:
   update_metadata:
