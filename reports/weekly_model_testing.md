@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-02-09T10:28:17Z
+**🗓️ Date:** 2026-02-16T10:23:29Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos8a5g | molbloom | ✅ | 2026-02-09T10:31:42Z |
-| eos8aa5 | kgpgt-embedding | ✅ | 2026-02-09T10:40:40Z |
-| eos8d8a | mycpermcheck | ✅ | 2026-02-09T10:48:36Z |
-| eos8fma | stoned-sampler | ✅ | 2026-02-09T10:56:37Z |
-| eos8fth | redial-2020 | ✅ | 2026-02-09T11:05:54Z |
-| eos8g50 | fastsolv | 🚨 | 2026-02-09T11:11:07Z |
-| eos8h6g | avalon | ✅ | 2026-02-09T11:14:51Z |
-| eos8ioa | natural-product-score | ✅ | 2026-02-09T11:18:29Z |
-| eos8lok | s2dv-hbv | ✅ | 2026-02-09T11:22:56Z |
-| eos8ub5 | chemical-space-projections-coconut | 🚨 | 2026-02-09T11:30:40Z |
+| eos92sw | etoxpred | ✅ | 2026-02-16T10:28:58Z |
+| eos935d | meta-trans | ✅ | 2026-02-16T10:38:46Z |
+| eos96ia | molgrad-cyp3a4 | ✅ | 2026-02-16T10:43:28Z |
+| eos9c7k | medchem17-similarity | ✅ | 2026-02-16T10:47:12Z |
+| eos9ei3 | sa-score | ✅ | 2026-02-16T10:50:44Z |
+| eos9f6t | chemprop-sars-cov-inhibition | ✅ | 2026-02-16T10:58:12Z |
+| eos9gg2 | chemical-space-projections-drugbank | 🚨 | 2026-02-16T11:02:46Z |
+| eos9ivc | anti-mtb-seattle | ✅ | 2026-02-16T11:10:36Z |
+| eos9o72 | chemeleon | ✅ | 2026-02-16T11:15:54Z |
+| eos9p4a | deep-dl | ✅ | 2026-02-16T11:20:22Z |
