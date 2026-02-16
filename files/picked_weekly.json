@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos8a5g",
-    "slug": "molbloom",
+    "repository_name": "eos92sw",
+    "slug": "etoxpred",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-14",
+    "last_packaging_date": "2025-10-08",
     "open_issues": 0
   },
   {
-    "repository_name": "eos8aa5",
-    "slug": "kgpgt-embedding",
+    "repository_name": "eos935d",
+    "slug": "meta-trans",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-22",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos96ia",
+    "slug": "molgrad-cyp3a4",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-10",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9c7k",
+    "slug": "medchem17-similarity",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-22",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9ei3",
+    "slug": "sa-score",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-09-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9f6t",
+    "slug": "chemprop-sars-cov-inhibition",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-08",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9gg2",
+    "slug": "chemical-space-projections-drugbank",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-11-18",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9ivc",
+    "slug": "anti-mtb-seattle",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-11-21",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9o72",
+    "slug": "chemeleon",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-12-24",
     "open_issues": 0
   },
   {
-    "repository_name": "eos8d8a",
-    "slug": "mycpermcheck",
+    "repository_name": "eos9p4a",
+    "slug": "deep-dl",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-12-28",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos8fma",
-    "slug": "stoned-sampler",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-12-04",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos8fth",
-    "slug": "redial-2020",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-16",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos8g50",
-    "slug": "fastsolv",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-09-02",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos8h6g",
-    "slug": "avalon",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-09",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos8ioa",
-    "slug": "natural-product-score",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-15",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos8lok",
-    "slug": "s2dv-hbv",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-16",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos8ub5",
-    "slug": "chemical-space-projections-coconut",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-11-18",
+    "last_packaging_date": "2025-10-23",
     "open_issues": 0
   }
 ]
