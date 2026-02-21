@@ -4,7 +4,7 @@
 
 ## 📚 Model registry snapshot
 
-_Last updated: **2026-02-17 09:31:26Z** (UTC)_
+_Last updated: **2026-02-21 00:16:35Z** (UTC)_
 
 ### 🔢 Summary
 
@@ -38,7 +38,7 @@ The table below summarizes the current state of the models.
 | eos1mxi | smiles-pe | Ready | 2025-10-17 | 2025-12-11T16:14:20Z | v1.0.0 | 🟢 0 |
 | eos1n4b | hdac3-inhibition | Ready | 2025-10-10 | 2025-12-11T20:55:35Z | v1.0.0 | 🟢 0 |
 | eos1noy | chembl-sampler | Ready | 2025-10-22 | 2025-12-11T20:58:18Z | v1.0.0 | 🟢 0 |
-| eos1pu1 | cardiotox-dictrank | Ready | 2025-11-19 | 2025-12-11T21:02:42Z | v1.0.0 | 🟢 0 |
+| eos1pu1 | cardiotox-dictrank | Ready | 2025-11-19 | 2025-12-11T21:02:42Z | v1.0.0 | 🟡 1 |
 | eos1soi | non-growing-antimicrobial | Ready | 2025-12-18 | 2025-12-22T10:17:38Z | v1.0.0 | 🟢 0 |
 | eos1tt2 | mole-embeddings | In progress | — | — | — | 🟢 0 |
 | eos1ut3 | molfeat-usrcat | Ready | 2025-11-14 | 2025-12-11T21:09:19Z | v1.0.0 | 🟢 0 |
@@ -47,11 +47,11 @@ The table below summarizes the current state of the models.
 | eos21q7 | inter-dili | Ready | 2025-11-19 | 2025-12-11T21:19:18Z | v2.0.0 | 🟢 0 |
 | eos22io | idl-ppbopt | Ready | 2025-10-16 | 2025-12-11T21:24:43Z | v1.0.0 | 🟢 0 |
 | eos238c | mesh-therapeutic-use | Ready | 2025-11-22 | 2026-02-10T15:05:59Z | v2.0.0 | 🟢 0 |
-| eos2401 | scaffold-decoration | Ready | 2026-02-03 | 2025-12-11T22:02:23Z | v1.0.0 | 🟡 1 |
+| eos2401 | scaffold-decoration | Ready | 2026-02-19 | 2025-12-11T22:02:23Z | v1.0.0 | 🟡 1 |
 | eos24ci | drugtax | Ready | 2025-10-15 | 2025-12-11T22:05:27Z | v1.0.0 | 🟢 0 |
 | eos24jm | qcrb-tb | Ready | 2025-10-16 | 2025-12-12T09:47:42Z | v1.0.0 | 🟢 0 |
 | eos24ur | whales-scaled | Archived | — | — | — | — |
-| eos2a9n | chembl-similarity | Ready | 2026-02-11 | 2026-02-10T14:47:40Z | v1.0.0 | 🟡 1 |
+| eos2a9n | chembl-similarity | Ready | 2026-02-11 | 2026-02-10T14:47:40Z | v1.0.0 | 🟢 0 |
 | eos2b6f | pkasolver | Ready | 2025-10-14 | 2025-12-12T10:00:46Z | v1.0.0 | 🟢 0 |
 | eos2db3 | chemical-space-projections-chemdiv | Ready | 2025-12-16 | 2025-12-12T10:11:24Z | v1.0.0 | 🟢 0 |
 | eos2fy6 | s2dv-hepg2-toxicity | Ready | 2025-10-10 | 2025-12-12T10:15:04Z | v1.0.0 | 🟢 0 |
@@ -115,7 +115,7 @@ The table below summarizes the current state of the models.
 | eos4e40 | chemprop-antibiotic | Ready | 2025-08-27 | 2025-12-29T10:13:42Z | v1.0.0 | 🟢 0 |
 | eos4e41 | chemprop-antibiotic-lite | Archived | — | — | — | — |
 | eos4ex3 | mole-representations | Ready | 2025-12-24 | 2025-12-29T10:20:35Z | v1.2.0 | 🟢 0 |
-| eos4f8y | one-molecule-mollib | In progress | — | — | — | 🟡 1 |
+| eos4f8y | one-molecule-mollib | In progress | — | — | — | 🟢 0 |
 | eos4f95 | mycetos | Ready | 2025-12-10 | 2025-12-29T10:31:59Z | v1.0.0 | 🟢 0 |
 | eos4jcv | cc-signaturizer-3d-e | Ready | 2025-12-30 | 2025-12-29T10:40:06Z | v1.0.0 | 🟢 0 |
 | eos4k4f | standardization | Ready | 2026-01-22 | 2026-01-26T10:20:20Z | v1.0.0 | 🟡 1 |
@@ -173,7 +173,7 @@ The table below summarizes the current state of the models.
 | eos6tg8 | natural-product-fingerprint | Ready | 2025-10-13 | — | v1.0.0 | 🟡 1 |
 | eos6tpo | chebifier | Ready | 2025-09-05 | 2026-01-19T11:00:04Z | v1.0.0 | 🟡 1 |
 | eos6wdw | dotP | In progress | — | — | — | ❓ |
-| eos74bo | ncats-solubility | Ready | 2025-10-28 | — | v1.0.0 | 🟡 1 |
+| eos74bo | ncats-solubility | Ready | 2025-10-28 | — | v1.0.0 | 🟢 0 |
 | eos74km | antimicrobial-kg-ml | Ready | 2025-08-27 | 2026-01-19T11:04:10Z | v1.0.0 | 🟢 0 |
 | eos77jk | cc-signaturizer-3d-d | Ready | 2025-12-30 | 2026-01-19T11:13:01Z | v1.0.0 | 🟢 0 |
 | eos77w8 | grover-sider | Ready | 2025-10-10 | 2026-01-19T11:19:51Z | v1.0.0 | 🟢 0 |
@@ -231,7 +231,7 @@ The table below summarizes the current state of the models.
 | eos9ei3 | sa-score | Ready | 2025-09-15 | 2026-02-16T10:50:44Z | v1.0.0 | 🟢 0 |
 | eos9f6t | chemprop-sars-cov-inhibition | Ready | 2025-10-08 | 2026-02-16T10:58:12Z | v1.0.0 | 🟢 0 |
 | eos9f7c | paeruginosa-permeation | Ready | 2025-12-15 | — | v1.0.0 | 🟡 2 |
-| eos9gg2 | chemical-space-projections-drugbank | Ready | 2025-11-18 | 2026-02-16T11:02:46Z | v1.0.0 | 🟢 0 |
+| eos9gg2 | chemical-space-projections-drugbank | Ready | 2025-11-18 | 2026-02-16T11:02:46Z | v1.0.0 | 🟡 1 |
 | eos9ivc | anti-mtb-seattle | Ready | 2025-11-21 | 2026-02-16T11:10:36Z | v1.0.0 | 🟢 0 |
 | eos9n1s | hemozoin-inhibition-physchem | Ready | 2026-02-04 | — | v1.0.0 | 🟢 0 |
 | eos9o72 | chemeleon | Ready | 2026-02-10 | 2026-02-16T11:15:54Z | v1.1.1 | 🟢 0 |
