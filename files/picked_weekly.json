@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos92sw",
-    "slug": "etoxpred",
+    "repository_name": "eos65rt",
+    "slug": "deepfl-logp",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-08",
+    "last_packaging_date": "2025-10-13",
     "open_issues": 0
   },
   {
-    "repository_name": "eos935d",
-    "slug": "meta-trans",
+    "repository_name": "eos74bo",
+    "slug": "ncats-solubility",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-28",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos96f4",
+    "slug": "digitization-complexity",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-02-02",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9n1s",
+    "slug": "hemozoin-inhibition-physchem",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-02-04",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9taz",
+    "slug": "moler-enamine-fragments",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-22",
     "open_issues": 0
   },
   {
-    "repository_name": "eos96ia",
-    "slug": "molgrad-cyp3a4",
+    "repository_name": "eos9tyg",
+    "slug": "ncats-pampa74",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-10",
+    "last_packaging_date": "2025-10-16",
     "open_issues": 0
   },
   {
-    "repository_name": "eos9c7k",
-    "slug": "medchem17-similarity",
+    "repository_name": "eos9ueu",
+    "slug": "small-world-enamine-real",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-22",
+    "last_packaging_date": "2025-10-24",
     "open_issues": 0
   },
   {
-    "repository_name": "eos9ei3",
-    "slug": "sa-score",
+    "repository_name": "eos9x3z",
+    "slug": "gram-negative-permeability-proxy",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-09-15",
+    "last_packaging_date": "2025-12-11",
     "open_issues": 0
   },
   {
-    "repository_name": "eos9f6t",
-    "slug": "chemprop-sars-cov-inhibition",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-08",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos9gg2",
-    "slug": "chemical-space-projections-drugbank",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-11-18",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos9ivc",
-    "slug": "anti-mtb-seattle",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-11-21",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos9o72",
-    "slug": "chemeleon",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-12-24",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos9p4a",
-    "slug": "deep-dl",
+    "repository_name": "eos9ym3",
+    "slug": "mrlogp",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-23",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9yui",
+    "slug": "natural-product-likeness",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-09-15",
     "open_issues": 0
   }
 ]
