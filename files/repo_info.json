@@ -3576,14 +3576,14 @@
     "private": false,
     "slug": "chemical-space-projections-drugbank",
     "status": "Ready",
-    "last_test_date": "2026-02-16T11:02:46Z",
+    "last_test_date": "2026-02-24T15:31:16Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-18",
     "open_issues": 1,
     "issues_last_updated": "2026-02-21T00:16:27Z",
     "subtask": "Projection",
     "source_type": "Internal",
-    "last_test_outcome": "failed",
+    "last_test_outcome": "success",
     "metadata_last_updated": "2026-02-21T00:14:23Z"
   },
   {
