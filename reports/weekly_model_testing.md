@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-02-16T10:23:29Z
+**🗓️ Date:** 2026-02-24T13:11:05Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos92sw | etoxpred | ✅ | 2026-02-16T10:28:58Z |
-| eos935d | meta-trans | ✅ | 2026-02-16T10:38:46Z |
-| eos96ia | molgrad-cyp3a4 | ✅ | 2026-02-16T10:43:28Z |
-| eos9c7k | medchem17-similarity | ✅ | 2026-02-16T10:47:12Z |
-| eos9ei3 | sa-score | ✅ | 2026-02-16T10:50:44Z |
-| eos9f6t | chemprop-sars-cov-inhibition | ✅ | 2026-02-16T10:58:12Z |
-| eos9gg2 | chemical-space-projections-drugbank | 🚨 | 2026-02-16T11:02:46Z |
-| eos9ivc | anti-mtb-seattle | ✅ | 2026-02-16T11:10:36Z |
-| eos9o72 | chemeleon | ✅ | 2026-02-16T11:15:54Z |
-| eos9p4a | deep-dl | ✅ | 2026-02-16T11:20:22Z |
+| eos65rt | deepfl-logp | ✅ | 2026-02-24T13:18:03Z |
+| eos74bo | ncats-solubility | ✅ | 2026-02-24T13:24:16Z |
+| eos96f4 | digitization-complexity | ✅ | 2026-02-24T13:30:00Z |
+| eos9n1s | hemozoin-inhibition-physchem | ✅ | 2026-02-24T13:33:43Z |
+| eos9taz | moler-enamine-fragments | ✅ | 2026-02-24T13:53:06Z |
+| eos9tyg | ncats-pampa74 | ✅ | 2026-02-24T13:57:27Z |
+| eos9ueu | small-world-enamine-real | 🚨 | 2026-02-24T13:59:37Z |
+| eos9x3z | gram-negative-permeability-proxy | ✅ | 2026-02-24T14:14:45Z |
+| eos9ym3 | mrlogp | ✅ | 2026-02-24T14:23:10Z |
+| eos9yui | natural-product-likeness | ✅ | 2026-02-24T14:28:39Z |
