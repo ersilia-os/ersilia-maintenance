@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-03-02T14:44:30Z
+**🗓️ Date:** 2026-03-02T15:12:48Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,4 +24,4 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos1noy | chembl-sampler | 🚨 | 2026-03-02T14:47:35Z |
+| eos9zw0 | molpmofit | 🚨 | 2026-03-02T15:15:45Z |

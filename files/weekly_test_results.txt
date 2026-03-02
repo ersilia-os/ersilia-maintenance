@@ -1,11 +1,11 @@
-14:44:32 DEBUG    Initializing MetadataCard                                     
-         DEBUG    Getting metadata card for model_id: eos1noy                   
-         DEBUG    Trying to get metadata from: /home/runner/eos/dest/eos1noy    
+15:12:49 DEBUG    Initializing MetadataCard                                     
+         DEBUG    Getting metadata card for model_id: eos9zw0                   
+         DEBUG    Trying to get metadata from: /home/runner/eos/dest/eos9zw0    
          DEBUG    Model not available locally. Looking for metadata online...   
          DEBUG    Initializing MetadataCard                                     
-         DEBUG    Getting metadata card for model_id: eos1noy                   
-         DEBUG    Trying to get metadata from: /home/runner/eos/dest/eos1noy    
-14:44:33 DEBUG    Initialized with URL: None                                    
+         DEBUG    Getting metadata card for model_id: eos9zw0                   
+         DEBUG    Trying to get metadata from: /home/runner/eos/dest/eos9zw0    
+15:12:50 DEBUG    Initialized with URL: None                                    
          DEBUG    Model getting fetched from GitHub                             
          INFO     Model doesn't exist on your system, fetching it now.          
          DEBUG    Starting fetching procedure                                   
@@ -16,22 +16,29 @@
          DEBUG    Checking Git LFS                                              
          DEBUG    Git LFS is installed                                          
          DEBUG    Git LFS has been activated                                    
-         DEBUG    Connected to the internet                                     
+15:12:51 DEBUG    Connected to the internet                                     
          DEBUG    Conda is installed                                            
          DEBUG    EOS Home path exists                                          
-         INFO     Starting delete of model eos1noy                              
-         INFO     Deleting conda environment eos1noy                            
-14:44:34 DEBUG    Attempting temporary folder delete                            
+         INFO     Starting delete of model eos9zw0                              
+         INFO     Deleting conda environment eos9zw0                            
+         DEBUG    Attempting temporary folder delete                            
          INFO     Removing docker images and stopping containers related to     
-                  eos1noy                                                       
-         DEBUG    Running docker image ls --no-trunc --format                   
+                  eos9zw0                                                       
+15:12:52 DEBUG    Running docker image ls --no-trunc --format                   
                   "{{.Repository}}\t{{.Tag}}\t{{.ID}}"                          
-         DEBUG    Model entry eos1noy was not available in the fetched models   
+         DEBUG    Model entry eos9zw0 was not available in the fetched models   
                   registry                                                      
          DEBUG    Attempting brute delete                                       
-14:44:35 SUCCESS  Model eos1noy deleted successfully                            
+         SUCCESS  Model eos9zw0 deleted successfully                            
          DEBUG    Getting repository                                            
-         INFO     🚀 Model starting...                                          
+15:12:54 INFO     Downloading large file                                        
+                  model/checkpoints/models/ChemBL_atom_encoder.pth from S3      
+                  bucket.                                                       
+15:12:59 INFO     ✅ Successfully downloaded                                    
+                  model/checkpoints/models/ChemBL_atom_encoder.pth to           
+                  /home/runner/eos/dest/eos9zw0/model/checkpoints/models/ChemBL_
+                  atom_encoder.pth                                              
+15:13:00 INFO     🚀 Model starting...                                          
          DEBUG    User is not root                                              
          DEBUG    Copying example file if available                             
          DEBUG    Example file exists                                           
@@ -42,24 +49,24 @@
          DEBUG    Initializing conda packer                                     
          DEBUG    Packing model with Conda                                      
          DEBUG    Setting up                                                    
-14:44:36 DEBUG    Reading python version from Dockerfile                        
-         DEBUG    Conda environment eos1noy                                     
-14:44:37 DEBUG    Environment eos1noy does not exist                            
-14:44:46 DEBUG    Creating base conda environment                               
-         DEBUG    Run commandlines on eos1noy                                   
+         DEBUG    Reading python version from Dockerfile                        
+         DEBUG    Conda environment eos9zw0                                     
+15:13:01 DEBUG    Environment eos9zw0 does not exist                            
+15:13:09 DEBUG    Creating base conda environment                               
+         DEBUG    Run commandlines on eos9zw0                                   
          DEBUG    python -m pip install                                         
                   git+https://github.com/ersilia-os/ersilia-pack.git            
-14:44:47 DEBUG    Activating base environment                                   
+15:13:10 DEBUG    Activating base environment                                   
          DEBUG    Current working directory:                                    
                   /home/runner/work/ersilia-maintenance/ersilia-maintenance     
-         DEBUG    Running bash /tmp/ersilia-t9lkpecu/script.sh 2>&1 | tee -a    
-                  /tmp/ersilia-ddl7s9zv/command_outputs.log                     
-14:44:59 DEBUG    Collecting git+https://github.com/ersilia-os/ersilia-pack.git 
+         DEBUG    Running bash /tmp/ersilia-6__k9lin/script.sh 2>&1 | tee -a    
+                  /tmp/ersilia-ao0vecd8/command_outputs.log                     
+15:13:20 DEBUG    Collecting git+https://github.com/ersilia-os/ersilia-pack.git 
                     Cloning https://github.com/ersilia-os/ersilia-pack.git to   
-                  /tmp/pip-req-build-vpraiitw                                   
+                  /tmp/pip-req-build-le1ri4n9                                   
                     Running command git clone --filter=blob:none --quiet        
                   https://github.com/ersilia-os/ersilia-pack.git                
-                  /tmp/pip-req-build-vpraiitw                                   
+                  /tmp/pip-req-build-le1ri4n9                                   
                     Resolved https://github.com/ersilia-os/ersilia-pack.git to  
                   commit 6392f37a5a457ede6469e6cfb9fb558b669db298               
                     Installing build dependencies: started                      
@@ -96,7 +103,7 @@
                   orjson-3.11.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_
                   x86_64.whl.metadata (41 kB)                                   
                   Requirement already satisfied: packaging in                   
-                  /usr/share/miniconda/envs/eos1noy/lib/python3.10/site-packages
+                  /usr/share/miniconda/envs/eos9zw0/lib/python3.10/site-packages
                   (from ersilia-pack==1.2.24) (25.0)                            
                   Collecting numpy (from ersilia-pack==1.2.24)                  
                     Downloading                                                 
@@ -194,7 +201,7 @@
                   Downloading                                                   
                   pydantic_core-2.41.5-cp310-cp310-manylinux_2_17_x86_64.manylin
                   ux2014_x86_64.whl (2.1 MB)                                    
-                     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 35.9   
+                     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 74.1   
                   MB/s  0:00:00                                                 
                   Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)   
                   Downloading starlette-0.52.1-py3-none-any.whl (74 kB)         
@@ -206,7 +213,7 @@
                   Downloading                                                   
                   numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x8
                   6_64.whl (16.8 MB)                                            
-                     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 146.0
+                     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 280.8
                   MB/s  0:00:00                                                 
                   Downloading                                                   
                   orjson-3.11.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_
@@ -219,7 +226,7 @@
                   pyyaml-6.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x
                   86_64.manylinux_2_28_x86_64.whl (770 kB)                      
                      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 770.3/770.3 kB    
-                  122.0 MB/s  0:00:00                                           
+                  146.5 MB/s  0:00:00                                           
                   Using cached redis-7.2.1-py3-none-any.whl (396 kB)            
                   Downloading async_timeout-5.0.1-py3-none-any.whl (6.2 kB)     
                   Downloading slowapi-0.1.9-py3-none-any.whl (14 kB)            
@@ -238,7 +245,7 @@
                   Downloading                                                   
                   uvloop-0.22.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_
                   x86_64.manylinux_2_28_x86_64.whl (3.7 MB)                     
-                     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 151.9  
+                     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 205.5  
                   MB/s  0:00:00                                                 
                   Downloading                                                   
                   watchfiles-1.1.1-cp310-cp310-manylinux_2_17_x86_64.manylinux20
@@ -252,10 +259,10 @@
                   with status 'done'                                            
                     Created wheel for ersilia-pack:                             
                   filename=ersilia_pack-1.2.24-py3-none-any.whl size=50125      
-                  sha256=64d99b2a44eefaf5ca3256373d150aa043fce8537fb58fb1dd193bf
-                  c6c45ba8a                                                     
+                  sha256=06a7a7bd57d9758d3f6df6da6f552ca0c861fac8f695015f3c79d77
+                  74f6f5464                                                     
                     Stored in directory:                                        
-                  /tmp/pip-ephem-wheel-cache-6b55k4q_/wheels/8e/4d/24/5264c91fc1
+                  /tmp/pip-ephem-wheel-cache-x3s9aigs/wheels/8e/4d/24/5264c91fc1
                   423345485ad780c3319e547cde740d7d4c0c84f4                      
                   Successfully built ersilia-pack                               
                   Installing collected packages: wrapt, websockets, uvloop,     
@@ -280,220 +287,1719 @@
          DEBUG    Conda environment qctivated!                                  
          DEBUG    Storing Conda environment in the local environment database   
          DEBUG    Done with the Conda setup                                     
-14:45:00 DEBUG    Using environment eos1noy                                     
+15:13:21 DEBUG    Using environment eos9zw0                                     
          DEBUG    Running command: ersilia_model_pack --repo_path               
-                  /home/runner/eos/dest/eos1noy --bundles_repo_path             
-                  /home/runner/eos/repository --conda_env_name eos1noy          
-         DEBUG    Run commandlines on eos1noy                                   
-         DEBUG    ersilia_model_pack --repo_path /home/runner/eos/dest/eos1noy  
+                  /home/runner/eos/dest/eos9zw0 --bundles_repo_path             
+                  /home/runner/eos/repository --conda_env_name eos9zw0          
+         DEBUG    Run commandlines on eos9zw0                                   
+         DEBUG    ersilia_model_pack --repo_path /home/runner/eos/dest/eos9zw0  
                   --bundles_repo_path /home/runner/eos/repository               
-                  --conda_env_name eos1noy                                      
-14:45:01 DEBUG    Activating base environment                                   
+                  --conda_env_name eos9zw0                                      
+15:13:22 DEBUG    Activating base environment                                   
          DEBUG    Current working directory:                                    
                   /home/runner/work/ersilia-maintenance/ersilia-maintenance     
-         DEBUG    Running bash /tmp/ersilia-zpydv7jv/script.sh 2>&1 | tee -a    
-                  /tmp/ersilia-p9nmnadk/command_outputs.log                     
-14:45:17 DEBUG    /usr/share/miniconda/envs/eos1noy/bin/python -m pip install   
-                  rdkit==2023.3.3                                               
-                  /usr/share/miniconda/envs/eos1noy/bin/python -m pip install   
-                  standardiser==0.1.9                                           
-                  /usr/share/miniconda/envs/eos1noy/bin/python -m pip install   
-                  requests==2.31.0                                              
-                  /usr/share/miniconda/envs/eos1noy/bin/python -m pip install   
-                  six==1.16                                                     
-                  /usr/share/miniconda/envs/eos1noy/bin/python -m pip install   
-                  numpy==1.24.4                                                 
+         DEBUG    Running bash /tmp/ersilia-168s1kp1/script.sh 2>&1 | tee -a    
+                  /tmp/ersilia-ec97cmz1/command_outputs.log                     
+15:13:48 DEBUG    set -euo pipefail                                             
+                  CONDA_SH=""                                                   
+                  CONDA_BIN="$(command -v conda || true)"                       
+                  if [ -n "${CONDA_BIN}" ] && [ -x "${CONDA_BIN}" ]; then       
+                    CONDA_BASE="$(cd "$(dirname "$(dirname "${CONDA_BIN}")")" &&
+                  pwd)"                                                         
+                    if [ -f "${CONDA_BASE}/etc/profile.d/conda.sh" ]; then      
+                      CONDA_SH="${CONDA_BASE}/etc/profile.d/conda.sh"           
+                    fi                                                          
+                  fi                                                            
+                  if [ -z "${CONDA_SH}" ] && [ -n "${CONDA_EXE:-}" ] && [ -x    
+                  "${CONDA_EXE}" ]; then                                        
+                    CONDA_BASE="$(cd "$(dirname "$(dirname "${CONDA_EXE}")")" &&
+                  pwd)"                                                         
+                    if [ -f "${CONDA_BASE}/etc/profile.d/conda.sh" ]; then      
+                      CONDA_SH="${CONDA_BASE}/etc/profile.d/conda.sh"           
+                    fi                                                          
+                  fi                                                            
+                  if [ -z "${CONDA_SH}" ]; then                                 
+                    for b in "/usr/bin/conda" "$HOME/miniconda"                 
+                  "$HOME/miniconda3" "$HOME/mambaforge" "$HOME/anaconda3"       
+                  "/opt/conda" "/usr/share/miniconda"; do                       
+                      if [ -f "$b/etc/profile.d/conda.sh" ]; then               
+                        CONDA_SH="$b/etc/profile.d/conda.sh"                    
+                        break                                                   
+                      fi                                                        
+                    done                                                        
+                  fi                                                            
+                  if [ -z "${CONDA_SH}" ]; then                                 
+                    echo "ERROR: conda.sh not found. Ensure conda is installed  
+                  on this machine." >&2                                         
+                    exit 127                                                    
+                  fi                                                            
+                  source "$CONDA_SH"                                            
+                  conda activate "eos9zw0"                                      
+                  conda install -c conda-forge compilers==1.9.0                 
+                  conda install -c conda-forge libxcrypt==4.4.36                
+                  /usr/share/miniconda/envs/eos9zw0/bin/python -m pip install   
+                  rdkit==2024.3.5                                               
+                  /usr/share/miniconda/envs/eos9zw0/bin/python -m pip install   
+                  scikit-learn==1.3.2                                           
+                  /usr/share/miniconda/envs/eos9zw0/bin/python -m pip install   
+                  spacy==3.8.11                                                 
+                  /usr/share/miniconda/envs/eos9zw0/bin/python -m pip install   
+                  fastai==1.0.61                                                
+                  /usr/share/miniconda/envs/eos9zw0/bin/python -m pip install   
+                  numpy==1.23.5                                                 
                   [36m$ bash                                                    
-                  /home/runner/eos/repository/eos1noy/20260302-239d3826-5bba-40d
-                  a-a546-9db6916e719d/installs/install.sh[0m                    
-                  [36mCollecting rdkit==2023.3.3[0m                             
-                  [36m  Downloading                                             
-                  rdkit-2023.3.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014
-                  _x86_64.whl.metadata (3.8 kB)[0m                              
-                  [36mRequirement already satisfied: numpy in                   
-                  /usr/share/miniconda/envs/eos1noy/lib/python3.10/site-packages
-                  (from rdkit==2023.3.3) (2.2.6)[0m                             
-                  [36mCollecting Pillow (from rdkit==2023.3.3)[0m               
-                  [36m  Downloading                                             
-                  pillow-12.1.1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28
-                  _x86_64.whl.metadata (8.8 kB)[0m                              
-                  [36mDownloading                                               
-                  rdkit-2023.3.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014
-                  _x86_64.whl (29.7 MB)[0m                                      
-                  [36m   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 29.7/29.7 MB  
-                  35.0 MB/s  0:00:00[0m                                         
-                  [36mDownloading                                               
-                  pillow-12.1.1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28
-                  _x86_64.whl (7.0 MB)[0m                                       
-                  [36m   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.0/7.0 MB    
-                  244.3 MB/s  0:00:00[0m                                        
-                  [36mInstalling collected packages: Pillow, rdkit[0m           
+                  /home/runner/eos/repository/eos9zw0/20260302-87ad8aba-4631-41b
+                  3-b090-082baac1abcc/installs/install.sh[0m                    
+                  [36mCI detected...[0m                                         
+                  [36m2 channel Terms of Service accepted[0m                    
+                  [36mChannels:[0m                                              
+                  [36m - conda-forge[0m                                         
+                  [36m - defaults[0m                                            
+                  [36mPlatform: linux-64[0m                                     
+                  [36mCollecting package metadata (repodata.json): - \ | / - \  
+                  done[0m                                                       
+                  [36mSolving environment: / done[0m                            
                   [36m[0m                                                       
-                  [36mSuccessfully installed Pillow-12.1.1 rdkit-2023.3.3[0m    
-                  [36mCollecting standardiser==0.1.9[0m                         
-                  [36m  Downloading standardiser-0.1.9.tar.gz (698 kB)[0m       
-                  [36m     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 698.4/698.4 
-                  kB 39.6 MB/s  0:00:00[0m                                      
-                  [36m  Installing build dependencies: started[0m               
-                  [36m  Installing build dependencies: finished with status     
-                  'done'[0m                                                     
-                  [36m  Getting requirements to build wheel: started[0m         
-                  [36m  Getting requirements to build wheel: finished with      
-                  status 'done'[0m                                              
-                  [36m  Preparing metadata (pyproject.toml): started[0m         
-                  [36m  Preparing metadata (pyproject.toml): finished with      
-                  status 'done'[0m                                              
-                  [36mBuilding wheels for collected packages: standardiser[0m   
-                  [36m  Building wheel for standardiser (pyproject.toml):       
-                  started[0m                                                    
-                  [36m  Building wheel for standardiser (pyproject.toml):       
-                  finished with status 'done'[0m                                
-                  [36m  Created wheel for standardiser:                         
-                  filename=standardiser-0.1.9-py3-none-any.whl size=720143      
-                  sha256=279718526c80f15548172cae35ad90f05bb62faf921df96000e6338
-                  8a61aac34[0m                                                  
-                  [36m  Stored in directory:                                    
-                  /home/runner/.cache/pip/wheels/eb/62/4b/6044430bf5a732d53bd0d1
-                  aa165c928954d9f87cd92529f00f[0m                               
-                  [36mSuccessfully built standardiser[0m                        
-                  [36mInstalling collected packages: standardiser[0m            
-                  [36mSuccessfully installed standardiser-0.1.9[0m              
-                  [36mCollecting requests==2.31.0[0m                            
-                  [36m  Downloading requests-2.31.0-py3-none-any.whl.metadata   
-                  (4.6 kB)[0m                                                   
-                  [36mCollecting charset-normalizer<4,>=2 (from                 
-                  requests==2.31.0)[0m                                          
-                  [36m  Downloading                                             
-                  charset_normalizer-3.4.4-cp310-cp310-manylinux2014_x86_64.many
-                  linux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (37      
-                  kB)[0m                                                        
-                  [36mRequirement already satisfied: idna<4,>=2.5 in            
-                  /usr/share/miniconda/envs/eos1noy/lib/python3.10/site-packages
-                  (from requests==2.31.0) (3.11)[0m                             
-                  [36mCollecting urllib3<3,>=1.21.1 (from requests==2.31.0)[0m  
-                  [36m  Using cached urllib3-2.6.3-py3-none-any.whl.metadata    
-                  (6.9 kB)[0m                                                   
-                  [36mCollecting certifi>=2017.4.17 (from requests==2.31.0)[0m  
-                  [36m  Using cached certifi-2026.2.25-py3-none-any.whl.metadata
-                  (2.5 kB)[0m                                                   
-                  [36mDownloading requests-2.31.0-py3-none-any.whl (62 kB)[0m   
-                  [36mDownloading                                               
-                  charset_normalizer-3.4.4-cp310-cp310-manylinux2014_x86_64.many
-                  linux_2_17_x86_64.manylinux_2_28_x86_64.whl (153 kB)[0m       
-                  [36mUsing cached urllib3-2.6.3-py3-none-any.whl (131 kB)[0m   
-                  [36mUsing cached certifi-2026.2.25-py3-none-any.whl (153      
-                  kB)[0m                                                        
-                  [36mInstalling collected packages: urllib3,                   
-                  charset-normalizer, certifi, requests[0m                      
+                  [36m## Package Plan ##[0m                                     
                   [36m[0m                                                       
-                  [36mSuccessfully installed certifi-2026.2.25                  
-                  charset-normalizer-3.4.4 requests-2.31.0 urllib3-2.6.3[0m     
-                  [36mCollecting six==1.16[0m                                   
-                  [36m  Downloading six-1.16.0-py2.py3-none-any.whl.metadata    
-                  (1.8 kB)[0m                                                   
-                  [36mDownloading six-1.16.0-py2.py3-none-any.whl (11 kB)[0m    
-                  [36mInstalling collected packages: six[0m                     
-                  [36mSuccessfully installed six-1.16.0[0m                      
-                  [36mCollecting numpy==1.24.4[0m                               
-                  [36m  Downloading                                             
-                  numpy-1.24.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x
-                  86_64.whl.metadata (5.6 kB)[0m                                
-                  [36mDownloading                                               
-                  numpy-1.24.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x
-                  86_64.whl (17.3 MB)[0m                                        
-                  [36m   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB  
-                  149.9 MB/s  0:00:00[0m                                        
-                  [36mInstalling collected packages: numpy[0m                   
-                  [36m  Attempting uninstall: numpy[0m                          
-                  [36m    Found existing installation: numpy 2.2.6[0m           
-                  [36m    Uninstalling numpy-2.2.6:[0m                          
-                  [36m      Successfully uninstalled numpy-2.2.6[0m             
-                  [36mSuccessfully installed numpy-1.24.4[0m                    
-                  [36mreturncode: 0[0m                                          
-                  [36mduration: 8.413s[0m                                       
+                  [36m  environment location:                                   
+                  /usr/share/miniconda/envs/eos9zw0[0m                          
+                  [36m[0m                                                       
+                  [36m  added / updated specs:[0m                               
+                  [36m    - compilers==1.9.0[0m                                 
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mThe following packages will be downloaded:[0m             
+                  [36m[0m                                                       
+                  [36m    package                    |            build[0m      
+                  [36m    ---------------------------|-----------------[0m      
+                  [36m    binutils-2.44              |       h4852527_5         
+                  34 KB  conda-forge[0m                                         
+                  [36m    binutils_impl_linux-64-2.44|       h4b9a079_2         
+                  3.1 MB[0m                                                     
+                  [36m    binutils_linux-64-2.44     |       hc03a8fd_2         
+                  36 KB[0m                                                      
+                  [36m    c-compiler-1.9.0           |       h2b85faf_0         
+                  6 KB  conda-forge[0m                                          
+                  [36m    compilers-1.9.0            |       ha770c72_0         
+                  7 KB  conda-forge[0m                                          
+                  [36m    conda-gcc-specs-13.4.0     |      h109b0d3_18         
+                  31 KB  conda-forge[0m                                         
+                  [36m    cxx-compiler-1.9.0         |       h1a2810e_0         
+                  6 KB  conda-forge[0m                                          
+                  [36m    fortran-compiler-1.9.0     |       h36df796_0         
+                  6 KB  conda-forge[0m                                          
+                  [36m    gcc-13.4.0                 |       h81444f0_7         
+                  30 KB  conda-forge[0m                                         
+                  [36m    gcc_impl_linux-64-13.4.0   |       h69c5793_7         
+                  63.8 MB  conda-forge[0m                                       
+                  [36m    gcc_linux-64-13.4.0        |      h0a5b801_21         
+                  28 KB  conda-forge[0m                                         
+                  [36m    gfortran-13.4.0            |       h7467c50_7         
+                  30 KB  conda-forge[0m                                         
+                  [36m    gfortran_impl_linux-64-13.4.0|      hb485fb8_18       
+                  16.4 MB  conda-forge[0m                                       
+                  [36m    gfortran_linux-64-13.4.0   |      hce61b40_21         
+                  27 KB  conda-forge[0m                                         
+                  [36m    gxx-13.4.0                 |       h7467c50_7         
+                  30 KB  conda-forge[0m                                         
+                  [36m    gxx_impl_linux-64-13.4.0   |       haf17267_7         
+                  12.9 MB  conda-forge[0m                                       
+                  [36m    gxx_linux-64-13.4.0        |      h587059e_21         
+                  27 KB  conda-forge[0m                                         
+                  [36m    kernel-headers_linux-64-6.12.0|       he073ed8_5      
+                  1.5 MB  conda-forge[0m                                        
+                  [36m    libgcc-devel_linux-64-13.4.0|     hba01cd7_107        
+                  2.5 MB  conda-forge[0m                                        
+                  [36m    libgfortran5-15.2.0        |      h68bc16d_18         
+                  2.4 MB  conda-forge[0m                                        
+                  [36m    libsanitizer-13.4.0        |       h14bf0c3_7         
+                  4.4 MB  conda-forge[0m                                        
+                  [36m    libstdcxx-devel_linux-64-13.4.0|     hba01cd7_107     
+                  12.0 MB  conda-forge[0m                                       
+                  [36m    sysroot_linux-64-2.39      |       hc4b9eeb_5         
+                  39.6 MB  conda-forge[0m                                       
+                  [36m                                                          
+                  ------------------------------------------------------------[0
+                  m                                                             
+                  [36m                                           Total:         
+                  158.8 MB[0m                                                   
+                  [36m[0m                                                       
+                  [36mThe following NEW packages will be INSTALLED:[0m          
+                  [36m[0m                                                       
+                  [36m  binutils                                                
+                  conda-forge/linux-64::binutils-2.44-h4852527_5 [0m            
+                  [36m  binutils_impl_lin~                                      
+                  pkgs/main/linux-64::binutils_impl_linux-64-2.44-h4b9a079_2 [0m
+                  [36m  binutils_linux-64                                       
+                  pkgs/main/linux-64::binutils_linux-64-2.44-hc03a8fd_2 [0m     
+                  [36m  c-compiler                                              
+                  conda-forge/linux-64::c-compiler-1.9.0-h2b85faf_0 [0m         
+                  [36m  compilers                                               
+                  conda-forge/linux-64::compilers-1.9.0-ha770c72_0 [0m          
+                  [36m  conda-gcc-specs                                         
+                  conda-forge/linux-64::conda-gcc-specs-13.4.0-h109b0d3_18 [0m  
+                  [36m  cxx-compiler                                            
+                  conda-forge/linux-64::cxx-compiler-1.9.0-h1a2810e_0 [0m       
+                  [36m  fortran-compiler                                        
+                  conda-forge/linux-64::fortran-compiler-1.9.0-h36df796_0 [0m   
+                  [36m  gcc                                                     
+                  conda-forge/linux-64::gcc-13.4.0-h81444f0_7 [0m               
+                  [36m  gcc_impl_linux-64                                       
+                  conda-forge/linux-64::gcc_impl_linux-64-13.4.0-h69c5793_7 [0m 
+                  [36m  gcc_linux-64                                            
+                  conda-forge/linux-64::gcc_linux-64-13.4.0-h0a5b801_21 [0m     
+                  [36m  gfortran                                                
+                  conda-forge/linux-64::gfortran-13.4.0-h7467c50_7 [0m          
+                  [36m  gfortran_impl_lin~                                      
+                  conda-forge/linux-64::gfortran_impl_linux-64-13.4.0-hb485fb8_1
+                  8 [0m                                                         
+                  [36m  gfortran_linux-64                                       
+                  conda-forge/linux-64::gfortran_linux-64-13.4.0-hce61b40_21 [0m
+                  [36m  gxx                                                     
+                  conda-forge/linux-64::gxx-13.4.0-h7467c50_7 [0m               
+                  [36m  gxx_impl_linux-64                                       
+                  conda-forge/linux-64::gxx_impl_linux-64-13.4.0-haf17267_7 [0m 
+                  [36m  gxx_linux-64                                            
+                  conda-forge/linux-64::gxx_linux-64-13.4.0-h587059e_21 [0m     
+                  [36m  kernel-headers_li~                                      
+                  conda-forge/noarch::kernel-headers_linux-64-6.12.0-he073ed8_5 
+                  [0m                                                           
+                  [36m  libgcc-devel_linu~                                      
+                  conda-forge/noarch::libgcc-devel_linux-64-13.4.0-hba01cd7_107 
+                  [0m                                                           
+                  [36m  libgfortran5                                            
+                  conda-forge/linux-64::libgfortran5-15.2.0-h68bc16d_18 [0m     
+                  [36m  libsanitizer                                            
+                  conda-forge/linux-64::libsanitizer-13.4.0-h14bf0c3_7 [0m      
+                  [36m  libstdcxx-devel_l~                                      
+                  conda-forge/noarch::libstdcxx-devel_linux-64-13.4.0-hba01cd7_1
+                  07 [0m                                                        
+                  [36m  sysroot_linux-64                                        
+                  conda-forge/noarch::sysroot_linux-64-2.39-hc4b9eeb_5 [0m      
+                  [36m[0m                                                       
+                  [36mThe following packages will be UPDATED:[0m                
+                  [36m[0m                                                       
+                  [36m  ca-certificates                                         
+                  pkgs/main/linux-64::ca-certificates-2~ -->                    
+                  conda-forge/noarch::ca-certificates-2026.2.25-hbd8a1cb_0 [0m  
+                  [36m  openssl                                                 
+                  pkgs/main::openssl-3.5.5-h1b28b03_0 -->                       
+                  conda-forge::openssl-3.6.1-h35e630c_1 [0m                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mDownloading and Extracting Packages: ...working...[0m     
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   |            |   0% [0m  
+                  [36m[0m                                                       
+                  [36msysroot_linux-64-2.3 | 39.6 MB   |            |   0% [A[0m
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran_impl_linux- | 16.4 MB   |            |   0%      
+                  [A[A[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx_impl_linux-64-13 | 12.9 MB   |            |   0%      
+                  [A[A[A[0m                                                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibstdcxx-devel_linu | 12.0 MB   |            |   0%      
+                  [A[A[A[A[0m                                                   
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibsanitizer-13.4.0  | 4.4 MB    |            |   0%      
+                  [A[A[A[A[A[0m                                                 
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils_impl_linux- | 3.1 MB    |            |   0%      
+                  [A[A[A[A[A[A[0m                                               
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibgcc-devel_linux-6 | 2.5 MB    |            |   0%      
+                  [A[A[A[A[A[A[A[0m                                             
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibgfortran5-15.2.0  | 2.4 MB    |            |   0%      
+                  [A[A[A[A[A[A[A[A[0m                                           
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mkernel-headers_linux | 1.5 MB    |            |   0%      
+                  [A[A[A[A[A[A[A[A[A[0m                                         
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils_linux-64-2. | 36 KB     |            |   0%      
+                  [A[A[A[A[A[A[A[A[A[A[0m                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils-2.44        | 34 KB     |            |   0%      
+                  [A[A[A[A[A[A[A[A[A[A[A[0m                                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mconda-gcc-specs-13.4 | 31 KB     |            |   0%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[0m                                   
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgcc-13.4.0           | 30 KB     |            |   0%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[0m                                 
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran-13.4.0      | 30 KB     |            |   0%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                               
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx-13.4.0           | 30 KB     |            |   0%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                             
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgcc_linux-64-13.4.0  | 28 KB     |            |   0%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                           
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx_linux-64-13.4.0  | 27 KB     |            |   0%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                         
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran_linux-64-13 | 27 KB     |            |   0%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m ... (more hidden)                                        
+                  ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibstdcxx-devel_linu | 12.0 MB   |            |   0%      
+                  [A[A[A[A[0m                                                   
+                  [36m[0m                                                       
+                  [36msysroot_linux-64-2.3 | 39.6 MB   |            |   0% [A[0m
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   |            |   0% [0m  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx_impl_linux-64-13 | 12.9 MB   |            |   0%      
+                  [A[A[A[0m                                                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran_impl_linux- | 16.4 MB   |            |   0%      
+                  [A[A[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibstdcxx-devel_linu | 12.0 MB   | ###7       |  38%      
+                  [A[A[A[A[0m                                                   
+                  [36m[0m                                                       
+                  [36msysroot_linux-64-2.3 | 39.6 MB   | #          |  10% [A[0m
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | 5          |   6% [0m  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx_impl_linux-64-13 | 12.9 MB   | ##8        |  28%      
+                  [A[A[A[0m                                                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran_impl_linux- | 16.4 MB   | ##1        |  22%      
+                  [A[A[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibstdcxx-devel_linu | 12.0 MB   | #######7   |  78%      
+                  [A[A[A[A[0m                                                   
+                  [36m[0m                                                       
+                  [36msysroot_linux-64-2.3 | 39.6 MB   | ##1        |  22% [A[0m
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | #3         |  14% [0m  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx_impl_linux-64-13 | 12.9 MB   | ######6    |  67%      
+                  [A[A[A[0m                                                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran_impl_linux- | 16.4 MB   | #####3     |  54%      
+                  [A[A[0m                                                       
+                  [36m[0m                                                       
+                  [36msysroot_linux-64-2.3 | 39.6 MB   | ###5       |  36% [A[0m
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | ##2        |  22% [0m  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran_impl_linux- | 16.4 MB   | ########7  |  88%      
+                  [A[A[0m                                                       
+                  [36m[0m                                                       
+                  [36msysroot_linux-64-2.3 | 39.6 MB   | #####1     |  52% [A[0m
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibstdcxx-devel_linu | 12.0 MB   | ########## | 100%      
+                  [A[A[A[A[0m                                                   
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | ###1       |  32% [0m  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibsanitizer-13.4.0  | 4.4 MB    |            |   0%      
+                  [A[A[A[A[A[0m                                                 
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx_impl_linux-64-13 | 12.9 MB   | ########## | 100%      
+                  [A[A[A[0m                                                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx_impl_linux-64-13 | 12.9 MB   | ########## | 100%      
+                  [A[A[A[0m                                                     
+                  [36m[0m                                                       
+                  [36msysroot_linux-64-2.3 | 39.6 MB   | ######4    |  65% [A[0m
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | ###9       |  39% [0m  
+                  [36m[0m                                                       
+                  [36msysroot_linux-64-2.3 | 39.6 MB   | #######7   |  77% [A[0m
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibsanitizer-13.4.0  | 4.4 MB    | ########## | 100%      
+                  [A[A[A[A[A[0m                                                 
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibsanitizer-13.4.0  | 4.4 MB    | ########## | 100%      
+                  [A[A[A[A[A[0m                                                 
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | ####6      |  47% [0m  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran_impl_linux- | 16.4 MB   | ########## | 100%      
+                  [A[A[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils_impl_linux- | 3.1 MB    |            |   1%      
+                  [A[A[A[A[A[A[0m                                               
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibgcc-devel_linux-6 | 2.5 MB    |            |   1%      
+                  [A[A[A[A[A[A[A[0m                                             
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibgfortran5-15.2.0  | 2.4 MB    |            |   1%      
+                  [A[A[A[A[A[A[A[A[0m                                           
+                  [36m[0m                                                       
+                  [36msysroot_linux-64-2.3 | 39.6 MB   | ########9  |  89% [A[0m
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | #####4     |  54% [0m  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils_impl_linux- | 3.1 MB    | 8          |   9%      
+                  [A[A[A[A[A[A[0m                                               
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibgcc-devel_linux-6 | 2.5 MB    | ########## | 100%      
+                  [A[A[A[A[A[A[A[0m                                             
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibgcc-devel_linux-6 | 2.5 MB    | ########## | 100%      
+                  [A[A[A[A[A[A[A[0m                                             
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibgfortran5-15.2.0  | 2.4 MB    | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[0m                                           
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibgfortran5-15.2.0  | 2.4 MB    | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[0m                                           
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mkernel-headers_linux | 1.5 MB    | 1          |   1%      
+                  [A[A[A[A[A[A[A[A[A[0m                                         
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | ######1    |  61% [0m  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils_impl_linux- | 3.1 MB    | ########## | 100%      
+                  [A[A[A[A[A[A[0m                                               
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils_impl_linux- | 3.1 MB    | ########## | 100%      
+                  [A[A[A[A[A[A[0m                                               
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mkernel-headers_linux | 1.5 MB    | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[0m                                         
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | #######    |  71% [0m  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils_linux-64-2. | 36 KB     | ####3      |  44%      
+                  [A[A[A[A[A[A[A[A[A[A[0m                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils_linux-64-2. | 36 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[0m                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils-2.44        | 34 KB     | ####6      |  47%      
+                  [A[A[A[A[A[A[A[A[A[A[A[0m                                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils-2.44        | 34 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[0m                                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mconda-gcc-specs-13.4 | 31 KB     | #####1     |  52%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[0m                                   
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mconda-gcc-specs-13.4 | 31 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[0m                                   
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgcc-13.4.0           | 30 KB     | #####2     |  53%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[0m                                 
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgcc-13.4.0           | 30 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[0m                                 
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran-13.4.0      | 30 KB     | #####3     |  54%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                               
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran-13.4.0      | 30 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                               
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx-13.4.0           | 30 KB     | #####3     |  54%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                             
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx-13.4.0           | 30 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                             
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | ########1  |  81% [0m  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibsanitizer-13.4.0  | 4.4 MB    | ########## | 100%      
+                  [A[A[A[A[A[0m                                                 
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx_linux-64-13.4.0  | 27 KB     | #####9     |  60%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                         
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx_linux-64-13.4.0  | 27 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                         
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran_linux-64-13 | 27 KB     | ######     |  60%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran_linux-64-13 | 27 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgcc_linux-64-13.4.0  | 28 KB     | #####6     |  57%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                           
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgcc_linux-64-13.4.0  | 28 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                           
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m ... (more hidden)                                        
+                  ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m ... (more hidden)                                        
+                  ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                  
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | #########1 |  91% [0m  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx_impl_linux-64-13 | 12.9 MB   | ########## | 100%      
+                  [A[A[A[0m                                                     
+                  [36m[0m                                                       
+                  [36msysroot_linux-64-2.3 | 39.6 MB   | ########## | 100% [A[0m
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibgcc-devel_linux-6 | 2.5 MB    | ########## | 100%      
+                  [A[A[A[A[A[A[A[0m                                             
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibgfortran5-15.2.0  | 2.4 MB    | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[0m                                           
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | ########## | 100% [0m  
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | ########## | 100% [0m  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran_impl_linux- | 16.4 MB   | ########## | 100%      
+                  [A[A[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils_impl_linux- | 3.1 MB    | ########## | 100%      
+                  [A[A[A[A[A[A[0m                                               
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mlibstdcxx-devel_linu | 12.0 MB   | ########## | 100%      
+                  [A[A[A[A[0m                                                   
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils_linux-64-2. | 36 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[0m                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils_linux-64-2. | 36 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[0m                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils-2.44        | 34 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[0m                                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mbinutils-2.44        | 34 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[0m                                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mconda-gcc-specs-13.4 | 31 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[0m                                   
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mconda-gcc-specs-13.4 | 31 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[0m                                   
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgcc-13.4.0           | 30 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[0m                                 
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgcc-13.4.0           | 30 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[0m                                 
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran-13.4.0      | 30 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                               
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran-13.4.0      | 30 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                               
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx-13.4.0           | 30 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                             
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx-13.4.0           | 30 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                             
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx_linux-64-13.4.0  | 27 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                         
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgxx_linux-64-13.4.0  | 27 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                         
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran_linux-64-13 | 27 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgfortran_linux-64-13 | 27 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m ... (more hidden)                                        
+                  ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                  
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgcc_linux-64-13.4.0  | 28 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                           
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mgcc_linux-64-13.4.0  | 28 KB     | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                           
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mkernel-headers_linux | 1.5 MB    | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[0m                                         
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36mkernel-headers_linux | 1.5 MB    | ########## | 100%      
+                  [A[A[A[A[A[A[A[A[A[0m                                         
+                  [36mgcc_impl_linux-64-13 | 63.8 MB   | ########## | 100% [0m  
+                  [36m[0m                                                       
+                  [36msysroot_linux-64-2.3 | 39.6 MB   | ########## | 100% [A[0m
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                      [0m                                 
+                  [36m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                 
+                  [36m                                                     [0m  
+                  [36m[0m                                                       
+                  [36m                                                     [A[0m
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[0m                                                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[0m                                                   
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[0m                                                 
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[A[0m                                               
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[A[A[0m                                             
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[A[A[A[0m                                           
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[A[A[A[A[0m                                         
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[A[A[A[A[A[0m                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[A[A[A[A[A[A[0m                                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[A[A[A[A[A[A[A[0m                                   
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[0m                                 
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                               
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                             
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                           
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                         
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m                                                          
+                  [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[0m                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[A[0m                                                     
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[A[A[0m                                                   
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[0m                                                       
+                  [36m[A[A[A done[0m                                            
+                  [36mPreparing transaction: \ done[0m                          
+                  [36mVerifying transaction: / - \ done[0m                      
+                  [36mExecuting transaction: / - done[0m                        
+                  [31m/usr/share/miniconda/envs/eos9zw0/etc/conda/deactivate.d/d
+                  eactivate-binutils_linux-64.sh: line 68:                      
+                  CONDA_BACKUP_ADDR2LINE: unbound variable[0m                   
+                  [36mreturncode: 1[0m                                          
+                  [36mduration: 17.156s[0m                                      
                   [36m----------------------------------------[0m               
                                                                                 
+         DEBUG    Error occurred while running: bash                            
+                  /tmp/ersilia-168s1kp1/script.sh 2>&1 | tee -a                 
+                  /tmp/ersilia-ec97cmz1/command_outputs.log                     
          DEBUG    Conda environment qctivated!                                  
-         DEBUG    Packing command successfully run inside eos1noy conda         
+         DEBUG    Packing command successfully run inside eos9zw0 conda         
                   environment                                                   
          DEBUG    Creating model symlink bundle > dest                          
          DEBUG    Creating symlink from                                         
-                  /home/runner/eos/repository/eos1noy/20260302-239d3826-5bba-40d
-                  a-a546-9db6916e719d/model                                     
-         DEBUG    Creating symlink to /home/runner/eos/dest/eos1noy/model       
+                  /home/runner/eos/repository/eos9zw0/20260302-87ad8aba-4631-41b
+                  3-b090-082baac1abcc/model                                     
+         DEBUG    Creating symlink to /home/runner/eos/dest/eos9zw0/model       
          DEBUG    Symlinks created                                              
          DEBUG    Writing pack method fastapi to file pack_method.txt           
-         DEBUG    Getting model card of eos1noy                                 
+         DEBUG    Getting model card of eos9zw0                                 
          DEBUG    Initializing MetadataCard                                     
-         DEBUG    Getting metadata card for model_id: eos1noy                   
-         DEBUG    Trying to get metadata from: /home/runner/eos/dest/eos1noy    
-         DEBUG    Card saved at /home/runner/eos/dest/eos1noy/card.json         
-         DEBUG    Saving slug chembl-sampler                                    
+         DEBUG    Getting metadata card for model_id: eos9zw0                   
+         DEBUG    Trying to get metadata from: /home/runner/eos/dest/eos9zw0    
+         DEBUG    Card saved at /home/runner/eos/dest/eos9zw0/card.json         
+         DEBUG    Saving slug molpmofit                                         
          DEBUG    Checking that autoservice works                               
-         DEBUG    Setting autoservice for eos1noy                               
-14:45:20 INFO     Caching is amenable                                           
+         DEBUG    Setting autoservice for eos9zw0                               
+15:13:49 INFO     Caching is amenable                                           
          INFO     Docker is available and running.                              
          DEBUG    No service class provided, deciding automatically             
          DEBUG    No service class file exists in                               
-                  /home/runner/eos/repository/eos1noy/20260302-239d3826-5bba-40d
-                  a-a546-9db6916e719d/service_class.txt                         
+                  /home/runner/eos/repository/eos9zw0/20260302-87ad8aba-4631-41b
+                  3-b090-082baac1abcc/service_class.txt                         
          DEBUG    Pack method is: fastapi                                       
          DEBUG    Pack method is: fastapi                                       
-         DEBUG    Setting virtual environment at /home/runner/eos/dest/eos1noy  
+         DEBUG    Setting virtual environment at /home/runner/eos/dest/eos9zw0  
          DEBUG    Pack method is: fastapi                                       
-14:45:21 DEBUG    Pack method is: fastapi                                       
+15:13:50 DEBUG    Pack method is: fastapi                                       
          DEBUG    Service class: conda                                          
          DEBUG    Getting APIs from list file                                   
          DEBUG    Getting APIs from FastAPI                                     
          DEBUG    Sniffing model                                                
          DEBUG    Getting model size                                            
-         DEBUG    Model size is 0.21580982208251953 MB                          
+         DEBUG    Model size is 120.8185920715332 MB                            
          DEBUG    Resolving API schema from columns file...                     
          DEBUG    API schema saved at                                           
-                  /home/runner/eos/dest/eos1noy/api_schema.json                 
-         DEBUG    Fetching eos1noy done in time: 0:00:47.876778s                
-         INFO     Fetching eos1noy done successfully: 0:00:47.876778            
+                  /home/runner/eos/dest/eos9zw0/api_schema.json                 
+         DEBUG    Fetching eos9zw0 done in time: 0:00:59.155105s                
+         INFO     Fetching eos9zw0 done successfully: 0:00:59.155105            
          DEBUG    Running standard CSV example                                  
          DEBUG    Exaple input                                                  
-                  file:/home/runner/eos/dest/eos1noy/example_standard_input.csv 
+                  file:/home/runner/eos/dest/eos9zw0/example_standard_input.csv 
          DEBUG    Exaple output                                                 
-                  file:/home/runner/eos/dest/eos1noy/example_standard_output.csv
-14:45:22 DEBUG    Will run this through Conda                                   
+                  file:/home/runner/eos/dest/eos9zw0/example_standard_output.csv
+15:13:51 DEBUG    Will run this through Conda                                   
          DEBUG    The environment name is test                                  
          DEBUG    Run commandlines on test                                      
-         DEBUG    ersilia serve eos1noy --disable-cache && ersilia example -n 3 
-                  -f /home/runner/eos/dest/eos1noy/example_standard_input.csv &&
+         DEBUG    ersilia serve eos9zw0 --disable-cache && ersilia example -n 3 
+                  -f /home/runner/eos/dest/eos9zw0/example_standard_input.csv &&
                   ersilia run -i                                                
-                  /home/runner/eos/dest/eos1noy/example_standard_input.csv -o   
-                  /home/runner/eos/dest/eos1noy/example_standard_output.csv >   
-                  /home/runner/eos/dest/eos1noy/standard_run.log 2>&1 && ersilia
+                  /home/runner/eos/dest/eos9zw0/example_standard_input.csv -o   
+                  /home/runner/eos/dest/eos9zw0/example_standard_output.csv >   
+                  /home/runner/eos/dest/eos9zw0/standard_run.log 2>&1 && ersilia
                   close                                                         
-14:45:23 DEBUG    Activating base environment                                   
+15:13:52 DEBUG    Activating base environment                                   
          DEBUG    Current working directory:                                    
                   /home/runner/work/ersilia-maintenance/ersilia-maintenance     
-         DEBUG    Running bash /tmp/ersilia-fzdos7ow/script.sh 2>&1 | tee -a    
-                  /tmp/ersilia-ba7lau4b/command_outputs.log                     
-14:45:54 DEBUG    Conda environment qctivated!                                  
+         DEBUG    Running bash /tmp/ersilia-yjtj81rm/script.sh 2>&1 | tee -a    
+                  /tmp/ersilia-c9a3xjl7/command_outputs.log                     
+15:14:12 DEBUG    Conda environment qctivated!                                  
          INFO     Run log:   ✓  Using provided service backend 'conda' for model
-                  eos1noy                                                       
+                  eos9zw0                                                       
                     ✓  Standard API runner initialized                          
                     ✓  Preparing input data                                     
                     ✓  Waiting for server response                              
                     ✓  Running batch 1                                          
-                    ✓  Fetching batch of size 3                                 
-                    ✓  Batch 1 fetched in 6.5883 seconds                        
-                    ✓  Server response received                                 
-                    ✓  All batches processed in 13.6174 seconds                 
-                    ✓  Finalizing the output                                    
-                    ✓  Output serialization complete                            
-                    ✓  Output generated in 13.61801 seconds                     
-                    ✓  ✅ Output successfully written in                        
-                  /home/runner/eos/dest/eos1noy/example_standard_output.csv     
-                  file!                                                         
+                    ✖  Fetching batch of size 3                                 
+                  🚨🚨🚨 Something went wrong with Ersilia 🚨🚨🚨               
                                                                                 
-         ERROR    The model is getting deleted due to it produced all empty     
-                  values! Removing the model and exiting                        
-  ✓  Model testing started for: eos1noy
+                  Error message:                                                
+                                                                                
+                  500 Server Error: Internal Server Error for url:              
+                  http://127.0.0.1:48185/run?fetch_cache=False&save_cache=False 
+                  If this error message is not helpful, open an issue at:       
+                   - https://github.com/ersilia-os/ersilia                      
+                  Or feel free to reach out to us at:                           
+                   - hello[at]ersilia.io                                        
+                                                                                
+                  If you haven't, try to run your command in verbose mode (-v in
+                  the CLI)                                                      
+                   - You will find the console log file in:                     
+                  /home/runner/eos/current.log                                  
+                                                                                
+  ✓  Model testing started for: eos9zw0
   ⚠  Performing basic checks.
                                                                                 
                                 Metadata Checks                                 
@@ -649,7 +2155,7 @@
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
 ┃ Check                          ┃            Details             ┃       Size ┃
 ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━┩
-│ Directory Size Mb              │      Total directory size      │       1.00 │
+│ Directory Size Mb              │      Total directory size      │     122.00 │
 └────────────────────────────────┴────────────────────────────────┴────────────┘
                                                                                 
                               File Validity Check                               
@@ -675,4 +2181,4 @@
 Model was not fetched successfully during start of surface checks. System is exiting before proceeding!
   ⚠  Caught SystemExit(1), returning partial results. Saving report, deleting model and exiting.
   ✓  Model successfully deleted
-ersilia fetch/test failed for eos1noy (fetch_exit=1, test_exit=1).
+ersilia fetch/test failed for eos9zw0 (fetch_exit=1, test_exit=1).
