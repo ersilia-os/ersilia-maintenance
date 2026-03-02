@@ -35,6 +35,10 @@ def _get_file_info(repo: str, path: str, token: str):
     return r.json()
 
 
+BOT_NAME = "ersilia-bot"
+BOT_EMAIL = "ersilia-bot@users.noreply.github.com"
+
+
 def _put_file(repo: str, path: str, new_content: str, sha: str, message: str, token: str):
     """Commit an updated file via the GitHub Contents API."""
     url = f"{GITHUB_API}/repos/{ORG}/{repo}/contents/{path}"
@@ -42,6 +46,8 @@ def _put_file(repo: str, path: str, new_content: str, sha: str, message: str, to
         "message": message,
         "content": base64.b64encode(new_content.encode("utf-8")).decode("ascii"),
         "sha": sha,
+        "author": {"name": BOT_NAME, "email": BOT_EMAIL},
+        "committer": {"name": BOT_NAME, "email": BOT_EMAIL},
     }
     r = requests.put(url, json=payload, headers=_headers(token), timeout=REQUEST_TIMEOUT)
     r.raise_for_status()
