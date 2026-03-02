@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos65rt",
-    "slug": "deepfl-logp",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-13",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos74bo",
-    "slug": "ncats-solubility",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-28",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos96f4",
-    "slug": "digitization-complexity",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-02-02",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos9n1s",
-    "slug": "hemozoin-inhibition-physchem",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-02-04",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos9taz",
-    "slug": "moler-enamine-fragments",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-22",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos9tyg",
-    "slug": "ncats-pampa74",
+    "repository_name": "eos9yy1",
+    "slug": "ncats-hlcs",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-10-16",
     "open_issues": 0
   },
   {
-    "repository_name": "eos9ueu",
-    "slug": "small-world-enamine-real",
+    "repository_name": "eos9zw0",
+    "slug": "molpmofit",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2025-10-24",
+    "last_packaging_date": "2025-11-27",
     "open_issues": 0
   },
   {
-    "repository_name": "eos9x3z",
-    "slug": "gram-negative-permeability-proxy",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-12-11",
+    "repository_name": "eos11sm",
+    "slug": "known-antibiotic-resemblance",
+    "priority_score": 80,
+    "last_test_date": "2025-12-11T15:20:39Z",
+    "last_packaging_date": "2025-12-17",
     "open_issues": 0
   },
   {
-    "repository_name": "eos9ym3",
-    "slug": "mrlogp",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-23",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos9yui",
-    "slug": "natural-product-likeness",
-    "priority_score": 1000000000,
-    "last_test_date": null,
+    "repository_name": "eos18ie",
+    "slug": "antibiotics-ai-saureus",
+    "priority_score": 80,
+    "last_test_date": "2025-12-11T15:41:31Z",
     "last_packaging_date": "2025-09-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos1d7r",
+    "slug": "small-world-zinc",
+    "priority_score": 80,
+    "last_test_date": "2025-12-11T16:04:13Z",
+    "last_packaging_date": "2025-10-22",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos1lb5",
+    "slug": "mycobacterium-permeability",
+    "priority_score": 80,
+    "last_test_date": "2025-12-11T16:11:41Z",
+    "last_packaging_date": "2026-01-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos1mxi",
+    "slug": "smiles-pe",
+    "priority_score": 80,
+    "last_test_date": "2025-12-11T16:14:20Z",
+    "last_packaging_date": "2025-10-17",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos1n4b",
+    "slug": "hdac3-inhibition",
+    "priority_score": 80,
+    "last_test_date": "2025-12-11T20:55:35Z",
+    "last_packaging_date": "2025-10-10",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos1noy",
+    "slug": "chembl-sampler",
+    "priority_score": 80,
+    "last_test_date": "2025-12-11T20:58:18Z",
+    "last_packaging_date": "2025-10-22",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos1ut3",
+    "slug": "molfeat-usrcat",
+    "priority_score": 80,
+    "last_test_date": "2025-12-11T21:09:19Z",
+    "last_packaging_date": "2025-11-14",
     "open_issues": 0
   }
 ]
