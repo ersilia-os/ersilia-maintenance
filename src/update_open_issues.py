@@ -1,8 +1,9 @@
 # src/refresh_open_issues.py
 from __future__ import annotations
 import sys
+import argparse
 import requests
-from typing import Any, Dict
+from typing import Any, Dict, Optional, Set
 import time
 from ersilia_maintenance.config import REPO_BASE_URL, THROTTLE_DELAY, REPO_INFO_PATH
 from ersilia_maintenance.github import _headers
@@ -20,6 +21,20 @@ def count_open_issues(repo:str)->int:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description="Refresh open issue counts in repo_info.json")
+    parser.add_argument(
+        "--models",
+        type=str,
+        default=None,
+        help="Comma-separated list of model IDs to update (forces refresh, ignores TTL). "
+             "If omitted, all models are updated according to TTL.",
+    )
+    args = parser.parse_args()
+
+    target_models: Optional[Set[str]] = None
+    if args.models:
+        target_models = {m.strip() for m in args.models.split(",") if m.strip()}
+
     data = load_repo_info()
     if not data:
         print("[warn] files/repo_info.json not found or empty", file=sys.stderr)
@@ -31,10 +46,17 @@ def main() -> int:
         is_private=e.get("private")
         if not repo:
             continue
-        if not should_refresh("issues_last_updated",e):
-            continue
         if is_private:
             continue
+
+        # When a specific set of models is requested, only process those (force refresh).
+        # Otherwise fall back to TTL-based refresh for all models.
+        if target_models is not None:
+            if repo not in target_models:
+                continue
+        elif not should_refresh("issues_last_updated", e):
+            continue
+
         try:
             total = count_open_issues(repo)
             e["open_issues"] = total

@@ -1,34 +1,10 @@
 [
   {
-    "repository_name": "eos9yy1",
-    "slug": "ncats-hlcs",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-16",
-    "open_issues": 0
-  },
-  {
     "repository_name": "eos9zw0",
     "slug": "molpmofit",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2025-11-27",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos11sm",
-    "slug": "known-antibiotic-resemblance",
-    "priority_score": 80,
-    "last_test_date": "2025-12-11T15:20:39Z",
-    "last_packaging_date": "2025-12-17",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos18ie",
-    "slug": "antibiotics-ai-saureus",
-    "priority_score": 80,
-    "last_test_date": "2025-12-11T15:41:31Z",
-    "last_packaging_date": "2025-09-15",
     "open_issues": 0
   },
   {
@@ -40,14 +16,6 @@
     "open_issues": 0
   },
   {
-    "repository_name": "eos1lb5",
-    "slug": "mycobacterium-permeability",
-    "priority_score": 80,
-    "last_test_date": "2025-12-11T16:11:41Z",
-    "last_packaging_date": "2026-01-15",
-    "open_issues": 0
-  },
-  {
     "repository_name": "eos1mxi",
     "slug": "smiles-pe",
     "priority_score": 80,
@@ -56,27 +24,11 @@
     "open_issues": 0
   },
   {
-    "repository_name": "eos1n4b",
-    "slug": "hdac3-inhibition",
-    "priority_score": 80,
-    "last_test_date": "2025-12-11T20:55:35Z",
-    "last_packaging_date": "2025-10-10",
-    "open_issues": 0
-  },
-  {
     "repository_name": "eos1noy",
     "slug": "chembl-sampler",
     "priority_score": 80,
     "last_test_date": "2025-12-11T20:58:18Z",
     "last_packaging_date": "2025-10-22",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos1ut3",
-    "slug": "molfeat-usrcat",
-    "priority_score": 80,
-    "last_test_date": "2025-12-11T21:09:19Z",
-    "last_packaging_date": "2025-11-14",
     "open_issues": 0
   }
 ]

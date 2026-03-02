@@ -7,6 +7,11 @@ on:
         description: Model ID (optional, currently not used)
         required: false
         type: string
+      skip_model_picking:
+        description: Skip model picking and test the models already in picked_weekly.json
+        required: false
+        type: boolean
+        default: false
   schedule:
     - cron: '0 10 * * 1'
 
@@ -19,6 +24,7 @@ jobs:
   # JOB 1: pick models to test
   #----------------------------
   pick-models:
+    if: ${{ github.event_name == 'schedule' || !inputs.skip_model_picking }}
     runs-on: ubuntu-latest
 
     steps:
@@ -57,6 +63,8 @@ jobs:
   #----------------------------
   test-model:
     needs: pick-models
+    # Run when pick-models succeeded normally OR was skipped (skip_model_picking: true).
+    if: always() && (needs.pick-models.result == 'success' || needs.pick-models.result == 'skipped')
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -96,7 +104,7 @@ jobs:
 
       - name: Install Python dependencies for maintenance scripts
         run: |
-          python -m pip install requests pyyaml
+          python -m pip install requests pyyaml pyairtable
 
       - name: Sanity check picked_weekly.json
         run: |
@@ -108,6 +116,7 @@ jobs:
           MODEL_ID: ${{ github.event.inputs.model_id }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_SERVER_URL: ${{ github.server_url }}
           REPO_OWNER: "ersilia-os"
           REPO_NAME: "ersilia-maintenance"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -115,6 +124,137 @@ jobs:
         run: |
           chmod +x scripts/test_models.sh
           scripts/test_models.sh
+
+      # Opens a "Failed weekly maintenance tests" issue (or adds a comment to
+      # an existing open one) in each model repo that failed.
+      # Requires GH_WORKFLOW_TOKEN to be a PAT with issues:write on model repos.
+      # Falls back gracefully if the secret is not configured.
+      - name: Open issues for failed models
+        if: hashFiles('files/failed_models.txt') != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GH_WORKFLOW_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          ISSUE_TITLE="Failed weekly maintenance tests"
+
+          while IFS= read -r MODEL_ID; do
+            [[ -z "${MODEL_ID}" ]] && continue
+            REPO="ersilia-os/${MODEL_ID}"
+            BODY_FILE="files/issue_bodies/${MODEL_ID}.md"
+
+            if [[ ! -f "${BODY_FILE}" ]]; then
+              echo "WARNING: issue body file not found for ${MODEL_ID}, skipping."
+              continue
+            fi
+
+            echo "Processing issue for ${MODEL_ID} (repo: ${REPO})"
+
+            # Check whether an open issue with this title already exists.
+            EXISTING_NUMBER=$(gh issue list \
+              --repo "${REPO}" \
+              --state open \
+              --json number,title \
+              --jq ".[] | select(.title == \"${ISSUE_TITLE}\") | .number" \
+              2>/dev/null | head -1 || true)
+
+            if [[ -n "${EXISTING_NUMBER}" ]]; then
+              echo "Adding comment to existing issue #${EXISTING_NUMBER} for ${MODEL_ID}"
+              gh issue comment "${EXISTING_NUMBER}" \
+                --repo "${REPO}" \
+                --body-file "${BODY_FILE}" \
+                2>/dev/null || echo "WARNING: could not comment on issue for ${MODEL_ID}"
+            else
+              echo "Creating new issue for ${MODEL_ID}"
+              gh issue create \
+                --title "${ISSUE_TITLE}" \
+                --body-file "${BODY_FILE}" \
+                --repo "${REPO}" \
+                2>/dev/null || echo "WARNING: could not create issue for ${MODEL_ID}"
+            fi
+          done < files/failed_models.txt
+
+      # For each failed model:
+      #   1. Update the Status field to "In maintenance" in the model repo's
+      #      metadata.yml / metadata.json via the GitHub Contents API (no clone).
+      #   2. Sync the updated metadata from the model repo to Airtable using
+      #      airtableops.py (same pattern as update_metadata.yml).
+      # Requires GH_WORKFLOW_TOKEN (contents:write on model repos) and AIRTABLE_API_KEY.
+      - name: Update model metadata and sync to Airtable for failed models
+        if: hashFiles('files/failed_models.txt') != ''
+        continue-on-error: true
+        env:
+          GH_WORKFLOW_TOKEN: ${{ secrets.GH_WORKFLOW_TOKEN }}
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+        run: |
+          if [[ -z "${GH_WORKFLOW_TOKEN:-}" && -z "${AIRTABLE_API_KEY:-}" ]]; then
+            echo "Neither GH_WORKFLOW_TOKEN nor AIRTABLE_API_KEY is set, skipping metadata update."
+            exit 0
+          fi
+
+          # Download airtableops and its dependency (same pattern as update_metadata.yml)
+          if [[ -n "${AIRTABLE_API_KEY:-}" ]]; then
+            wget -q https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/airtableops.py
+            wget -q https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/readme_formatter.py
+          fi
+
+          while IFS= read -r MODEL_ID; do
+            [[ -z "${MODEL_ID}" ]] && continue
+
+            # Step 1: update Status in the model repo's metadata file
+            if [[ -n "${GH_WORKFLOW_TOKEN:-}" ]]; then
+              echo "Updating metadata file in ersilia-os/${MODEL_ID}"
+              python src/update_model_metadata_status.py \
+                --model "${MODEL_ID}" \
+                --status "In maintenance" \
+                --token "${GH_WORKFLOW_TOKEN}" \
+                || echo "WARNING: could not update metadata file for ${MODEL_ID}"
+            fi
+
+            # Step 2: sync updated metadata from model repo -> Airtable
+            if [[ -n "${AIRTABLE_API_KEY:-}" ]]; then
+              echo "Syncing metadata for ${MODEL_ID} to Airtable"
+              python airtableops.py airtable-update \
+                --user ersilia-os \
+                --repo "${MODEL_ID}" \
+                --branch main \
+                --api-key "${AIRTABLE_API_KEY}" \
+                || echo "WARNING: could not sync Airtable for ${MODEL_ID}"
+            fi
+          done < files/failed_models.txt
+
+          rm -f airtableops.py readme_formatter.py
+
+      # Sync Airtable to the public S3 JSON after status updates.
+      - name: Sync Airtable to S3 JSON
+        if: hashFiles('files/failed_models.txt') != ''
+        continue-on-error: true
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          if [[ -z "${AIRTABLE_API_KEY:-}" || -z "${AWS_ACCESS_KEY_ID:-}" || -z "${AWS_SECRET_ACCESS_KEY:-}" ]]; then
+            echo "Airtable or AWS credentials not set, skipping S3 sync."
+            exit 0
+          fi
+          pip install boto3 --quiet
+          wget -q https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/convert_airtable_to_json.py
+          python convert_airtable_to_json.py "${AIRTABLE_API_KEY}" "${AWS_ACCESS_KEY_ID}" "${AWS_SECRET_ACCESS_KEY}"
+          rm -f convert_airtable_to_json.py
+
+      # Refresh open-issue counts in repo_info.json only for the models that
+      # were tested this run (avoids hammering the GitHub API for all models).
+      - name: Refresh open issues for tested models
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [[ ! -s files/tested_models.txt ]]; then
+            echo "No tested models found, skipping issue count refresh."
+            exit 0
+          fi
+          MODELS=$(tr '\n' ',' < files/tested_models.txt | sed 's/,$//')
+          echo "Refreshing open issue counts for: ${MODELS}"
+          python src/update_open_issues.py --models "${MODELS}"
 
       - name: Configure git auth for push
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
