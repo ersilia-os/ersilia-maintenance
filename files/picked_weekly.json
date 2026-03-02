@@ -1,28 +1,5 @@
 [
-  {
-    "repository_name": "eos9zw0",
-    "slug": "molpmofit",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-11-27",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos1d7r",
-    "slug": "small-world-zinc",
-    "priority_score": 80,
-    "last_test_date": "2025-12-11T16:04:13Z",
-    "last_packaging_date": "2025-10-22",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos1mxi",
-    "slug": "smiles-pe",
-    "priority_score": 80,
-    "last_test_date": "2025-12-11T16:14:20Z",
-    "last_packaging_date": "2025-10-17",
-    "open_issues": 0
-  },
+
   {
     "repository_name": "eos1noy",
     "slug": "chembl-sampler",

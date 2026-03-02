@@ -127,13 +127,13 @@ jobs:
 
       # Opens a "Failed weekly maintenance tests" issue (or adds a comment to
       # an existing open one) in each model repo that failed.
-      # Requires GH_WORKFLOW_TOKEN to be a PAT with issues:write on model repos.
-      # Falls back gracefully if the secret is not configured.
+      # Requires API_TOKEN_GITHUB: a PAT with issues:write on model repos.
+      # Without it this step is skipped entirely.
       - name: Open issues for failed models
-        if: hashFiles('files/failed_models.txt') != ''
+        if: hashFiles('files/failed_models.txt') != '' && secrets.API_TOKEN_GITHUB != ''
         continue-on-error: true
         env:
-          GH_TOKEN: ${{ secrets.GH_WORKFLOW_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
         run: |
           ISSUE_TITLE="Failed weekly maintenance tests"
 
@@ -162,37 +162,41 @@ jobs:
               gh issue comment "${EXISTING_NUMBER}" \
                 --repo "${REPO}" \
                 --body-file "${BODY_FILE}" \
-                2>/dev/null || echo "WARNING: could not comment on issue for ${MODEL_ID}"
+                || echo "WARNING: could not comment on issue for ${MODEL_ID}"
             else
               echo "Creating new issue for ${MODEL_ID}"
               gh issue create \
                 --title "${ISSUE_TITLE}" \
                 --body-file "${BODY_FILE}" \
                 --repo "${REPO}" \
-                2>/dev/null || echo "WARNING: could not create issue for ${MODEL_ID}"
+                || echo "WARNING: could not create issue for ${MODEL_ID}"
             fi
           done < files/failed_models.txt
 
       # For each failed model:
-      #   1. Update the Status field to "In maintenance" in the model repo's
-      #      metadata.yml / metadata.json via the GitHub Contents API (no clone).
-      #   2. Sync the updated metadata from the model repo to Airtable using
-      #      airtableops.py (same pattern as update_metadata.yml).
-      # Requires GH_WORKFLOW_TOKEN (contents:write on model repos) and AIRTABLE_API_KEY.
+      #   When API_TOKEN_GITHUB is available (PAT with contents:write on model repos):
+      #     1. Update Status in the model repo's metadata file via GitHub Contents API.
+      #     2. Sync the full updated metadata from model repo -> Airtable (airtableops.py).
+      #   When only AIRTABLE_API_KEY is available:
+      #     - Update Status directly in Airtable via update_airtable_status.py.
+      #     - The model repo metadata file is NOT updated (no token to push changes).
+      #   NOTE: never run airtableops.py airtable-update without first updating the
+      #   model repo file — it would read stale data and overwrite Airtable with the
+      #   old Status.
       - name: Update model metadata and sync to Airtable for failed models
         if: hashFiles('files/failed_models.txt') != ''
         continue-on-error: true
         env:
-          GH_WORKFLOW_TOKEN: ${{ secrets.GH_WORKFLOW_TOKEN }}
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
           AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
         run: |
-          if [[ -z "${GH_WORKFLOW_TOKEN:-}" && -z "${AIRTABLE_API_KEY:-}" ]]; then
-            echo "Neither GH_WORKFLOW_TOKEN nor AIRTABLE_API_KEY is set, skipping metadata update."
+          if [[ -z "${AIRTABLE_API_KEY:-}" ]]; then
+            echo "AIRTABLE_API_KEY is not set, skipping Airtable update."
             exit 0
           fi
 
-          # Download airtableops and its dependency (same pattern as update_metadata.yml)
-          if [[ -n "${AIRTABLE_API_KEY:-}" ]]; then
+          # Pre-download airtableops only when we will need the full sync path.
+          if [[ -n "${API_TOKEN_GITHUB:-}" ]]; then
             wget -q https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/airtableops.py
             wget -q https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/readme_formatter.py
           fi
@@ -200,18 +204,15 @@ jobs:
           while IFS= read -r MODEL_ID; do
             [[ -z "${MODEL_ID}" ]] && continue
 
-            # Step 1: update Status in the model repo's metadata file
-            if [[ -n "${GH_WORKFLOW_TOKEN:-}" ]]; then
+            if [[ -n "${API_TOKEN_GITHUB:-}" ]]; then
+              # Full path: update metadata file in the model repo, then sync to Airtable.
               echo "Updating metadata file in ersilia-os/${MODEL_ID}"
               python src/update_model_metadata_status.py \
                 --model "${MODEL_ID}" \
                 --status "In maintenance" \
-                --token "${GH_WORKFLOW_TOKEN}" \
+                --token "${API_TOKEN_GITHUB}" \
                 || echo "WARNING: could not update metadata file for ${MODEL_ID}"
-            fi
 
-            # Step 2: sync updated metadata from model repo -> Airtable
-            if [[ -n "${AIRTABLE_API_KEY:-}" ]]; then
               echo "Syncing metadata for ${MODEL_ID} to Airtable"
               python airtableops.py airtable-update \
                 --user ersilia-os \
@@ -219,6 +220,14 @@ jobs:
                 --branch main \
                 --api-key "${AIRTABLE_API_KEY}" \
                 || echo "WARNING: could not sync Airtable for ${MODEL_ID}"
+            else
+              # Fallback: update Status directly in Airtable (model repo file unchanged).
+              echo "API_TOKEN_GITHUB not set — updating Status directly in Airtable for ${MODEL_ID}"
+              python src/update_airtable_status.py \
+                --model "${MODEL_ID}" \
+                --status "In maintenance" \
+                --api-key "${AIRTABLE_API_KEY}" \
+                || echo "WARNING: could not update Airtable status for ${MODEL_ID}"
             fi
           done < files/failed_models.txt
 
