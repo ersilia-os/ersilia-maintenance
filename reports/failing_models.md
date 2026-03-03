@@ -1,15 +1,15 @@
 # Failing Models Report
 
-**Generated:** 2026-03-03T09:55:56Z
+**Generated:** 2026-03-03T11:09:06Z
 
 Models with a failing last test outcome (Archived models excluded). Total: **15**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
-| eos1noy | chembl-sampler | In maintenance | 2026-03-02T14:47:35Z | 🚨 failed |
+| eos1noy | chembl-sampler | In maintenance | 2026-03-03T11:08:58Z | 🚨 failed |
+| eos9zw0 | molpmofit | In maintenance | 2026-03-02T15:15:45Z | 🚨 failed |
 | eos1mxi | smiles-pe | In maintenance | 2026-03-02T13:54:42Z | 🚨 failed |
 | eos1d7r | small-world-zinc | In maintenance | 2026-03-02T13:52:16Z | 🚨 failed |
-| eos9zw0 | molpmofit | In maintenance | 2026-03-02T13:48:41Z | 🚨 failed |
 | eos9ueu | small-world-enamine-real | Ready | 2026-02-24T16:07:54Z | 🚨 failed |
 | eos2hzy | pubchem-sampler | Ready | 2026-02-10T16:14:30Z | 🚨 failed |
 | eos8g50 | fastsolv | Ready | 2026-02-09T11:11:07Z | 🚨 failed |
