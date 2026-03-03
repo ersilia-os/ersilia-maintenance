@@ -1,5 +1,49 @@
 ==============================================
-Testing model: 1noy
+Testing model: eos1noy
 ==============================================
-ersilia fetch/test failed for 1noy (fetch_exit=1, test_exit=1).
-WARNING: Test report JSON not found for 1noy: 1noy-test.json
+✅ [eos1noy] metadata_checks: last_packaging_date
+✅ [eos1noy] metadata_checks: model_biomodel_area
+✅ [eos1noy] metadata_checks: model_computational_performance_for_10000_input
+✅ [eos1noy] metadata_checks: model_computational_performance_for_1000_input
+✅ [eos1noy] metadata_checks: model_computational_performance_for_100_input
+✅ [eos1noy] metadata_checks: model_computational_performance_for_10_input
+✅ [eos1noy] metadata_checks: model_computational_performance_for_1_input
+✅ [eos1noy] metadata_checks: model_contribution_date
+✅ [eos1noy] metadata_checks: model_contributor
+✅ [eos1noy] metadata_checks: model_description
+✅ [eos1noy] metadata_checks: model_directory_size
+✅ [eos1noy] metadata_checks: model_docker_architecture
+✅ [eos1noy] metadata_checks: model_dockerhub_url
+✅ [eos1noy] metadata_checks: model_environment_size
+✅ [eos1noy] metadata_checks: model_id
+✅ [eos1noy] metadata_checks: model_image_size
+✅ [eos1noy] metadata_checks: model_input
+✅ [eos1noy] metadata_checks: model_input_dimensions
+✅ [eos1noy] metadata_checks: model_interpretation
+✅ [eos1noy] metadata_checks: model_output
+✅ [eos1noy] metadata_checks: model_output_consistency
+✅ [eos1noy] metadata_checks: model_output_dimension
+✅ [eos1noy] metadata_checks: model_publication
+✅ [eos1noy] metadata_checks: model_release_version
+✅ [eos1noy] metadata_checks: model_s3_url
+✅ [eos1noy] metadata_checks: model_slug
+✅ [eos1noy] metadata_checks: model_source
+✅ [eos1noy] metadata_checks: model_source_code
+✅ [eos1noy] metadata_checks: model_source_type
+✅ [eos1noy] metadata_checks: model_status
+✅ [eos1noy] metadata_checks: model_sub_tasks
+✅ [eos1noy] metadata_checks: model_tag
+✅ [eos1noy] metadata_checks: model_target_organism
+✅ [eos1noy] metadata_checks: model_task
+✅ [eos1noy] metadata_checks: model_title
+✅ [eos1noy] model_file_checks: metadata_dim_and_run_column_file_dim_check
+✅ [eos1noy] file_validity_check: columns
+✅ [eos1noy] file_validity_check: dockerfile_check
+ℹ️ [eos1noy] model_size_check: directory_size_mb = 1.0
+ℹ️ [eos1noy] model_size_check: environment_size_mb = 442.0
+✅ [eos1noy] model_run_check: simple_model_run
+✅ [eos1noy] model_run_check: simple_model_run_columns
+✅ [eos1noy] async_model_run_check: async_simple_model_run
+✅ [eos1noy] input_output_check: csv_csv
+ℹ️ [eos1noy] model_output_consistency_check: check_consistency_of_model_output = ~ SKIPPED
+ℹ️ [eos1noy] consistency_summary_between_ersilia_and_bash_execution_outputs: rmse_mean = ~ SKIPPED
