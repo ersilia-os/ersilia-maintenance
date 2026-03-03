@@ -1,0 +1,39 @@
+name: Generate Failing Models Report
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 06:00 UTC
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Generate failing models report
+        run: python src/generate_failing_models_report.py
+
+      - name: Commit and push failing_models.md
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: reports/failing_models.md
+          message: "chore: update failing models report"
+          push: true
+          author_name: ersilia-bot
+          author_email: ersilia-bot@users.noreply.github.com
+          github_token: ${{ secrets.GITHUB_TOKEN }}

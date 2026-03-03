@@ -18,6 +18,10 @@ REPORTS_DIR="${ROOT_DIR}/reports"
 SUMMARY_TXT="${REPORTS_DIR}/single_model_test_summary.txt"
 SUMMARY_MD="${REPORTS_DIR}/single_model_test.md"
 
+# Outcome files consumed by the workflow for post-processing steps (ephemeral)
+PASSED_MODEL_FILE="${ROOT_DIR}/files/single_model_passed.txt"
+FAILED_MODEL_FILE="${ROOT_DIR}/files/single_model_failed.txt"
+
 mkdir -p "${REPORTS_DIR}"
 
 # Always run from repo root so test JSONs are predictable
@@ -81,6 +85,29 @@ update_json_last_test_outcome() {
     map(
       if .repository_name == $rn
       then .last_test_outcome = $outcome
+      else .
+      end
+    )
+  ' "${REPO_INFO_FILE}" > "${REPO_INFO_FILE}.tmp"
+
+  mv "${REPO_INFO_FILE}.tmp" "${REPO_INFO_FILE}"
+}
+
+update_json_status() {
+  local repo_name="$1"
+  local new_status="$2"
+
+  if [[ ! -f "${REPO_INFO_FILE}" ]]; then
+    echo "WARNING: ${REPO_INFO_FILE} not found — skipping status update."
+    return 0
+  fi
+
+  echo "Updating status for repository: ${repo_name} to '${new_status}'"
+
+  jq --arg rn "${repo_name}" --arg status "${new_status}" '
+    map(
+      if .repository_name == $rn
+      then .status = $status
       else .
       end
     )
@@ -182,6 +209,8 @@ append_model_to_markdown() {
 
 : > "${RESULTS_LOG}"
 : > "${SUMMARY_TXT}"
+: > "${PASSED_MODEL_FILE}"
+: > "${FAILED_MODEL_FILE}"
 init_markdown_report
 
 echo "==============================================" | tee -a "${SUMMARY_TXT}"
@@ -235,9 +264,12 @@ update_json_last_test_date "${MODEL_ID}"
 if [[ "${MODEL_HAS_FAILURE}" == true ]]; then
   append_model_to_markdown "${MODEL_ID}" "🚨"
   update_json_last_test_outcome "${MODEL_ID}" "failed"
+  echo "${MODEL_ID}" > "${FAILED_MODEL_FILE}"
 else
   append_model_to_markdown "${MODEL_ID}" "✅"
   update_json_last_test_outcome "${MODEL_ID}" "success"
+  update_json_status "${MODEL_ID}" "Ready"
+  echo "${MODEL_ID}" > "${PASSED_MODEL_FILE}"
 fi
 
 # Cleanup test JSON file unless explicitly disabled

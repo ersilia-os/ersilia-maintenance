@@ -269,6 +269,9 @@ jobs:
           echo "Refreshing open issue counts for: ${MODELS}"
           python src/update_open_issues.py --models "${MODELS}"
 
+      - name: Generate failing models report
+        run: python src/generate_failing_models_report.py
+
       - name: Configure git auth for push
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
         run: |
@@ -286,6 +289,7 @@ jobs:
             files/weekly_test_results.txt
             reports/weekly_model_testing.md
             reports/weekly_test_summary.txt
+            reports/failing_models.md
           message: "chore: weekly model tests"
           push: true
           author_name: ersilia-bot
