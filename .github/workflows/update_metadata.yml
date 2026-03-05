@@ -36,8 +36,6 @@ jobs:
             wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/readme_formatter.py
 
             echo "Updating metadata to AirTable looking at owner: $USER_NAME"
-            echo "Metadata Content"
-            cat "$METADATA_FILE"
             conda run -n base python3 airtableops.py airtable-update --user $USER_NAME --repo $REPO_NAME --branch $BRANCH --api-key $AIRTABLE_API_KEY
 
             # remove file
