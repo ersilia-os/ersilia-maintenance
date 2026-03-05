@@ -32,6 +32,7 @@ jobs:
           command: |
             set -e  # Ensure failure stops execution
             conda run -n base pip install requests pyairtable pyyaml
+            conda run -n base python -m pip install 'git+https://github.com/ersilia-os/ersilia.git#egg=ersilia[test]'
             wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/airtableops.py
             wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/readme_formatter.py
 
