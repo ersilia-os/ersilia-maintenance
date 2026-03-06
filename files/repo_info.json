@@ -3746,14 +3746,14 @@
     "private": false,
     "slug": "small-world-enamine-real",
     "status": "Ready",
-    "last_test_date": "2026-02-24T16:07:54Z",
+    "last_test_date": "2026-03-06T16:22:57Z",
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-24",
     "open_issues": 1,
-    "issues_last_updated": "2026-03-01T00:15:41Z",
+    "issues_last_updated": "2026-03-06T16:23:08Z",
     "subtask": "Similarity search",
     "source_type": "External",
-    "last_test_outcome": "failed",
+    "last_test_outcome": "success",
     "metadata_last_updated": "2026-03-01T00:14:07Z"
   },
   {
