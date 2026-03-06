@@ -1,13 +1,13 @@
 # Failing Models Report
 
-**Generated:** 2026-03-06T16:27:15Z
+**Generated:** 2026-03-06T16:36:24Z
 
 Models with a failing last test outcome (Archived models excluded). Total: **10**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
+| eos2hzy | pubchem-sampler | Ready | 2026-03-06T16:36:16Z | 🚨 failed |
 | eos9zw0 | molpmofit | In maintenance | 2026-03-06T16:02:48Z | 🚨 failed |
-| eos2hzy | pubchem-sampler | Ready | 2026-02-10T16:14:30Z | 🚨 failed |
 | eos8g50 | fastsolv | Ready | 2026-02-09T11:11:07Z | 🚨 failed |
 | eos6tpo | chebifier | Ready | 2026-01-19T11:00:04Z | 🚨 failed |
 | eos633t | moler-enamine-blocks | Ready | 2026-01-08T15:34:26Z | 🚨 failed |
