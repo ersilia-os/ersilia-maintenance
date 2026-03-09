@@ -12,6 +12,7 @@ from ersilia_maintenance.metadata import (
     extract_status,
     extract_subtask,
     extract_source_type,
+    extract_source_code,
     should_refresh
 )
 
@@ -25,6 +26,7 @@ def _ensure_defaults(e: Dict[str, Any]) -> None:
     e.setdefault("metadata_last_updated", None)
     e.setdefault("subtask",None)
     e.setdefault("source_type", None)
+    e.setdefault("source_code_url", None)
 
 def main() -> int:
     data = load_repo_info()
@@ -57,6 +59,7 @@ def main() -> int:
         stat = extract_status(meta)
         task = extract_subtask(meta)
         source = extract_source_type(meta)
+        source_code = extract_source_code(meta)
 
         if rel is not None:   e["release"] = rel
         if pack is not None:  e["last_packaging_date"] = pack
@@ -65,6 +68,7 @@ def main() -> int:
             if stat is not None:  e["status"] = stat
         if task is not None: e['subtask'] = task
         if source is not None: e["source_type"] = source
+        if source_code is not None: e["source_code_url"] = source_code
 
         e["metadata_last_updated"] = now_iso()
         changed = True

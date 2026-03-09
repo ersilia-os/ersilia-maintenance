@@ -14,7 +14,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:21Z"
+    "metadata_last_updated": "2026-03-09T13:54:15Z",
+    "source_code_url": "https://github.com/ersilia-os/ersilia"
   },
   {
     "repository_name": "eos11sr",
@@ -31,7 +32,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:21Z"
+    "metadata_last_updated": "2026-03-09T13:54:16Z",
+    "source_code_url": "https://github.com/MMLabCodes/eMFP"
   },
   {
     "repository_name": "eos12x7",
@@ -48,7 +50,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:22Z"
+    "metadata_last_updated": "2026-03-09T13:54:16Z",
+    "source_code_url": "https://github.com/frog2000/Spacial-Score"
   },
   {
     "repository_name": "eos1579",
@@ -65,7 +68,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:22Z"
+    "metadata_last_updated": "2026-03-09T13:54:17Z",
+    "source_code_url": "https://github.com/the-ahuja-lab/Metabokiller"
   },
   {
     "repository_name": "eos157v",
@@ -82,7 +86,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:23Z"
+    "metadata_last_updated": "2026-03-09T13:54:17Z",
+    "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
     "repository_name": "eos18ie",
@@ -99,7 +104,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:23Z"
+    "metadata_last_updated": "2026-03-09T13:54:18Z",
+    "source_code_url": "https://github.com/felixjwong/antibioticsai"
   },
   {
     "repository_name": "eos19mt",
@@ -116,7 +122,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-03-01T00:12:24Z"
+    "metadata_last_updated": "2026-03-09T13:54:18Z",
+    "source_code_url": "https://github.com/ChEB-AI/python-chebifier"
   },
   {
     "repository_name": "eos1af5",
@@ -133,7 +140,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:24Z"
+    "metadata_last_updated": "2026-03-09T13:54:19Z",
+    "source_code_url": "https://github.com/josejimenezluna/molgrad/"
   },
   {
     "repository_name": "eos1amn",
@@ -150,7 +158,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:25Z"
+    "metadata_last_updated": "2026-03-09T13:54:20Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos1amr",
@@ -167,7 +176,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:25Z"
+    "metadata_last_updated": "2026-03-09T13:54:20Z",
+    "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
     "repository_name": "eos1bba",
@@ -184,7 +194,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:26Z"
+    "metadata_last_updated": "2026-03-09T13:54:21Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos1d7r",
@@ -201,7 +212,8 @@
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:26Z"
+    "metadata_last_updated": "2026-03-09T13:54:22Z",
+    "source_code_url": "https://pypi.org/project/smallworld-api/"
   },
   {
     "repository_name": "eos1j4h",
@@ -218,7 +230,8 @@
     "subtask": "Featurization, Projection",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:27Z"
+    "metadata_last_updated": "2026-03-09T13:54:22Z",
+    "source_code_url": "https://github.com/kevinmusgrave/pytorch-metric-learning"
   },
   {
     "repository_name": "eos1lb5",
@@ -229,13 +242,14 @@
     "status": "Ready",
     "last_test_date": "2026-03-02T10:59:00Z",
     "release": "v1.0.0",
-    "last_packaging_date": "2026-01-15",
+    "last_packaging_date": "2026-03-06",
     "open_issues": 0,
     "issues_last_updated": "2026-03-01T00:14:16Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:27Z"
+    "metadata_last_updated": "2026-03-09T13:54:22Z",
+    "source_code_url": "https://github.com/ersilia-os/ai2050-mtb-penetration"
   },
   {
     "repository_name": "eos1mxi",
@@ -252,7 +266,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:28Z"
+    "metadata_last_updated": "2026-03-09T13:54:23Z",
+    "source_code_url": "https://github.com/XinhaoLi74/SmilesPE"
   },
   {
     "repository_name": "eos1n4b",
@@ -269,7 +284,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:28Z"
+    "metadata_last_updated": "2026-03-09T13:54:24Z",
+    "source_code_url": "https://github.com/jwxia2014/HDAC3i-Finder"
   },
   {
     "repository_name": "eos1noy",
@@ -286,7 +302,8 @@
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:29Z"
+    "metadata_last_updated": "2026-03-09T13:54:24Z",
+    "source_code_url": "https://github.com/ersilia-os/chem-sampler/blob/main/chemsampler/samplers/chembl/sampler.py"
   },
   {
     "repository_name": "eos1pu1",
@@ -303,7 +320,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:29Z"
+    "metadata_last_updated": "2026-03-09T13:54:25Z",
+    "source_code_url": "https://github.com/srijitseal/DICTrank"
   },
   {
     "repository_name": "eos1soi",
@@ -320,7 +338,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:29Z"
+    "metadata_last_updated": "2026-03-09T13:54:25Z",
+    "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
     "repository_name": "eos1tt2",
@@ -337,7 +356,8 @@
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:30Z"
+    "metadata_last_updated": "2026-03-09T13:54:26Z",
+    "source_code_url": "https://github.com/recursionpharma/mole_public"
   },
   {
     "repository_name": "eos1ut3",
@@ -354,7 +374,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:30Z"
+    "metadata_last_updated": "2026-03-09T13:54:26Z",
+    "source_code_url": "https://molfeat.datamol.io/featurizers/usrcat"
   },
   {
     "repository_name": "eos1vms",
@@ -365,13 +386,14 @@
     "status": "Ready",
     "last_test_date": "2026-03-09T13:34:14Z",
     "release": "v1.0.0",
-    "last_packaging_date": "2025-10-08",
+    "last_packaging_date": "2026-03-09",
     "open_issues": 0,
     "issues_last_updated": "2026-03-09T13:34:27Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:31Z"
+    "metadata_last_updated": "2026-03-09T13:54:27Z",
+    "source_code_url": "https://github.com/chembl/chembl_multitask_model/"
   },
   {
     "repository_name": "eos1xje",
@@ -388,7 +410,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:31Z"
+    "metadata_last_updated": "2026-03-09T13:54:28Z",
+    "source_code_url": "https://github.com/microsoft/biogpt"
   },
   {
     "repository_name": "eos21q7",
@@ -405,7 +428,8 @@
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:32Z"
+    "metadata_last_updated": "2026-03-09T13:54:29Z",
+    "source_code_url": "https://github.com/bmil-jnu/InterDILI"
   },
   {
     "repository_name": "eos22io",
@@ -422,7 +446,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:33Z"
+    "metadata_last_updated": "2026-03-09T13:54:29Z",
+    "source_code_url": "https://github.com/Louchaofeng/IDL-PPBopt"
   },
   {
     "repository_name": "eos238c",
@@ -439,7 +464,8 @@
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:33Z"
+    "metadata_last_updated": "2026-03-09T13:54:30Z",
+    "source_code_url": "https://github.com/jgmeyerucsd/drug-class"
   },
   {
     "repository_name": "eos2401",
@@ -456,7 +482,8 @@
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:34Z"
+    "metadata_last_updated": "2026-03-09T13:54:31Z",
+    "source_code_url": "https://github.com/datamol-io/safe/tree/main"
   },
   {
     "repository_name": "eos24ci",
@@ -473,7 +500,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:34Z"
+    "metadata_last_updated": "2026-03-09T13:54:31Z",
+    "source_code_url": "https://github.com/MoreiraLAB/DrugTax"
   },
   {
     "repository_name": "eos24jm",
@@ -490,7 +518,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:35Z"
+    "metadata_last_updated": "2026-03-09T13:54:32Z",
+    "source_code_url": "https://github.com/CoutinhoLab/Q-TB/"
   },
   {
     "repository_name": "eos24ur",
@@ -507,7 +536,8 @@
     "subtask": "Featurization",
     "source_type": "Replicated",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:35Z"
+    "metadata_last_updated": "2026-03-09T13:54:33Z",
+    "source_code_url": "https://github.com/grisoniFr/scaffold_hopping_whales"
   },
   {
     "repository_name": "eos2a9n",
@@ -524,7 +554,8 @@
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:36Z"
+    "metadata_last_updated": "2026-03-09T13:54:34Z",
+    "source_code_url": "http://130.92.106.217:8080/chemblMuti.v1/"
   },
   {
     "repository_name": "eos2b6f",
@@ -541,7 +572,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:37Z"
+    "metadata_last_updated": "2026-03-09T13:54:34Z",
+    "source_code_url": "https://github.com/mayrf/pkasolver"
   },
   {
     "repository_name": "eos2db3",
@@ -558,7 +590,8 @@
     "subtask": "Projection",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:37Z"
+    "metadata_last_updated": "2026-03-09T13:54:35Z",
+    "source_code_url": "https://github.com/ersilia-os/compound-embedding"
   },
   {
     "repository_name": "eos2fy6",
@@ -575,7 +608,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:37Z"
+    "metadata_last_updated": "2026-03-09T13:54:35Z",
+    "source_code_url": "https://github.com/NTU-MedAI/S2DV"
   },
   {
     "repository_name": "eos2gth",
@@ -592,7 +626,8 @@
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:38Z"
+    "metadata_last_updated": "2026-03-09T13:54:36Z",
+    "source_code_url": "https://www.ebi.ac.uk/chembl/maip/"
   },
   {
     "repository_name": "eos2gw4",
@@ -609,7 +644,8 @@
     "subtask": "Featurization",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:39Z"
+    "metadata_last_updated": "2026-03-09T13:54:37Z",
+    "source_code_url": "https://github.com/ersilia-os/compound-embedding"
   },
   {
     "repository_name": "eos2h1r",
@@ -626,7 +662,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:39Z"
+    "metadata_last_updated": "2026-03-09T13:54:37Z",
+    "source_code_url": "https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d"
   },
   {
     "repository_name": "eos2hbd",
@@ -643,7 +680,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:39Z"
+    "metadata_last_updated": "2026-03-09T13:54:38Z",
+    "source_code_url": "https://pubs.acs.org/doi/full/10.1021/acscentsci.8b00718"
   },
   {
     "repository_name": "eos2hzy",
@@ -660,7 +698,8 @@
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-03-01T00:12:40Z"
+    "metadata_last_updated": "2026-03-09T13:54:38Z",
+    "source_code_url": "https://github.com/ersilia-os/chem-sampler/blob/main/chemsampler/samplers/pubchem/sampler.py"
   },
   {
     "repository_name": "eos2i82",
@@ -677,7 +716,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:40Z"
+    "metadata_last_updated": "2026-03-09T13:54:39Z",
+    "source_code_url": "https://github.com/Manas02/pksmart-pip"
   },
   {
     "repository_name": "eos2l0q",
@@ -694,7 +734,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:41Z"
+    "metadata_last_updated": "2026-03-09T13:54:39Z",
+    "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
     "repository_name": "eos2lm8",
@@ -711,7 +752,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:41Z"
+    "metadata_last_updated": "2026-03-09T13:54:40Z",
+    "source_code_url": "https://github.com/DSPsleeporg/smiles-transformer"
   },
   {
     "repository_name": "eos2lqb",
@@ -728,7 +770,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:42Z"
+    "metadata_last_updated": "2026-03-09T13:54:41Z",
+    "source_code_url": "https://github.com/whymin/HOB"
   },
   {
     "repository_name": "eos2m0f",
@@ -745,7 +788,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:42Z"
+    "metadata_last_updated": "2026-03-09T13:54:41Z",
+    "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
     "repository_name": "eos2mhp",
@@ -762,7 +806,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:43Z"
+    "metadata_last_updated": "2026-03-09T13:54:42Z",
+    "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
     "repository_name": "eos2mrz",
@@ -779,7 +824,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:43Z"
+    "metadata_last_updated": "2026-03-09T13:54:42Z",
+    "source_code_url": "https://github.com/baoilleach/deepsmiles"
   },
   {
     "repository_name": "eos2mxh",
@@ -796,7 +842,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:44Z"
+    "metadata_last_updated": "2026-03-09T13:54:43Z",
+    "source_code_url": "https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d"
   },
   {
     "repository_name": "eos2r5a",
@@ -813,7 +860,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:44Z"
+    "metadata_last_updated": "2026-03-09T13:54:43Z",
+    "source_code_url": "https://github.com/reymond-group/RAscore"
   },
   {
     "repository_name": "eos2rd8",
@@ -830,7 +878,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-03-01T00:12:45Z"
+    "metadata_last_updated": "2026-03-09T13:54:44Z",
+    "source_code_url": "https://github.com/blender-nlp/MolT5"
   },
   {
     "repository_name": "eos2re5",
@@ -847,7 +896,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:45Z"
+    "metadata_last_updated": "2026-03-09T13:54:45Z",
+    "source_code_url": "https://github.com/ifyoungnet/ADMETlab"
   },
   {
     "repository_name": "eos2sbn",
@@ -864,7 +914,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:46Z"
+    "metadata_last_updated": "2026-03-09T13:54:45Z",
+    "source_code_url": "https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d"
   },
   {
     "repository_name": "eos2ta5",
@@ -881,7 +932,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:46Z"
+    "metadata_last_updated": "2026-03-09T13:54:46Z",
+    "source_code_url": "https://github.com/Abdulk084/CardioTox"
   },
   {
     "repository_name": "eos2thm",
@@ -898,7 +950,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:47Z"
+    "metadata_last_updated": "2026-03-09T13:54:47Z",
+    "source_code_url": "https://github.com/BenevolentAI/MolBERT"
   },
   {
     "repository_name": "eos2v11",
@@ -915,7 +968,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:47Z"
+    "metadata_last_updated": "2026-03-09T13:54:47Z",
+    "source_code_url": "https://admetmesh.scbdd.com/"
   },
   {
     "repository_name": "eos2xeq",
@@ -932,7 +986,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:47Z"
+    "metadata_last_updated": "2026-03-09T13:54:48Z",
+    "source_code_url": "https://github.com/aartikrish/de-novo-antibiotics/"
   },
   {
     "repository_name": "eos2zmb",
@@ -949,7 +1004,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:48Z"
+    "metadata_last_updated": "2026-03-09T13:54:48Z",
+    "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
     "repository_name": "eos30f3",
@@ -966,7 +1022,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:49Z"
+    "metadata_last_updated": "2026-03-09T13:54:49Z",
+    "source_code_url": "https://github.com/AI-amateur/DMPNN-hERG"
   },
   {
     "repository_name": "eos30gr",
@@ -983,7 +1040,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:49Z"
+    "metadata_last_updated": "2026-03-09T13:54:50Z",
+    "source_code_url": "https://github.com/ChengF-Lab/deephERG"
   },
   {
     "repository_name": "eos31ve",
@@ -1000,7 +1058,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:50Z"
+    "metadata_last_updated": "2026-03-09T13:54:50Z",
+    "source_code_url": "https://github.com/ncats/ncats-adme/tree/master"
   },
   {
     "repository_name": "eos37l0",
@@ -1017,7 +1076,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:50Z"
+    "metadata_last_updated": "2026-03-09T13:54:51Z",
+    "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
     "repository_name": "eos3804",
@@ -1034,7 +1094,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:51Z"
+    "metadata_last_updated": "2026-03-09T13:54:51Z",
+    "source_code_url": "https://github.com/GaryLiu152/chemprop_abaucin"
   },
   {
     "repository_name": "eos39co",
@@ -1051,7 +1112,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:51Z"
+    "metadata_last_updated": "2026-03-09T13:54:52Z",
+    "source_code_url": "https://github.com/deepmodeling/Uni-Mol"
   },
   {
     "repository_name": "eos39dp",
@@ -1068,7 +1130,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:51Z"
+    "metadata_last_updated": "2026-03-09T13:54:52Z",
+    "source_code_url": "https://github.com/molecularmodelinglab/PhaKinPro"
   },
   {
     "repository_name": "eos3ae6",
@@ -1085,7 +1148,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:52Z"
+    "metadata_last_updated": "2026-03-09T13:54:53Z",
+    "source_code_url": "https://github.com/ETHmodlab/scaffold_hopping_whales"
   },
   {
     "repository_name": "eos3ae7",
@@ -1102,7 +1166,8 @@
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:52Z"
+    "metadata_last_updated": "2026-03-09T13:54:54Z",
+    "source_code_url": "https://github.com/aspuru-guzik-group/chemical_vae"
   },
   {
     "repository_name": "eos3b5e",
@@ -1119,7 +1184,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:53Z"
+    "metadata_last_updated": "2026-03-09T13:54:54Z",
+    "source_code_url": "https://github.com/rdkit/rdkit"
   },
   {
     "repository_name": "eos3cf4",
@@ -1136,7 +1202,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:53Z"
+    "metadata_last_updated": "2026-03-09T13:54:55Z",
+    "source_code_url": "https://molfeat.datamol.io/featurizers/ChemGPT-4.7M"
   },
   {
     "repository_name": "eos3d3r",
@@ -1153,7 +1220,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:54Z"
+    "metadata_last_updated": "2026-03-09T13:54:56Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos3e6s",
@@ -1170,7 +1238,8 @@
     "subtask": "Similarity search",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:54Z"
+    "metadata_last_updated": "2026-03-09T13:54:56Z",
+    "source_code_url": "https://ersilia.io"
   },
   {
     "repository_name": "eos3ev6",
@@ -1187,7 +1256,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-03-01T00:12:55Z"
+    "metadata_last_updated": "2026-03-09T13:54:57Z",
+    "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
     "repository_name": "eos3kcw",
@@ -1204,7 +1274,8 @@
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-03-01T00:12:55Z"
+    "metadata_last_updated": "2026-03-09T13:54:57Z",
+    "source_code_url": "https://pypi.org/project/smallworld-api/"
   },
   {
     "repository_name": "eos3l5f",
@@ -1221,7 +1292,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:56Z"
+    "metadata_last_updated": "2026-03-09T13:54:59Z",
+    "source_code_url": "https://github.com/ml-jku/clamp"
   },
   {
     "repository_name": "eos3le9",
@@ -1238,7 +1310,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:56Z"
+    "metadata_last_updated": "2026-03-09T13:55:00Z",
+    "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
     "repository_name": "eos3lyd",
@@ -1255,7 +1328,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:56Z"
+    "metadata_last_updated": "2026-03-09T13:55:00Z",
+    "source_code_url": "https://github.com/domgurvic/efflux_evaders_and_substrates"
   },
   {
     "repository_name": "eos3mk2",
@@ -1272,7 +1346,8 @@
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:57Z"
+    "metadata_last_updated": "2026-03-09T13:55:00Z",
+    "source_code_url": "https://github.com/plissonf/BBB-Models"
   },
   {
     "repository_name": "eos3nl8",
@@ -1289,7 +1364,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:57Z"
+    "metadata_last_updated": "2026-03-09T13:55:01Z",
+    "source_code_url": "https://github.com/gnn4dr/DRKG"
   },
   {
     "repository_name": "eos3nn9",
@@ -1306,7 +1382,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:58Z"
+    "metadata_last_updated": "2026-03-09T13:55:02Z",
+    "source_code_url": "https://github.com/Nadimfrds/Mpropred"
   },
   {
     "repository_name": "eos3sa2",
@@ -1323,7 +1400,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:12:58Z"
+    "metadata_last_updated": "2026-03-09T13:55:02Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos3ujl",
@@ -1340,7 +1418,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:59Z"
+    "metadata_last_updated": "2026-03-09T13:55:03Z",
+    "source_code_url": "https://github.com/PGlab-NIPER/MTB_Permeability"
   },
   {
     "repository_name": "eos3wzy",
@@ -1357,7 +1436,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:12:59Z"
+    "metadata_last_updated": "2026-03-09T13:55:03Z",
+    "source_code_url": "https://github.com/hutchisonlab/QupKake"
   },
   {
     "repository_name": "eos3xip",
@@ -1374,7 +1454,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:00Z"
+    "metadata_last_updated": "2026-03-09T13:55:04Z",
+    "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
     "repository_name": "eos3zur",
@@ -1391,7 +1472,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:00Z"
+    "metadata_last_updated": "2026-03-09T13:55:05Z",
+    "source_code_url": "https://molfeat.datamol.io/featurizers/estate"
   },
   {
     "repository_name": "eos42ez",
@@ -1408,7 +1490,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:01Z"
+    "metadata_last_updated": "2026-03-09T13:55:05Z",
+    "source_code_url": "https://github.com/felixjwong/antibioticsai"
   },
   {
     "repository_name": "eos43at",
@@ -1425,7 +1508,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:02Z"
+    "metadata_last_updated": "2026-03-09T13:55:06Z",
+    "source_code_url": "https://github.com/josejimenezluna/molgrad/"
   },
   {
     "repository_name": "eos44zp",
@@ -1442,7 +1526,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:02Z"
+    "metadata_last_updated": "2026-03-09T13:55:07Z",
+    "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
     "repository_name": "eos46ev",
@@ -1459,7 +1544,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:03Z"
+    "metadata_last_updated": "2026-03-09T13:55:07Z",
+    "source_code_url": "http://cadd.zju.edu.cn/chemtb/"
   },
   {
     "repository_name": "eos481p",
@@ -1476,7 +1562,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:03Z"
+    "metadata_last_updated": "2026-03-09T13:55:08Z",
+    "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
     "repository_name": "eos4avb",
@@ -1493,7 +1580,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:04Z"
+    "metadata_last_updated": "2026-03-09T13:55:09Z",
+    "source_code_url": "https://github.com/HongxinXiang/ImageMol"
   },
   {
     "repository_name": "eos4b8j",
@@ -1510,7 +1598,8 @@
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:04Z"
+    "metadata_last_updated": "2026-03-09T13:55:09Z",
+    "source_code_url": "https://gdb-chembl-simsearch.gdb.tools/"
   },
   {
     "repository_name": "eos4cxk",
@@ -1527,7 +1616,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:05Z"
+    "metadata_last_updated": "2026-03-09T13:55:10Z",
+    "source_code_url": "https://github.com/HongxinXiang/ImageMol"
   },
   {
     "repository_name": "eos4djh",
@@ -1544,7 +1634,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:05Z"
+    "metadata_last_updated": "2026-03-09T13:55:11Z",
+    "source_code_url": "https://docs.datamol.io/0.7.4/api/datamol.descriptors.html"
   },
   {
     "repository_name": "eos4e40",
@@ -1561,7 +1652,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-03-01T00:13:06Z"
+    "metadata_last_updated": "2026-03-09T13:55:11Z",
+    "source_code_url": "http://chemprop.csail.mit.edu/checkpoints"
   },
   {
     "repository_name": "eos4e41",
@@ -1578,7 +1670,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:06Z"
+    "metadata_last_updated": "2026-03-09T13:55:12Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos4ex3",
@@ -1595,7 +1688,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:06Z"
+    "metadata_last_updated": "2026-03-09T13:55:12Z",
+    "source_code_url": "https://github.com/rolayoalarcon/MolE/tree/main"
   },
   {
     "repository_name": "eos4f8y",
@@ -1612,7 +1706,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:07Z"
+    "metadata_last_updated": "2026-03-09T13:55:13Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos4f95",
@@ -1629,7 +1724,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:07Z"
+    "metadata_last_updated": "2026-03-09T13:55:14Z",
+    "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
     "repository_name": "eos4jcv",
@@ -1646,7 +1742,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:08Z"
+    "metadata_last_updated": "2026-03-09T13:55:14Z",
+    "source_code_url": "https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d"
   },
   {
     "repository_name": "eos4k4f",
@@ -1657,13 +1754,14 @@
     "status": "Ready",
     "last_test_date": "2026-01-26T10:20:20Z",
     "release": "v1.0.0",
-    "last_packaging_date": "2026-01-22",
+    "last_packaging_date": "2026-03-05",
     "open_issues": 1,
     "issues_last_updated": "2026-03-01T00:14:51Z",
     "subtask": "Property calculation or prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:08Z"
+    "metadata_last_updated": "2026-03-09T13:55:14Z",
+    "source_code_url": "https://github.com/chembl/ChEMBL_Structure_Pipeline"
   },
   {
     "repository_name": "eos4q1a",
@@ -1680,7 +1778,8 @@
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:09Z"
+    "metadata_last_updated": "2026-03-09T13:55:15Z",
+    "source_code_url": "https://github.com/DrrDom/crem"
   },
   {
     "repository_name": "eos4qda",
@@ -1697,7 +1796,8 @@
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:09Z"
+    "metadata_last_updated": "2026-03-09T13:55:16Z",
+    "source_code_url": "https://github.com/UnixJunkie/FASMIFRA"
   },
   {
     "repository_name": "eos4r1g",
@@ -1714,7 +1814,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:09Z"
+    "metadata_last_updated": "2026-03-09T13:55:16Z",
+    "source_code_url": "https://github.com/HergenrotherLab/GramNegAccum"
   },
   {
     "repository_name": "eos4rta",
@@ -1731,7 +1832,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:10Z"
+    "metadata_last_updated": "2026-03-09T13:55:17Z",
+    "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
     "repository_name": "eos4rw4",
@@ -1748,7 +1850,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:10Z"
+    "metadata_last_updated": "2026-03-09T13:55:17Z",
+    "source_code_url": "https://github.com/sergsb/cddd-onnx"
   },
   {
     "repository_name": "eos4se9",
@@ -1765,7 +1868,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:11Z"
+    "metadata_last_updated": "2026-03-09T13:55:18Z",
+    "source_code_url": "https://github.com/Kohulan/Smiles-TO-iUpac-Translator"
   },
   {
     "repository_name": "eos4tcc",
@@ -1782,7 +1886,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:11Z"
+    "metadata_last_updated": "2026-03-09T13:55:18Z",
+    "source_code_url": "https://github.com/GIST-CSBL/BayeshERG"
   },
   {
     "repository_name": "eos4u6p",
@@ -1799,7 +1904,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:12Z"
+    "metadata_last_updated": "2026-03-09T13:55:19Z",
+    "source_code_url": "http://gitlabsbnb.irbbarcelona.org/packages/signaturizer"
   },
   {
     "repository_name": "eos4wt0",
@@ -1816,7 +1922,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:12Z"
+    "metadata_last_updated": "2026-03-09T13:55:20Z",
+    "source_code_url": "https://www.rdkit.org/docs"
   },
   {
     "repository_name": "eos4x30",
@@ -1833,7 +1940,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:13Z"
+    "metadata_last_updated": "2026-03-09T13:55:20Z",
+    "source_code_url": "https://github.com/DrrDom/pmapper"
   },
   {
     "repository_name": "eos4xb1",
@@ -1850,7 +1958,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:13Z"
+    "metadata_last_updated": "2026-03-09T13:55:21Z",
+    "source_code_url": "https://github.com/ersilia-os/anti-hypertension-cedd"
   },
   {
     "repository_name": "eos4ywv",
@@ -1867,7 +1976,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:14Z"
+    "metadata_last_updated": "2026-03-09T13:55:21Z",
+    "source_code_url": "https://github.com/LBLQMM/MACAW/"
   },
   {
     "repository_name": "eos4zfy",
@@ -1884,7 +1994,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:14Z"
+    "metadata_last_updated": "2026-03-09T13:55:22Z",
+    "source_code_url": "https://www.ebi.ac.uk/chembl/maip/"
   },
   {
     "repository_name": "eos526j",
@@ -1901,7 +2012,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:15Z"
+    "metadata_last_updated": "2026-03-09T13:55:23Z",
+    "source_code_url": "https://github.com/MolecularAI/aizynthfinder"
   },
   {
     "repository_name": "eos54c7",
@@ -1918,7 +2030,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:15Z"
+    "metadata_last_updated": "2026-03-09T13:55:23Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos54ij",
@@ -1935,7 +2048,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:16Z"
+    "metadata_last_updated": "2026-03-09T13:55:24Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos5505",
@@ -1952,7 +2066,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:16Z"
+    "metadata_last_updated": "2026-03-09T13:55:25Z",
+    "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
     "repository_name": "eos57bx",
@@ -1969,7 +2084,8 @@
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:17Z"
+    "metadata_last_updated": "2026-03-09T13:55:25Z",
+    "source_code_url": "https://github.com/MolecularAI/REINVENT4"
   },
   {
     "repository_name": "eos59rr",
@@ -1986,7 +2102,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:17Z"
+    "metadata_last_updated": "2026-03-09T13:55:26Z",
+    "source_code_url": "https://github.com/shenwanxiang/bidd-molmap"
   },
   {
     "repository_name": "eos5axz",
@@ -2003,7 +2120,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:18Z"
+    "metadata_last_updated": "2026-03-09T13:55:27Z",
+    "source_code_url": "https://github.com/rdkit/rdkit"
   },
   {
     "repository_name": "eos5bsw",
@@ -2020,7 +2138,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:18Z"
+    "metadata_last_updated": "2026-03-09T13:55:27Z",
+    "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
     "repository_name": "eos5cl7",
@@ -2037,7 +2156,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:19Z"
+    "metadata_last_updated": "2026-03-09T13:55:28Z",
+    "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
     "repository_name": "eos5dti",
@@ -2054,7 +2174,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:19Z"
+    "metadata_last_updated": "2026-03-09T13:55:28Z",
+    "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
     "repository_name": "eos5gge",
@@ -2071,7 +2192,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:20Z"
+    "metadata_last_updated": "2026-03-09T13:55:29Z",
+    "source_code_url": "https://github.com/Manas02/dili-pip"
   },
   {
     "repository_name": "eos5guo",
@@ -2088,7 +2210,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:20Z"
+    "metadata_last_updated": "2026-03-09T13:55:29Z",
+    "source_code_url": "https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html"
   },
   {
     "repository_name": "eos5jz9",
@@ -2105,7 +2228,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:21Z"
+    "metadata_last_updated": "2026-03-09T13:55:30Z",
+    "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
     "repository_name": "eos5nqn",
@@ -2122,7 +2246,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:21Z"
+    "metadata_last_updated": "2026-03-09T13:55:30Z",
+    "source_code_url": "https://github.com/Genentech/gneprop"
   },
   {
     "repository_name": "eos5pt8",
@@ -2139,7 +2264,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:21Z"
+    "metadata_last_updated": "2026-03-09T13:55:31Z",
+    "source_code_url": "https://github.com/SeonghwanSeo/drug-likeness"
   },
   {
     "repository_name": "eos5qfo",
@@ -2156,7 +2282,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:22Z"
+    "metadata_last_updated": "2026-03-09T13:55:31Z",
+    "source_code_url": "https://github.com/connorcoley/rexgen_direct"
   },
   {
     "repository_name": "eos5smc",
@@ -2173,7 +2300,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:22Z"
+    "metadata_last_updated": "2026-03-09T13:55:32Z",
+    "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
     "repository_name": "eos5xng",
@@ -2190,7 +2318,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:23Z"
+    "metadata_last_updated": "2026-03-09T13:55:33Z",
+    "source_code_url": "https://github.com/cardonalab/Prediction-of-ATB-Activity"
   },
   {
     "repository_name": "eos5y9f",
@@ -2207,7 +2336,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:23Z"
+    "metadata_last_updated": "2026-03-09T13:55:33Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos633t",
@@ -2224,7 +2354,8 @@
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-03-01T00:13:24Z"
+    "metadata_last_updated": "2026-03-09T13:55:34Z",
+    "source_code_url": "https://github.com/microsoft/molecule-generation"
   },
   {
     "repository_name": "eos65rt",
@@ -2241,7 +2372,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:24Z"
+    "metadata_last_updated": "2026-03-09T13:55:35Z",
+    "source_code_url": "https://github.com/k-soliman/DeepFl-LogP"
   },
   {
     "repository_name": "eos694w",
@@ -2258,7 +2390,8 @@
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:25Z"
+    "metadata_last_updated": "2026-03-09T13:55:35Z",
+    "source_code_url": "https://github.com/MolecularAI/REINVENT4"
   },
   {
     "repository_name": "eos69e6",
@@ -2275,7 +2408,8 @@
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:25Z"
+    "metadata_last_updated": "2026-03-09T13:55:36Z",
+    "source_code_url": "https://github.com/CSUBioGroup/PGMG"
   },
   {
     "repository_name": "eos69mr",
@@ -2292,7 +2426,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:26Z"
+    "metadata_last_updated": "2026-03-09T13:55:36Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos69p9",
@@ -2309,7 +2444,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:26Z"
+    "metadata_last_updated": "2026-03-09T13:55:37Z",
+    "source_code_url": "https://github.com/chen709847237/SSL-GCN"
   },
   {
     "repository_name": "eos6ao8",
@@ -2326,7 +2462,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:27Z"
+    "metadata_last_updated": "2026-03-09T13:55:38Z",
+    "source_code_url": "https://github.com/josejimenezluna/molgrad/"
   },
   {
     "repository_name": "eos6aun",
@@ -2343,7 +2480,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:27Z"
+    "metadata_last_updated": "2026-03-09T13:55:38Z",
+    "source_code_url": "https://github.com/rxn4chemistry/rxnfp/tree/master/"
   },
   {
     "repository_name": "eos6fza",
@@ -2360,7 +2498,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:28Z"
+    "metadata_last_updated": "2026-03-09T13:55:39Z",
+    "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
     "repository_name": "eos6hy3",
@@ -2377,7 +2516,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:28Z"
+    "metadata_last_updated": "2026-03-09T13:55:40Z",
+    "source_code_url": "https://github.com/ChengF-Lab/ImageMol"
   },
   {
     "repository_name": "eos6m2k",
@@ -2394,7 +2534,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:29Z"
+    "metadata_last_updated": "2026-03-09T13:55:40Z",
+    "source_code_url": "https://github.com/rolayoalarcon/mole_antimicrobial_potential"
   },
   {
     "repository_name": "eos6m4j",
@@ -2411,7 +2552,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:29Z"
+    "metadata_last_updated": "2026-03-09T13:55:41Z",
+    "source_code_url": "https://github.com/shenwanxiang/bidd-molmap"
   },
   {
     "repository_name": "eos6o0z",
@@ -2428,7 +2570,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:30Z"
+    "metadata_last_updated": "2026-03-09T13:55:42Z",
+    "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
     "repository_name": "eos6ojg",
@@ -2445,7 +2588,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:30Z"
+    "metadata_last_updated": "2026-03-09T13:55:42Z",
+    "source_code_url": "https://antibioticdb.com/"
   },
   {
     "repository_name": "eos6oli",
@@ -2462,7 +2606,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:31Z"
+    "metadata_last_updated": "2026-03-09T13:55:43Z",
+    "source_code_url": "https://github.com/gnina/SolTranNet"
   },
   {
     "repository_name": "eos6ost",
@@ -2479,7 +2624,8 @@
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:31Z"
+    "metadata_last_updated": "2026-03-09T13:55:43Z",
+    "source_code_url": "https://github.com/MolecularAI/REINVENT4"
   },
   {
     "repository_name": "eos6pbf",
@@ -2496,7 +2642,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:32Z"
+    "metadata_last_updated": "2026-03-09T13:55:44Z",
+    "source_code_url": "https://github.com/aspuru-guzik-group/selfies"
   },
   {
     "repository_name": "eos6ru3",
@@ -2513,7 +2660,8 @@
     "subtask": "Similarity search",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:32Z"
+    "metadata_last_updated": "2026-03-09T13:55:45Z",
+    "source_code_url": "https://github.com/ETHmodlab/scaffold_hopping_whales"
   },
   {
     "repository_name": "eos6ru5",
@@ -2530,7 +2678,8 @@
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:33Z"
+    "metadata_last_updated": "2026-03-09T13:55:45Z",
+    "source_code_url": "https://github.com/facebookresearch/faiss"
   },
   {
     "repository_name": "eos6tg8",
@@ -2547,7 +2696,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:33Z"
+    "metadata_last_updated": "2026-03-09T13:55:46Z",
+    "source_code_url": "https://github.com/kochgroup/neural_npfp"
   },
   {
     "repository_name": "eos6tpo",
@@ -2564,7 +2714,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-03-01T00:13:34Z"
+    "metadata_last_updated": "2026-03-09T13:55:46Z",
+    "source_code_url": "https://github.com/ChEB-AI/python-chebifier"
   },
   {
     "repository_name": "eos6wdw",
@@ -2581,7 +2732,8 @@
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:34Z"
+    "metadata_last_updated": "2026-03-09T13:55:46Z",
+    "source_code_url": "https://github.com/sbnb-irb/dotP"
   },
   {
     "repository_name": "eos74bo",
@@ -2598,7 +2750,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:34Z"
+    "metadata_last_updated": "2026-03-09T13:55:47Z",
+    "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
     "repository_name": "eos74km",
@@ -2615,7 +2768,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:35Z"
+    "metadata_last_updated": "2026-03-09T13:55:47Z",
+    "source_code_url": "https://github.com/IMI-COMBINE/broad_spectrum_prediction"
   },
   {
     "repository_name": "eos77jk",
@@ -2632,7 +2786,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:35Z"
+    "metadata_last_updated": "2026-03-09T13:55:48Z",
+    "source_code_url": "https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d"
   },
   {
     "repository_name": "eos77w8",
@@ -2649,7 +2804,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:36Z"
+    "metadata_last_updated": "2026-03-09T13:55:48Z",
+    "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
     "repository_name": "eos78ao",
@@ -2666,7 +2822,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:36Z"
+    "metadata_last_updated": "2026-03-09T13:55:49Z",
+    "source_code_url": "https://github.com/mordred-descriptor/mordred"
   },
   {
     "repository_name": "eos7a04",
@@ -2683,7 +2840,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:37Z"
+    "metadata_last_updated": "2026-03-09T13:55:50Z",
+    "source_code_url": "https://github.com/jrwnter/cddd"
   },
   {
     "repository_name": "eos7a45",
@@ -2700,7 +2858,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:38Z"
+    "metadata_last_updated": "2026-03-09T13:55:50Z",
+    "source_code_url": "https://github.com/oxpig/CoPriNet"
   },
   {
     "repository_name": "eos7ack",
@@ -2717,7 +2876,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-03-01T00:13:38Z"
+    "metadata_last_updated": "2026-03-09T13:55:51Z",
+    "source_code_url": "http://www.swissadme.ch/"
   },
   {
     "repository_name": "eos7akz",
@@ -2734,7 +2894,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:38Z"
+    "metadata_last_updated": "2026-03-09T13:55:52Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos7asg",
@@ -2751,7 +2912,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:39Z"
+    "metadata_last_updated": "2026-03-09T13:55:52Z",
+    "source_code_url": "https://github.com/ecrl/padelpy"
   },
   {
     "repository_name": "eos7d58",
@@ -2768,7 +2930,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:39Z"
+    "metadata_last_updated": "2026-03-09T13:55:53Z",
+    "source_code_url": "https://github.com/swansonk14/admet_ai"
   },
   {
     "repository_name": "eos7e3s",
@@ -2785,7 +2948,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:40Z"
+    "metadata_last_updated": "2026-03-09T13:55:54Z",
+    "source_code_url": "https://github.com/cptbern/QSAR_DILI_2019"
   },
   {
     "repository_name": "eos7emx",
@@ -2802,7 +2966,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:40Z"
+    "metadata_last_updated": "2026-03-09T13:55:54Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos7ike",
@@ -2819,7 +2984,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:41Z"
+    "metadata_last_updated": "2026-03-09T13:55:55Z",
+    "source_code_url": "https://github.com/HergenrotherLab/entry-cli"
   },
   {
     "repository_name": "eos7jio",
@@ -2836,7 +3002,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:41Z"
+    "metadata_last_updated": "2026-03-09T13:55:55Z",
+    "source_code_url": "https://github.com/rdkit/rdkit"
   },
   {
     "repository_name": "eos7jlv",
@@ -2853,7 +3020,8 @@
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:42Z"
+    "metadata_last_updated": "2026-03-09T13:55:56Z",
+    "source_code_url": "https://gdb-medchem-simsearch.gdb.tools/"
   },
   {
     "repository_name": "eos7kpb",
@@ -2870,7 +3038,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:42Z"
+    "metadata_last_updated": "2026-03-09T13:55:57Z",
+    "source_code_url": "https://github.com/ersilia-os/h3d-screening-cascade-models"
   },
   {
     "repository_name": "eos7l5m",
@@ -2887,7 +3056,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:43Z"
+    "metadata_last_updated": "2026-03-09T13:55:57Z",
+    "source_code_url": "https://github.com/sfrench007/serf"
   },
   {
     "repository_name": "eos7m30",
@@ -2904,7 +3074,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:43Z"
+    "metadata_last_updated": "2026-03-09T13:55:57Z",
+    "source_code_url": "https://github.com/swansonk14/admet_ai"
   },
   {
     "repository_name": "eos7nno",
@@ -2921,7 +3092,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:43Z"
+    "metadata_last_updated": "2026-03-09T13:55:58Z",
+    "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
     "repository_name": "eos7pw8",
@@ -2938,7 +3110,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:44Z"
+    "metadata_last_updated": "2026-03-09T13:55:59Z",
+    "source_code_url": "https://github.com/lich-uct/syba"
   },
   {
     "repository_name": "eos7qga",
@@ -2955,7 +3128,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:45Z"
+    "metadata_last_updated": "2026-03-09T13:55:59Z",
+    "source_code_url": "https://github.com/datamol-org/datamol"
   },
   {
     "repository_name": "eos7w6n",
@@ -2972,7 +3146,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:45Z"
+    "metadata_last_updated": "2026-03-09T13:56:00Z",
+    "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
     "repository_name": "eos7ye0",
@@ -2989,7 +3164,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:45Z"
+    "metadata_last_updated": "2026-03-09T13:56:00Z",
+    "source_code_url": "https://github.com/antwiser/ChemFH"
   },
   {
     "repository_name": "eos7yti",
@@ -3006,7 +3182,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:46Z"
+    "metadata_last_updated": "2026-03-09T13:56:01Z",
+    "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
     "repository_name": "eos80ch",
@@ -3023,7 +3200,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:46Z"
+    "metadata_last_updated": "2026-03-09T13:56:02Z",
+    "source_code_url": "https://github.com/M2PL"
   },
   {
     "repository_name": "eos81ew",
@@ -3040,7 +3218,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:47Z"
+    "metadata_last_updated": "2026-03-09T13:56:02Z",
+    "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
     "repository_name": "eos82v1",
@@ -3057,7 +3236,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:47Z"
+    "metadata_last_updated": "2026-03-09T13:56:03Z",
+    "source_code_url": "https://github.com/IBM/materials"
   },
   {
     "repository_name": "eos8451",
@@ -3074,7 +3254,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:48Z"
+    "metadata_last_updated": "2026-03-09T13:56:03Z",
+    "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
     "repository_name": "eos85a3",
@@ -3091,7 +3272,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:49Z"
+    "metadata_last_updated": "2026-03-09T13:56:04Z",
+    "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
     "repository_name": "eos85mn",
@@ -3108,7 +3290,8 @@
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:49Z"
+    "metadata_last_updated": "2026-03-09T13:56:04Z",
+    "source_code_url": "https://github.com/thaonguyen217/farm_molecular_representation"
   },
   {
     "repository_name": "eos8a4x",
@@ -3125,7 +3308,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:49Z"
+    "metadata_last_updated": "2026-03-09T13:56:05Z",
+    "source_code_url": "https://github.com/rdkit/rdkit"
   },
   {
     "repository_name": "eos8a5g",
@@ -3142,7 +3326,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:50Z"
+    "metadata_last_updated": "2026-03-09T13:56:06Z",
+    "source_code_url": "https://github.com/whitead/molbloom"
   },
   {
     "repository_name": "eos8aa5",
@@ -3159,7 +3344,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:50Z"
+    "metadata_last_updated": "2026-03-09T13:56:06Z",
+    "source_code_url": "https://github.com/lihan97/KPGT"
   },
   {
     "repository_name": "eos8bhe",
@@ -3176,7 +3362,8 @@
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:51Z"
+    "metadata_last_updated": "2026-03-09T13:56:07Z",
+    "source_code_url": "https://github.com/datamol-io/safe/tree/main"
   },
   {
     "repository_name": "eos8c0o",
@@ -3193,7 +3380,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:51Z"
+    "metadata_last_updated": "2026-03-09T13:56:08Z",
+    "source_code_url": "https://github.com/ChengF-Lab/ImageMol"
   },
   {
     "repository_name": "eos8d8a",
@@ -3210,7 +3398,8 @@
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:52Z"
+    "metadata_last_updated": "2026-03-09T13:56:08Z",
+    "source_code_url": "https://www.mycpermcheck.aksotriffer.pharmazie.uni-wuerzburg.de/index.html"
   },
   {
     "repository_name": "eos8fma",
@@ -3227,7 +3416,8 @@
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:52Z"
+    "metadata_last_updated": "2026-03-09T13:56:09Z",
+    "source_code_url": "https://github.com/aspuru-guzik-group/stoned-selfies"
   },
   {
     "repository_name": "eos8fth",
@@ -3244,7 +3434,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:53Z"
+    "metadata_last_updated": "2026-03-09T13:56:10Z",
+    "source_code_url": "https://github.com/sirimullalab/redial-2020/tree/v1.0"
   },
   {
     "repository_name": "eos8g50",
@@ -3261,7 +3452,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-03-01T00:13:53Z"
+    "metadata_last_updated": "2026-03-09T13:56:10Z",
+    "source_code_url": "https://github.com/JacksonBurns/fastsolv"
   },
   {
     "repository_name": "eos8h6g",
@@ -3278,7 +3470,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:54Z"
+    "metadata_last_updated": "2026-03-09T13:56:11Z",
+    "source_code_url": "https://github.com/rdkit/rdkit/tree/master/External/AvalonTools"
   },
   {
     "repository_name": "eos8ioa",
@@ -3295,7 +3488,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:54Z"
+    "metadata_last_updated": "2026-03-09T13:56:11Z",
+    "source_code_url": "https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score"
   },
   {
     "repository_name": "eos8lok",
@@ -3312,7 +3506,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:55Z"
+    "metadata_last_updated": "2026-03-09T13:56:12Z",
+    "source_code_url": "https://github.com/NTU-MedAI/S2DV"
   },
   {
     "repository_name": "eos8osp",
@@ -3329,7 +3524,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:55Z"
+    "metadata_last_updated": "2026-03-09T13:56:13Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos8ub5",
@@ -3346,7 +3542,8 @@
     "subtask": "Projection",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:56Z"
+    "metadata_last_updated": "2026-03-09T13:56:13Z",
+    "source_code_url": "https://github.com/ersilia-os/compound-embedding"
   },
   {
     "repository_name": "eos8vud",
@@ -3363,7 +3560,8 @@
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:56Z"
+    "metadata_last_updated": "2026-03-09T13:56:13Z",
+    "source_code_url": "https://github.com/keiradams/SQUID"
   },
   {
     "repository_name": "eos92sw",
@@ -3380,7 +3578,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:56Z"
+    "metadata_last_updated": "2026-03-09T13:56:14Z",
+    "source_code_url": "https://github.com/pulimeng/eToxPred"
   },
   {
     "repository_name": "eos935d",
@@ -3397,7 +3596,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:57Z"
+    "metadata_last_updated": "2026-03-09T13:56:15Z",
+    "source_code_url": "https://github.com/KavrakiLab/MetaTrans"
   },
   {
     "repository_name": "eos93h2",
@@ -3414,7 +3614,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:58Z"
+    "metadata_last_updated": "2026-03-09T13:56:15Z",
+    "source_code_url": "https://github.com/HongxinXiang/ImageMol"
   },
   {
     "repository_name": "eos96f4",
@@ -3431,7 +3632,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:58Z"
+    "metadata_last_updated": "2026-03-09T13:56:16Z",
+    "source_code_url": "https://github.com/Ananikov-Lab/digitizing_molecular_complexity"
   },
   {
     "repository_name": "eos96ia",
@@ -3448,7 +3650,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:13:58Z"
+    "metadata_last_updated": "2026-03-09T13:56:16Z",
+    "source_code_url": "https://github.com/josejimenezluna/molgrad/"
   },
   {
     "repository_name": "eos97yu",
@@ -3465,7 +3668,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:59Z"
+    "metadata_last_updated": "2026-03-09T13:56:17Z",
+    "source_code_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651837/"
   },
   {
     "repository_name": "eos9aqt",
@@ -3482,7 +3686,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:13:59Z"
+    "metadata_last_updated": "2026-03-09T13:56:18Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos9be7",
@@ -3499,7 +3704,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:14:00Z"
+    "metadata_last_updated": "2026-03-09T13:56:18Z",
+    "source_code_url": "https://github.com/bioinf-jku/FCD"
   },
   {
     "repository_name": "eos9c7k",
@@ -3516,7 +3722,8 @@
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:00Z"
+    "metadata_last_updated": "2026-03-09T13:56:19Z",
+    "source_code_url": "https://gdb-medchem-simsearch.gdb.tools/"
   },
   {
     "repository_name": "eos9cvt",
@@ -3524,16 +3731,17 @@
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "permeability-efflux-mtl",
-    "status": "In progress",
+    "status": "Ready",
     "last_test_date": null,
-    "release": null,
-    "last_packaging_date": null,
+    "release": "v1.0.0",
+    "last_packaging_date": "2026-03-03",
     "open_issues": 0,
     "issues_last_updated": "2026-03-01T00:15:36Z",
-    "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
-    "source_type": "Internal, Replicated, External",
+    "subtask": "Property calculation or prediction",
+    "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:14:01Z"
+    "metadata_last_updated": "2026-03-09T13:56:20Z",
+    "source_code_url": "https://github.com/chemprop/chemprop"
   },
   {
     "repository_name": "eos9ei3",
@@ -3550,7 +3758,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:01Z"
+    "metadata_last_updated": "2026-03-09T13:56:20Z",
+    "source_code_url": "https://github.com/rdkit/rdkit/tree/master/Contrib/SA_Score"
   },
   {
     "repository_name": "eos9f6t",
@@ -3567,7 +3776,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:02Z"
+    "metadata_last_updated": "2026-03-09T13:56:21Z",
+    "source_code_url": "http://chemprop.csail.mit.edu/checkpoints"
   },
   {
     "repository_name": "eos9f7c",
@@ -3584,7 +3794,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:14:02Z"
+    "metadata_last_updated": "2026-03-09T13:56:21Z",
+    "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
     "repository_name": "eos9gg2",
@@ -3601,7 +3812,8 @@
     "subtask": "Projection",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:02Z"
+    "metadata_last_updated": "2026-03-09T13:56:22Z",
+    "source_code_url": "https://github.com/ersilia-os/compound-embedding"
   },
   {
     "repository_name": "eos9ivc",
@@ -3618,7 +3830,8 @@
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:03Z"
+    "metadata_last_updated": "2026-03-09T13:56:22Z",
+    "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
     "repository_name": "eos9li5",
@@ -3635,7 +3848,8 @@
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:14:03Z"
+    "metadata_last_updated": "2026-03-09T13:56:23Z",
+    "source_code_url": "https://github.com/lucinamay/biosynfoni"
   },
   {
     "repository_name": "eos9n1s",
@@ -3652,7 +3866,8 @@
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:04Z"
+    "metadata_last_updated": "2026-03-09T13:56:23Z",
+    "source_code_url": "https://github.com/ersilia-os/eos9n1s"
   },
   {
     "repository_name": "eos9o72",
@@ -3669,7 +3884,8 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:04Z"
+    "metadata_last_updated": "2026-03-09T13:56:24Z",
+    "source_code_url": "https://github.com/JacksonBurns/chemeleon/tree/main"
   },
   {
     "repository_name": "eos9p4a",
@@ -3686,7 +3902,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:05Z"
+    "metadata_last_updated": "2026-03-09T13:56:24Z",
+    "source_code_url": "https://github.com/SeonghwanSeo/DeepDL"
   },
   {
     "repository_name": "eos9sa2",
@@ -3703,7 +3920,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "Replicated",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:14:05Z"
+    "metadata_last_updated": "2026-03-09T13:56:25Z",
+    "source_code_url": "https://github.com/Nanotekton/drugability/tree/v0.1"
   },
   {
     "repository_name": "eos9taz",
@@ -3720,7 +3938,8 @@
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:06Z"
+    "metadata_last_updated": "2026-03-09T13:56:26Z",
+    "source_code_url": "https://github.com/microsoft/molecule-generation"
   },
   {
     "repository_name": "eos9tyg",
@@ -3737,7 +3956,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:06Z"
+    "metadata_last_updated": "2026-03-09T13:56:26Z",
+    "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
     "repository_name": "eos9ueu",
@@ -3754,7 +3974,8 @@
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:07Z"
+    "metadata_last_updated": "2026-03-09T13:56:27Z",
+    "source_code_url": "https://pypi.org/project/smallworld-api/"
   },
   {
     "repository_name": "eos9uqy",
@@ -3771,7 +3992,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:14:07Z"
+    "metadata_last_updated": "2026-03-09T13:56:28Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos9x3z",
@@ -3788,7 +4010,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:07Z"
+    "metadata_last_updated": "2026-03-09T13:56:28Z",
+    "source_code_url": "https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.1c01984/suppl_file/jm1c01984_si_001.zip"
   },
   {
     "repository_name": "eos9ym3",
@@ -3805,7 +4028,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:08Z"
+    "metadata_last_updated": "2026-03-09T13:56:29Z",
+    "source_code_url": "https://github.com/JustinYKC/MRlogP"
   },
   {
     "repository_name": "eos9yui",
@@ -3822,7 +4046,8 @@
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:08Z"
+    "metadata_last_updated": "2026-03-09T13:56:30Z",
+    "source_code_url": "https://github.com/kochgroup/neural_npfp"
   },
   {
     "repository_name": "eos9yy1",
@@ -3839,7 +4064,8 @@
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-03-01T00:14:09Z"
+    "metadata_last_updated": "2026-03-09T13:56:31Z",
+    "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
     "repository_name": "eos9zfb",
@@ -3856,7 +4082,8 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-03-01T00:14:10Z"
+    "metadata_last_updated": "2026-03-09T13:56:31Z",
+    "source_code_url": null
   },
   {
     "repository_name": "eos9zw0",
@@ -3873,6 +4100,7 @@
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-03-01T00:14:10Z"
+    "metadata_last_updated": "2026-03-09T13:56:32Z",
+    "source_code_url": "https://github.com/XinhaoLi74/MolPMoFiT"
   }
 ]

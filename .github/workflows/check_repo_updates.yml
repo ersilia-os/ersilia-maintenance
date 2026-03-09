@@ -1,0 +1,50 @@
+name: Check Repo Updates
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 1 * *'  # First day of every month at 08:00 UTC
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  check-updates:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Check for repo updates since last test
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python src/check_repo_updates.py
+
+      - name: Commit and push results
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: |
+            files/repo_info.json
+            reports/updated_models.md
+          message: "chore: update repo update check report"
+          push: true
+          author_name: ersilia-bot
+          author_email: ersilia-bot@users.noreply.github.com
+          github_token: ${{ secrets.GITHUB_TOKEN }}

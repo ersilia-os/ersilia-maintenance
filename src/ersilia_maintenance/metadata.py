@@ -103,3 +103,7 @@ def extract_subtask(meta: Dict[str,Any])->Optional[str]:
 def extract_source_type(meta: Dict[str, Any])-> Optional[str]:
     """Return source type if present"""
     return _extract_key("Source Type",meta)
+
+def extract_source_code(meta: Dict[str, Any]) -> Optional[str]:
+    """Return Source Code URL if present."""
+    return _extract_key("Source Code", meta)
