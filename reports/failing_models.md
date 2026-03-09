@@ -1,11 +1,13 @@
 # Failing Models Report
 
-**Generated:** 2026-03-09T06:25:31Z
+**Generated:** 2026-03-09T11:29:57Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **10**
+Models with a failing last test outcome (Archived models excluded). Total: **12**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
+| eos2db3 | chemical-space-projections-chemdiv | In maintenance | 2026-03-09T10:59:16Z | 🚨 failed |
+| eos1vms | chembl-multitask-descriptor | In maintenance | 2026-03-09T10:28:59Z | 🚨 failed |
 | eos2hzy | pubchem-sampler | Ready | 2026-03-06T16:36:16Z | 🚨 failed |
 | eos9zw0 | molpmofit | In maintenance | 2026-03-06T16:02:48Z | 🚨 failed |
 | eos8g50 | fastsolv | Ready | 2026-02-09T11:11:07Z | 🚨 failed |
