@@ -1,8 +1,8 @@
 # Failing Models Report
 
-**Generated:** 2026-03-16T06:36:13Z
+**Generated:** 2026-03-16T11:49:27Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **10**
+Models with a failing last test outcome (Archived models excluded). Total: **9**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
@@ -14,5 +14,4 @@ Models with a failing last test outcome (Archived models excluded). Total: **10*
 | eos4e40 | chemprop-antibiotic | Ready | 2025-12-29T10:13:42Z | 🚨 failed |
 | eos3kcw | small-world-wuxi | Ready | 2025-12-15T10:21:11Z | 🚨 failed |
 | eos3ev6 | ncats-cyp3a4 | Ready | 2025-12-15T10:18:50Z | 🚨 failed |
-| eos2rd8 | molt5-smiles-to-caption | Ready | 2025-12-12T12:55:09Z | 🚨 failed |
 | eos19mt | chebifier-antibiotic | Ready | 2025-12-11T15:50:09Z | 🚨 failed |

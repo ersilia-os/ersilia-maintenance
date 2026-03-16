@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-03-09T10:23:39Z
+**🗓️ Date:** 2026-03-16T10:26:53Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos1vms | chembl-multitask-descriptor | 🚨 | 2026-03-09T10:28:59Z |
-| eos21q7 | inter-dili | ✅ | 2026-03-09T10:37:32Z |
-| eos22io | idl-ppbopt | ✅ | 2026-03-09T10:43:58Z |
-| eos24ci | drugtax | ✅ | 2026-03-09T10:48:12Z |
-| eos24jm | qcrb-tb | ✅ | 2026-03-09T10:52:08Z |
-| eos2db3 | chemical-space-projections-chemdiv | 🚨 | 2026-03-09T10:59:16Z |
-| eos2gth | maip-malaria-surrogate | ✅ | 2026-03-09T11:04:34Z |
-| eos2gw4 | ersilia-compound-embedding | ✅ | 2026-03-09T11:09:24Z |
-| eos2h1r | cc-signaturizer-3d-c | ✅ | 2026-03-09T11:20:53Z |
-| eos2l0q | schisto-swisstph | ✅ | 2026-03-09T11:29:27Z |
+| eos5gge | dili-predictor | ✅ | 2026-03-16T10:33:56Z |
+| eos9cvt | permeability-efflux-mtl | ✅ | 2026-03-16T10:42:06Z |
+| eos2lm8 | smiles-transformer | ✅ | 2026-03-16T10:45:49Z |
+| eos2mrz | deepsmiles | ✅ | 2026-03-16T10:49:15Z |
+| eos2mxh | cc-signaturizer-3d-b | ✅ | 2026-03-16T10:59:24Z |
+| eos2r5a | retrosynthetic-accessibility | ✅ | 2026-03-16T11:03:56Z |
+| eos2rd8 | molt5-smiles-to-caption | ✅ | 2026-03-16T11:24:39Z |
+| eos2sbn | cc-signaturizer-3d-a | ✅ | 2026-03-16T11:34:46Z |
+| eos2thm | molbert | ✅ | 2026-03-16T11:44:27Z |
+| eos2xeq | antibiotics-downselection | ✅ | 2026-03-16T11:49:09Z |
