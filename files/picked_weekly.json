@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos1vms",
-    "slug": "chembl-multitask-descriptor",
-    "priority_score": 87,
-    "last_test_date": "2025-12-11T21:12:32Z",
-    "last_packaging_date": "2025-10-08",
+    "repository_name": "eos5gge",
+    "slug": "dili-predictor",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-12-01",
     "open_issues": 0
   },
   {
-    "repository_name": "eos21q7",
-    "slug": "inter-dili",
-    "priority_score": 87,
-    "last_test_date": "2025-12-11T21:19:18Z",
-    "last_packaging_date": "2025-11-19",
+    "repository_name": "eos9cvt",
+    "slug": "permeability-efflux-mtl",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-03-03",
     "open_issues": 0
   },
   {
-    "repository_name": "eos22io",
-    "slug": "idl-ppbopt",
-    "priority_score": 87,
-    "last_test_date": "2025-12-11T21:24:43Z",
-    "last_packaging_date": "2025-10-16",
+    "repository_name": "eos2lm8",
+    "slug": "smiles-transformer",
+    "priority_score": 93,
+    "last_test_date": "2025-12-12T12:31:14Z",
+    "last_packaging_date": "2025-10-22",
     "open_issues": 0
   },
   {
-    "repository_name": "eos24ci",
-    "slug": "drugtax",
-    "priority_score": 87,
-    "last_test_date": "2025-12-11T22:05:27Z",
-    "last_packaging_date": "2025-10-15",
+    "repository_name": "eos2mrz",
+    "slug": "deepsmiles",
+    "priority_score": 93,
+    "last_test_date": "2025-12-12T12:43:51Z",
+    "last_packaging_date": "2025-10-14",
     "open_issues": 0
   },
   {
-    "repository_name": "eos24jm",
-    "slug": "qcrb-tb",
-    "priority_score": 87,
-    "last_test_date": "2025-12-12T09:47:42Z",
-    "last_packaging_date": "2025-10-16",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos2db3",
-    "slug": "chemical-space-projections-chemdiv",
-    "priority_score": 87,
-    "last_test_date": "2025-12-12T10:11:24Z",
-    "last_packaging_date": "2025-12-16",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos2gth",
-    "slug": "maip-malaria-surrogate",
-    "priority_score": 86,
-    "last_test_date": "2025-12-12T10:19:08Z",
-    "last_packaging_date": "2025-11-19",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos2gw4",
-    "slug": "ersilia-compound-embedding",
-    "priority_score": 86,
-    "last_test_date": "2025-12-12T10:22:06Z",
-    "last_packaging_date": "2025-12-24",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos2h1r",
-    "slug": "cc-signaturizer-3d-c",
-    "priority_score": 86,
-    "last_test_date": "2025-12-12T10:31:14Z",
+    "repository_name": "eos2mxh",
+    "slug": "cc-signaturizer-3d-b",
+    "priority_score": 93,
+    "last_test_date": "2025-12-12T12:51:31Z",
     "last_packaging_date": "2025-12-30",
     "open_issues": 0
   },
   {
-    "repository_name": "eos2l0q",
-    "slug": "schisto-swisstph",
-    "priority_score": 86,
-    "last_test_date": "2025-12-12T12:28:06Z",
-    "last_packaging_date": "2025-11-25",
+    "repository_name": "eos2r5a",
+    "slug": "retrosynthetic-accessibility",
+    "priority_score": 93,
+    "last_test_date": "2025-12-12T12:55:05Z",
+    "last_packaging_date": "2025-09-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2rd8",
+    "slug": "molt5-smiles-to-caption",
+    "priority_score": 93,
+    "last_test_date": "2025-12-12T12:55:09Z",
+    "last_packaging_date": "2025-10-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2sbn",
+    "slug": "cc-signaturizer-3d-a",
+    "priority_score": 93,
+    "last_test_date": "2025-12-12T13:02:55Z",
+    "last_packaging_date": "2025-12-24",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2thm",
+    "slug": "molbert",
+    "priority_score": 93,
+    "last_test_date": "2025-12-12T13:24:41Z",
+    "last_packaging_date": "2025-10-09",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2xeq",
+    "slug": "antibiotics-downselection",
+    "priority_score": 93,
+    "last_test_date": "2025-12-12T13:27:39Z",
+    "last_packaging_date": "2025-09-22",
     "open_issues": 0
   }
 ]
