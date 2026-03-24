@@ -898,16 +898,8 @@
         "slug": "mole-representations"
       },
       {
-        "repository_name": "eos57bx",
-        "slug": "reinvent4-mol2mol-scaffold"
-      },
-      {
         "repository_name": "eos633t",
         "slug": "moler-enamine-blocks"
-      },
-      {
-        "repository_name": "eos694w",
-        "slug": "reinvent4-mol2mol-medium-similarity"
       },
       {
         "repository_name": "eos7ye0",
@@ -1167,19 +1159,208 @@
   },
   {
     "month": "2026-03",
-    "generated_at": "2026-03-01T01:34:24Z",
+    "generated_at": "2026-03-24T14:57:18Z",
     "totals": {
-      "total_models": 215,
-      "active_models": 183,
-      "with_open_issues": 42,
-      "no_open_issues": 141,
-      "tested_at_least_once": 170,
+      "total_models": 219,
+      "active_models": 185,
+      "with_open_issues": 36,
+      "no_open_issues": 149,
+      "tested_at_least_once": 174,
       "never_tested": 45,
-      "healthy": 158,
-      "failing": 12,
+      "healthy": 164,
+      "failing": 10,
       "outdated": 45
     },
-    "added_models": [],
+    "added_models": [
+      {
+        "repository_name": "eos157v",
+        "slug": "grover-freesolv"
+      },
+      {
+        "repository_name": "eos1af5",
+        "slug": "molgrad-caco2"
+      },
+      {
+        "repository_name": "eos1amr",
+        "slug": "grover-bbbp"
+      },
+      {
+        "repository_name": "eos1d7r",
+        "slug": "small-world-zinc"
+      },
+      {
+        "repository_name": "eos1klk",
+        "slug": "lazychemvis-reference-library"
+      },
+      {
+        "repository_name": "eos1lb5",
+        "slug": "mycobacterium-permeability"
+      },
+      {
+        "repository_name": "eos1pu1",
+        "slug": "cardiotox-dictrank"
+      },
+      {
+        "repository_name": "eos1ut3",
+        "slug": "molfeat-usrcat"
+      },
+      {
+        "repository_name": "eos1vms",
+        "slug": "chembl-multitask-descriptor"
+      },
+      {
+        "repository_name": "eos24ci",
+        "slug": "drugtax"
+      },
+      {
+        "repository_name": "eos2db3",
+        "slug": "chemical-space-projections-chemdiv"
+      },
+      {
+        "repository_name": "eos2fy6",
+        "slug": "s2dv-hepg2-toxicity"
+      },
+      {
+        "repository_name": "eos2hzy",
+        "slug": "pubchem-sampler"
+      },
+      {
+        "repository_name": "eos2lqb",
+        "slug": "hob-pre"
+      },
+      {
+        "repository_name": "eos2mhp",
+        "slug": "grover-bace"
+      },
+      {
+        "repository_name": "eos39co",
+        "slug": "unimol-representation"
+      },
+      {
+        "repository_name": "eos3kcw",
+        "slug": "small-world-wuxi"
+      },
+      {
+        "repository_name": "eos3xip",
+        "slug": "grover-qm8"
+      },
+      {
+        "repository_name": "eos45di",
+        "slug": "lazychemvis-enamine-hl"
+      },
+      {
+        "repository_name": "eos481p",
+        "slug": "grover-toxcast"
+      },
+      {
+        "repository_name": "eos4avb",
+        "slug": "image-mol-embeddings"
+      },
+      {
+        "repository_name": "eos4cxk",
+        "slug": "image-mol-sars-cov2"
+      },
+      {
+        "repository_name": "eos4k4f",
+        "slug": "standardization"
+      },
+      {
+        "repository_name": "eos4x30",
+        "slug": "pmapper-3d"
+      },
+      {
+        "repository_name": "eos4zfy",
+        "slug": "maip-malaria"
+      },
+      {
+        "repository_name": "eos57bx",
+        "slug": "reinvent4-mol2mol-scaffold"
+      },
+      {
+        "repository_name": "eos5smc",
+        "slug": "grover-tox21"
+      },
+      {
+        "repository_name": "eos694w",
+        "slug": "reinvent4-mol2mol-medium-similarity"
+      },
+      {
+        "repository_name": "eos6ao8",
+        "slug": "molgrad-ppb"
+      },
+      {
+        "repository_name": "eos6fza",
+        "slug": "grover-clintox"
+      },
+      {
+        "repository_name": "eos6hy3",
+        "slug": "image-mol-hiv"
+      },
+      {
+        "repository_name": "eos6o0z",
+        "slug": "grover-qm7"
+      },
+      {
+        "repository_name": "eos6pbf",
+        "slug": "selfies"
+      },
+      {
+        "repository_name": "eos6ru3",
+        "slug": "whales-qmug"
+      },
+      {
+        "repository_name": "eos6tpo",
+        "slug": "chebifier"
+      },
+      {
+        "repository_name": "eos77w8",
+        "slug": "grover-sider"
+      },
+      {
+        "repository_name": "eos7asg",
+        "slug": "padel"
+      },
+      {
+        "repository_name": "eos7w6n",
+        "slug": "grover-embedding"
+      },
+      {
+        "repository_name": "eos8451",
+        "slug": "grover-esol"
+      },
+      {
+        "repository_name": "eos85a3",
+        "slug": "grover-lipo"
+      },
+      {
+        "repository_name": "eos8c0o",
+        "slug": "image-mol-bace"
+      },
+      {
+        "repository_name": "eos8lok",
+        "slug": "s2dv-hbv"
+      },
+      {
+        "repository_name": "eos935d",
+        "slug": "meta-trans"
+      },
+      {
+        "repository_name": "eos93h2",
+        "slug": "image-mol-gpcr"
+      },
+      {
+        "repository_name": "eos96ia",
+        "slug": "molgrad-cyp3a4"
+      },
+      {
+        "repository_name": "eos9cvt",
+        "slug": "permeability-efflux-mtl"
+      },
+      {
+        "repository_name": "eos9ueu",
+        "slug": "small-world-enamine-real"
+      }
+    ],
     "all_repositories": [
       "eos11sm",
       "eos11sr",
@@ -1193,6 +1374,7 @@
       "eos1amr",
       "eos1bba",
       "eos1d7r",
+      "eos1klk",
       "eos1lb5",
       "eos1mxi",
       "eos1n4b",
@@ -1218,6 +1400,7 @@
       "eos2h1r",
       "eos2hbd",
       "eos2hzy",
+      "eos2i82",
       "eos2l0q",
       "eos2lm8",
       "eos2lqb",
@@ -1263,6 +1446,7 @@
       "eos42ez",
       "eos43at",
       "eos44zp",
+      "eos45di",
       "eos46ev",
       "eos481p",
       "eos4avb",
@@ -1378,6 +1562,7 @@
       "eos97yu",
       "eos9be7",
       "eos9c7k",
+      "eos9cvt",
       "eos9ei3",
       "eos9f6t",
       "eos9f7c",
