@@ -914,20 +914,12 @@
         "slug": "kgpgt-embedding"
       },
       {
-        "repository_name": "eos8g50",
-        "slug": "fastsolv"
-      },
-      {
         "repository_name": "eos8ub5",
         "slug": "chemical-space-projections-coconut"
       },
       {
         "repository_name": "eos8vud",
         "slug": "squid"
-      },
-      {
-        "repository_name": "eos96f4",
-        "slug": "digitization-complexity"
       },
       {
         "repository_name": "eos9gg2",
@@ -1159,22 +1151,34 @@
   },
   {
     "month": "2026-03",
-    "generated_at": "2026-03-24T14:57:18Z",
+    "generated_at": "2026-03-25T07:39:03Z",
     "totals": {
-      "total_models": 219,
-      "active_models": 185,
-      "with_open_issues": 36,
-      "no_open_issues": 149,
+      "total_models": 221,
+      "active_models": 187,
+      "with_open_issues": 19,
+      "no_open_issues": 168,
       "tested_at_least_once": 174,
-      "never_tested": 45,
+      "never_tested": 47,
       "healthy": 164,
       "failing": 10,
-      "outdated": 45
+      "outdated": 47
     },
     "added_models": [
       {
+        "repository_name": "eos11sm",
+        "slug": "known-antibiotic-resemblance"
+      },
+      {
+        "repository_name": "eos12x7",
+        "slug": "spacial-score-complexity"
+      },
+      {
         "repository_name": "eos157v",
         "slug": "grover-freesolv"
+      },
+      {
+        "repository_name": "eos18ie",
+        "slug": "antibiotics-ai-saureus"
       },
       {
         "repository_name": "eos1af5",
@@ -1213,6 +1217,14 @@
         "slug": "drugtax"
       },
       {
+        "repository_name": "eos26a4",
+        "slug": "lazychemvis-coconut"
+      },
+      {
+        "repository_name": "eos2b6f",
+        "slug": "pkasolver"
+      },
+      {
         "repository_name": "eos2db3",
         "slug": "chemical-space-projections-chemdiv"
       },
@@ -1243,6 +1255,10 @@
       {
         "repository_name": "eos3xip",
         "slug": "grover-qm8"
+      },
+      {
+        "repository_name": "eos42ez",
+        "slug": "antibiotics-ai-cytotox"
       },
       {
         "repository_name": "eos45di",
@@ -1301,6 +1317,10 @@
         "slug": "grover-qm7"
       },
       {
+        "repository_name": "eos6ojg",
+        "slug": "antibioticdb-similarity-matches"
+      },
+      {
         "repository_name": "eos6pbf",
         "slug": "selfies"
       },
@@ -1337,6 +1357,10 @@
         "slug": "image-mol-bace"
       },
       {
+        "repository_name": "eos8g50",
+        "slug": "fastsolv"
+      },
+      {
         "repository_name": "eos8lok",
         "slug": "s2dv-hbv"
       },
@@ -1349,12 +1373,20 @@
         "slug": "image-mol-gpcr"
       },
       {
+        "repository_name": "eos96f4",
+        "slug": "digitization-complexity"
+      },
+      {
         "repository_name": "eos96ia",
         "slug": "molgrad-cyp3a4"
       },
       {
         "repository_name": "eos9cvt",
         "slug": "permeability-efflux-mtl"
+      },
+      {
+        "repository_name": "eos9li5",
+        "slug": "biosynfoni"
       },
       {
         "repository_name": "eos9ueu",
@@ -1391,6 +1423,7 @@
       "eos24ci",
       "eos24jm",
       "eos24ur",
+      "eos26a4",
       "eos2a9n",
       "eos2b6f",
       "eos2db3",
@@ -1568,6 +1601,7 @@
       "eos9f7c",
       "eos9gg2",
       "eos9ivc",
+      "eos9li5",
       "eos9n1s",
       "eos9o72",
       "eos9p4a",
