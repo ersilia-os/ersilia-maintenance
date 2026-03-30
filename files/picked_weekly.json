@@ -8,6 +8,14 @@
     "open_issues": 0
   },
   {
+    "repository_name": "eos26a4",
+    "slug": "lazychemvis-coconut",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-03-23",
+    "open_issues": 0
+  },
+  {
     "repository_name": "eos45di",
     "slug": "lazychemvis-enamine-hl",
     "priority_score": 1000000000,
@@ -24,59 +32,51 @@
     "open_issues": 0
   },
   {
+    "repository_name": "eos9li5",
+    "slug": "biosynfoni",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-03-24",
+    "open_issues": 0
+  },
+  {
     "repository_name": "eos157v",
     "slug": "grover-freesolv",
-    "priority_score": 101,
+    "priority_score": 108,
     "last_test_date": "2025-12-11T15:30:47Z",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0
   },
   {
+    "repository_name": "eos1af5",
+    "slug": "molgrad-caco2",
+    "priority_score": 108,
+    "last_test_date": "2025-12-11T15:53:45Z",
+    "last_packaging_date": "2026-03-19",
+    "open_issues": 0
+  },
+  {
     "repository_name": "eos1amr",
     "slug": "grover-bbbp",
-    "priority_score": 101,
+    "priority_score": 108,
     "last_test_date": "2025-12-11T16:00:22Z",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0
   },
   {
-    "repository_name": "eos2fy6",
-    "slug": "s2dv-hepg2-toxicity",
-    "priority_score": 101,
-    "last_test_date": "2025-12-12T10:15:04Z",
-    "last_packaging_date": "2026-03-11",
+    "repository_name": "eos1pu1",
+    "slug": "cardiotox-dictrank",
+    "priority_score": 108,
+    "last_test_date": "2025-12-11T21:02:42Z",
+    "last_packaging_date": "2026-03-19",
     "open_issues": 0
   },
   {
-    "repository_name": "eos2lqb",
-    "slug": "hob-pre",
-    "priority_score": 100,
-    "last_test_date": "2025-12-12T12:34:45Z",
-    "last_packaging_date": "2026-03-10",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos2mhp",
-    "slug": "grover-bace",
-    "priority_score": 100,
-    "last_test_date": "2025-12-12T12:41:26Z",
-    "last_packaging_date": "2026-03-10",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos2zmb",
-    "slug": "hdac1-inhibition",
-    "priority_score": 100,
-    "last_test_date": "2025-12-12T13:35:10Z",
-    "last_packaging_date": "2025-11-20",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos30f3",
-    "slug": "dmpnn-herg",
-    "priority_score": 100,
-    "last_test_date": "2025-12-12T13:41:00Z",
-    "last_packaging_date": "2025-10-23",
+    "repository_name": "eos2b6f",
+    "slug": "pkasolver",
+    "priority_score": 108,
+    "last_test_date": "2025-12-12T10:00:46Z",
+    "last_packaging_date": "2026-03-23",
     "open_issues": 0
   }
 ]
