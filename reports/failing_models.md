@@ -1,6 +1,6 @@
 # Failing Models Report
 
-**Generated:** 2026-03-30T06:41:34Z
+**Generated:** 2026-03-31T06:33:08Z
 
 Models with a failing last test outcome (Archived models excluded). Total: **9**
 
