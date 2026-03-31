@@ -1,49 +1,49 @@
 ==============================================
-Testing model: eos2hzy
+Testing model: eos19mt
 ==============================================
-✅ [eos2hzy] metadata_checks: last_packaging_date
-✅ [eos2hzy] metadata_checks: model_biomodel_area
-✅ [eos2hzy] metadata_checks: model_computational_performance_for_10000_input
-✅ [eos2hzy] metadata_checks: model_computational_performance_for_1000_input
-✅ [eos2hzy] metadata_checks: model_computational_performance_for_100_input
-✅ [eos2hzy] metadata_checks: model_computational_performance_for_10_input
-✅ [eos2hzy] metadata_checks: model_computational_performance_for_1_input
-✅ [eos2hzy] metadata_checks: model_contribution_date
-✅ [eos2hzy] metadata_checks: model_contributor
-✅ [eos2hzy] metadata_checks: model_description
-✅ [eos2hzy] metadata_checks: model_directory_size
-✅ [eos2hzy] metadata_checks: model_docker_architecture
-✅ [eos2hzy] metadata_checks: model_dockerhub_url
-✅ [eos2hzy] metadata_checks: model_environment_size
-✅ [eos2hzy] metadata_checks: model_id
-✅ [eos2hzy] metadata_checks: model_image_size
-✅ [eos2hzy] metadata_checks: model_input
-✅ [eos2hzy] metadata_checks: model_input_dimensions
-✅ [eos2hzy] metadata_checks: model_interpretation
-✅ [eos2hzy] metadata_checks: model_output
-✅ [eos2hzy] metadata_checks: model_output_consistency
-✅ [eos2hzy] metadata_checks: model_output_dimension
-✅ [eos2hzy] metadata_checks: model_publication
-✅ [eos2hzy] metadata_checks: model_release_version
-✅ [eos2hzy] metadata_checks: model_s3_url
-✅ [eos2hzy] metadata_checks: model_slug
-✅ [eos2hzy] metadata_checks: model_source
-✅ [eos2hzy] metadata_checks: model_source_code
-✅ [eos2hzy] metadata_checks: model_source_type
-✅ [eos2hzy] metadata_checks: model_status
-✅ [eos2hzy] metadata_checks: model_sub_tasks
-✅ [eos2hzy] metadata_checks: model_tag
-✅ [eos2hzy] metadata_checks: model_target_organism
-✅ [eos2hzy] metadata_checks: model_task
-✅ [eos2hzy] metadata_checks: model_title
-✅ [eos2hzy] model_file_checks: metadata_dim_and_run_column_file_dim_check
-✅ [eos2hzy] file_validity_check: columns
-✅ [eos2hzy] file_validity_check: dockerfile_check
-ℹ️ [eos2hzy] model_size_check: directory_size_mb = 1.0
-ℹ️ [eos2hzy] model_size_check: environment_size_mb = 443.0
-✅ [eos2hzy] model_run_check: simple_model_run
-✅ [eos2hzy] model_run_check: simple_model_run_columns
-✅ [eos2hzy] async_model_run_check: async_simple_model_run
-✅ [eos2hzy] input_output_check: csv_csv
-ℹ️ [eos2hzy] model_output_consistency_check: check_consistency_of_model_output = ~ SKIPPED
-ℹ️ [eos2hzy] consistency_summary_between_ersilia_and_bash_execution_outputs: rmse_mean = ~ SKIPPED
+✅ [eos19mt] metadata_checks: last_packaging_date
+✅ [eos19mt] metadata_checks: model_biomodel_area
+✅ [eos19mt] metadata_checks: model_computational_performance_for_10000_input
+✅ [eos19mt] metadata_checks: model_computational_performance_for_1000_input
+✅ [eos19mt] metadata_checks: model_computational_performance_for_100_input
+✅ [eos19mt] metadata_checks: model_computational_performance_for_10_input
+✅ [eos19mt] metadata_checks: model_computational_performance_for_1_input
+✅ [eos19mt] metadata_checks: model_contribution_date
+✅ [eos19mt] metadata_checks: model_contributor
+✅ [eos19mt] metadata_checks: model_description
+✅ [eos19mt] metadata_checks: model_directory_size
+✅ [eos19mt] metadata_checks: model_docker_architecture
+✅ [eos19mt] metadata_checks: model_dockerhub_url
+✅ [eos19mt] metadata_checks: model_environment_size
+✅ [eos19mt] metadata_checks: model_id
+✅ [eos19mt] metadata_checks: model_image_size
+✅ [eos19mt] metadata_checks: model_input
+✅ [eos19mt] metadata_checks: model_input_dimensions
+✅ [eos19mt] metadata_checks: model_interpretation
+✅ [eos19mt] metadata_checks: model_output
+✅ [eos19mt] metadata_checks: model_output_consistency
+✅ [eos19mt] metadata_checks: model_output_dimension
+✅ [eos19mt] metadata_checks: model_publication
+✅ [eos19mt] metadata_checks: model_release_version
+✅ [eos19mt] metadata_checks: model_s3_url
+✅ [eos19mt] metadata_checks: model_slug
+✅ [eos19mt] metadata_checks: model_source
+✅ [eos19mt] metadata_checks: model_source_code
+✅ [eos19mt] metadata_checks: model_source_type
+✅ [eos19mt] metadata_checks: model_status
+✅ [eos19mt] metadata_checks: model_sub_tasks
+✅ [eos19mt] metadata_checks: model_tag
+✅ [eos19mt] metadata_checks: model_target_organism
+✅ [eos19mt] metadata_checks: model_task
+✅ [eos19mt] metadata_checks: model_title
+✅ [eos19mt] model_file_checks: metadata_dim_and_run_column_file_dim_check
+✅ [eos19mt] file_validity_check: columns
+✅ [eos19mt] file_validity_check: install_yaml_check
+ℹ️ [eos19mt] model_size_check: directory_size_mb = 372.0
+ℹ️ [eos19mt] model_size_check: environment_size_mb = 7676.0
+✅ [eos19mt] model_run_check: simple_model_run
+✅ [eos19mt] model_run_check: simple_model_run_columns
+✅ [eos19mt] async_model_run_check: async_simple_model_run
+✅ [eos19mt] input_output_check: csv_csv
+✅ [eos19mt] model_output_consistency_check: check_consistency_of_model_output
+✅ [eos19mt] consistency_summary_between_ersilia_and_bash_execution_outputs: rmse_mean
