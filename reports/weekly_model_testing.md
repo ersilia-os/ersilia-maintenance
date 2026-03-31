@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-03-16T10:26:53Z
+**🗓️ Date:** 2026-03-31T09:25:14Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos5gge | dili-predictor | ✅ | 2026-03-16T10:33:56Z |
-| eos9cvt | permeability-efflux-mtl | ✅ | 2026-03-16T10:42:06Z |
-| eos2lm8 | smiles-transformer | ✅ | 2026-03-16T10:45:49Z |
-| eos2mrz | deepsmiles | ✅ | 2026-03-16T10:49:15Z |
-| eos2mxh | cc-signaturizer-3d-b | ✅ | 2026-03-16T10:59:24Z |
-| eos2r5a | retrosynthetic-accessibility | ✅ | 2026-03-16T11:03:56Z |
-| eos2rd8 | molt5-smiles-to-caption | ✅ | 2026-03-16T11:24:39Z |
-| eos2sbn | cc-signaturizer-3d-a | ✅ | 2026-03-16T11:34:46Z |
-| eos2thm | molbert | ✅ | 2026-03-16T11:44:27Z |
-| eos2xeq | antibiotics-downselection | ✅ | 2026-03-16T11:49:09Z |
+| eos6hy3 | image-mol-hiv | ✅ | 2026-03-31T09:30:58Z |
+| eos9li5 | biosynfoni | ✅ | 2026-03-31T09:35:28Z |
+| eos157v | grover-freesolv | ✅ | 2026-03-31T09:44:00Z |
+| eos1af5 | molgrad-caco2 | ✅ | 2026-03-31T09:48:41Z |
+| eos1amr | grover-bbbp | ✅ | 2026-03-31T09:56:58Z |
+| eos1pu1 | cardiotox-dictrank | ✅ | 2026-03-31T10:03:34Z |
+| eos2b6f | pkasolver | ✅ | 2026-03-31T10:10:52Z |
+| eos2fy6 | s2dv-hepg2-toxicity | ✅ | 2026-03-31T10:15:00Z |
+| eos2lqb | hob-pre | ✅ | 2026-03-31T10:19:44Z |
+| eos2mhp | grover-bace | ✅ | 2026-03-31T10:27:56Z |
