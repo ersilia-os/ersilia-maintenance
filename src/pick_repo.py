@@ -4,7 +4,7 @@ import json
 import random
 from typing import Any, Dict, List, Optional
 from datetime import datetime, timezone
-from ersilia_maintenance.config import PICKED_FILE, COUNT, EXCLUDE_OPEN_ISSUES
+from ersilia_maintenance.config import PICKED_FILE, COUNT, EXCLUDE_OPEN_ISSUES, EXCLUDED_MODELS
 from ersilia_maintenance.dates import parse_iso, days_since
 from ersilia_maintenance.io import load_repo_info
 
@@ -17,6 +17,9 @@ def _save_picked(rows: List[Dict[str, Any]]) -> None:
 
 # --- Elegibility-----------------------------------------------------------
 def _eligible(entry: Dict[str, Any]) -> bool:
+
+    if entry.get("repository_name") in EXCLUDED_MODELS:
+        return False
 
     oi = entry.get("open_issues")
 

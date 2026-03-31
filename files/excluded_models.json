@@ -1,0 +1,8 @@
+{
+  "description": "Models excluded from maintenance testing due to size or other permanent constraints. Add entries here to prevent a model from being picked in the weekly testing pipeline.",
+  "models": [
+    {"id": "eos26a4", "reason": "Model too large for testing pipeline"},
+    {"id": "eos45di", "reason": "Model too large for testing pipeline"},
+    {"id": "eos1klk", "reason": "Model too large for testing pipeline"}
+  ]
+}

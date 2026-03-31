@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 2 1 * *'  # Monthly on the 1st at 02:00 UTC
 
 jobs:
   scan-ersilia-model-hub:
@@ -69,7 +69,6 @@ jobs:
               # Create new issue
               gh issue create --title "$ISSUE_TITLE" \
                               --body "$ISSUE_BODY" \
-                              --label "maintenance" \
                               --repo $REPO_OWNER/$REPO_NAME
             fi
           done < nonregistered_model_repos.txt

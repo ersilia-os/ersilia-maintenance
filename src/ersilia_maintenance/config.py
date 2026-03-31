@@ -1,4 +1,5 @@
 from __future__ import annotations
+import json
 import os
 from pathlib import Path
 
@@ -18,6 +19,17 @@ FILES_DIR = ROOT_DIR / "files"
 REPO_INFO_PATH = FILES_DIR / "repo_info.json"
 PICKED_FILE = FILES_DIR / "picked_weekly.json"
 COMMON_MODELS_FILE = FILES_DIR / "common_models.json"
+EXCLUDED_MODELS_FILE = FILES_DIR / "excluded_models.json"
+
+
+def _load_excluded_models() -> set:
+    if EXCLUDED_MODELS_FILE.exists():
+        data = json.loads(EXCLUDED_MODELS_FILE.read_text(encoding="utf-8"))
+        return {m["id"] for m in data.get("models", [])}
+    return set()
+
+
+EXCLUDED_MODELS: set = _load_excluded_models()
 
 # --- Metadata --------------------------------------------------------------
 
