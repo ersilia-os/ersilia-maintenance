@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos6hy3",
-    "slug": "image-mol-hiv",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-03-10",
+    "repository_name": "eos2zmb",
+    "slug": "hdac1-inhibition",
+    "priority_score": 114,
+    "last_test_date": "2025-12-12T13:35:10Z",
+    "last_packaging_date": "2025-11-20",
     "open_issues": 0
   },
   {
-    "repository_name": "eos9li5",
-    "slug": "biosynfoni",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-03-24",
+    "repository_name": "eos30f3",
+    "slug": "dmpnn-herg",
+    "priority_score": 114,
+    "last_test_date": "2025-12-12T13:41:00Z",
+    "last_packaging_date": "2025-10-23",
     "open_issues": 0
   },
   {
-    "repository_name": "eos157v",
-    "slug": "grover-freesolv",
-    "priority_score": 109,
-    "last_test_date": "2025-12-11T15:30:47Z",
-    "last_packaging_date": "2026-03-10",
+    "repository_name": "eos30gr",
+    "slug": "deepherg",
+    "priority_score": 114,
+    "last_test_date": "2025-12-12T13:46:41Z",
+    "last_packaging_date": "2025-10-14",
     "open_issues": 0
   },
   {
-    "repository_name": "eos1af5",
-    "slug": "molgrad-caco2",
-    "priority_score": 109,
-    "last_test_date": "2025-12-11T15:53:45Z",
+    "repository_name": "eos31ve",
+    "slug": "ncats-hlm",
+    "priority_score": 114,
+    "last_test_date": "2025-12-12T13:50:45Z",
+    "last_packaging_date": "2025-10-16",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos3804",
+    "slug": "chemprop-abaumannii",
+    "priority_score": 114,
+    "last_test_date": "2025-12-12T13:56:30Z",
+    "last_packaging_date": "2025-09-17",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos39co",
+    "slug": "unimol-representation",
+    "priority_score": 114,
+    "last_test_date": "2025-12-12T14:02:38Z",
     "last_packaging_date": "2026-03-19",
     "open_issues": 0
   },
   {
-    "repository_name": "eos1amr",
-    "slug": "grover-bbbp",
-    "priority_score": 109,
-    "last_test_date": "2025-12-11T16:00:22Z",
-    "last_packaging_date": "2026-03-10",
+    "repository_name": "eos39dp",
+    "slug": "phakinpro",
+    "priority_score": 114,
+    "last_test_date": "2025-12-12T14:07:03Z",
+    "last_packaging_date": "2025-10-10",
     "open_issues": 0
   },
   {
-    "repository_name": "eos1pu1",
-    "slug": "cardiotox-dictrank",
-    "priority_score": 109,
-    "last_test_date": "2025-12-11T21:02:42Z",
-    "last_packaging_date": "2026-03-19",
+    "repository_name": "eos3ae6",
+    "slug": "whales-descriptor",
+    "priority_score": 114,
+    "last_test_date": "2025-12-12T14:10:29Z",
+    "last_packaging_date": "2025-12-24",
     "open_issues": 0
   },
   {
-    "repository_name": "eos2b6f",
-    "slug": "pkasolver",
-    "priority_score": 108,
-    "last_test_date": "2025-12-12T10:00:46Z",
-    "last_packaging_date": "2026-03-23",
+    "repository_name": "eos3b5e",
+    "slug": "molecular-weight",
+    "priority_score": 112,
+    "last_test_date": "2025-12-15T10:13:01Z",
+    "last_packaging_date": "2026-02-04",
     "open_issues": 0
   },
   {
-    "repository_name": "eos2fy6",
-    "slug": "s2dv-hepg2-toxicity",
-    "priority_score": 108,
-    "last_test_date": "2025-12-12T10:15:04Z",
-    "last_packaging_date": "2026-03-11",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos2lqb",
-    "slug": "hob-pre",
-    "priority_score": 108,
-    "last_test_date": "2025-12-12T12:34:45Z",
-    "last_packaging_date": "2026-03-10",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos2mhp",
-    "slug": "grover-bace",
-    "priority_score": 108,
-    "last_test_date": "2025-12-12T12:41:26Z",
-    "last_packaging_date": "2026-03-10",
+    "repository_name": "eos3e6s",
+    "slug": "chembl-decoys",
+    "priority_score": 112,
+    "last_test_date": "2025-12-15T10:18:46Z",
+    "last_packaging_date": "2025-11-24",
     "open_issues": 0
   }
 ]
