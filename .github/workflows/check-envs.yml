@@ -1,0 +1,57 @@
+name: Check runner environment
+
+on:
+  workflow_dispatch:
+    inputs:
+      runner:
+        description: "AMD64 runner label"
+        required: true
+        default: "ubuntu-latest"
+        type: string
+
+jobs:
+  check-env-amd64:
+    runs-on: ${{ inputs.runner }}
+    steps:
+      - name: Set up conda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: "3.12"
+          auto-activate-base: false
+
+      - name: Print environment info
+        run: |
+          echo "=== Architecture ==="
+          uname -m
+          echo "=== Conda version ==="
+          conda --version
+          echo "=== Conda info ==="
+          conda info
+          echo "=== Python in base env ==="
+          conda run -n base python --version
+          echo "=== conda run version check ==="
+          conda run -n base conda --version
+
+  check-env-arm64:
+    runs-on: default-linux-arm64
+    steps:
+      - name: Set up conda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: "3.12"
+          auto-activate-base: false
+
+      - name: Print environment info
+        run: |
+          echo "=== Architecture ==="
+          uname -m
+          echo "=== Conda version ==="
+          conda --version
+          echo "=== Conda info ==="
+          conda info
+          echo "=== Python in base env ==="
+          conda run -n base python --version
+          echo "=== conda run version check ==="
+          conda run -n base conda --version
