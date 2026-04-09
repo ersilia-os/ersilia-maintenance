@@ -1,0 +1,132 @@
+name: Test Docker pull fix
+
+on:
+  workflow_dispatch:
+    inputs:
+      model_id:
+        description: "Model ID to test (e.g. eos3mk2)"
+        required: true
+        type: string
+      ersilia_branch:
+        description: "Ersilia branch to install from"
+        required: true
+        default: "fix/docker-pull-hang"
+        type: string
+      runner:
+        description: "Runner label"
+        required: true
+        default: "ubuntu-latest"
+        type: string
+
+jobs:
+  check-env:
+    runs-on: ${{ inputs.runner }}
+    steps:
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          swap-storage: true
+
+      - name: Set up conda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: "3.12"
+          auto-activate-base: false
+
+      - name: Print environment info
+        run: |
+          echo "=== Architecture ==="
+          uname -m
+          echo "=== Conda version ==="
+          conda --version
+          echo "=== Python in base env ==="
+          conda run -n base python --version
+          echo "=== Docker version ==="
+          docker --version
+          echo "=== Conda info ==="
+          conda info
+
+  fetch-model:
+    runs-on: ${{ inputs.runner }}
+    needs: check-env
+    steps:
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          swap-storage: true
+
+      - name: Set up conda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: "3.12"
+          auto-activate-base: false
+
+      - name: Install ersilia from branch
+        env:
+          ERSILIA_BRANCH: ${{ inputs.ersilia_branch }}
+        run: |
+          conda run --no-capture-output -n base python -m pip install \
+            "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
+
+      - name: Fetch model from DockerHub
+        env:
+          MODEL_ID: ${{ inputs.model_id }}
+        run: |
+          conda run --no-capture-output -n base bash -c "
+            ersilia -v fetch $MODEL_ID --from_dockerhub
+          "
+
+  test-shallow:
+    runs-on: ${{ inputs.runner }}
+    needs: fetch-model
+    steps:
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          swap-storage: true
+
+      - name: Set up conda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: "3.12"
+          auto-activate-base: false
+
+      - name: Install ersilia from branch
+        env:
+          ERSILIA_BRANCH: ${{ inputs.ersilia_branch }}
+        run: |
+          conda run --no-capture-output -n base python -m pip install \
+            "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
+
+      - name: Test model shallow
+        env:
+          MODEL_ID: ${{ inputs.model_id }}
+        run: |
+          conda run --no-capture-output -n base bash -c "
+            ersilia -v test $MODEL_ID --shallow --from_dockerhub
+          "
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-shallow
+          path: ${{ inputs.model_id }}-test.json
