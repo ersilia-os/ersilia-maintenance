@@ -12,6 +12,11 @@ on:
         required: true
         default: "fix/docker-pull-hang"
         type: string
+      version:
+        description: "Docker image version tag to test (e.g. dev-amd64, latest)"
+        required: true
+        default: "dev-amd64"
+        type: string
       runner:
         description: "Runner label"
         required: true
@@ -52,9 +57,33 @@ jobs:
           echo "=== Conda info ==="
           conda info
 
-  fetch-model:
+  docker-pull-direct:
     runs-on: ${{ inputs.runner }}
     needs: check-env
+    steps:
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          swap-storage: true
+
+      - name: Pull image directly with docker
+        env:
+          MODEL_ID: ${{ inputs.model_id }}
+          VERSION: ${{ inputs.version }}
+        run: |
+          echo "=== Pulling ersiliaos/$MODEL_ID:$VERSION directly ==="
+          time docker pull ersiliaos/$MODEL_ID:$VERSION
+          echo "=== Pull complete, exit code: $? ==="
+          docker image inspect ersiliaos/$MODEL_ID:$VERSION --format '{{.Size}}'
+
+  fetch-model:
+    runs-on: ${{ inputs.runner }}
+    needs: docker-pull-direct
     steps:
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
@@ -83,9 +112,10 @@ jobs:
       - name: Fetch model from DockerHub
         env:
           MODEL_ID: ${{ inputs.model_id }}
+          VERSION: ${{ inputs.version }}
         run: |
           conda run --no-capture-output -n base bash -c "
-            ersilia -v fetch $MODEL_ID --from_dockerhub
+            ersilia -v fetch $MODEL_ID --from_dockerhub --version $VERSION
           "
 
   test-shallow:
@@ -119,9 +149,10 @@ jobs:
       - name: Test model shallow
         env:
           MODEL_ID: ${{ inputs.model_id }}
+          VERSION: ${{ inputs.version }}
         run: |
           conda run --no-capture-output -n base bash -c "
-            ersilia -v test $MODEL_ID --shallow --from_dockerhub
+            ersilia -v test $MODEL_ID --shallow --from_dockerhub --version $VERSION
           "
 
       - name: Upload test results
@@ -162,9 +193,10 @@ jobs:
       - name: Test model deep
         env:
           MODEL_ID: ${{ inputs.model_id }}
+          VERSION: ${{ inputs.version }}
         run: |
           conda run --no-capture-output -n base bash -c "
-            ersilia -v test $MODEL_ID --deep --from_dockerhub
+            ersilia -v test $MODEL_ID --deep --from_dockerhub --version $VERSION
           "
 
       - name: Upload test results
