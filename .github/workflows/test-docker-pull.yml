@@ -159,7 +159,7 @@ jobs:
           conda run --no-capture-output -n base python -m pip install \
             "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
 
-      - name: Test model shallow
+      - name: Test model deep
         env:
           MODEL_ID: ${{ inputs.model_id }}
         run: |
