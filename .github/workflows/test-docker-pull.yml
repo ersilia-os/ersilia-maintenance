@@ -133,7 +133,7 @@ jobs:
 
   test-deep:
     runs-on: ${{ inputs.runner }}
-    needs: fetch-model
+    needs: test-shallow
     steps:
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
