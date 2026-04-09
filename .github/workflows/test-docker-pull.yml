@@ -130,3 +130,46 @@ jobs:
         with:
           name: test-results-shallow
           path: ${{ inputs.model_id }}-test.json
+
+  test-deep:
+    runs-on: ${{ inputs.runner }}
+    needs: fetch-model
+    steps:
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          swap-storage: true
+
+      - name: Set up conda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: "3.12"
+          auto-activate-base: false
+
+      - name: Install ersilia from branch
+        env:
+          ERSILIA_BRANCH: ${{ inputs.ersilia_branch }}
+        run: |
+          conda run --no-capture-output -n base python -m pip install \
+            "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
+
+      - name: Test model shallow
+        env:
+          MODEL_ID: ${{ inputs.model_id }}
+        run: |
+          conda run --no-capture-output -n base bash -c "
+            ersilia -v test $MODEL_ID --deep --from_dockerhub
+          "
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-deep
+          path: ${{ inputs.model_id }}-test.json
