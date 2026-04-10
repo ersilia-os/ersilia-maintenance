@@ -1,0 +1,222 @@
+name: Test model from source
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo_name:
+        description: "Model ID to test (e.g. eos3mk2)"
+        required: true
+        type: string
+      branch:
+        description: "Model repository branch"
+        required: false
+        default: "main"
+        type: string
+      ersilia_branch:
+        description: "Ersilia branch to install from"
+        required: false
+        default: "master"
+        type: string
+      runner:
+        description: "Runner label"
+        required: true
+        default: "ubuntu-latest"
+        type: string
+
+jobs:
+  model-test:
+    runs-on: ${{ inputs.runner }}
+    steps:
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          swap-storage: true
+
+      - uses: actions/checkout@v4.2.2
+        with:
+          lfs: true
+          fetch-depth: 0
+
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: "3.12"
+          auto-activate-base: false
+
+      - name: Install dependencies
+        env:
+          ERSILIA_BRANCH: ${{ inputs.ersilia_branch }}
+        run: |
+          conda run -n base git-lfs install
+          conda run -n base conda install gh -c conda-forge
+          conda run -n base python -m pip install "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
+
+      - name: Install pyaml and ruamel.yaml
+        run: |
+          pip install pyaml
+          pip install ruamel.yaml
+
+      - name: Select correct metadata file
+        run: |
+          if [ -f "metadata.yml" ]; then
+            metadata="metadata.yml"
+          elif [ -f "metadata.json" ]; then
+            metadata="metadata.json"
+          else
+            echo "No metadata file found."
+            exit 1
+          fi
+          echo "METADATA_FILE=$metadata" >> "$GITHUB_ENV"
+          echo "Found metadata file: $metadata"
+
+      - name: Add creation date to metadata
+        env:
+          USER_NAME: ${{ github.repository_owner }}
+          BRANCH: ${{ inputs.branch }}
+          REPO_NAME: ${{ inputs.repo_name }}
+          METADATA_FILE: ${{ env.METADATA_FILE }}
+        run: |
+          echo "Using repo: $USER_NAME/$REPO_NAME"
+          echo "Target metadata file: $METADATA_FILE"
+
+          # Get creation date via GitHub API
+          CREATED_AT=$(curl -s "https://api.github.com/repos/$USER_NAME/$REPO_NAME" | jq -r '.created_at')
+
+          # Make sure date has correct format
+          INCORP_DATE=$(date -d "$CREATED_AT" +"%Y-%m-%d")
+
+          echo "Incorporation Date: $INCORP_DATE"
+
+          wget -O add_field_to_metadata.py https://raw.githubusercontent.com/ersilia-os/ersilia-model-workflows/main/.github/scripts/add_field_to_metadata.py
+          python add_field_to_metadata.py --metadata_file $METADATA_FILE --field "Incorporation Date" --content "$INCORP_DATE"
+          cat $METADATA_FILE
+          rm add_field_to_metadata.py
+
+      - name: Update metadata to AirTable
+        env:
+          USER_NAME: ${{ github.repository_owner }}
+          BRANCH: ${{ inputs.branch }}
+          REPO_NAME: ${{ inputs.repo_name }}
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          command: |
+            set -e  # Ensure failure stops execution
+            conda run -n base pip install requests pyairtable
+            wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/airtableops.py
+            wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/readme_formatter.py
+
+            echo "Updating metadata to AirTable looking at owner: $USER_NAME"
+            echo "Metadata Content"
+            cat "$METADATA_FILE"
+            conda run -n base python3 airtableops.py airtable-update --user $USER_NAME --repo $REPO_NAME --branch $BRANCH --api-key $AIRTABLE_API_KEY
+
+            # remove file
+            rm airtableops.py
+            rm readme_formatter.py
+
+      - name: Commit and push changes done to the Metadata file
+        uses: actions-js/push@master
+        with:
+          author_name: "ersilia-bot"
+          author_email: "ersilia-bot@users.noreply.github.com"
+          message: "updating metadata [skip ci]"
+          repository: "ersilia-os/${{ github.event.repository.name }}"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sync metadata to S3 JSON
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/convert_airtable_to_json.py
+          conda run -n base pip install boto3 requests pyairtable
+          conda run -n base python convert_airtable_to_json.py $AIRTABLE_API_KEY $AWS_ACCESS_KEY_ID $AWS_SECRET_ACCESS_KEY
+          rm convert_airtable_to_json.py
+
+      - name: Update README file
+        id: update-readme-file
+        env:
+          MODEL_ID: ${{ github.event.repository.name }}
+        run: |
+          conda run -n base bash -c "
+            echo 'Updating README file with AirTable metadata for model: $MODEL_ID' &&
+            wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/airtableops.py &&
+            wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/readme_formatter.py &&
+            python3 airtableops.py readme-update --repo $MODEL_ID --path . &&
+            rm airtableops.py &&
+            rm readme_formatter.py &&
+            less README.md
+          "
+
+      - name: Commit and push changes done to the README file
+        uses: actions-js/push@master
+        with:
+          author_name: "ersilia-bot"
+          author_email: "ersilia-bot@users.noreply.github.com"
+          message: "updating metadata [skip ci]"
+          repository: "ersilia-os/${{ github.event.repository.name }}"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Test model from GitHub
+        env:
+          MODEL_ID: ${{ inputs.repo_name }}
+        run: |
+          conda run -n base bash -c "
+            ersilia -v test $MODEL_ID --shallow --from_github
+          "
+          cat $MODEL_ID-test.json
+
+      - name: Upload test result for analysis
+        if: always()
+        uses: actions/upload-artifact@v4.5.0
+        with:
+          name: shallow_test
+          retention-days: 14
+          path: |
+            ${{ inputs.repo_name }}-test.json
+
+      - name: Parse test results
+        env:
+          MODEL_ID: ${{ inputs.repo_name }}
+        run: |
+          TEST_JSON="${MODEL_ID}-test.json"
+
+          if [[ ! -f "$TEST_JSON" ]]; then
+            echo "Error: Test results file $TEST_JSON not found!"
+            exit 1
+          fi
+
+          echo "Parsing test results from $TEST_JSON"
+
+          TEST_FAILED=$(jq 'recurse | objects | select(map(select(. == false)) | length > 0)' "$TEST_JSON")
+              if [[ -n "$TEST_FAILED" ]]; then
+                echo "❌ Some tests failed. Stopping workflow."
+                exit 1
+              fi
+
+          ENV_SIZE=$(jq '.model_size_check.environment_size_mb' "$TEST_JSON")
+          DIR_SIZE=$(jq '.model_size_check.directory_size_mb' "$TEST_JSON")
+          echo "Environment size: $ENV_SIZE MB"
+          echo "Directory size: $DIR_SIZE MB"
+          echo "Environment size (MB): $ENV_SIZE" > model_sizes.txt
+          echo "Directory size (MB): $DIR_SIZE" >> model_sizes.txt
+          cat model_sizes.txt
+          cat $TEST_JSON
+
+      - name: Upload files
+        if: always()
+        uses: actions/upload-artifact@v4.5.0
+        with:
+          name: model_sizes
+          retention-days: 14
+          path: |
+            model_sizes.txt
