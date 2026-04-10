@@ -7,6 +7,11 @@ on:
         description: "Model ID to test (e.g. eos3mk2)"
         required: true
         type: string
+      ersilia_branch:
+        description: "Ersilia branch to install from"
+        required: false
+        default: "master"
+        type: string
       runner:
         description: "Runner label"
         required: true
@@ -38,8 +43,10 @@ jobs:
           auto-activate-base: false
 
       - name: Install dependencies
+        env:
+          ERSILIA_BRANCH: ${{ inputs.ersilia_branch }}
         run: |
-          conda run -n base python -m pip install "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git"
+          conda run -n base python -m pip install "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
 
       - name: Test AMD64 image
         env:
@@ -67,7 +74,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: test-report-amd64
-          path: ${{ env.TEST_JSON_AMD64 }}
+          path: ${{ inputs.repo_name }}-test-amd64.json
 
       - name: Parse test results
         id: check-result
