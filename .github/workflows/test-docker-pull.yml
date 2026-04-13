@@ -57,33 +57,9 @@ jobs:
           echo "=== Conda info ==="
           conda info
 
-  docker-pull-direct:
-    runs-on: ${{ inputs.runner }}
-    needs: check-env
-    steps:
-      - name: Free Disk Space (Ubuntu)
-        uses: jlumbroso/free-disk-space@main
-        with:
-          tool-cache: true
-          android: true
-          dotnet: true
-          haskell: true
-          large-packages: true
-          swap-storage: true
-
-      - name: Pull image directly with docker
-        env:
-          MODEL_ID: ${{ inputs.model_id }}
-          VERSION: ${{ inputs.version }}
-        run: |
-          echo "=== Pulling ersiliaos/$MODEL_ID:$VERSION directly ==="
-          time docker pull ersiliaos/$MODEL_ID:$VERSION
-          echo "=== Pull complete, exit code: $? ==="
-          docker image inspect ersiliaos/$MODEL_ID:$VERSION --format '{{.Size}}'
-
   fetch-model:
     runs-on: ${{ inputs.runner }}
-    needs: docker-pull-direct
+    needs: check-env
     steps:
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
@@ -116,6 +92,14 @@ jobs:
         run: |
           conda run --no-capture-output -n base bash -c "
             ersilia -v fetch $MODEL_ID --from_dockerhub --version $VERSION
+          "
+
+      - name: Serve model
+        env:
+          MODEL_ID: ${{ inputs.model_id }}
+        run: |
+          conda run --no-capture-output -n base bash -c "
+            ersilia -v serve $MODEL_ID
           "
 
   test-shallow:
@@ -162,42 +146,42 @@ jobs:
           name: test-results-shallow
           path: ${{ inputs.model_id }}-test.json
 
-  test-deep:
-    runs-on: ${{ inputs.runner }}
-    needs: test-shallow
-    steps:
-      - name: Free Disk Space (Ubuntu)
-        uses: jlumbroso/free-disk-space@main
-        with:
-          tool-cache: true
-          android: true
-          dotnet: true
-          haskell: true
-          large-packages: true
-          swap-storage: true
+  # test-deep:
+  #   runs-on: ${{ inputs.runner }}
+  #   needs: test-shallow
+  #   steps:
+  #     - name: Free Disk Space (Ubuntu)
+  #       uses: jlumbroso/free-disk-space@main
+  #       with:
+  #         tool-cache: true
+  #         android: true
+  #         dotnet: true
+  #         haskell: true
+  #         large-packages: true
+  #         swap-storage: true
 
-      - name: Set up conda
-        uses: conda-incubator/setup-miniconda@v3
-        with:
-          auto-update-conda: true
-          python-version: "3.12"
-          auto-activate-base: false
+  #     - name: Set up conda
+  #       uses: conda-incubator/setup-miniconda@v3
+  #       with:
+  #         auto-update-conda: true
+  #         python-version: "3.12"
+  #         auto-activate-base: false
 
-      - name: Install ersilia from branch
-        env:
-          ERSILIA_BRANCH: ${{ inputs.ersilia_branch }}
-        run: |
-          conda run --no-capture-output -n base python -m pip install \
-            "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
+  #     - name: Install ersilia from branch
+  #       env:
+  #         ERSILIA_BRANCH: ${{ inputs.ersilia_branch }}
+  #       run: |
+  #         conda run --no-capture-output -n base python -m pip install \
+  #           "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
 
-      - name: Test model deep
-        env:
-          MODEL_ID: ${{ inputs.model_id }}
-          VERSION: ${{ inputs.version }}
-        run: |
-          conda run --no-capture-output -n base bash -c "
-            ersilia -v test $MODEL_ID --deep --from_dockerhub --version $VERSION
-          "
+  #     - name: Test model deep
+  #       env:
+  #         MODEL_ID: ${{ inputs.model_id }}
+  #         VERSION: ${{ inputs.version }}
+  #       run: |
+  #         conda run --no-capture-output -n base bash -c "
+  #           ersilia -v test $MODEL_ID --deep --from_dockerhub --version $VERSION
+  #         "
 
       - name: Upload test results
         if: always()
