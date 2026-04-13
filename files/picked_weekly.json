@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos2zmb",
-    "slug": "hdac1-inhibition",
-    "priority_score": 114,
-    "last_test_date": "2025-12-12T13:35:10Z",
-    "last_packaging_date": "2025-11-20",
+    "repository_name": "eos3ev6",
+    "slug": "ncats-cyp3a4",
+    "priority_score": 119,
+    "last_test_date": "2025-12-15T10:18:50Z",
+    "last_packaging_date": "2025-10-17",
     "open_issues": 0
   },
   {
-    "repository_name": "eos30f3",
-    "slug": "dmpnn-herg",
-    "priority_score": 114,
-    "last_test_date": "2025-12-12T13:41:00Z",
+    "repository_name": "eos3l5f",
+    "slug": "clamp",
+    "priority_score": 119,
+    "last_test_date": "2025-12-15T10:31:17Z",
+    "last_packaging_date": "2026-02-24",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos3le9",
+    "slug": "hepg2-mmv",
+    "priority_score": 118,
+    "last_test_date": "2025-12-15T10:38:19Z",
+    "last_packaging_date": "2025-11-21",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos3mk2",
+    "slug": "bbbp-marine-kinase-inhibitors",
+    "priority_score": 118,
+    "last_test_date": "2025-12-15T10:41:47Z",
+    "last_packaging_date": "2025-11-19",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos3nn9",
+    "slug": "mpro-covid19",
+    "priority_score": 118,
+    "last_test_date": "2025-12-15T10:45:34Z",
     "last_packaging_date": "2025-10-23",
     "open_issues": 0
   },
   {
-    "repository_name": "eos30gr",
-    "slug": "deepherg",
-    "priority_score": 114,
-    "last_test_date": "2025-12-12T13:46:41Z",
-    "last_packaging_date": "2025-10-14",
+    "repository_name": "eos3ujl",
+    "slug": "mtb-permeability",
+    "priority_score": 118,
+    "last_test_date": "2025-12-15T10:49:12Z",
+    "last_packaging_date": "2025-10-23",
     "open_issues": 0
   },
   {
-    "repository_name": "eos31ve",
-    "slug": "ncats-hlm",
-    "priority_score": 114,
-    "last_test_date": "2025-12-12T13:50:45Z",
-    "last_packaging_date": "2025-10-16",
+    "repository_name": "eos3wzy",
+    "slug": "qupkake",
+    "priority_score": 118,
+    "last_test_date": "2025-12-15T11:02:03Z",
+    "last_packaging_date": "2025-11-21",
     "open_issues": 0
   },
   {
-    "repository_name": "eos3804",
-    "slug": "chemprop-abaumannii",
-    "priority_score": 114,
-    "last_test_date": "2025-12-12T13:56:30Z",
-    "last_packaging_date": "2025-09-17",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos39co",
-    "slug": "unimol-representation",
-    "priority_score": 114,
-    "last_test_date": "2025-12-12T14:02:38Z",
-    "last_packaging_date": "2026-03-19",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos39dp",
-    "slug": "phakinpro",
-    "priority_score": 114,
-    "last_test_date": "2025-12-12T14:07:03Z",
-    "last_packaging_date": "2025-10-10",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos3ae6",
-    "slug": "whales-descriptor",
-    "priority_score": 114,
-    "last_test_date": "2025-12-12T14:10:29Z",
-    "last_packaging_date": "2025-12-24",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos3b5e",
-    "slug": "molecular-weight",
+    "repository_name": "eos1soi",
+    "slug": "non-growing-antimicrobial",
     "priority_score": 112,
-    "last_test_date": "2025-12-15T10:13:01Z",
-    "last_packaging_date": "2026-02-04",
+    "last_test_date": "2025-12-22T10:17:38Z",
+    "last_packaging_date": "2025-12-18",
     "open_issues": 0
   },
   {
-    "repository_name": "eos3e6s",
-    "slug": "chembl-decoys",
+    "repository_name": "eos3lyd",
+    "slug": "efflux-pump-avoidance-gram-negative",
     "priority_score": 112,
-    "last_test_date": "2025-12-15T10:18:46Z",
-    "last_packaging_date": "2025-11-24",
+    "last_test_date": "2025-12-22T10:22:33Z",
+    "last_packaging_date": "2025-12-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos3xip",
+    "slug": "grover-qm8",
+    "priority_score": 112,
+    "last_test_date": "2025-12-22T10:30:13Z",
+    "last_packaging_date": "2026-03-10",
     "open_issues": 0
   }
 ]
