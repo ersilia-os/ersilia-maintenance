@@ -94,6 +94,34 @@ jobs:
             ersilia -v fetch $MODEL_ID --from_dockerhub --version $VERSION
           "
 
+  serve-model:
+    runs-on: ${{ inputs.runner }}
+    needs: fetch-model
+    steps:
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          swap-storage: true
+
+      - name: Set up conda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: "3.12"
+          auto-activate-base: false
+
+      - name: Install ersilia from branch
+        env:
+          ERSILIA_BRANCH: ${{ inputs.ersilia_branch }}
+        run: |
+          conda run --no-capture-output -n base python -m pip install \
+            "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
+
       - name: Serve model
         env:
           MODEL_ID: ${{ inputs.model_id }}
@@ -104,7 +132,7 @@ jobs:
 
   test-shallow:
     runs-on: ${{ inputs.runner }}
-    needs: fetch-model
+    needs: serve-model
     steps:
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
