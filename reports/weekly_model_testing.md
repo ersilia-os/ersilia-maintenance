@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-04-06T10:28:54Z
+**🗓️ Date:** 2026-04-13T10:37:42Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos2zmb | hdac1-inhibition | ✅ | 2026-04-06T10:38:10Z |
-| eos30f3 | dmpnn-herg | ✅ | 2026-04-06T10:44:56Z |
-| eos30gr | deepherg | ✅ | 2026-04-06T10:52:25Z |
-| eos31ve | ncats-hlm | ✅ | 2026-04-06T10:57:23Z |
-| eos3804 | chemprop-abaumannii | ✅ | 2026-04-06T11:04:00Z |
-| eos39co | unimol-representation | ✅ | 2026-04-06T11:10:50Z |
-| eos39dp | phakinpro | ✅ | 2026-04-06T11:17:08Z |
-| eos3ae6 | whales-descriptor | ✅ | 2026-04-06T11:22:25Z |
-| eos3b5e | molecular-weight | ✅ | 2026-04-06T11:27:17Z |
-| eos3e6s | chembl-decoys | 🚨 | 2026-04-06T11:34:58Z |
+| eos3ev6 | ncats-cyp3a4 | ✅ | 2026-04-13T10:45:04Z |
+| eos3l5f | clamp | ✅ | 2026-04-13T10:50:24Z |
+| eos3le9 | hepg2-mmv | ✅ | 2026-04-13T11:00:00Z |
+| eos3mk2 | bbbp-marine-kinase-inhibitors | ✅ | 2026-04-13T11:05:26Z |
+| eos3nn9 | mpro-covid19 | 🚨 | 2026-04-13T11:08:30Z |
+| eos3ujl | mtb-permeability | ✅ | 2026-04-13T11:14:10Z |
+| eos3wzy | qupkake | ✅ | 2026-04-13T11:25:02Z |
+| eos1soi | non-growing-antimicrobial | ✅ | 2026-04-13T11:32:10Z |
+| eos3lyd | efflux-pump-avoidance-gram-negative | ✅ | 2026-04-13T11:38:48Z |
+| eos3xip | grover-qm8 | ✅ | 2026-04-13T11:47:20Z |
