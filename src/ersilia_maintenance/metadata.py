@@ -107,3 +107,7 @@ def extract_source_type(meta: Dict[str, Any])-> Optional[str]:
 def extract_source_code(meta: Dict[str, Any]) -> Optional[str]:
     """Return Source Code URL if present."""
     return _extract_key("Source Code", meta)
+
+def extract_contributor(meta: Dict[str, Any]) -> Optional[str]:
+    """Return Contributor from metadata if present."""
+    return _extract_key("Contributor", meta)
