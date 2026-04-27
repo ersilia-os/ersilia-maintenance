@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos7asg",
-    "slug": "padel",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-04-14",
+    "repository_name": "eos4ex3",
+    "slug": "mole-representations",
+    "priority_score": 119,
+    "last_test_date": "2025-12-29T10:20:35Z",
+    "last_packaging_date": "2026-02-26",
     "open_issues": 0
   },
   {
-    "repository_name": "eos7d58",
-    "slug": "admet-ai-percentile",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-04-14",
+    "repository_name": "eos4f95",
+    "slug": "mycetos",
+    "priority_score": 119,
+    "last_test_date": "2025-12-29T10:31:59Z",
+    "last_packaging_date": "2025-12-10",
     "open_issues": 0
   },
   {
-    "repository_name": "eos3zur",
-    "slug": "molfeat-estate",
+    "repository_name": "eos4jcv",
+    "slug": "cc-signaturizer-3d-e",
     "priority_score": 118,
-    "last_test_date": "2025-12-22T10:36:40Z",
-    "last_packaging_date": "2025-10-17",
+    "last_test_date": "2025-12-29T10:40:06Z",
+    "last_packaging_date": "2025-12-30",
     "open_issues": 0
   },
   {
-    "repository_name": "eos42ez",
-    "slug": "antibiotics-ai-cytotox",
+    "repository_name": "eos4q1a",
+    "slug": "crem-structure-generation",
     "priority_score": 118,
-    "last_test_date": "2025-12-22T10:51:14Z",
-    "last_packaging_date": "2026-03-23",
+    "last_test_date": "2025-12-29T10:45:07Z",
+    "last_packaging_date": "2026-04-01",
     "open_issues": 0
   },
   {
-    "repository_name": "eos46ev",
-    "slug": "chemtb",
+    "repository_name": "eos4rta",
+    "slug": "malaria-mmv",
     "priority_score": 118,
-    "last_test_date": "2025-12-22T10:57:05Z",
-    "last_packaging_date": "2025-12-04",
+    "last_test_date": "2025-12-29T10:54:09Z",
+    "last_packaging_date": "2025-11-24",
     "open_issues": 0
   },
   {
-    "repository_name": "eos481p",
-    "slug": "grover-toxcast",
+    "repository_name": "eos4rw4",
+    "slug": "cddd-onnx",
     "priority_score": 118,
-    "last_test_date": "2025-12-22T11:04:38Z",
-    "last_packaging_date": "2026-03-10",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4b8j",
-    "slug": "gdbchembl-similarity",
-    "priority_score": 118,
-    "last_test_date": "2025-12-22T11:08:02Z",
-    "last_packaging_date": "2025-10-21",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4cxk",
-    "slug": "image-mol-sars-cov2",
-    "priority_score": 118,
-    "last_test_date": "2025-12-22T11:14:42Z",
-    "last_packaging_date": "2026-03-10",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4djh",
-    "slug": "datamol-basic-descriptors",
-    "priority_score": 118,
-    "last_test_date": "2025-12-22T11:17:52Z",
+    "last_test_date": "2025-12-29T11:00:07Z",
     "last_packaging_date": "2025-12-24",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4e40",
-    "slug": "chemprop-antibiotic",
+    "repository_name": "eos4se9",
+    "slug": "smiles2iupac",
+    "priority_score": 118,
+    "last_test_date": "2025-12-29T11:12:48Z",
+    "last_packaging_date": "2025-10-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4tcc",
+    "slug": "bayesherg",
+    "priority_score": 118,
+    "last_test_date": "2025-12-29T11:17:31Z",
+    "last_packaging_date": "2025-10-14",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4u6p",
+    "slug": "cc-signaturizer",
+    "priority_score": 118,
+    "last_test_date": "2025-12-29T11:27:35Z",
+    "last_packaging_date": "2025-12-24",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4r1g",
+    "slug": "entry-classifier",
     "priority_score": 112,
-    "last_test_date": "2025-12-29T10:13:42Z",
-    "last_packaging_date": "2025-08-27",
+    "last_test_date": "2026-01-05T10:17:57Z",
+    "last_packaging_date": "2025-12-27",
     "open_issues": 0
   }
 ]
