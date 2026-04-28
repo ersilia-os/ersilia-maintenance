@@ -1,8 +1,8 @@
 # Failing Models Report
 
-**Generated:** 2026-04-28T07:53:14Z
+**Generated:** 2026-04-28T08:10:23Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **10**
+Models with a failing last test outcome (Archived models excluded). Total: **9**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
@@ -15,4 +15,3 @@ Models with a failing last test outcome (Archived models excluded). Total: **10*
 | eos3nn9 | mpro-covid19 | In maintenance | 2026-04-13T11:08:30Z | 🚨 failed |
 | eos3kcw | small-world-wuxi | Ready | 2026-04-01T06:20:58Z | 🚨 failed |
 | eos9zw0 | molpmofit | In maintenance | 2026-03-31T22:30:57Z | 🚨 failed |
-| eos8g50 | fastsolv | Ready | 2026-02-09T11:11:07Z | 🚨 failed |

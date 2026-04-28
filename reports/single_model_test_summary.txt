@@ -1,49 +1,49 @@
 ==============================================
-Testing model: eos633t
+Testing model: eos8g50
 ==============================================
-✅ [eos633t] metadata_checks: last_packaging_date
-✅ [eos633t] metadata_checks: model_biomodel_area
-✅ [eos633t] metadata_checks: model_computational_performance_for_10000_input
-✅ [eos633t] metadata_checks: model_computational_performance_for_1000_input
-✅ [eos633t] metadata_checks: model_computational_performance_for_100_input
-✅ [eos633t] metadata_checks: model_computational_performance_for_10_input
-✅ [eos633t] metadata_checks: model_computational_performance_for_1_input
-✅ [eos633t] metadata_checks: model_contribution_date
-✅ [eos633t] metadata_checks: model_contributor
-✅ [eos633t] metadata_checks: model_description
-✅ [eos633t] metadata_checks: model_directory_size
-✅ [eos633t] metadata_checks: model_docker_architecture
-✅ [eos633t] metadata_checks: model_dockerhub_url
-✅ [eos633t] metadata_checks: model_environment_size
-✅ [eos633t] metadata_checks: model_id
-✅ [eos633t] metadata_checks: model_image_size
-✅ [eos633t] metadata_checks: model_input
-✅ [eos633t] metadata_checks: model_input_dimensions
-✅ [eos633t] metadata_checks: model_interpretation
-✅ [eos633t] metadata_checks: model_output
-✅ [eos633t] metadata_checks: model_output_consistency
-✅ [eos633t] metadata_checks: model_output_dimension
-✅ [eos633t] metadata_checks: model_publication
-✅ [eos633t] metadata_checks: model_release_version
-✅ [eos633t] metadata_checks: model_s3_url
-✅ [eos633t] metadata_checks: model_slug
-✅ [eos633t] metadata_checks: model_source
-✅ [eos633t] metadata_checks: model_source_code
-✅ [eos633t] metadata_checks: model_source_type
-✅ [eos633t] metadata_checks: model_status
-✅ [eos633t] metadata_checks: model_sub_tasks
-✅ [eos633t] metadata_checks: model_tag
-✅ [eos633t] metadata_checks: model_target_organism
-✅ [eos633t] metadata_checks: model_task
-✅ [eos633t] metadata_checks: model_title
-✅ [eos633t] model_file_checks: metadata_dim_and_run_column_file_dim_check
-✅ [eos633t] file_validity_check: columns
-✅ [eos633t] file_validity_check: dockerfile_check
-ℹ️ [eos633t] model_size_check: directory_size_mb = 33.0
-ℹ️ [eos633t] model_size_check: environment_size_mb = 2093.0
-✅ [eos633t] model_run_check: simple_model_run
-✅ [eos633t] model_run_check: simple_model_run_columns
-✅ [eos633t] async_model_run_check: async_simple_model_run
-✅ [eos633t] input_output_check: csv_csv
-ℹ️ [eos633t] model_output_consistency_check: check_consistency_of_model_output = ~ SKIPPED
-ℹ️ [eos633t] consistency_summary_between_ersilia_and_bash_execution_outputs: rmse_mean = ~ SKIPPED
+✅ [eos8g50] metadata_checks: last_packaging_date
+✅ [eos8g50] metadata_checks: model_biomodel_area
+✅ [eos8g50] metadata_checks: model_computational_performance_for_10000_input
+✅ [eos8g50] metadata_checks: model_computational_performance_for_1000_input
+✅ [eos8g50] metadata_checks: model_computational_performance_for_100_input
+✅ [eos8g50] metadata_checks: model_computational_performance_for_10_input
+✅ [eos8g50] metadata_checks: model_computational_performance_for_1_input
+✅ [eos8g50] metadata_checks: model_contribution_date
+✅ [eos8g50] metadata_checks: model_contributor
+✅ [eos8g50] metadata_checks: model_description
+✅ [eos8g50] metadata_checks: model_directory_size
+✅ [eos8g50] metadata_checks: model_docker_architecture
+✅ [eos8g50] metadata_checks: model_dockerhub_url
+✅ [eos8g50] metadata_checks: model_environment_size
+✅ [eos8g50] metadata_checks: model_id
+✅ [eos8g50] metadata_checks: model_image_size
+✅ [eos8g50] metadata_checks: model_input
+✅ [eos8g50] metadata_checks: model_input_dimensions
+✅ [eos8g50] metadata_checks: model_interpretation
+✅ [eos8g50] metadata_checks: model_output
+✅ [eos8g50] metadata_checks: model_output_consistency
+✅ [eos8g50] metadata_checks: model_output_dimension
+✅ [eos8g50] metadata_checks: model_publication
+✅ [eos8g50] metadata_checks: model_release_version
+✅ [eos8g50] metadata_checks: model_s3_url
+✅ [eos8g50] metadata_checks: model_slug
+✅ [eos8g50] metadata_checks: model_source
+✅ [eos8g50] metadata_checks: model_source_code
+✅ [eos8g50] metadata_checks: model_source_type
+✅ [eos8g50] metadata_checks: model_status
+✅ [eos8g50] metadata_checks: model_sub_tasks
+✅ [eos8g50] metadata_checks: model_tag
+✅ [eos8g50] metadata_checks: model_target_organism
+✅ [eos8g50] metadata_checks: model_task
+✅ [eos8g50] metadata_checks: model_title
+✅ [eos8g50] model_file_checks: metadata_dim_and_run_column_file_dim_check
+✅ [eos8g50] file_validity_check: columns
+✅ [eos8g50] file_validity_check: install_yaml_check
+ℹ️ [eos8g50] model_size_check: directory_size_mb = 878.0
+ℹ️ [eos8g50] model_size_check: environment_size_mb = 1852.0
+✅ [eos8g50] model_run_check: simple_model_run
+✅ [eos8g50] model_run_check: simple_model_run_columns
+✅ [eos8g50] async_model_run_check: async_simple_model_run
+✅ [eos8g50] input_output_check: csv_csv
+✅ [eos8g50] model_output_consistency_check: check_consistency_of_model_output
+✅ [eos8g50] consistency_summary_between_ersilia_and_bash_execution_outputs: rmse_mean
