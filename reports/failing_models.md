@@ -1,8 +1,8 @@
 # Failing Models Report
 
-**Generated:** 2026-04-28T08:10:23Z
+**Generated:** 2026-04-28T08:24:01Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **9**
+Models with a failing last test outcome (Archived models excluded). Total: **8**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
@@ -13,5 +13,4 @@ Models with a failing last test outcome (Archived models excluded). Total: **9**
 | eos42ez | antibiotics-ai-cytotox | In maintenance | 2026-04-20T11:11:14Z | 🚨 failed |
 | eos7asg | padel | In maintenance | 2026-04-20T10:45:22Z | 🚨 failed |
 | eos3nn9 | mpro-covid19 | In maintenance | 2026-04-13T11:08:30Z | 🚨 failed |
-| eos3kcw | small-world-wuxi | Ready | 2026-04-01T06:20:58Z | 🚨 failed |
 | eos9zw0 | molpmofit | In maintenance | 2026-03-31T22:30:57Z | 🚨 failed |
