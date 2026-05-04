@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos4ex3",
-    "slug": "mole-representations",
+    "repository_name": "eos4n4d",
+    "slug": "gram-negative-accumulation",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-04-23",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos60mw",
+    "slug": "cidalsdb",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-04-24",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos6tg8",
+    "slug": "natural-product-fingerprint",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-13",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos80k1",
+    "slug": "bioactivity-similarity-index",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-04-22",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos8c0o",
+    "slug": "image-mol-bace",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-03-10",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2401",
+    "slug": "scaffold-decoration",
+    "priority_score": 143,
+    "last_test_date": "2025-12-11T22:02:23Z",
+    "last_packaging_date": "2026-02-19",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4wt0",
+    "slug": "morgan-binary-fps",
     "priority_score": 119,
-    "last_test_date": "2025-12-29T10:20:35Z",
-    "last_packaging_date": "2026-02-26",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4f95",
-    "slug": "mycetos",
-    "priority_score": 119,
-    "last_test_date": "2025-12-29T10:31:59Z",
-    "last_packaging_date": "2025-12-10",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4jcv",
-    "slug": "cc-signaturizer-3d-e",
-    "priority_score": 118,
-    "last_test_date": "2025-12-29T10:40:06Z",
-    "last_packaging_date": "2025-12-30",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4q1a",
-    "slug": "crem-structure-generation",
-    "priority_score": 118,
-    "last_test_date": "2025-12-29T10:45:07Z",
-    "last_packaging_date": "2026-04-01",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4rta",
-    "slug": "malaria-mmv",
-    "priority_score": 118,
-    "last_test_date": "2025-12-29T10:54:09Z",
-    "last_packaging_date": "2025-11-24",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4rw4",
-    "slug": "cddd-onnx",
-    "priority_score": 118,
-    "last_test_date": "2025-12-29T11:00:07Z",
+    "last_test_date": "2026-01-05T10:20:33Z",
     "last_packaging_date": "2025-12-24",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4se9",
-    "slug": "smiles2iupac",
-    "priority_score": 118,
-    "last_test_date": "2025-12-29T11:12:48Z",
-    "last_packaging_date": "2025-10-15",
+    "repository_name": "eos4x30",
+    "slug": "pmapper-3d",
+    "priority_score": 119,
+    "last_test_date": "2026-01-05T10:26:50Z",
+    "last_packaging_date": "2026-03-20",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4tcc",
-    "slug": "bayesherg",
-    "priority_score": 118,
-    "last_test_date": "2025-12-29T11:17:31Z",
-    "last_packaging_date": "2025-10-14",
+    "repository_name": "eos4xb1",
+    "slug": "antihypertension-prediction",
+    "priority_score": 119,
+    "last_test_date": "2026-01-05T10:34:09Z",
+    "last_packaging_date": "2025-11-27",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4u6p",
-    "slug": "cc-signaturizer",
-    "priority_score": 118,
-    "last_test_date": "2025-12-29T11:27:35Z",
+    "repository_name": "eos4ywv",
+    "slug": "macaw",
+    "priority_score": 119,
+    "last_test_date": "2026-01-05T10:37:45Z",
     "last_packaging_date": "2025-12-24",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4r1g",
-    "slug": "entry-classifier",
-    "priority_score": 112,
-    "last_test_date": "2026-01-05T10:17:57Z",
-    "last_packaging_date": "2025-12-27",
     "open_issues": 0
   }
 ]
