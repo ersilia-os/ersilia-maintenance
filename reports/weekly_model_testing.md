@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-04-27T10:44:21Z
+**🗓️ Date:** 2026-05-04T10:46:02Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos4ex3 | mole-representations | ✅ | 2026-04-27T10:53:09Z |
-| eos4f95 | mycetos | ✅ | 2026-04-27T11:00:02Z |
-| eos4jcv | cc-signaturizer-3d-e | ✅ | 2026-04-27T11:09:41Z |
-| eos4q1a | crem-structure-generation | ✅ | 2026-04-27T11:16:52Z |
-| eos4rta | malaria-mmv | ✅ | 2026-04-27T11:26:02Z |
-| eos4rw4 | cddd-onnx | ✅ | 2026-04-27T11:33:43Z |
-| eos4se9 | smiles2iupac | ✅ | 2026-04-27T11:50:42Z |
-| eos4tcc | bayesherg | 🚨 | 2026-04-27T11:56:18Z |
-| eos4u6p | cc-signaturizer | 🚨 | 2026-04-27T12:02:34Z |
-| eos4r1g | entry-classifier | ✅ | 2026-04-27T12:09:31Z |
+| eos4n4d | gram-negative-accumulation | ✅ | 2026-05-04T11:04:36Z |
+| eos60mw | cidalsdb | ✅ | 2026-05-04T11:12:43Z |
+| eos6tg8 | natural-product-fingerprint | ✅ | 2026-05-04T11:18:25Z |
+| eos80k1 | bioactivity-similarity-index | ✅ | 2026-05-04T11:25:24Z |
+| eos8c0o | image-mol-bace | ✅ | 2026-05-04T11:30:39Z |
+| eos2401 | scaffold-decoration | 🚨 | 2026-05-04T11:42:51Z |
+| eos4wt0 | morgan-binary-fps | ✅ | 2026-05-04T11:47:09Z |
+| eos4x30 | pmapper-3d | ✅ | 2026-05-04T11:54:15Z |
+| eos4xb1 | antihypertension-prediction | ✅ | 2026-05-04T12:03:00Z |
+| eos4ywv | macaw | ✅ | 2026-05-04T12:08:28Z |
