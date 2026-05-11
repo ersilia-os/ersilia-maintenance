@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos4n4d",
-    "slug": "gram-negative-accumulation",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-04-23",
+    "repository_name": "eos4zfy",
+    "slug": "maip-malaria",
+    "priority_score": 126,
+    "last_test_date": "2026-01-05T10:40:47Z",
+    "last_packaging_date": "2026-04-14",
     "open_issues": 0
   },
   {
-    "repository_name": "eos60mw",
-    "slug": "cidalsdb",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-04-24",
+    "repository_name": "eos526j",
+    "slug": "aizynthfinder",
+    "priority_score": 126,
+    "last_test_date": "2026-01-05T10:51:09Z",
+    "last_packaging_date": "2025-12-01",
     "open_issues": 0
   },
   {
-    "repository_name": "eos6tg8",
-    "slug": "natural-product-fingerprint",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2025-10-13",
+    "repository_name": "eos5505",
+    "slug": "ncats-rlm",
+    "priority_score": 126,
+    "last_test_date": "2026-01-05T10:55:26Z",
+    "last_packaging_date": "2025-10-15",
     "open_issues": 0
   },
   {
-    "repository_name": "eos80k1",
-    "slug": "bioactivity-similarity-index",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-04-22",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos8c0o",
-    "slug": "image-mol-bace",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-03-10",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos2401",
-    "slug": "scaffold-decoration",
-    "priority_score": 143,
-    "last_test_date": "2025-12-11T22:02:23Z",
-    "last_packaging_date": "2026-02-19",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4wt0",
-    "slug": "morgan-binary-fps",
-    "priority_score": 119,
-    "last_test_date": "2026-01-05T10:20:33Z",
-    "last_packaging_date": "2025-12-24",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4x30",
-    "slug": "pmapper-3d",
-    "priority_score": 119,
-    "last_test_date": "2026-01-05T10:26:50Z",
+    "repository_name": "eos57bx",
+    "slug": "reinvent4-mol2mol-scaffold",
+    "priority_score": 125,
+    "last_test_date": "2026-01-05T11:45:56Z",
     "last_packaging_date": "2026-03-20",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4xb1",
-    "slug": "antihypertension-prediction",
-    "priority_score": 119,
-    "last_test_date": "2026-01-05T10:34:09Z",
-    "last_packaging_date": "2025-11-27",
+    "repository_name": "eos59rr",
+    "slug": "bidd-molmap-fingerprint",
+    "priority_score": 125,
+    "last_test_date": "2026-01-05T11:52:35Z",
+    "last_packaging_date": "2025-10-17",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4ywv",
-    "slug": "macaw",
-    "priority_score": 119,
-    "last_test_date": "2026-01-05T10:37:45Z",
+    "repository_name": "eos5axz",
+    "slug": "morgan-counts",
+    "priority_score": 122,
+    "last_test_date": "2026-01-08T14:25:54Z",
     "last_packaging_date": "2025-12-24",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos5bsw",
+    "slug": "ecoli-retention",
+    "priority_score": 122,
+    "last_test_date": "2026-01-08T14:33:59Z",
+    "last_packaging_date": "2025-12-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos5cl7",
+    "slug": "ngonorrhoeae-inhibition",
+    "priority_score": 122,
+    "last_test_date": "2026-01-08T14:41:58Z",
+    "last_packaging_date": "2025-11-18",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos5guo",
+    "slug": "erg-fingerprints",
+    "priority_score": 122,
+    "last_test_date": "2026-01-08T14:44:34Z",
+    "last_packaging_date": "2025-10-23",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos5jz9",
+    "slug": "ncats-cyp2c9",
+    "priority_score": 122,
+    "last_test_date": "2026-01-08T14:50:57Z",
+    "last_packaging_date": "2025-10-17",
     "open_issues": 0
   }
 ]
