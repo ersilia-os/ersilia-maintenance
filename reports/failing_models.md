@@ -1,12 +1,11 @@
 # Failing Models Report
 
-**Generated:** 2026-05-11T18:14:50Z
+**Generated:** 2026-05-12T15:25:48Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **7**
+Models with a failing last test outcome (Archived models excluded). Total: **6**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
-| eos2401 | scaffold-decoration | In maintenance | 2026-05-04T11:42:51Z | 🚨 failed |
 | eos4u6p | cc-signaturizer | In maintenance | 2026-04-27T12:02:34Z | 🚨 failed |
 | eos4e40 | chemprop-antibiotic | In maintenance | 2026-04-20T11:49:45Z | 🚨 failed |
 | eos42ez | antibiotics-ai-cytotox | In maintenance | 2026-04-20T11:11:14Z | 🚨 failed |
