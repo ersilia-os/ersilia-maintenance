@@ -38,7 +38,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install requests pyyaml
+          python -m pip install requests pyyaml pyairtable
 
       - name: Update publication links
         env:
@@ -46,7 +46,6 @@ jobs:
           DRY_RUN: ${{ github.event.inputs.dry_run }}
           MODEL_ID: ${{ github.event.inputs.model_id }}
         run: |
-          # Run from src/ so the relative import of update_model_publication works
           cd src
 
           ARGS=(
@@ -56,6 +55,8 @@ jobs:
 
           if [[ "${DRY_RUN}" == "true" ]]; then
             ARGS+=(--dry-run)
+          else
+            ARGS+=(--output-updated "../files/updated_models.txt")
           fi
 
           if [[ -n "${MODEL_ID}" ]]; then
@@ -63,3 +64,36 @@ jobs:
           fi
 
           python bulk_update_publications.py "${ARGS[@]}"
+
+      - name: Sync updated models to Airtable
+        if: github.event.inputs.dry_run != 'true'
+        continue-on-error: true
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          MAINTENANCE_TOKEN: ${{ secrets.MAINTENANCE_TOKEN }}
+        run: |
+          if [[ -z "${AIRTABLE_API_KEY:-}" ]]; then
+            echo "AIRTABLE_API_KEY is not set, skipping Airtable sync."
+            exit 0
+          fi
+
+          if [[ ! -f files/updated_models.txt ]]; then
+            echo "No updated_models.txt found — nothing to sync."
+            exit 0
+          fi
+
+          wget -q https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/airtableops.py
+          wget -q https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/readme_formatter.py
+
+          while IFS= read -r MODEL_ID; do
+            [[ -z "${MODEL_ID}" ]] && continue
+            echo "Syncing ${MODEL_ID} to Airtable..."
+            python airtableops.py airtable-update \
+              --user ersilia-os \
+              --repo "${MODEL_ID}" \
+              --branch main \
+              --api-key "${AIRTABLE_API_KEY}" \
+              || echo "WARNING: could not sync Airtable for ${MODEL_ID}"
+          done < files/updated_models.txt
+
+          rm -f airtableops.py readme_formatter.py

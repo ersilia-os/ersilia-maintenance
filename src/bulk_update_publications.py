@@ -37,9 +37,16 @@ def _should_skip(row: dict) -> str | None:
     return None
 
 
-def run(csv_path: Path, token: str, dry_run: bool, model_filter: str | None) -> int:
+def run(
+    csv_path: Path,
+    token: str,
+    dry_run: bool,
+    model_filter: str | None,
+    output_updated: Path | None = None,
+) -> int:
     counts = {"updated": 0, "already_correct": 0, "skipped": 0, "failed": 0, "dry_run": 0}
     dry_run_rows: list[tuple[str, str, str]] = []
+    updated_models: list[str] = []
 
     with open(csv_path, newline="", encoding="utf-8") as fh:
         reader = csv.DictReader(fh)
@@ -76,9 +83,15 @@ def run(csv_path: Path, token: str, dry_run: bool, model_filter: str | None) -> 
             try:
                 result = update_model_publication(model_id, doi, token, dry_run=False)
                 counts[result] = counts.get(result, 0) + 1
+                if result == "updated":
+                    updated_models.append(model_id)
             except Exception as exc:
                 print(f"ERROR {model_id}: {exc}", file=sys.stderr)
                 counts["failed"] += 1
+
+    if output_updated is not None and not dry_run:
+        output_updated.write_text("\n".join(updated_models) + ("\n" if updated_models else ""))
+        print(f"Written {len(updated_models)} updated model IDs to {output_updated}")
 
     if dry_run and dry_run_rows:
         col_w = [
@@ -130,9 +143,15 @@ def main() -> int:
         default=None,
         help="Limit to a single model ID (for testing)",
     )
+    parser.add_argument(
+        "--output-updated",
+        type=Path,
+        default=None,
+        help="Write successfully-updated model IDs (one per line) to this file",
+    )
     args = parser.parse_args()
 
-    return run(args.csv, args.token, args.dry_run, args.model)
+    return run(args.csv, args.token, args.dry_run, args.model, args.output_updated)
 
 
 if __name__ == "__main__":
