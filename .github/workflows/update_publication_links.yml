@@ -1,0 +1,65 @@
+name: Update Publication Links
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run — fetch current values and print diff table without committing"
+        required: false
+        type: boolean
+        default: true
+      model_id:
+        description: "Limit to a single model ID (leave empty for all models)"
+        required: false
+        type: string
+        default: ""
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -el {0}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Setup miniconda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-update-conda: true
+          python-version: "3.12"
+          auto-activate-base: true
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests pyyaml
+
+      - name: Update publication links
+        env:
+          MAINTENANCE_TOKEN: ${{ secrets.MAINTENANCE_TOKEN }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+          MODEL_ID: ${{ github.event.inputs.model_id }}
+        run: |
+          # Run from src/ so the relative import of update_model_publication works
+          cd src
+
+          ARGS=(
+            --token "${MAINTENANCE_TOKEN}"
+            --csv "../files/ErsiliaModelsDOI.csv"
+          )
+
+          if [[ "${DRY_RUN}" == "true" ]]; then
+            ARGS+=(--dry-run)
+          fi
+
+          if [[ -n "${MODEL_ID}" ]]; then
+            ARGS+=(--model "${MODEL_ID}")
+          fi
+
+          python bulk_update_publications.py "${ARGS[@]}"

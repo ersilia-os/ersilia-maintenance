@@ -1,0 +1,214 @@
+model_id,slug,publication_type,doi,pdf,,Publication
+eos5dti,chembl-abaumannii,Other,-,FALSE,,https://ersilia.io/
+eos37l0,chembl-kpneumoniae,Other,-,FALSE,,https://ersilia.io/
+eos2m0f,chembl-saureus,Other,-,FALSE,,https://ersilia.io
+eos8aox,cc-signaturizer-3d,Peer reviewed,https://doi.org/10.1186/s13321-024-00867-4,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00867-4
+eos24ur,whales-scaled,Peer reviewed,https://doi.org/10.1038/s42004-018-0043-x,TRUE,,https://www.nature.com/articles/s42004-018-0043-x
+eos7e3s,dili-pred,Peer reviewed,https://doi.org/10.1002/jat.3741,TRUE,,https://pubmed.ncbi.nlm.nih.gov/30325042/
+eos3nl8,covid-19-drug-repurposing,Preprint,https://doi.org/10.48550/arXiv.2007.10261,TRUE,,https://arxiv.org/abs/2007.10261v1
+eos1xje,biogpt-embeddings,Peer reviewed,https://doi.org/10.1093/bib/bbac409,TRUE,,https://academic.oup.com/bib/article/23/6/bbac409/6713511?guestAccessKey=a66d9b5d-4f83-4017-bb52-405815c907b9&login=false
+eos3cf4,molfeat-chemgpt,Peer reviewed,https://doi.org/10.1038/s42256-023-00740-3,TRUE,,https://www.nature.com/articles/s42256-023-00740-3
+eos9sa2,bayesian-drug-likeness,Peer reviewed,https://doi-org.sire.ub.edu/10.1038/s42256-020-0209-y,TRUE,,https://www.nature.com/articles/s42256-020-0209-y
+eos2v11,admetlab-2,Peer reviewed,https://doi.org/10.1093/nar/gkab255,TRUE,,https://academic.oup.com/nar/article/49/W1/W5/6249611?login=false
+eos1579,metabokiller,Peer reviewed,https://doi.org/10.1038/s41589-022-01110-7,TRUE,,https://doi.org/10.1038/s41589-022-01110-7
+eos3ae7,chemical-vae,Peer reviewed,https://doi.org/10.1021/acscentsci.7b00572,TRUE,,https://pubs.acs.org/doi/10.1021/acscentsci.7b00572
+eos9be7,chemnet-distance,Peer reviewed,https://doi.org/10.1021/acs.jcim.8b00234,TRUE,,https://pubs.acs.org/doi/10.1021/acs.jcim.8b00234
+eos5qfo,rexgen,Peer reviewed,https://doi.org/10.48550/arXiv.1709.04555,TRUE,,https://arxiv.org/pdf/1709.04555v3.pdf
+eos2re5,admetlab,Peer reviewed,https://doi.org/10.1186/s13321-018-0283-x,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0283-x
+eos97yu,pampa-permeability,Peer reviewed,https://doi.org/10.3390/ijms20133170,TRUE,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651837/
+eos7a04,cdd-descriptor,Peer reviewed,https://doi.org/10.1039/c8sc04175j,TRUE,,https://pubs.rsc.org/en/content/articlelanding/2019/sc/c8sc04175j
+eos4r1g,entry-classifier,Peer reviewed,https://doi.org/10.1038/nature22308,TRUE,same as eos7ike,https://www.nature.com/articles/nature22308
+eos1soi,non-growing-antimicrobial,Peer reviewed,https://doi.org/10.1038/s44259-025-00097-0,TRUE,,https://www.nature.com/articles/s44259-025-00097-0
+eos5bsw,ecoli-retention,Peer reviewed,https://doi.org/10.1038/s41598-025-10208-6,TRUE,,https://www.nature.com/articles/s41598-025-10208-6
+eos7l5m,efflux-gram-negative,Peer reviewed,https://doi.org/10.1128/AAC.01925-20,TRUE,,https://journals.asm.org/doi/10.1128/aac.01925-20
+eos3lyd,efflux-pump-avoidance-gram-negative,Peer reviewed,https://doi.org/10.1038/s44259-024-00023-w,TRUE,,https://www.nature.com/articles/s44259-024-00023-w
+eos9f7c,paeruginosa-permeation,Peer reviewed,https://doi.org/10.1038/s42004-024-01161-y,TRUE,,https://www.nature.com/articles/s42004-024-01161-y
+eos5nqn,gneprop-ecoli,Peer reviewed,https://doi.org/10.1101/2024.09.11.612340,TRUE,This is preprint,https://www.nature.com/articles/s41587-025-02814-6
+eos9x3z,gram-negative-permeability-proxy,Peer reviewed,https://doi.org/10.1021/acs.jmedchem.1c01984,TRUE,,https://pubs.acs.org/doi/10.1021/acs.jmedchem.1c01984
+eos7ike,entry-rules,Peer reviewed,https://doi.org/10.1038/nature22308,TRUE,,https://www.nature.com/articles/nature22308
+eos4rw4,cddd-onnx,Peer reviewed,https://doi.org/10.1039/c8sc04175j,TRUE,same as eos7a04,https://pubs.rsc.org/en/content/articlelanding/2019/sc/c8sc04175j
+eos82v1,smi-ted,Peer reviewed,https://doi.org/10.1038/s42004-025-01585-0,TRUE,,https://www.nature.com/articles/s42004-025-01585-0
+eos4xb1,antihypertension-prediction,Other,-,FALSE,,https://ersilia.io
+eos1lb5,mycobacterium-permeability,Peer reviewed,https://doi.org/10.1021/acsinfecdis.6b00051,TRUE,"Several papers, how to classify them?",https://pubmed.ncbi.nlm.nih.gov/27626295/
+eos11sm,known-antibiotic-resemblance,Other,-,FALSE,,https://antibioticdb.com
+eos3e6s,chembl-decoys,Other,-,FALSE,,https://ersilia.io
+eos4ywv,macaw,Peer reviewed,https://doi.org/10.1021/acs.jcim.2c00229,TRUE,,https://pubs.acs.org/doi/10.1021/acs.jcim.2c00229
+eos2xeq,antibiotics-downselection,Peer reviewed,https://doi.org/10.1016/j.cell.2025.07.033,TRUE,,https://www.cell.com/cell/abstract/S0092-8674(25)00855-4
+eos8g50,fastsolv,Peer reviewed,https://doi.org/10.1038/s41467-025-62717-7,TRUE,,https://www.nature.com/articles/s41467-025-62717-7
+eos19mt,chebifier-antibiotic,Peer reviewed,https://doi.org/10.1038/s41467-025-62717-7,TRUE,,https://pubs.rsc.org/en/content/articlehtml/2024/dd/d3dd00238a
+eos3l5f,clamp,Preprint,https://doi.org/10.48550/arXiv.2303.03363,TRUE,,https://arxiv.org/abs/2303.03363
+eos7ye0,chemfh,Peer reviewed,https://doi.org/10.1093/nar/gkae495,TRUE,,https://academic.oup.com/nar/article/52/W1/W439/7680615
+eos6tpo,chebifier,Peer reviewed,https://doi.org/10.1039/D3DD00238A,TRUE,,https://pubs.rsc.org/en/content/articlehtml/2024/dd/d3dd00238a
+eos6m2k,mole-antimicrobial,Peer reviewed,https://doi.org/10.1038/s41467-025-58804-4,TRUE,,https://www.nature.com/articles/s41467-025-58804-4
+eos6ojg,antibioticdb-similarity-matches,Peer reviewed,https://doi.org/10.1093/jac/dky208,TRUE,,https://pubmed.ncbi.nlm.nih.gov/29897476/
+eos5pt8,druglikeness-unsupervised,Peer reviewed,https://doi.org/10.1039/D1SC05248A,TRUE,,https://pubs.rsc.org/en/content/articlehtml/2022/sc/d1sc05248a
+eos11sr,emfps,Preprint,https://doi.org/10.26434/chemrxiv-2025-6hfp8,TRUE,,https://chemrxiv.org/engage/chemrxiv/article-details/685d5791c1cb1ecda07e0680
+eos9o72,chemeleon,Preprint,https://doi.org/10.48550/arXiv.2506.15792,TRUE,,https://arxiv.org/abs/2506.15792
+eos2sbn,cc-signaturizer-3d-a,Peer reviewed,https://doi.org/10.1186/s13321-024-00867-4,TRUE,Labelled as eos8aox,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00867-4
+eos2mxh,cc-signaturizer-3d-b,Peer reviewed,https://doi.org/10.1186/s13321-024-00867-4,TRUE,Labelled as eos8aox,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00867-4
+eos2h1r,cc-signaturizer-3d-c,Peer reviewed,https://doi.org/10.1186/s13321-024-00867-4,TRUE,Labelled as eos8aox,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00867-4
+eos77jk,cc-signaturizer-3d-d,Peer reviewed,https://doi.org/10.1186/s13321-024-00867-4,TRUE,Labelled as eos8aox,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00867-4
+eos4jcv,cc-signaturizer-3d-e,Peer reviewed,https://doi.org/10.1186/s13321-024-00867-4,TRUE,Labelled as eos8aox,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00867-4
+eos4ex3,mole-representations,Peer reviewed,https://doi.org/10.1038/s41467-025-58804-4,TRUE,,https://www.nature.com/articles/s41467-025-58804-4
+eos7m30,admet-ai-exact,Peer reviewed,https://doi.org/10.1093/bioinformatics/btae416,TRUE,same as eos7d58,https://academic.oup.com/bioinformatics/article/40/7/btae416/7698030
+eos74km,antimicrobial-kg-ml,Peer reviewed,https://doi.org/10.1021/acs.jcim.4c02347,TRUE,,https://pubs.acs.org/doi/10.1021/acs.jcim.4c02347
+eos8aa5,kgpgt-embedding,Peer reviewed,https://doi.org/10.1038/s41467-023-43214-1,TRUE,,https://www.nature.com/articles/s41467-023-43214-1
+eos8ub5,chemical-space-projections-coconut,Peer reviewed,https://doi.org/10.1186/s13321-020-00478-9,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00478-9
+eos2db3,chemical-space-projections-chemdiv,Other,-,FALSE,,https://www.chemdiv.com/catalog/diversity-libraries/representative-diversity-libraries-out-of-1-6m-stock/
+eos9gg2,chemical-space-projections-drugbank,Peer reviewed,https://doi.org/10.1093/nar/gkad976,TRUE,,https://academic.oup.com/nar/article/52/D1/D1265/7416367
+eos4djh,datamol-basic-descriptors,Other,-,FALSE,,https://github.com/datamol-io/datamol
+eos3mk2,bbbp-marine-kinase-inhibitors,Peer reviewed,https://doi.org/10.3390/md17020081,TRUE,,https://pubmed.ncbi.nlm.nih.gov/30699889/
+eos3ujl,mtb-permeability,Peer reviewed,https://doi.org/10.1007/s11030-024-10952-3,TRUE,,https://link.springer.com/article/10.1007/s11030-024-10952-3
+eos9p4a,deep-dl,Peer reviewed,https://doi.org/10.1039/D1SC05248A,TRUE,,https://pubs.rsc.org/en/content/articlehtml/2022/sc/d1sc05248a
+eos39co,unimol-representation,Preprint,https://doi.org/10.26434/chemrxiv-2022-jjm0j-v4,TRUE,,https://openreview.net/forum?id=6K2RM6wVqKu
+eos3wzy,qupkake,Peer reviewed,https://doi.org/10.1021/acs.jctc.4c00328,TRUE,,https://doi.org/10.1021/acs.jctc.4c00328
+eos3nn9,mpro-covid19,Peer reviewed,https://doi.org/10.1371/journal.pone.0287179,TRUE,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10289339/
+eos1pu1,cardiotox-dictrank,Peer reviewed,https://doi.org/10.1021/acs.jcim.3c01834,TRUE,,https://doi.org/10.1021/acs.jcim.3c01834
+eos39dp,phakinpro,Peer reviewed,https://doi.org/10.1021/acs.jmedchem.3c02446,TRUE,,https://pubs.acs.org/doi/10.1021/acs.jmedchem.3c02446
+eos6ru3,whales-qmug,Peer reviewed,https://doi.org/10.1007/978-1-0716-1209-5_2,TRUE,,https://link.springer.com/protocol/10.1007/978-1-0716-1209-5_2
+eos6ost,reinvent4-libinvent,Preprint,https://doi.org/10.1186/s13321-024-00812-5,TRUE,Is  Peer Reviewed now,https://chemrxiv.org/engage/chemrxiv/article-details/65463cafc573f893f1cae33a
+eos57bx,reinvent4-mol2mol-scaffold,Preprint,https://doi.org/10.1186/s13321-024-00812-5,TRUE,Is  Peer Reviewed now,https://chemrxiv.org/engage/chemrxiv/article-details/65463cafc573f893f1cae33a
+eos5guo,erg-fingerprints,Peer reviewed,https://doi.org/10.1021/ci050457y,TRUE,,https://pubs.acs.org/doi/10.1021/ci050457y
+eos2401,scaffold-decoration,Preprint,https://doi.org/10.48550/arXiv.2310.10773,TRUE,,https://arxiv.org/pdf/2310.10773.pdf
+eos5gge,dili-predictor,Peer reviewed,https://doi.org/10.1021/acs.chemrestox.4c00015,TRUE,,https://pubs.acs.org/doi/10.1021/acs.chemrestox.4c00015
+eos694w,reinvent4-mol2mol-medium-similarity,Preprint,https://doi.org/10.1186/s13321-024-00812-5,TRUE,Is  Peer Reviewed now,https://chemrxiv.org/engage/chemrxiv/article-details/65463cafc573f893f1cae33a
+eos7d58,admet-ai-percentile,Peer reviewed,https://doi.org/10.1093/bioinformatics/btae416,TRUE,,https://academic.oup.com/bioinformatics/article/40/7/btae416/7698030
+eos42ez,antibiotics-ai-cytotox,Peer reviewed,https://doi.org/10.1038/s41586-023-06887-8,TRUE,,https://www.nature.com/articles/s41586-023-06887-8
+eos21q7,inter-dili,Peer reviewed,https://doi.org/10.1186/s13321-023-00796-8,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-023-00796-8
+eos18ie,antibiotics-ai-saureus,Peer reviewed,https://doi.org/10.1038/s41586-023-06887-8,TRUE,,https://www.nature.com/articles/s41586-023-06887-8
+eos5cl7,ngonorrhoeae-inhibition,Peer reviewed,https://doi.org/10.1007/s11095-020-02876-y.,TRUE,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8274436/
+eos1n4b,hdac3-inhibition,Peer reviewed,https://doi.org/10.1002/minf.202000105,TRUE,,https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105
+eos9ym3,mrlogp,Peer reviewed,https://doi.org/10.3390/pr9112029,TRUE,,https://www.mdpi.com/2227-9717/9/11/2029/htm
+eos30f3,dmpnn-herg,Peer reviewed,https://doi.org/10.1039/D1RA07956E,TRUE,,https://pubs.rsc.org/en/content/articlehtml/2022/ra/d1ra07956e
+eos5xng,chemprop-burkholderia,Peer reviewed,https://doi.org/10.1371/journal.pcbi.1010613,TRUE,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9624395/
+eos4wt0,morgan-binary-fps,Peer reviewed,https://doi.org/10.1021/ci100050t,TRUE,,https://pubmed.ncbi.nlm.nih.gov/20426451/
+eos1ut3,molfeat-usrcat,Peer reviewed,https://doi.org/10.1186/1758-2946-4-27,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-4-27
+eos4x30,pmapper-3d,Peer reviewed,https://doi.org/10.3390/ijms20235834,TRUE,,https://www.mdpi.com/1422-0067/20/23/5834
+eos9ivc,anti-mtb-seattle,Peer reviewed,https://doi.org/10.1371/journal.pone.0205479,TRUE,,https://pubmed.ncbi.nlm.nih.gov/30650074/
+eos9zw0,molpmofit,Peer reviewed,https://doi.org/10.1186/s13321-020-00430-x,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00430-x
+eos633t,moler-enamine-blocks,Peer reviewed,https://doi.org/10.48550/arXiv.2103.03864,TRUE,,https://arxiv.org/abs/2103.03864
+eos3kcw,small-world-wuxi,Peer reviewed,https://doi.org/10.1186/1758-2946-5-S1-O15,TRUE,Should be Other,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3606195/
+eos1d7r,small-world-zinc,Peer reviewed,https://doi.org/10.1186/1758-2946-5-S1-O15,TRUE,Same as eos3kcw,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3606195/
+eos9ueu,small-world-enamine-real,Peer reviewed,https://doi.org/10.1186/1758-2946-5-S1-O15,TRUE,Same as eos3kcw,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3606195/
+eos2zmb,hdac1-inhibition,Other,-,FALSE,,https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL325/
+eos4f95,mycetos,Peer reviewed,https://doi.org/10.1016/j.ijid.2020.09.1018,TRUE,,https://www.ijidonline.com/article/S1201-9712(20)31735-5/fulltext
+eos1noy,chembl-sampler,Peer reviewed,https://doi.org/10.1093/nar/gkr777,TRUE,,https://academic.oup.com/nar/article/40/D1/D1100/2903401
+eos3le9,hepg2-mmv,Other,-,FALSE,,https://ersilia.io
+eos4rta,malaria-mmv,Other,-,FALSE,,https://ersilia.io
+eos2l0q,schisto-swisstph,Other,-,FALSE,,https://pubmed.ncbi.nlm.nih.gov/30398059
+eos3804,chemprop-abaumannii,Peer reviewed,https://doi.org/10.1038/s41589-023-01349-8,TRUE,,https://www.nature.com/articles/s41589-023-01349-8
+eos2hzy,pubchem-sampler,Peer reviewed,https://doi.org/10.1093/nar/gkac956,TRUE,,https://academic.oup.com/nar/article/51/D1/D1373/6777787
+eos8fma,stoned-sampler,Peer reviewed,https://doi.org/10.1039/d1sc00231g,TRUE,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8153210/
+eos7yti,osm-series4,Peer reviewed,https://doi-org.sire.ub.edu/10.1021/acsmedchemlett.4c00131,TRUE,,https://pubs.acs.org/doi/10.1021/acsmedchemlett.4c00131
+eos1mxi,smiles-pe,Peer reviewed,https://doi-org.sire.ub.edu/10.1021/acs.jcim.0c01127,TRUE,,https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c01127
+eos4qda,fasmifra,Peer reviewed,https://doi.org/10.1186/s13321-021-00566-4,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00566-4
+eos80ch,malaria-mam,Peer reviewed,https://doi.org/10.1021/acsomega.3c05664,TRUE,,https://pubs.acs.org/doi/10.1021/acsomega.3c05664
+eos7nno,ncats-cyp2d6,Peer reviewed,https://doi-org.sire.ub.edu/10.1124/dmd.120.000320,TRUE,,https://dmd.aspetjournals.org/content/49/9/822
+eos3ev6,ncats-cyp3a4,Peer reviewed,https://doi-org.sire.ub.edu/10.1124/dmd.120.000320,TRUE,same as7nno,https://dmd.aspetjournals.org/content/49/9/822
+eos5jz9,ncats-cyp2c9,Peer reviewed,https://doi-org.sire.ub.edu/10.1124/dmd.120.000320,TRUE,same as7nno,https://dmd.aspetjournals.org/content/49/9/822
+eos59rr,bidd-molmap-fingerprint,Peer reviewed,https://doi-org.sire.ub.edu/10.1038/s42256-021-00301-6,TRUE,,https://www.nature.com/articles/s42256-021-00301-6
+eos7kpb,h3d-virtual-screening-cascade-light,Peer reviewed,https://doi.org/10.1038/s41467-023-41512-2,TRUE,,https://www.nature.com/articles/s41467-023-41512-2
+eos2gw4,ersilia-compound-embedding,Peer reviewed,https://doi.org/10.1038/s41467-023-41512-2,TRUE,same as eos7kpb,https://www.nature.com/articles/s41467-023-41512-2
+eos3zur,molfeat-estate,Peer reviewed,https://doi.org/10.1023/A:1015952613760,TRUE,(scihub),https://link.springer.com/article/10.1023/A:1015952613760
+eos9tyg,ncats-pampa74,Peer reviewed,https://doi.org/10.1177/24725552211017520,TRUE,,https://slas-discovery.org/article/S2472-5552(22)06765-X/fulltext
+eos44zp,ncats-cyp450,Peer reviewed,https://doi.org/10.1124/dmd.120.000320,TRUE,,https://dmd.aspetjournals.org/content/49/9/822
+eos24jm,qcrb-tb,Peer reviewed,https://doi.org/10.1021/acsomega.2c01613,TRUE,,https://pubs.acs.org/doi/full/10.1021/acsomega.2c01613
+eos6aun,rxn-fingerprint,Peer reviewed,https://doi-org.sire.ub.edu/10.1038/s42256-020-00284-w,TRUE,,https://www.nature.com/articles/s42256-020-00284-w
+eos2fy6,s2dv-hepg2-toxicity,Peer reviewed,https://doi.org/10.1093/bib/bbab593,TRUE,,https://pubmed.ncbi.nlm.nih.gov/35062019/
+eos2lqb,hob-pre,Peer reviewed,https://doi.org/10.1186/s13321-021-00580-6,TRUE,,https://doi.org/10.1186/s13321-021-00580-6
+eos31ve,ncats-hlm,Peer reviewed,https://doi.org/10.1186/s13321-020-00426-7,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00426-7
+eos8fth,redial-2020,Peer reviewed,https://doi.org/10.1038/s42256-021-00335-w,TRUE,,https://www.nature.com/articles/s42256-021-00335-w#Sec9
+eos8lok,s2dv-hbv,Peer reviewed,https://doi.org/10.1093/bib/bbab593,TRUE,,https://pubmed.ncbi.nlm.nih.gov/35062019/
+eos9yy1,ncats-hlcs,Peer reviewed,https://doi.org/10.1186/s13321-020-00426-7,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00426-7
+eos22io,idl-ppbopt,Peer reviewed,https://doi.org/10.1021/acs.jcim.2c00297,TRUE,,https://pubs.acs.org/doi/10.1021/acs.jcim.2c00297
+eos74bo,ncats-solubility,Peer reviewed,https://doi.org/10.1016/j.bmc.2019.05.037,TRUE,,https://slas-discovery.org/article/S2472-5552(22)06765-X/fulltext
+eos81ew,ncats-pampa5,Peer reviewed,https://doi.org/10.1016/j.bmc.2021.116588,TRUE,,https://www.sciencedirect.com/science/article/pii/S0968089621005964
+eos7qga,datamol-smiles2canonical,Peer reviewed,-,FALSE,should be other?,https://doc.datamol.io/stable/tutorials/Preprocessing.html
+eos4avb,image-mol-embeddings,Peer reviewed,https://doi.org/10.1038/s42256-022-00557-6,TRUE,same as eos4cxk,https://www.nature.com/articles/s42256-022-00557-6
+eos93h2,image-mol-gpcr,Peer reviewed,https://doi.org/10.1038/s42256-022-00557-6,TRUE,same as eos4cxk,https://www.nature.com/articles/s42256-022-00557-6
+eos4cxk,image-mol-sars-cov2,Peer reviewed,https://doi.org/10.1038/s42256-022-00557-6,TRUE,,https://www.nature.com/articles/s42256-022-00557-6
+eos8c0o,image-mol-bace,Peer reviewed,https://doi.org/10.1038/s42256-022-00557-6,TRUE,same as eos4cxk,https://www.nature.com/articles/s42256-022-00557-6
+eos6hy3,image-mol-hiv,Peer reviewed,https://doi.org/10.1038/s42256-022-00557-6,TRUE,same as eos4cxk,https://www.nature.com/articles/s42256-022-00557-6
+eos4se9,smiles2iupac,Peer reviewed,https://doi.org/10.1186/s13321-021-00512-4,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00512-4
+eos5505,ncats-rlm,Peer reviewed,https://doi.org/10.1177/24725552211017520,TRUE,,https://slas-discovery.org/article/S2472-5552(22)06765-X/fulltext
+eos24ci,drugtax,Peer reviewed,https://doi.org/10.1186/s13321-022-00649-w,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-022-00649-w
+eos935d,meta-trans,Peer reviewed,https://doi.org/10.1039/D0SC02639E,TRUE,,https://pubs.rsc.org/en/content/articlelanding/2020/sc/d0sc02639e#fn1
+eos4q1a,crem-structure-generation,Peer reviewed,https://doi.org/10.1186/s13321-020-00431-w,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00431-w
+eos9taz,moler-enamine-fragments,Preprint,https://doi.org/10.48550/arXiv.2103.03864,TRUE,,https://arxiv.org/abs/2103.03864
+eos2rd8,molt5-smiles-to-caption,Peer reviewed,https://doi.org/10.18653/v1/2022.emnlp-main.26,TRUE,,https://aclanthology.org/2022.emnlp-main.26/
+eos8a5g,molbloom,Peer reviewed,https://doi.org/10.1186/s13321-023-00765-1,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-023-00765-1
+eos238c,mesh-therapeutic-use,Peer reviewed,https://doi.org/10.1021/acs.jcim.9b00236,TRUE,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6819987/
+eos6m4j,bidd-molmap-desc,Peer reviewed,https://doi-org.sire.ub.edu/10.1038/s42256-021-00301-6,TRUE,,https://www.nature.com/articles/s42256-021-00301-6
+eos4zfy,maip-malaria,Peer reviewed,https://doi.org/10.1186/s13321-021-00487-2,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00487-2
+eos2a9n,chembl-similarity,Peer reviewed,https://doi.org/10.3389/fchem.2020.00046,TRUE,,https://www.frontiersin.org/articles/10.3389/fchem.2020.00046/full
+eos7jlv,gdbmedchem-similarity,Peer reviewed,https://doi.org/10.1002/minf.201900031,TRUE,,https://onlinelibrary.wiley.com/doi/abs/10.1002/minf.201900031
+eos9c7k,medchem17-similarity,Peer reviewed,https://doi.org/10.1002/minf.201900031,TRUE,,https://onlinelibrary.wiley.com/doi/abs/10.1002/minf.201900031
+eos4b8j,gdbchembl-similarity,Peer reviewed,https://doi.org/10.3389/fchem.2020.00046,TRUE,,https://www.frontiersin.org/articles/10.3389/fchem.2020.00046/full
+eos4tcc,bayesherg,Peer reviewed,https://doi.org/10.1093/bib/bbac211,TRUE,,https://academic.oup.com/bib/article-abstract/23/4/bbac211/6609519
+eos2mrz,deepsmiles,Preprint,https://doi.org/10.26434/chemrxiv.7097960.v1,TRUE,,https://chemrxiv.org/engage/chemrxiv/article-details/60c73ed6567dfe7e5fec388d
+eos3xip,grover-qm8,Preprint,https://doi.org/10.48550/arXiv.2007.02835,TRUE,same as eos7w8n,https://arxiv.org/abs/2007.02835
+eos8451,grover-esol,Preprint,https://doi.org/10.48550/arXiv.2007.02835,TRUE,same as eos7w8n,https://arxiv.org/abs/2007.02835
+eos85a3,grover-lipo,Preprint,https://doi.org/10.48550/arXiv.2007.02835,TRUE,same as eos7w8n,https://arxiv.org/abs/2007.02835
+eos6o0z,grover-qm7,Preprint,https://doi.org/10.48550/arXiv.2007.02835,TRUE,same as eos7w8n,https://arxiv.org/abs/2007.02835
+eos526j,aizynthfinder,Peer reviewed,https://doi.org/10.1186/s13321-020-00472-1,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00472-1
+eos30gr,deepherg,Peer reviewed,https://doi-org.sire.ub.edu/10.1021/acs.jcim.8b00769,TRUE,,https://pubs.acs.org/doi/full/10.1021/acs.jcim.8b00769
+eos6pbf,selfies,Peer reviewed,https://doi.org/10.1039/D3DD00044C,TRUE,,https://pubs.rsc.org/en/content/articlehtml/2023/dd/d3dd00044c
+eos2mhp,grover-bace,Preprint,https://doi.org/10.48550/arXiv.2007.02835,TRUE,same as eos7w8n,https://arxiv.org/abs/2007.02835
+eos6fza,grover-clintox,Preprint,https://doi.org/10.48550/arXiv.2007.02835,TRUE,same as eos7w8n,https://arxiv.org/abs/2007.02835
+eos157v,grover-freesolv,Preprint,https://doi.org/10.48550/arXiv.2007.02835,TRUE,same as eos7w8n,https://arxiv.org/abs/2007.02835
+eos481p,grover-toxcast,Preprint,https://doi.org/10.48550/arXiv.2007.02835,TRUE,same as eos7w8n,https://arxiv.org/abs/2007.02835
+eos2b6f,pkasolver,Peer reviewed,https://doi.org/10.3389/fchem.2022.866585,TRUE,,https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2022.866585/full
+eos5smc,grover-tox21,Preprint,https://doi.org/10.48550/arXiv.2007.02835,TRUE,same as eos7w8n,https://arxiv.org/abs/2007.02835
+eos9ei3,sa-score,Peer reviewed,https://doi.org/10.1186/1758-2946-1-8,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-1-8
+eos46ev,chemtb,Peer reviewed,https://doi.org/10.1093/bib/bbab068,TRUE,,https://academic.oup.com/bib/article-abstract/22/5/bbab068/6209685
+eos69p9,ssl-gcn-tox21,Peer reviewed,https://doi.org/10.1186/s13321-021-00570-8,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00570-8
+eos7a45,coprinet-molecule-price,Peer reviewed,https://doi.org/10.1039/D2DD00071G,TRUE,,https://pubs.rsc.org/en/content/articlelanding/2023/dd/d2dd00071g
+eos65rt,deepfl-logp,Peer reviewed,https://doi.org/10.1038/s41598-021-86460-3,TRUE,,https://www.nature.com/articles/s41598-021-86460-3
+eos2hbd,passive-permeability,Peer reviewed,https://doi.org/10.1021/acscentsci.8b00718,TRUE,,https://pubs.acs.org/doi/full/10.1021/acscentsci.8b00718
+eos6tg8,natural-product-fingerprint,Peer reviewed,https://doi.org/10.1016/j.csbj.2021.07.032,TRUE,,https://www.sciencedirect.com/science/article/pii/S2001037021003226?via%3Dihub#f0010
+eos2gth,maip-malaria-surrogate,Peer reviewed,https://doi.org/10.1186/s13321-021-00487-2,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00487-2
+eos7pw8,syba-synthetic-accessibility,Peer reviewed,https://doi.org/10.1186/s13321-020-00439-2,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00439-2
+eos9yui,natural-product-likeness,Peer reviewed,https://doi.org/10.1016/j.csbj.2021.07.032,TRUE,,https://www.sciencedirect.com/science/article/pii/S2001037021003226?
+eos1af5,molgrad-caco2,Peer reviewed,https://doi.org/10.1021/acs.jcim.0c01344,TRUE,"same as eos43at, its own pdf",https://pubs.acs.org/doi/10.1021/acs.jcim.0c01344
+eos96ia,molgrad-cyp3a4,Peer reviewed,https://doi.org/10.1021/acs.jcim.0c01344,TRUE,same as eos43at,https://pubs.acs.org/doi/10.1021/acs.jcim.0c01344
+eos43at,molgrad-herg,Peer reviewed,https://doi.org/10.1021/acs.jcim.0c01344,TRUE,,https://pubs.acs.org/doi/10.1021/acs.jcim.0c01344
+eos6ao8,molgrad-ppb,Peer reviewed,https://doi.org/10.1021/acs.jcim.0c01344,TRUE,same as eos43at,https://pubs.acs.org/doi/10.1021/acs.jcim.0c01344
+eos8ioa,natural-product-score,Peer reviewed,https://doi-org.sire.ub.edu/10.1021/ci700286x,TRUE,,http://pubs.acs.org/doi/abs/10.1021/ci700286x
+eos2r5a,retrosynthetic-accessibility,Peer reviewed,https://doi.org/10.1039/D0SC05401A,TRUE,,https://pubs.rsc.org/en/content/articlelanding/2021/sc/d0sc05401a
+eos6oli,soltrannet-aqueous-solubility,Peer reviewed,https://doi.org/10.1021/acs.jcim.1c00331,TRUE,,https://pubs.acs.org/doi/10.1021/acs.jcim.1c00331
+eos2ta5,cardiotoxnet-herg,Peer reviewed,https://doi.org/10.1186/s13321-021-00541-z,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00541-z
+eos8d8a,mycpermcheck,Peer reviewed,https://doi.org/10.1093/bioinformatics/bts641,TRUE,,https://academic.oup.com/bioinformatics/article/29/1/62/272745
+eos2thm,molbert,Preprint,https://doi.org/10.48550/arXiv.2011.13230,TRUE,,https://arxiv.org/abs/2011.13230
+eos78ao,mordred,Peer reviewed,https://doi.org/10.1186/s13321-018-0258-y,TRUE,,https://jcheminf.biomedcentral.com/articles/10.1186/s13321-018-0258-y
+eos2lm8,smiles-transformer,Preprint,https://doi.org/10.48550/arXiv.1911.04738,TRUE,,https://arxiv.org/abs/1911.04738
+eos7asg,padel,Peer reviewed,https://doi.org/10.1002/jcc.21707,TRUE,,https://onlinelibrary.wiley.com/doi/10.1002/jcc.21707
+eos7w6n,grover-embedding,Peer reviewed,https://doi.org/10.48550/arXiv.2007.02835,TRUE,incorrectly labelled as peer reviewed,https://papers.nips.cc/paper/2020/file/94aef38441efa3380a3bed3faf1f9d5d-Paper.pdf
+eos8a4x,rdkit-descriptors,Other,-,FALSE,,https://www.rdkit.org/docs/RDKit_Book.html
+eos7jio,rdkit-fingerprint,Other,-,FALSE,,https://www.rdkit.org/docs/RDKit_Book.html
+eos8h6g,avalon,Peer reviewed,https://doi-org.sire.ub.edu/10.1021/ci050413p,TRUE,,https://pubs.acs.org/doi/full/10.1021/ci050413p
+eos3b5e,molecular-weight,Other,-,FALSE,,https://www.rdkit.org/docs/RDKit_Book.html
+eos5axz,morgan-counts,Peer reviewed,https://doi.org/10.1021/ci100050t,TRUE,,https://pubs.acs.org/doi/10.1021/ci100050t
+eos3ae6,whales-descriptor,Peer reviewed,https://doi.org/10.1038/s42004-018-0043-x,TRUE,,https://www.nature.com/articles/s42004-018-0043-x
+eos77w8,grover-sider,Preprint,https://doi.org/10.48550/arXiv.2007.02835,TRUE,same as eos7w8n,https://arxiv.org/abs/2007.02835
+eos1amr,grover-bbbp,Peer reviewed,https://doi.org/10.48550/arXiv.2007.02835,TRUE,incorrectly labelled as peer reviewed. eos7w8n,https://arxiv.org/abs/2007.02835
+eos1vms,chembl-multitask-descriptor,Other,-,FALSE,,http://chembl.blogspot.com/2019/05/multi-task-neural-network-on-chembl.html
+eos4u6p,cc-signaturizer,Peer reviewed,https://doi.org/10.1038/s41587-020-0502-7,TRUE,,https://www.nature.com/articles/s41587-020-0502-7
+eos92sw,etoxpred,Peer reviewed,https://doi.org/10.1186/s40360-018-0282-6,TRUE,,https://bmcpharmacoltoxicol.biomedcentral.com/articles/10.1186/s40360-018-0282-6
+eos9f6t,chemprop-sars-cov-inhibition,Peer reviewed,https://doi.org/10.1016/j.cell.2020.01.021,TRUE,same as eos4e40,https://pubmed.ncbi.nlm.nih.gov/32084340/
+eos4e40,chemprop-antibiotic,Peer reviewed,https://doi.org/10.1016/j.cell.2020.01.021,TRUE,same as eos9f6t,https://pubmed.ncbi.nlm.nih.gov/32084340/
+eos35g4,drug-metabolites,Peer reviewed,https://doi.org/10.1039/D0SC02639E,TRUE,,https://pubs.rsc.org/en/content/articlelanding/2020/sc/d0sc02639e
+eos9uqy,cheese-sampler,Preprint,https://doi.org/10.26434/chemrxiv-2024-cswth,TRUE,,https://chemrxiv.org/engage/chemrxiv/article-details/67250915f9980725cfcd1f6f
+eos4f8y,one-molecule-mollib,Peer reviewed,https://doi-org.sire.ub.edu/10.1038/s42256-020-0160-y,TRUE,,https://www.nature.com/articles/s42256-020-0160-y
+eos69mr,reinvent4-linkinvent,,https://doi.org/10.1186/s13321-024-00812-5,TRUE,Is  Peer Reviewed now,https://chemrxiv.org/engage/chemrxiv/article-details/65463cafc573f893f1cae33a
+eos8vud,squid,Preprint,https://doi.org/10.48550/arXiv.2210.04893,TRUE,,https://arxiv.org/abs/2210.04893
+eos9aqt,delfta-qm,Peer reviewed,https://doi.org/10.1039/D2CP00834C,TRUE,,https://pubs.rsc.org/en/content/articlehtml/2022/cp/d2cp00834c
+eos69e6,pgmg-pharmacophore,Peer reviewed,https://doi.org/10.1038/s41467-023-41454-9,TRUE,,https://www.nature.com/articles/s41467-023-41454-9
+eos6wdw,dotP,,,FALSE,,
+eos6ru5,drugbank-11k-similarity-search,Peer reviewed,https://doi.org/10.1093/nar/gkad976,TRUE,,https://academic.oup.com/nar/article/52/D1/D1265/7416367
+eos1j4h,morgan-fingerprint-embedding,Preprint,https://doi.org/10.48550/arXiv.2008.09164,TRUE,,https://arxiv.org/abs/2008.09164
+eos2i82,pksmart,Peer reviewed,https://doi.org/10.1186/s13321-025-01066-5,TRUE,,https://link.springer.com/article/10.1186/s13321-025-01066-5#Sec19
+eos85mn,farm-representation,Preprint,https://doi.org/10.48550/arXiv.2410.02082,TRUE,,https://arxiv.org/abs/2410.02082
+eos1tt2,mole-embeddings,Peer reviewed,https://doi.org/10.1038/s41467-024-53751-y,TRUE,,https://www.nature.com/articles/s41467-024-53751-y
+eos8bhe,scaffold-morphing,Preprint,https://doi.org/10.48550/arXiv.2310.10773,TRUE,same as eos2401,https://arxiv.org/pdf/2310.10773.pdf
+eos4n4d,weighted-gram-negative-accumulation-prediction,Peer reviewed,https://doi.org/10.1021/jacsau.5c00602,TRUE,,https://pubs.acs.org/doi/10.1021/jacsau.5c00602
+eos9li5,biosynfoni,Peer reviewed,https://doi.org/10.1186/s13321-025-01081-6,TRUE,,https://link.springer.com/article/10.1186/s13321-025-01081-6
