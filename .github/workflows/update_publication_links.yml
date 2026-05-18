@@ -129,7 +129,6 @@ jobs:
             python airtableops.py readme-update \
               --repo "${MODEL_ID}" \
               --path "${README_DIR}" \
-              --api-key "${AIRTABLE_API_KEY}" \
               || { echo "WARNING: could not generate README for ${MODEL_ID}"; continue; }
 
             python src/update_model_readme.py \
