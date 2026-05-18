@@ -83,7 +83,7 @@ def run(
             try:
                 result = update_model_publication(model_id, doi, token, dry_run=False)
                 counts[result] = counts.get(result, 0) + 1
-                if result == "updated":
+                if result in ("updated", "already_correct"):
                     updated_models.append(model_id)
             except Exception as exc:
                 print(f"ERROR {model_id}: {exc}", file=sys.stderr)
