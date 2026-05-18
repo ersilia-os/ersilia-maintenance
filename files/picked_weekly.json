@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos4zfy",
-    "slug": "maip-malaria",
-    "priority_score": 126,
-    "last_test_date": "2026-01-05T10:40:47Z",
-    "last_packaging_date": "2026-04-14",
+    "repository_name": "eos5nqn",
+    "slug": "gneprop-ecoli",
+    "priority_score": 129,
+    "last_test_date": "2026-01-08T15:02:45Z",
+    "last_packaging_date": "2025-12-17",
     "open_issues": 0
   },
   {
-    "repository_name": "eos526j",
-    "slug": "aizynthfinder",
-    "priority_score": 126,
-    "last_test_date": "2026-01-05T10:51:09Z",
-    "last_packaging_date": "2025-12-01",
+    "repository_name": "eos5pt8",
+    "slug": "druglikeness-unsupervised",
+    "priority_score": 129,
+    "last_test_date": "2026-01-08T15:08:34Z",
+    "last_packaging_date": "2025-11-16",
     "open_issues": 0
   },
   {
-    "repository_name": "eos5505",
-    "slug": "ncats-rlm",
-    "priority_score": 126,
-    "last_test_date": "2026-01-05T10:55:26Z",
-    "last_packaging_date": "2025-10-15",
+    "repository_name": "eos5smc",
+    "slug": "grover-tox21",
+    "priority_score": 129,
+    "last_test_date": "2026-01-08T15:16:02Z",
+    "last_packaging_date": "2026-03-10",
     "open_issues": 0
   },
   {
-    "repository_name": "eos57bx",
-    "slug": "reinvent4-mol2mol-scaffold",
-    "priority_score": 125,
-    "last_test_date": "2026-01-05T11:45:56Z",
+    "repository_name": "eos5xng",
+    "slug": "chemprop-burkholderia",
+    "priority_score": 129,
+    "last_test_date": "2026-01-08T15:23:39Z",
+    "last_packaging_date": "2025-09-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4avb",
+    "slug": "image-mol-embeddings",
+    "priority_score": 126,
+    "last_test_date": "2026-01-12T10:15:59Z",
+    "last_packaging_date": "2026-03-10",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos694w",
+    "slug": "reinvent4-mol2mol-medium-similarity",
+    "priority_score": 126,
+    "last_test_date": "2026-01-12T10:47:38Z",
     "last_packaging_date": "2026-03-20",
     "open_issues": 0
   },
   {
-    "repository_name": "eos59rr",
-    "slug": "bidd-molmap-fingerprint",
-    "priority_score": 125,
-    "last_test_date": "2026-01-05T11:52:35Z",
-    "last_packaging_date": "2025-10-17",
+    "repository_name": "eos69p9",
+    "slug": "ssl-gcn-tox21",
+    "priority_score": 126,
+    "last_test_date": "2026-01-12T10:52:56Z",
+    "last_packaging_date": "2025-10-13",
     "open_issues": 0
   },
   {
-    "repository_name": "eos5axz",
-    "slug": "morgan-counts",
-    "priority_score": 122,
-    "last_test_date": "2026-01-08T14:25:54Z",
-    "last_packaging_date": "2025-12-24",
+    "repository_name": "eos6ao8",
+    "slug": "molgrad-ppb",
+    "priority_score": 126,
+    "last_test_date": "2026-01-12T10:56:30Z",
+    "last_packaging_date": "2026-03-20",
     "open_issues": 0
   },
   {
-    "repository_name": "eos5bsw",
-    "slug": "ecoli-retention",
-    "priority_score": 122,
-    "last_test_date": "2026-01-08T14:33:59Z",
-    "last_packaging_date": "2025-12-15",
+    "repository_name": "eos6aun",
+    "slug": "rxn-fingerprint",
+    "priority_score": 126,
+    "last_test_date": "2026-01-12T11:02:17Z",
+    "last_packaging_date": "2025-10-16",
     "open_issues": 0
   },
   {
-    "repository_name": "eos5cl7",
-    "slug": "ngonorrhoeae-inhibition",
-    "priority_score": 122,
-    "last_test_date": "2026-01-08T14:41:58Z",
-    "last_packaging_date": "2025-11-18",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos5guo",
-    "slug": "erg-fingerprints",
-    "priority_score": 122,
-    "last_test_date": "2026-01-08T14:44:34Z",
-    "last_packaging_date": "2025-10-23",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos5jz9",
-    "slug": "ncats-cyp2c9",
-    "priority_score": 122,
-    "last_test_date": "2026-01-08T14:50:57Z",
-    "last_packaging_date": "2025-10-17",
+    "repository_name": "eos6fza",
+    "slug": "grover-clintox",
+    "priority_score": 126,
+    "last_test_date": "2026-01-12T11:08:38Z",
+    "last_packaging_date": "2026-03-10",
     "open_issues": 0
   }
 ]
