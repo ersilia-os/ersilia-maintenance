@@ -42,6 +42,7 @@ jobs:
           python -m pip install 'ersilia @ git+https://github.com/ersilia-os/ersilia.git'
 
       - name: Update publication links
+        continue-on-error: true
         env:
           MAINTENANCE_TOKEN: ${{ secrets.MAINTENANCE_TOKEN }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
@@ -67,7 +68,7 @@ jobs:
           python bulk_update_publications.py "${ARGS[@]}"
 
       - name: Sync updated models to Airtable
-        if: github.event.inputs.dry_run != 'true'
+        if: always() && github.event.inputs.dry_run != 'true'
         continue-on-error: true
         env:
           AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
@@ -100,7 +101,7 @@ jobs:
           rm -f airtableops.py readme_formatter.py
 
       - name: Regenerate and push READMEs for updated models
-        if: github.event.inputs.dry_run != 'true'
+        if: always() && github.event.inputs.dry_run != 'true'
         continue-on-error: true
         env:
           AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
