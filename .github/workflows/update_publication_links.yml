@@ -39,6 +39,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install requests pyyaml pyairtable
+          python -m pip install 'ersilia @ git+https://github.com/ersilia-os/ersilia.git'
 
       - name: Update publication links
         env:
