@@ -97,3 +97,47 @@ jobs:
           done < files/updated_models.txt
 
           rm -f airtableops.py readme_formatter.py
+
+      - name: Regenerate and push READMEs for updated models
+        if: github.event.inputs.dry_run != 'true'
+        continue-on-error: true
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          MAINTENANCE_TOKEN: ${{ secrets.MAINTENANCE_TOKEN }}
+        run: |
+          if [[ -z "${AIRTABLE_API_KEY:-}" ]]; then
+            echo "AIRTABLE_API_KEY is not set, skipping README update."
+            exit 0
+          fi
+
+          if [[ ! -f files/updated_models.txt ]]; then
+            echo "No updated_models.txt found — nothing to update."
+            exit 0
+          fi
+
+          wget -q https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/airtableops.py
+          wget -q https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/readme_formatter.py
+
+          while IFS= read -r MODEL_ID; do
+            [[ -z "${MODEL_ID}" ]] && continue
+            echo "Regenerating README for ${MODEL_ID}..."
+
+            README_DIR="/tmp/readme_${MODEL_ID}"
+            mkdir -p "${README_DIR}"
+
+            python airtableops.py readme-update \
+              --repo "${MODEL_ID}" \
+              --path "${README_DIR}" \
+              --api-key "${AIRTABLE_API_KEY}" \
+              || { echo "WARNING: could not generate README for ${MODEL_ID}"; continue; }
+
+            python src/update_model_readme.py \
+              --model "${MODEL_ID}" \
+              --file "${README_DIR}/README.md" \
+              --token "${MAINTENANCE_TOKEN}" \
+              || echo "WARNING: could not push README for ${MODEL_ID}"
+
+            rm -rf "${README_DIR}"
+          done < files/updated_models.txt
+
+          rm -f airtableops.py readme_formatter.py
