@@ -4,18 +4,18 @@
 
 ## 📚 Model registry snapshot
 
-_Last updated: **2026-05-11 00:29:47Z** (UTC)_
+_Last updated: **2026-05-20 07:16:47Z** (UTC)_
 
 ### 🔢 Summary
 
-- 📦 **Total models:** 237
-  - 📂 **In progress:** 13
-  - 🛠️ **In maintenance:** 8
+- 📦 **Total models:** 253
+  - 📂 **In progress:** 27
+  - 🛠️ **In maintenance:** 6
   - 🗄️ **Archived:** 34
-- ✅ **Active/Maintenance models with no issues:** 173
-- ❗ **Active/Maintenance models with open issues:** 17
+- ✅ **Active/Maintenance models with no issues:** 177
+- ❗ **Active/Maintenance models with open issues:** 15
 - 🧪 **Total models tested at least once:** 183
-- ⏳ **Total models never tested:** 54
+- ⏳ **Total models never tested:** 70
 
 The table below summarizes the current state of the models.
 
@@ -45,10 +45,11 @@ The table below summarizes the current state of the models.
 | eos1ut3 | molfeat-usrcat | Ready | 2026-03-19 | 2026-03-02T11:18:10Z | v1.0.0 | 🟢 0 |
 | eos1vms | chembl-multitask-descriptor | Ready | 2026-03-09 | 2026-03-09T13:34:14Z | v1.0.0 | 🟢 0 |
 | eos1xje | biogpt-embeddings | Archived | — | — | — | — |
+| eos21dr | antimicrobial-activity-abaumannii | Ready | 2026-05-19 | — | v1.0.0 | 🟢 0 |
 | eos21q7 | inter-dili | Ready | 2025-11-19 | 2026-03-09T10:37:32Z | v2.0.0 | 🟢 0 |
 | eos22io | idl-ppbopt | Ready | 2025-10-16 | 2026-03-09T10:43:58Z | v1.0.0 | 🟢 0 |
 | eos238c | mesh-therapeutic-use | Ready | 2025-11-22 | 2026-02-10T15:05:59Z | v2.0.0 | 🟢 0 |
-| eos2401 | scaffold-decoration | In maintenance | 2026-02-19 | 2026-05-04T11:42:51Z | v1.0.0 | 🟡 1 |
+| eos2401 | scaffold-decoration | Ready | 2026-02-19 | 2026-05-12T15:25:32Z | v1.0.0 | 🟢 0 |
 | eos24ci | drugtax | Ready | 2026-03-10 | 2026-03-09T10:48:12Z | v1.0.0 | 🟢 0 |
 | eos24jm | qcrb-tb | Ready | 2025-10-16 | 2026-03-09T10:52:08Z | v1.0.0 | 🟢 0 |
 | eos24ur | whales-scaled | Archived | — | — | — | — |
@@ -56,6 +57,7 @@ The table below summarizes the current state of the models.
 | eos2a9n | chembl-similarity | Ready | 2026-02-11 | 2026-02-10T14:47:40Z | v1.0.0 | 🟢 0 |
 | eos2b6f | pkasolver | Ready | 2026-04-14 | 2026-03-31T10:10:52Z | v1.0.0 | 🟢 0 |
 | eos2db3 | chemical-space-projections-chemdiv | Ready | 2026-03-09 | 2026-03-09T13:10:01Z | v1.0.0 | 🟢 0 |
+| eos2e3s | antimicrobial-activity-paeruginosa | In progress | — | — | — | 🟢 0 |
 | eos2fy6 | s2dv-hepg2-toxicity | Ready | 2026-03-11 | 2026-03-31T10:15:00Z | v1.0.0 | 🟢 0 |
 | eos2gth | maip-malaria-surrogate | Ready | 2025-11-19 | 2026-03-09T11:04:34Z | v1.0.0 | 🟢 0 |
 | eos2gw4 | ersilia-compound-embedding | Ready | 2025-12-24 | 2026-03-09T11:09:24Z | v1.2.0 | 🟢 0 |
@@ -91,6 +93,7 @@ The table below summarizes the current state of the models.
 | eos3b5e | molecular-weight | Ready | 2026-02-04 | 2026-04-06T11:27:17Z | v1.0.0 | 🟢 0 |
 | eos3cf4 | molfeat-chemgpt | Archived | 2025-12-03 | — | v1.0.0 | — |
 | eos3d3r | — | Archived | — | — | — | — |
+| eos3dys | coadd-antimicrobial-activity | Ready | 2026-05-19 | — | v1.0.0 | 🟢 0 |
 | eos3e6s | chembl-decoys | Ready | 2025-11-24 | 2026-04-07T08:44:23Z | v1.0.0 | 🟢 0 |
 | eos3ev6 | ncats-cyp3a4 | Ready | 2025-10-17 | 2026-04-13T10:45:04Z | v1.0.0 | 🟢 0 |
 | eos3kcw | small-world-wuxi | Ready | 2026-03-20 | 2026-04-28T08:23:48Z | v1.0.0 | 🟢 0 |
@@ -99,24 +102,26 @@ The table below summarizes the current state of the models.
 | eos3lyd | efflux-pump-avoidance-gram-negative | Ready | 2025-12-15 | 2026-04-13T11:38:47Z | v1.0.0 | 🟢 0 |
 | eos3mk2 | bbbp-marine-kinase-inhibitors | Ready | 2026-04-13 | 2026-04-13T11:05:26Z | v1.0.0 | 🟢 0 |
 | eos3nl8 | COVID-19-Drug-Repurposing | Archived | — | — | — | — |
-| eos3nn9 | mpro-covid19 | In maintenance | 2025-10-23 | 2026-04-13T11:08:30Z | v1.0.0 | 🟡 1 |
+| eos3nn9 | mpro-covid19 | In maintenance | 2025-10-23 | 2026-05-13T10:19:14Z | v1.0.0 | 🟡 1 |
 | eos3sa2 | — | Archived | — | — | — | — |
 | eos3ujl | mtb-permeability | Ready | 2025-10-23 | 2026-04-13T11:14:10Z | v1.0.0 | 🟢 0 |
 | eos3wzy | qupkake | Ready | 2026-04-24 | 2026-04-13T11:25:02Z | v1.0.0 | 🟢 0 |
 | eos3xip | grover-qm8 | Ready | 2026-03-10 | 2026-04-13T11:47:20Z | v1.0.0 | 🟢 0 |
 | eos3zur | molfeat-estate | Ready | 2025-10-17 | 2026-04-20T11:00:46Z | v1.0.0 | 🟢 0 |
-| eos42ez | antibiotics-ai-cytotox | In maintenance | 2026-03-23 | 2026-04-20T11:11:14Z | v1.0.1 | 🟡 1 |
+| eos42ez | antibiotics-ai-cytotox | Ready | 2026-05-13 | 2026-05-13T13:31:04Z | v1.0.1 | 🟢 0 |
 | eos43at | molgrad-herg | Ready | 2025-09-17 | 2026-01-26T10:17:44Z | v1.0.0 | 🟢 0 |
+| eos43d6 | antimicrobial-activity-mtuberculosis | In progress | — | — | — | 🟢 0 |
 | eos44zp | ncats-cyp450 | Archived | — | — | — | — |
 | eos45di | lazychemvis-enamine-hl | Ready | 2026-04-27 | — | v1.1.0 | 🟢 0 |
 | eos46ev | chemtb | Ready | 2025-12-04 | 2026-04-20T11:18:40Z | v1.0.0 | 🟢 0 |
 | eos481p | grover-toxcast | Ready | 2026-03-10 | 2026-04-20T11:27:22Z | v1.0.0 | 🟢 0 |
+| eos4an7 | antimicrobial-activity-pfalciparum | In progress | — | — | — | 🟢 0 |
 | eos4avb | image-mol-embeddings | Ready | 2026-03-10 | 2026-01-12T10:15:59Z | v1.0.0 | 🟢 0 |
 | eos4b8j | gdbchembl-similarity | Ready | 2025-10-21 | 2026-04-28T08:33:52Z | v1.0.0 | 🟢 0 |
 | eos4cxk | image-mol-sars-cov2 | Ready | 2026-03-10 | 2026-04-20T11:40:04Z | v1.0.0 | 🟢 0 |
 | eos4d2y | template-model | In progress | — | — | — | 🔴 -1 |
 | eos4djh | datamol-basic-descriptors | Ready | 2025-12-24 | 2026-04-20T11:45:19Z | v1.1.0 | 🟢 0 |
-| eos4e40 | chemprop-antibiotic | In maintenance | 2025-08-27 | 2026-04-20T11:49:45Z | v1.0.0 | 🟡 1 |
+| eos4e40 | chemprop-antibiotic | Ready | 2026-05-13 | 2026-05-13T12:55:17Z | v1.0.0 | 🟢 0 |
 | eos4e41 | chemprop-antibiotic-lite | Archived | — | — | — | — |
 | eos4ex3 | mole-representations | Ready | 2026-02-26 | 2026-04-27T10:53:09Z | v1.2.0 | 🟢 0 |
 | eos4f8y | one-molecule-mollib | In progress | — | — | — | 🔴 -1 |
@@ -131,29 +136,32 @@ The table below summarizes the current state of the models.
 | eos4rw4 | cddd-onnx | Ready | 2025-12-24 | 2026-04-27T11:33:43Z | v1.2.0 | 🟢 0 |
 | eos4se9 | smiles2iupac | Ready | 2026-04-22 | 2026-04-27T11:50:42Z | v1.0.0 | 🟢 0 |
 | eos4tcc | bayesherg | Ready | 2025-10-14 | 2026-04-28T08:48:59Z | v1.0.0 | 🟢 0 |
-| eos4u6p | cc-signaturizer | In maintenance | 2025-12-24 | 2026-04-27T12:02:34Z | v1.1.0 | 🟡 1 |
+| eos4u6p | cc-signaturizer | Ready | 2026-05-13 | 2026-05-12T17:47:28Z | v1.2.0 | 🟢 0 |
 | eos4wt0 | morgan-binary-fps | Ready | 2025-12-24 | 2026-05-04T11:47:09Z | v1.1.0 | 🟢 0 |
 | eos4x30 | pmapper-3d | Ready | 2026-03-20 | 2026-05-04T11:54:15Z | v1.0.0 | 🟢 0 |
 | eos4xb1 | antihypertension-prediction | Ready | 2025-11-27 | 2026-05-04T12:03:00Z | v1.0.0 | 🟢 0 |
 | eos4ywv | macaw | Ready | 2025-12-24 | 2026-05-04T12:08:28Z | v1.1.0 | 🟢 0 |
-| eos4zfy | maip-malaria | Ready | 2026-04-14 | 2026-01-05T10:40:47Z | v1.0.0 | 🟢 0 |
-| eos526j | aizynthfinder | Ready | 2025-12-01 | 2026-01-05T10:51:09Z | v1.0.0 | 🟢 0 |
+| eos4zfy | maip-malaria | Ready | 2026-04-14 | 2026-05-11T15:21:50Z | v1.0.0 | 🟢 0 |
+| eos526j | aizynthfinder | Ready | 2025-12-01 | 2026-05-11T15:34:45Z | v1.0.0 | 🟢 0 |
 | eos54c7 | zinc-similarity | Archived | — | — | — | — |
 | eos54ij | pred-herg | Archived | — | — | — | — |
-| eos5505 | ncats-rlm | Ready | 2025-10-15 | 2026-01-05T10:55:26Z | v1.0.0 | 🟢 0 |
-| eos57bx | reinvent4-mol2mol-scaffold | Ready | 2026-03-20 | 2026-01-05T11:45:56Z | v1.0.0 | 🟢 0 |
+| eos5505 | ncats-rlm | Ready | 2025-10-15 | 2026-05-11T15:41:25Z | v1.0.0 | 🟢 0 |
+| eos57bx | reinvent4-mol2mol-scaffold | Ready | 2026-03-20 | 2026-05-11T17:33:38Z | v1.0.0 | 🟢 0 |
 | eos59kh | template-model | In progress | — | — | — | 🔴 -1 |
-| eos59rr | bidd-molmap-fingerprint | Ready | 2025-10-17 | 2026-01-05T11:52:35Z | v1.0.0 | 🟢 0 |
-| eos5axz | morgan-counts | Ready | 2025-12-24 | 2026-01-08T14:25:54Z | v1.1.0 | 🟢 0 |
-| eos5bsw | ecoli-retention | Ready | 2025-12-15 | 2026-01-08T14:33:59Z | v1.0.0 | 🟢 0 |
-| eos5cl7 | ngonorrhoeae-inhibition | Ready | 2025-11-18 | 2026-01-08T14:41:58Z | v3.0.0 | 🟢 0 |
+| eos59rr | bidd-molmap-fingerprint | Ready | 2025-10-17 | 2026-05-11T17:41:54Z | v1.0.0 | 🟢 0 |
+| eos5axz | morgan-counts | Ready | 2025-12-24 | 2026-05-11T17:46:30Z | v1.1.0 | 🟢 0 |
+| eos5bsw | ecoli-retention | Ready | 2025-12-15 | 2026-05-11T17:53:23Z | v1.0.0 | 🟢 0 |
+| eos5cl7 | ngonorrhoeae-inhibition | Ready | 2025-11-18 | 2026-05-11T18:02:40Z | v3.0.0 | 🟢 0 |
 | eos5dti | chembl-abaumannii | Archived | 2025-08-27 | — | v1.0.0 | — |
+| eos5eya | antimicrobial-activity-ecoli | In progress | — | — | — | 🟢 0 |
 | eos5gge | dili-predictor | Ready | 2025-12-01 | 2026-03-16T10:33:56Z | v1.0.0 | 🟢 0 |
-| eos5guo | erg-fingerprints | Ready | 2025-10-23 | 2026-01-08T14:44:34Z | v1.0.0 | 🟢 0 |
-| eos5jz9 | ncats-cyp2c9 | Ready | 2025-10-17 | 2026-01-08T14:50:57Z | v1.0.0 | 🟢 0 |
-| eos5nqn | gneprop-ecoli | Ready | 2025-12-17 | 2026-01-08T15:02:45Z | v2.0.0 | 🟢 0 |
+| eos5guo | erg-fingerprints | In maintenance | 2025-10-23 | 2026-05-11T18:07:32Z | v1.0.0 | 🟡 1 |
+| eos5jz9 | ncats-cyp2c9 | In maintenance | 2025-10-17 | 2026-05-11T18:14:27Z | v1.0.0 | 🟡 1 |
+| eos5nqn | gneprop-ecoli | In maintenance | 2025-12-17 | 2026-01-08T15:02:45Z | v2.0.0 | 🟡 1 |
 | eos5pt8 | druglikeness-unsupervised | Ready | 2025-11-16 | 2026-01-08T15:08:34Z | v1.0.0 | 🟢 0 |
+| eos5q52 | antimicrobial-activity-spneumoniae | In progress | — | — | — | 🟢 0 |
 | eos5qfo | rexgen | Archived | — | — | — | — |
+| eos5qya | antimicrobial-activity-ngonorrhoeae | In progress | — | — | — | 🟢 0 |
 | eos5smc | grover-tox21 | Ready | 2026-03-10 | 2026-01-08T15:16:02Z | v1.0.0 | 🟢 0 |
 | eos5xng | chemprop-burkholderia | Ready | 2025-09-15 | 2026-01-08T15:23:39Z | v1.0.0 | 🟢 0 |
 | eos5y9f | — | Archived | — | — | — | — |
@@ -179,6 +187,7 @@ The table below summarizes the current state of the models.
 | eos6ru5 | drugbank-11k-similarity-search | In progress | — | — | — | 🟢 0 |
 | eos6tg8 | natural-product-fingerprint | Ready | 2025-10-13 | 2026-05-04T11:18:25Z | v1.0.0 | 🟢 0 |
 | eos6tpo | chebifier | Ready | 2026-04-14 | 2026-03-31T22:11:32Z | v3.0.0 | 🟡 1 |
+| eos6wb7 | antimicrobial-activity-kpneumoniae | In progress | — | — | — | 🟢 0 |
 | eos6wdw | dotP | In progress | — | — | — | ❓ |
 | eos74bo | ncats-solubility | Ready | 2025-10-28 | 2026-02-24T13:24:16Z | v1.0.0 | 🟢 0 |
 | eos74km | antimicrobial-kg-ml | Ready | 2026-03-26 | 2026-01-19T11:04:10Z | v1.0.1 | 🟢 0 |
@@ -193,6 +202,7 @@ The table below summarizes the current state of the models.
 | eos7d58 | admet-ai-percentile | Ready | 2026-04-14 | 2026-04-20T10:53:21Z | v1.0.0 | 🟢 0 |
 | eos7e3s | dili-pred | Archived | — | — | — | — |
 | eos7emx | small-world-sampler | Archived | — | — | — | — |
+| eos7iak | antimicrobial-activity-campylobacter | In progress | — | — | — | 🟢 0 |
 | eos7ike | entry-rules | Ready | 2026-01-23 | 2026-01-26T10:24:22Z | v1.1.0 | 🟢 0 |
 | eos7jio | rdkit-fingerprint | Ready | 2025-10-09 | 2026-01-26T10:26:45Z | v1.0.0 | 🟢 0 |
 | eos7jlv | gdbmedchem-similarity | Ready | 2025-10-22 | 2026-01-26T10:29:24Z | v1.0.0 | 🟢 0 |
@@ -208,6 +218,7 @@ The table below summarizes the current state of the models.
 | eos80ch | malaria-mam | Ready | 2025-10-17 | 2026-02-02T12:17:31Z | v1.0.0 | 🟢 0 |
 | eos80k1 | bioactivity-similarity-index | Ready | 2026-04-22 | 2026-05-04T11:25:24Z | v1.0.0 | 🟢 0 |
 | eos81ew | ncats-pampa5 | Ready | 2025-10-16 | 2026-02-02T12:20:29Z | v1.0.0 | 🟢 0 |
+| eos81zy | antimicrobial-activity-efaecium | In progress | — | — | — | 🟢 0 |
 | eos82v1 | smi-ted | Ready | 2026-02-11 | 2026-02-02T12:26:49Z | v1.1.1 | 🟢 0 |
 | eos8451 | grover-esol | Ready | 2026-03-10 | 2026-02-02T12:33:01Z | v1.0.0 | 🟢 0 |
 | eos85a3 | grover-lipo | Ready | 2026-03-10 | 2026-02-02T12:38:40Z | v1.0.0 | 🟢 0 |
@@ -223,10 +234,13 @@ The table below summarizes the current state of the models.
 | eos8g50 | fastsolv | Ready | 2026-03-23 | 2026-04-28T08:10:09Z | v1.0.0 | 🟢 0 |
 | eos8h6g | avalon | Ready | 2025-10-09 | 2026-02-09T11:14:51Z | v1.0.0 | 🟢 0 |
 | eos8ioa | natural-product-score | Ready | 2025-10-15 | 2026-02-09T11:18:29Z | v1.0.0 | 🟢 0 |
+| eos8jx6 | antimicrobial-activity-calbicans | In progress | — | — | — | 🟢 0 |
+| eos8lcw | antimicrobial-activity-saureus | In progress | — | — | — | 🟢 0 |
 | eos8lok | s2dv-hbv | Ready | 2026-03-10 | 2026-02-09T11:22:56Z | v1.0.0 | 🟢 0 |
 | eos8osp | hlm | Archived | — | — | — | — |
 | eos8sgp | template-model | In progress | — | — | — | 🔴 -1 |
 | eos8ub5 | chemical-space-projections-coconut | Ready | 2026-02-24 | 2026-02-24T14:53:27Z | v1.0.0 | 🟢 0 |
+| eos8v1a | antimicrobial-activity-smansoni | In progress | — | — | — | 🟢 0 |
 | eos8vud | squid | Ready | 2026-02-13 | — | v1.0.0 | 🟡 1 |
 | eos92sw | etoxpred | Ready | 2025-10-08 | 2026-02-16T10:28:58Z | v1.0.0 | 🟢 0 |
 | eos935d | meta-trans | Ready | 2026-04-14 | 2026-02-16T10:38:46Z | v1.0.0 | 🟢 0 |
@@ -236,13 +250,15 @@ The table below summarizes the current state of the models.
 | eos97yu | pampa-permeability | Archived | — | — | — | — |
 | eos9aqt | delfta-qm | In progress | — | — | — | 🔴 -1 |
 | eos9be7 | chemnet-distance | Archived | — | — | — | — |
+| eos9bpi | antimicrobial-activity-enterobacter | In progress | — | — | — | 🟢 0 |
 | eos9c7k | medchem17-similarity | Ready | 2025-10-22 | 2026-02-16T10:47:12Z | v1.0.0 | 🟢 0 |
 | eos9cvt | permeability-efflux-mtl | Ready | 2026-03-03 | 2026-03-16T10:42:06Z | v1.0.0 | 🟢 0 |
 | eos9ei3 | sa-score | Ready | 2025-09-15 | 2026-02-16T10:50:44Z | v1.0.0 | 🟢 0 |
+| eos9eyo | antimicrobial-activity-hpylori | In progress | — | — | — | 🟢 0 |
 | eos9f6t | chemprop-sars-cov-inhibition | Ready | 2025-10-08 | 2026-02-16T10:58:12Z | v1.0.0 | 🟢 0 |
 | eos9f7c | paeruginosa-permeation | Ready | 2025-12-15 | — | v1.0.0 | 🟡 2 |
 | eos9gg2 | chemical-space-projections-drugbank | Ready | 2026-02-24 | 2026-02-24T15:31:16Z | v1.0.0 | 🟢 0 |
-| eos9ivc | anti-mtb-seattle | Ready | 2026-03-30 | 2026-02-16T11:10:36Z | v2.0.0 | 🟢 0 |
+| eos9ivc | anti-mtb-seattle | — | 2026-03-30 | 2026-02-16T11:10:36Z | v2.0.0 | 🟢 0 |
 | eos9li5 | biosynfoni | Ready | 2026-03-24 | 2026-03-31T09:35:28Z | v1.0.0 | 🟢 0 |
 | eos9n1s | hemozoin-inhibition-physchem | Ready | 2026-02-04 | 2026-02-24T13:33:43Z | v1.0.0 | 🟢 0 |
 | eos9o72 | chemeleon | Ready | 2026-02-10 | 2026-02-16T11:15:54Z | v1.1.1 | 🟢 0 |
@@ -257,7 +273,7 @@ The table below summarizes the current state of the models.
 | eos9yui | natural-product-likeness | Ready | 2025-09-15 | 2026-02-24T14:28:39Z | v1.0.0 | 🟢 0 |
 | eos9yy1 | ncats-hlcs | Ready | 2025-10-16 | 2026-03-02T10:27:44Z | v1.0.0 | 🟢 0 |
 | eos9zfb | — | Archived | — | — | — | — |
-| eos9zw0 | molpmofit | In maintenance | 2025-11-27 | 2026-03-31T22:30:57Z | v1.0.0 | 🟡 1 |
+| eos9zw0 | molpmofit | Ready | 2026-05-13 | 2026-05-14T07:12:15Z | v1.0.0 | 🟢 0 |
 
 
 <------END TABLE
