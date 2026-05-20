@@ -65,9 +65,17 @@ def load_metadata(repo:str)-> Optional[Dict[str,Any]]:
             continue
         
         if name.endswith(".json"):
-            return json.loads(decoded)
+            try:
+                return json.loads(decoded)
+            except json.JSONDecodeError as exc:
+                print(f"[warn] malformed JSON in {repo}/{name}: {exc}")
+                continue
         else:
-            data = yaml.safe_load(decoded)
+            try:
+                data = yaml.safe_load(decoded)
+            except yaml.YAMLError as exc:
+                print(f"[warn] malformed YAML in {repo}/{name}: {exc}")
+                continue
             return data or {}
 
     return None
