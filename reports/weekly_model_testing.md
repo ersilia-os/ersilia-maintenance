@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-05-11T15:17:23Z
+**🗓️ Date:** 2026-05-20T08:00:16Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos4zfy | maip-malaria | ✅ | 2026-05-11T15:21:50Z |
-| eos526j | aizynthfinder | ✅ | 2026-05-11T15:34:45Z |
-| eos5505 | ncats-rlm | ✅ | 2026-05-11T15:41:25Z |
-| eos57bx | reinvent4-mol2mol-scaffold | ✅ | 2026-05-11T17:33:38Z |
-| eos59rr | bidd-molmap-fingerprint | ✅ | 2026-05-11T17:41:54Z |
-| eos5axz | morgan-counts | ✅ | 2026-05-11T17:46:30Z |
-| eos5bsw | ecoli-retention | ✅ | 2026-05-11T17:53:23Z |
-| eos5cl7 | ngonorrhoeae-inhibition | ✅ | 2026-05-11T18:02:40Z |
-| eos5guo | erg-fingerprints | ✅ | 2026-05-11T18:07:32Z |
-| eos5jz9 | ncats-cyp2c9 | ✅ | 2026-05-11T18:14:27Z |
+| eos5nqn | gneprop-ecoli | 🚨 | 2026-05-20T08:11:12Z |
+| eos5pt8 | druglikeness-unsupervised | ✅ | 2026-05-20T08:19:16Z |
+| eos5smc | grover-tox21 | ✅ | 2026-05-20T08:27:33Z |
+| eos5xng | chemprop-burkholderia | ✅ | 2026-05-20T08:36:33Z |
+| eos4avb | image-mol-embeddings | ✅ | 2026-05-20T08:40:20Z |
+| eos694w | reinvent4-mol2mol-medium-similarity | ✅ | 2026-05-20T09:02:47Z |
+| eos69p9 | ssl-gcn-tox21 | 🚨 | 2026-05-20T09:09:29Z |
+| eos6ao8 | molgrad-ppb | ✅ | 2026-05-20T09:13:48Z |
+| eos6aun | rxn-fingerprint | ✅ | 2026-05-20T09:20:42Z |
+| eos6fza | grover-clintox | 🚨 | 2026-05-20T09:28:51Z |
