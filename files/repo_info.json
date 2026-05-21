@@ -10,11 +10,11 @@
     "release": "v1.0.1",
     "last_packaging_date": "2026-03-23",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:38Z",
+    "issues_last_updated": "2026-05-21T00:32:58Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:39Z",
+    "metadata_last_updated": "2026-05-21T00:31:10Z",
     "source_code_url": "https://github.com/ersilia-os/ersilia"
   },
   {
@@ -28,11 +28,11 @@
     "release": "v1.1.0",
     "last_packaging_date": "2025-12-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:39Z",
+    "issues_last_updated": "2026-05-21T00:32:58Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:39Z",
+    "metadata_last_updated": "2026-05-21T00:31:11Z",
     "source_code_url": "https://github.com/MMLabCodes/eMFP"
   },
   {
@@ -46,11 +46,11 @@
     "release": "v1.0.1",
     "last_packaging_date": "2026-03-23",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:39Z",
+    "issues_last_updated": "2026-05-21T00:32:59Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:40Z",
+    "metadata_last_updated": "2026-05-21T00:31:11Z",
     "source_code_url": "https://github.com/frog2000/Spacial-Score"
   },
   {
@@ -64,11 +64,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:40Z",
+    "issues_last_updated": "2026-05-21T00:32:59Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:12:40Z",
+    "metadata_last_updated": "2026-05-21T00:31:11Z",
     "source_code_url": "https://github.com/the-ahuja-lab/Metabokiller"
   },
   {
@@ -82,11 +82,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:40Z",
+    "issues_last_updated": "2026-05-21T00:32:59Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:41Z",
+    "metadata_last_updated": "2026-05-21T00:31:12Z",
     "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
@@ -100,11 +100,11 @@
     "release": "v1.0.1",
     "last_packaging_date": "2026-03-23",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:41Z",
+    "issues_last_updated": "2026-05-21T00:33:00Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:41Z",
+    "metadata_last_updated": "2026-05-21T00:31:12Z",
     "source_code_url": "https://github.com/felixjwong/antibioticsai"
   },
   {
@@ -118,11 +118,11 @@
     "release": "v2.1.2",
     "last_packaging_date": "2026-04-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:42Z",
+    "issues_last_updated": "2026-05-21T00:33:00Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:42Z",
+    "metadata_last_updated": "2026-05-21T00:31:13Z",
     "source_code_url": "https://github.com/ChEB-AI/python-chebifier"
   },
   {
@@ -136,11 +136,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-19",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:42Z",
+    "issues_last_updated": "2026-05-21T00:33:01Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:42Z",
+    "metadata_last_updated": "2026-05-21T00:31:13Z",
     "source_code_url": "https://github.com/josejimenezluna/molgrad/"
   },
   {
@@ -154,11 +154,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:14:42Z",
+    "issues_last_updated": "2026-05-21T00:33:01Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:12:43Z",
+    "metadata_last_updated": "2026-05-21T00:31:14Z",
     "source_code_url": null
   },
   {
@@ -172,11 +172,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:43Z",
+    "issues_last_updated": "2026-05-21T00:33:01Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:43Z",
+    "metadata_last_updated": "2026-05-21T00:31:14Z",
     "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
@@ -190,11 +190,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:14:43Z",
+    "issues_last_updated": "2026-05-21T00:33:02Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:12:44Z",
+    "metadata_last_updated": "2026-05-21T00:31:15Z",
     "source_code_url": null
   },
   {
@@ -208,11 +208,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-14",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:44Z",
+    "issues_last_updated": "2026-05-21T00:33:02Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:44Z",
+    "metadata_last_updated": "2026-05-21T00:31:15Z",
     "source_code_url": "https://pypi.org/project/smallworld-api/"
   },
   {
@@ -226,11 +226,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:14:44Z",
+    "issues_last_updated": "2026-05-21T00:33:02Z",
     "subtask": "Featurization, Projection",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:12:45Z",
+    "metadata_last_updated": "2026-05-21T00:31:16Z",
     "source_code_url": "https://github.com/kevinmusgrave/pytorch-metric-learning"
   },
   {
@@ -244,11 +244,11 @@
     "release": "v1.1.0",
     "last_packaging_date": "2026-04-27",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:45Z",
+    "issues_last_updated": "2026-05-21T00:33:03Z",
     "subtask": "Projection",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:12:45Z",
+    "metadata_last_updated": "2026-05-21T00:31:16Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-chemvis"
   },
   {
@@ -262,11 +262,11 @@
     "release": "v2.1.0",
     "last_packaging_date": "2026-03-30",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:45Z",
+    "issues_last_updated": "2026-05-21T00:33:03Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:45Z",
+    "metadata_last_updated": "2026-05-21T00:31:16Z",
     "source_code_url": "https://github.com/ersilia-os/ai2050-mtb-penetration"
   },
   {
@@ -280,11 +280,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:46Z",
+    "issues_last_updated": "2026-05-21T00:33:04Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:46Z",
+    "metadata_last_updated": "2026-05-21T00:31:17Z",
     "source_code_url": "https://github.com/XinhaoLi74/SmilesPE"
   },
   {
@@ -298,11 +298,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:46Z",
+    "issues_last_updated": "2026-05-21T00:33:04Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:46Z",
+    "metadata_last_updated": "2026-05-21T00:31:17Z",
     "source_code_url": "https://github.com/jwxia2014/HDAC3i-Finder"
   },
   {
@@ -316,11 +316,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:47Z",
+    "issues_last_updated": "2026-05-21T00:33:04Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:47Z",
+    "metadata_last_updated": "2026-05-21T00:31:18Z",
     "source_code_url": "https://github.com/ersilia-os/chem-sampler/blob/main/chemsampler/samplers/chembl/sampler.py"
   },
   {
@@ -334,11 +334,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-19",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:47Z",
+    "issues_last_updated": "2026-05-21T00:33:05Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:48Z",
+    "metadata_last_updated": "2026-05-21T00:31:18Z",
     "source_code_url": "https://github.com/srijitseal/DICTrank"
   },
   {
@@ -352,11 +352,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-18",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:48Z",
+    "issues_last_updated": "2026-05-21T00:33:05Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:48Z",
+    "metadata_last_updated": "2026-05-21T00:31:19Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
@@ -370,11 +370,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:48Z",
+    "issues_last_updated": "2026-05-21T00:33:06Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:12:48Z",
+    "metadata_last_updated": "2026-05-21T00:31:19Z",
     "source_code_url": "https://github.com/recursionpharma/mole_public"
   },
   {
@@ -388,11 +388,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-19",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:49Z",
+    "issues_last_updated": "2026-05-21T00:33:06Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:49Z",
+    "metadata_last_updated": "2026-05-21T00:31:19Z",
     "source_code_url": "https://molfeat.datamol.io/featurizers/usrcat"
   },
   {
@@ -406,11 +406,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-09",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:49Z",
+    "issues_last_updated": "2026-05-21T00:33:06Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:49Z",
+    "metadata_last_updated": "2026-05-21T00:31:20Z",
     "source_code_url": "https://github.com/chembl/chembl_multitask_model/"
   },
   {
@@ -424,29 +424,29 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:14:50Z",
+    "issues_last_updated": "2026-05-21T00:33:07Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:12:50Z",
+    "metadata_last_updated": "2026-05-21T00:31:20Z",
     "source_code_url": "https://github.com/microsoft/biogpt"
   },
   {
     "repository_name": "eos21dr",
-    "last_updated": "2026-05-19T10:15:09Z",
+    "last_updated": "2026-05-20T15:10:05Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "antimicrobial-activity-abaumannii",
     "status": "Ready",
     "last_test_date": null,
     "release": "v1.0.0",
-    "last_packaging_date": "2026-05-19",
+    "last_packaging_date": "2026-05-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:50Z",
+    "issues_last_updated": "2026-05-21T00:33:07Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:12:50Z",
+    "metadata_last_updated": "2026-05-21T00:31:21Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -460,11 +460,11 @@
     "release": "v2.0.0",
     "last_packaging_date": "2025-11-19",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:51Z",
+    "issues_last_updated": "2026-05-21T00:33:08Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:51Z",
+    "metadata_last_updated": "2026-05-21T00:31:21Z",
     "source_code_url": "https://github.com/bmil-jnu/InterDILI"
   },
   {
@@ -478,11 +478,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:51Z",
+    "issues_last_updated": "2026-05-21T00:33:08Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:51Z",
+    "metadata_last_updated": "2026-05-21T00:31:22Z",
     "source_code_url": "https://github.com/Louchaofeng/IDL-PPBopt"
   },
   {
@@ -496,11 +496,11 @@
     "release": "v2.0.0",
     "last_packaging_date": "2025-11-22",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:52Z",
+    "issues_last_updated": "2026-05-21T00:33:09Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:52Z",
+    "metadata_last_updated": "2026-05-21T00:31:22Z",
     "source_code_url": "https://github.com/jgmeyerucsd/drug-class"
   },
   {
@@ -514,11 +514,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-02-19",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:52Z",
+    "issues_last_updated": "2026-05-21T00:33:09Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:52Z",
+    "metadata_last_updated": "2026-05-21T00:31:23Z",
     "source_code_url": "https://github.com/datamol-io/safe/tree/main"
   },
   {
@@ -532,11 +532,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:53Z",
+    "issues_last_updated": "2026-05-21T00:33:09Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:53Z",
+    "metadata_last_updated": "2026-05-21T00:31:23Z",
     "source_code_url": "https://github.com/MoreiraLAB/DrugTax"
   },
   {
@@ -550,11 +550,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:53Z",
+    "issues_last_updated": "2026-05-21T00:33:10Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:53Z",
+    "metadata_last_updated": "2026-05-21T00:31:24Z",
     "source_code_url": "https://github.com/CoutinhoLab/Q-TB/"
   },
   {
@@ -568,11 +568,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:54Z",
+    "issues_last_updated": "2026-05-21T00:33:10Z",
     "subtask": "Featurization",
     "source_type": "Replicated",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:12:54Z",
+    "metadata_last_updated": "2026-05-21T00:31:24Z",
     "source_code_url": "https://github.com/grisoniFr/scaffold_hopping_whales"
   },
   {
@@ -586,11 +586,11 @@
     "release": "v1.1.0",
     "last_packaging_date": "2026-04-27",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:55Z",
+    "issues_last_updated": "2026-05-21T00:33:11Z",
     "subtask": "Projection",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:12:54Z",
+    "metadata_last_updated": "2026-05-21T00:31:24Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-chemvis"
   },
   {
@@ -604,11 +604,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-02-11",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:55Z",
+    "issues_last_updated": "2026-05-21T00:33:11Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:55Z",
+    "metadata_last_updated": "2026-05-21T00:31:25Z",
     "source_code_url": "http://130.92.106.217:8080/chemblMuti.v1/"
   },
   {
@@ -622,11 +622,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-14",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:56Z",
+    "issues_last_updated": "2026-05-21T00:33:11Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:55Z",
+    "metadata_last_updated": "2026-05-21T00:31:25Z",
     "source_code_url": "https://github.com/mayrf/pkasolver"
   },
   {
@@ -640,11 +640,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-09",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:56Z",
+    "issues_last_updated": "2026-05-21T00:33:12Z",
     "subtask": "Projection",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:55Z",
+    "metadata_last_updated": "2026-05-21T00:31:26Z",
     "source_code_url": "https://github.com/ersilia-os/compound-embedding"
   },
   {
@@ -658,11 +658,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:57Z",
+    "issues_last_updated": "2026-05-21T00:33:12Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:12:56Z",
+    "metadata_last_updated": "2026-05-21T00:31:26Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -676,11 +676,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-11",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:57Z",
+    "issues_last_updated": "2026-05-21T00:33:13Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:56Z",
+    "metadata_last_updated": "2026-05-21T00:31:26Z",
     "source_code_url": "https://github.com/NTU-MedAI/S2DV"
   },
   {
@@ -694,11 +694,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-19",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:58Z",
+    "issues_last_updated": "2026-05-21T00:33:13Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:57Z",
+    "metadata_last_updated": "2026-05-21T00:31:27Z",
     "source_code_url": "https://www.ebi.ac.uk/chembl/maip/"
   },
   {
@@ -712,11 +712,11 @@
     "release": "v1.2.0",
     "last_packaging_date": "2025-12-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:58Z",
+    "issues_last_updated": "2026-05-21T00:33:14Z",
     "subtask": "Featurization",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:57Z",
+    "metadata_last_updated": "2026-05-21T00:31:27Z",
     "source_code_url": "https://github.com/ersilia-os/compound-embedding"
   },
   {
@@ -730,11 +730,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-30",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:59Z",
+    "issues_last_updated": "2026-05-21T00:33:14Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:58Z",
+    "metadata_last_updated": "2026-05-21T00:31:28Z",
     "source_code_url": "https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d"
   },
   {
@@ -748,11 +748,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-14",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:14:59Z",
+    "issues_last_updated": "2026-05-21T00:33:15Z",
     "subtask": "Property calculation or prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:58Z",
+    "metadata_last_updated": "2026-05-21T00:31:28Z",
     "source_code_url": "https://pubs.acs.org/doi/full/10.1021/acscentsci.8b00718"
   },
   {
@@ -766,11 +766,11 @@
     "release": "v2.0.0",
     "last_packaging_date": "2026-04-27",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:00Z",
+    "issues_last_updated": "2026-05-21T00:33:15Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:12:59Z",
+    "metadata_last_updated": "2026-05-21T00:31:29Z",
     "source_code_url": "https://github.com/ersilia-os/chem-sampler/blob/main/chemsampler/samplers/pubchem/sampler.py"
   },
   {
@@ -784,11 +784,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:15:00Z",
+    "issues_last_updated": "2026-05-21T00:33:15Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:12:59Z",
+    "metadata_last_updated": "2026-05-21T00:31:29Z",
     "source_code_url": "https://github.com/Manas02/pksmart-pip"
   },
   {
@@ -802,11 +802,11 @@
     "release": "v3.0.0",
     "last_packaging_date": "2025-11-25",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:01Z",
+    "issues_last_updated": "2026-05-21T00:33:16Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:00Z",
+    "metadata_last_updated": "2026-05-21T00:31:30Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
@@ -820,11 +820,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:01Z",
+    "issues_last_updated": "2026-05-21T00:33:16Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:00Z",
+    "metadata_last_updated": "2026-05-21T00:31:30Z",
     "source_code_url": "https://github.com/DSPsleeporg/smiles-transformer"
   },
   {
@@ -838,11 +838,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:02Z",
+    "issues_last_updated": "2026-05-21T00:33:17Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:01Z",
+    "metadata_last_updated": "2026-05-21T00:31:31Z",
     "source_code_url": "https://github.com/whymin/HOB"
   },
   {
@@ -856,11 +856,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-27",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:03Z",
+    "issues_last_updated": "2026-05-21T00:33:17Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:01Z",
+    "metadata_last_updated": "2026-05-21T00:31:31Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -874,11 +874,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:03Z",
+    "issues_last_updated": "2026-05-21T00:33:18Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:01Z",
+    "metadata_last_updated": "2026-05-21T00:31:31Z",
     "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
@@ -892,11 +892,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:04Z",
+    "issues_last_updated": "2026-05-21T00:33:18Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:02Z",
+    "metadata_last_updated": "2026-05-21T00:31:32Z",
     "source_code_url": "https://github.com/baoilleach/deepsmiles"
   },
   {
@@ -910,11 +910,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-30",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:04Z",
+    "issues_last_updated": "2026-05-21T00:33:18Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:02Z",
+    "metadata_last_updated": "2026-05-21T00:31:32Z",
     "source_code_url": "https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d"
   },
   {
@@ -928,11 +928,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:05Z",
+    "issues_last_updated": "2026-05-21T00:33:19Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:03Z",
+    "metadata_last_updated": "2026-05-21T00:31:33Z",
     "source_code_url": "https://github.com/reymond-group/RAscore"
   },
   {
@@ -946,11 +946,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:05Z",
+    "issues_last_updated": "2026-05-21T00:33:19Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:03Z",
+    "metadata_last_updated": "2026-05-21T00:31:33Z",
     "source_code_url": "https://github.com/blender-nlp/MolT5"
   },
   {
@@ -964,11 +964,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:06Z",
+    "issues_last_updated": "2026-05-21T00:33:20Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:04Z",
+    "metadata_last_updated": "2026-05-21T00:31:34Z",
     "source_code_url": "https://github.com/ifyoungnet/ADMETlab"
   },
   {
@@ -982,11 +982,11 @@
     "release": "v1.1.0",
     "last_packaging_date": "2025-12-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:06Z",
+    "issues_last_updated": "2026-05-21T00:33:20Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:04Z",
+    "metadata_last_updated": "2026-05-21T00:31:34Z",
     "source_code_url": "https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d"
   },
   {
@@ -1000,11 +1000,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:15:07Z",
+    "issues_last_updated": "2026-05-21T00:33:20Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:05Z",
+    "metadata_last_updated": "2026-05-21T00:31:34Z",
     "source_code_url": "https://github.com/Abdulk084/CardioTox"
   },
   {
@@ -1018,11 +1018,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-09",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:07Z",
+    "issues_last_updated": "2026-05-21T00:33:21Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:05Z",
+    "metadata_last_updated": "2026-05-21T00:31:35Z",
     "source_code_url": "https://github.com/BenevolentAI/MolBERT"
   },
   {
@@ -1036,11 +1036,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:08Z",
+    "issues_last_updated": "2026-05-21T00:33:21Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:06Z",
+    "metadata_last_updated": "2026-05-21T00:31:35Z",
     "source_code_url": "https://admetmesh.scbdd.com/"
   },
   {
@@ -1054,11 +1054,11 @@
     "release": "v1.0.1",
     "last_packaging_date": "2026-03-26",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:08Z",
+    "issues_last_updated": "2026-05-21T00:33:22Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:06Z",
+    "metadata_last_updated": "2026-05-21T00:31:36Z",
     "source_code_url": "https://github.com/aartikrish/de-novo-antibiotics/"
   },
   {
@@ -1072,11 +1072,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:09Z",
+    "issues_last_updated": "2026-05-21T00:33:22Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:07Z",
+    "metadata_last_updated": "2026-05-21T00:31:36Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
@@ -1090,11 +1090,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:09Z",
+    "issues_last_updated": "2026-05-21T00:33:22Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:07Z",
+    "metadata_last_updated": "2026-05-21T00:31:37Z",
     "source_code_url": "https://github.com/AI-amateur/DMPNN-hERG"
   },
   {
@@ -1108,11 +1108,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:10Z",
+    "issues_last_updated": "2026-05-21T00:33:23Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:08Z",
+    "metadata_last_updated": "2026-05-21T00:31:37Z",
     "source_code_url": "https://github.com/ChengF-Lab/deephERG"
   },
   {
@@ -1126,11 +1126,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:11Z",
+    "issues_last_updated": "2026-05-21T00:33:23Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:08Z",
+    "metadata_last_updated": "2026-05-21T00:31:38Z",
     "source_code_url": "https://github.com/ncats/ncats-adme/tree/master"
   },
   {
@@ -1144,11 +1144,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-27",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:11Z",
+    "issues_last_updated": "2026-05-21T00:33:24Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:09Z",
+    "metadata_last_updated": "2026-05-21T00:31:38Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -1162,11 +1162,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-17",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:12Z",
+    "issues_last_updated": "2026-05-21T00:33:24Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:09Z",
+    "metadata_last_updated": "2026-05-21T00:31:38Z",
     "source_code_url": "https://github.com/GaryLiu152/chemprop_abaucin"
   },
   {
@@ -1180,11 +1180,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-14",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:12Z",
+    "issues_last_updated": "2026-05-21T00:33:24Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:10Z",
+    "metadata_last_updated": "2026-05-21T00:31:39Z",
     "source_code_url": "https://github.com/deepmodeling/Uni-Mol"
   },
   {
@@ -1198,11 +1198,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:13Z",
+    "issues_last_updated": "2026-05-21T00:33:25Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:10Z",
+    "metadata_last_updated": "2026-05-21T00:31:39Z",
     "source_code_url": "https://github.com/molecularmodelinglab/PhaKinPro"
   },
   {
@@ -1216,11 +1216,11 @@
     "release": "v1.1.0",
     "last_packaging_date": "2026-04-22",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:13Z",
+    "issues_last_updated": "2026-05-21T00:33:25Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:10Z",
+    "metadata_last_updated": "2026-05-21T00:31:40Z",
     "source_code_url": "https://github.com/ETHmodlab/scaffold_hopping_whales"
   },
   {
@@ -1234,11 +1234,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:14Z",
+    "issues_last_updated": "2026-05-21T00:33:26Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:11Z",
+    "metadata_last_updated": "2026-05-21T00:31:40Z",
     "source_code_url": "https://github.com/aspuru-guzik-group/chemical_vae"
   },
   {
@@ -1252,11 +1252,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-02-04",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:14Z",
+    "issues_last_updated": "2026-05-21T00:33:26Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:12Z",
+    "metadata_last_updated": "2026-05-21T00:31:41Z",
     "source_code_url": "https://github.com/rdkit/rdkit"
   },
   {
@@ -1270,11 +1270,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-03",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:15Z",
+    "issues_last_updated": "2026-05-21T00:33:26Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:12Z",
+    "metadata_last_updated": "2026-05-21T00:31:41Z",
     "source_code_url": "https://molfeat.datamol.io/featurizers/ChemGPT-4.7M"
   },
   {
@@ -1288,29 +1288,29 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:15:15Z",
+    "issues_last_updated": "2026-05-21T00:33:27Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:13Z",
+    "metadata_last_updated": "2026-05-21T00:31:42Z",
     "source_code_url": null
   },
   {
     "repository_name": "eos3dys",
-    "last_updated": "2026-05-20T07:08:07Z",
+    "last_updated": "2026-05-20T09:34:17Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "coadd-antimicrobial-activity",
     "status": "Ready",
     "last_test_date": null,
     "release": "v1.0.0",
-    "last_packaging_date": "2026-05-19",
+    "last_packaging_date": "2026-05-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:15Z",
+    "issues_last_updated": "2026-05-21T00:33:27Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:13Z",
+    "metadata_last_updated": "2026-05-21T00:31:42Z",
     "source_code_url": "https://github.com/ersilia-os/coadd-binary-tasks"
   },
   {
@@ -1324,11 +1324,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:16Z",
+    "issues_last_updated": "2026-05-21T00:33:28Z",
     "subtask": "Similarity search",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:13Z",
+    "metadata_last_updated": "2026-05-21T00:31:42Z",
     "source_code_url": "https://ersilia.io"
   },
   {
@@ -1342,11 +1342,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:16Z",
+    "issues_last_updated": "2026-05-21T00:33:28Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:14Z",
+    "metadata_last_updated": "2026-05-21T00:31:43Z",
     "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
@@ -1360,11 +1360,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:17Z",
+    "issues_last_updated": "2026-05-21T00:33:28Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:15Z",
+    "metadata_last_updated": "2026-05-21T00:31:43Z",
     "source_code_url": "https://pypi.org/project/smallworld-api/"
   },
   {
@@ -1378,11 +1378,11 @@
     "release": "v1.2.0",
     "last_packaging_date": "2026-02-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:18Z",
+    "issues_last_updated": "2026-05-21T00:33:29Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:15Z",
+    "metadata_last_updated": "2026-05-21T00:31:43Z",
     "source_code_url": "https://github.com/ml-jku/clamp"
   },
   {
@@ -1396,11 +1396,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-21",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:18Z",
+    "issues_last_updated": "2026-05-21T00:33:29Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:15Z",
+    "metadata_last_updated": "2026-05-21T00:31:44Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
@@ -1414,11 +1414,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-15",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:19Z",
+    "issues_last_updated": "2026-05-21T00:33:30Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:16Z",
+    "metadata_last_updated": "2026-05-21T00:31:44Z",
     "source_code_url": "https://github.com/domgurvic/efflux_evaders_and_substrates"
   },
   {
@@ -1432,11 +1432,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-13",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:19Z",
+    "issues_last_updated": "2026-05-21T00:33:30Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:16Z",
+    "metadata_last_updated": "2026-05-21T00:31:44Z",
     "source_code_url": "https://github.com/plissonf/BBB-Models"
   },
   {
@@ -1450,11 +1450,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:20Z",
+    "issues_last_updated": "2026-05-21T00:33:30Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:17Z",
+    "metadata_last_updated": "2026-05-21T00:31:45Z",
     "source_code_url": "https://github.com/gnn4dr/DRKG"
   },
   {
@@ -1468,11 +1468,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:15:20Z",
+    "issues_last_updated": "2026-05-21T00:33:31Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-05-20T07:13:17Z",
+    "metadata_last_updated": "2026-05-21T00:31:45Z",
     "source_code_url": "https://github.com/Nadimfrds/Mpropred"
   },
   {
@@ -1486,11 +1486,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:15:20Z",
+    "issues_last_updated": "2026-05-21T00:33:31Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:18Z",
+    "metadata_last_updated": "2026-05-21T00:31:46Z",
     "source_code_url": null
   },
   {
@@ -1504,11 +1504,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:21Z",
+    "issues_last_updated": "2026-05-21T00:33:31Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:18Z",
+    "metadata_last_updated": "2026-05-21T00:31:46Z",
     "source_code_url": "https://github.com/PGlab-NIPER/MTB_Permeability"
   },
   {
@@ -1522,11 +1522,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:22Z",
+    "issues_last_updated": "2026-05-21T00:33:32Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:19Z",
+    "metadata_last_updated": "2026-05-21T00:31:47Z",
     "source_code_url": "https://github.com/hutchisonlab/QupKake"
   },
   {
@@ -1540,11 +1540,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:22Z",
+    "issues_last_updated": "2026-05-21T00:33:32Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:19Z",
+    "metadata_last_updated": "2026-05-21T00:31:47Z",
     "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
@@ -1558,11 +1558,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:23Z",
+    "issues_last_updated": "2026-05-21T00:33:33Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:20Z",
+    "metadata_last_updated": "2026-05-21T00:31:48Z",
     "source_code_url": "https://molfeat.datamol.io/featurizers/estate"
   },
   {
@@ -1576,11 +1576,11 @@
     "release": "v1.0.1",
     "last_packaging_date": "2026-05-13",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:23Z",
+    "issues_last_updated": "2026-05-21T00:33:33Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:20Z",
+    "metadata_last_updated": "2026-05-21T00:31:48Z",
     "source_code_url": "https://github.com/felixjwong/antibioticsai"
   },
   {
@@ -1594,11 +1594,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-17",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:24Z",
+    "issues_last_updated": "2026-05-21T00:33:33Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:21Z",
+    "metadata_last_updated": "2026-05-21T00:31:49Z",
     "source_code_url": "https://github.com/josejimenezluna/molgrad/"
   },
   {
@@ -1612,11 +1612,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:24Z",
+    "issues_last_updated": "2026-05-21T00:33:34Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:21Z",
+    "metadata_last_updated": "2026-05-21T00:31:49Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -1630,11 +1630,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:25Z",
+    "issues_last_updated": "2026-05-21T00:33:34Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:22Z",
+    "metadata_last_updated": "2026-05-21T00:31:49Z",
     "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
@@ -1648,11 +1648,11 @@
     "release": "v1.1.0",
     "last_packaging_date": "2026-04-27",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:25Z",
+    "issues_last_updated": "2026-05-21T00:33:35Z",
     "subtask": "Projection",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:22Z",
+    "metadata_last_updated": "2026-05-21T00:31:50Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-chemvis"
   },
   {
@@ -1666,11 +1666,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-04",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:26Z",
+    "issues_last_updated": "2026-05-21T00:33:35Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:23Z",
+    "metadata_last_updated": "2026-05-21T00:31:50Z",
     "source_code_url": "http://cadd.zju.edu.cn/chemtb/"
   },
   {
@@ -1684,11 +1684,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:26Z",
+    "issues_last_updated": "2026-05-21T00:33:35Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:23Z",
+    "metadata_last_updated": "2026-05-21T00:31:51Z",
     "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
@@ -1702,11 +1702,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:27Z",
+    "issues_last_updated": "2026-05-21T00:33:36Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:23Z",
+    "metadata_last_updated": "2026-05-21T00:31:51Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -1720,11 +1720,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T09:29:17Z",
+    "issues_last_updated": "2026-05-21T00:33:36Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:24Z",
+    "metadata_last_updated": "2026-05-21T00:31:51Z",
     "source_code_url": "https://github.com/HongxinXiang/ImageMol"
   },
   {
@@ -1738,11 +1738,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-21",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:28Z",
+    "issues_last_updated": "2026-05-21T00:33:37Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:24Z",
+    "metadata_last_updated": "2026-05-21T00:31:52Z",
     "source_code_url": "https://gdb-chembl-simsearch.gdb.tools/"
   },
   {
@@ -1756,11 +1756,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:28Z",
+    "issues_last_updated": "2026-05-21T00:33:37Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:25Z",
+    "metadata_last_updated": "2026-05-21T00:31:52Z",
     "source_code_url": "https://github.com/HongxinXiang/ImageMol"
   },
   {
@@ -1774,11 +1774,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:15:29Z",
+    "issues_last_updated": "2026-05-21T00:33:37Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:26Z",
+    "metadata_last_updated": "2026-05-21T00:31:53Z",
     "source_code_url": "https://example.com"
   },
   {
@@ -1792,11 +1792,11 @@
     "release": "v1.1.0",
     "last_packaging_date": "2025-12-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:29Z",
+    "issues_last_updated": "2026-05-21T00:33:38Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:26Z",
+    "metadata_last_updated": "2026-05-21T00:31:53Z",
     "source_code_url": "https://docs.datamol.io/0.7.4/api/datamol.descriptors.html"
   },
   {
@@ -1810,11 +1810,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-05-13",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:30Z",
+    "issues_last_updated": "2026-05-21T00:33:38Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:26Z",
+    "metadata_last_updated": "2026-05-21T00:31:54Z",
     "source_code_url": "http://chemprop.csail.mit.edu/checkpoints"
   },
   {
@@ -1828,11 +1828,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:15:30Z",
+    "issues_last_updated": "2026-05-21T00:33:38Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:27Z",
+    "metadata_last_updated": "2026-05-21T00:31:54Z",
     "source_code_url": null
   },
   {
@@ -1846,11 +1846,11 @@
     "release": "v1.2.0",
     "last_packaging_date": "2026-02-26",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:31Z",
+    "issues_last_updated": "2026-05-21T00:33:39Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:27Z",
+    "metadata_last_updated": "2026-05-21T00:31:54Z",
     "source_code_url": "https://github.com/rolayoalarcon/MolE/tree/main"
   },
   {
@@ -1864,11 +1864,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:15:31Z",
+    "issues_last_updated": "2026-05-21T00:33:39Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:28Z",
+    "metadata_last_updated": "2026-05-21T00:31:55Z",
     "source_code_url": null
   },
   {
@@ -1882,11 +1882,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:32Z",
+    "issues_last_updated": "2026-05-21T00:33:40Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:28Z",
+    "metadata_last_updated": "2026-05-21T00:31:55Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
@@ -1900,11 +1900,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-30",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:32Z",
+    "issues_last_updated": "2026-05-21T00:33:40Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:29Z",
+    "metadata_last_updated": "2026-05-21T00:31:55Z",
     "source_code_url": "https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d"
   },
   {
@@ -1918,11 +1918,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-19",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:33Z",
+    "issues_last_updated": "2026-05-21T00:33:40Z",
     "subtask": "Property calculation or prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:29Z",
+    "metadata_last_updated": "2026-05-21T00:31:56Z",
     "source_code_url": "https://github.com/chembl/ChEMBL_Structure_Pipeline"
   },
   {
@@ -1936,11 +1936,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-23",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:33Z",
+    "issues_last_updated": "2026-05-21T00:33:41Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:29Z",
+    "metadata_last_updated": "2026-05-21T00:31:56Z",
     "source_code_url": "https://github.com/sieber-lab/AIbiotics"
   },
   {
@@ -1954,11 +1954,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-01",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:34Z",
+    "issues_last_updated": "2026-05-21T00:33:41Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:30Z",
+    "metadata_last_updated": "2026-05-21T00:31:56Z",
     "source_code_url": "https://github.com/DrrDom/crem"
   },
   {
@@ -1972,11 +1972,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:15:34Z",
+    "issues_last_updated": "2026-05-21T00:33:42Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:30Z",
+    "metadata_last_updated": "2026-05-21T00:31:57Z",
     "source_code_url": "https://github.com/UnixJunkie/FASMIFRA"
   },
   {
@@ -1990,11 +1990,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-27",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:35Z",
+    "issues_last_updated": "2026-05-21T00:33:42Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:31Z",
+    "metadata_last_updated": "2026-05-21T00:31:57Z",
     "source_code_url": "https://github.com/HergenrotherLab/GramNegAccum"
   },
   {
@@ -2008,11 +2008,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:35Z",
+    "issues_last_updated": "2026-05-21T00:33:42Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:31Z",
+    "metadata_last_updated": "2026-05-21T00:31:58Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
@@ -2026,11 +2026,11 @@
     "release": "v1.2.0",
     "last_packaging_date": "2025-12-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:36Z",
+    "issues_last_updated": "2026-05-21T00:33:43Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:31Z",
+    "metadata_last_updated": "2026-05-21T00:31:58Z",
     "source_code_url": "https://github.com/sergsb/cddd-onnx"
   },
   {
@@ -2044,11 +2044,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-22",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:36Z",
+    "issues_last_updated": "2026-05-21T00:33:43Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:32Z",
+    "metadata_last_updated": "2026-05-21T00:31:58Z",
     "source_code_url": "https://github.com/Kohulan/Smiles-TO-iUpac-Translator"
   },
   {
@@ -2062,11 +2062,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:37Z",
+    "issues_last_updated": "2026-05-21T00:33:44Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:33Z",
+    "metadata_last_updated": "2026-05-21T00:31:59Z",
     "source_code_url": "https://github.com/GIST-CSBL/BayeshERG"
   },
   {
@@ -2080,11 +2080,11 @@
     "release": "v1.2.0",
     "last_packaging_date": "2026-05-13",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:37Z",
+    "issues_last_updated": "2026-05-21T00:33:44Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:33Z",
+    "metadata_last_updated": "2026-05-21T00:31:59Z",
     "source_code_url": "http://gitlabsbnb.irbbarcelona.org/packages/signaturizer"
   },
   {
@@ -2098,11 +2098,11 @@
     "release": "v1.1.0",
     "last_packaging_date": "2025-12-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:38Z",
+    "issues_last_updated": "2026-05-21T00:33:44Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:34Z",
+    "metadata_last_updated": "2026-05-21T00:32:00Z",
     "source_code_url": "https://www.rdkit.org/docs"
   },
   {
@@ -2116,11 +2116,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:38Z",
+    "issues_last_updated": "2026-05-21T00:33:45Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:34Z",
+    "metadata_last_updated": "2026-05-21T00:32:00Z",
     "source_code_url": "https://github.com/DrrDom/pmapper"
   },
   {
@@ -2134,11 +2134,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-27",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:39Z",
+    "issues_last_updated": "2026-05-21T00:33:45Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:34Z",
+    "metadata_last_updated": "2026-05-21T00:32:01Z",
     "source_code_url": "https://github.com/ersilia-os/anti-hypertension-cedd"
   },
   {
@@ -2152,11 +2152,11 @@
     "release": "v1.1.0",
     "last_packaging_date": "2025-12-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:39Z",
+    "issues_last_updated": "2026-05-21T00:33:45Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:35Z",
+    "metadata_last_updated": "2026-05-21T00:32:01Z",
     "source_code_url": "https://github.com/LBLQMM/MACAW/"
   },
   {
@@ -2170,11 +2170,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-14",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:40Z",
+    "issues_last_updated": "2026-05-21T00:33:46Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:35Z",
+    "metadata_last_updated": "2026-05-21T00:32:02Z",
     "source_code_url": "https://www.ebi.ac.uk/chembl/maip/"
   },
   {
@@ -2188,11 +2188,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-01",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:40Z",
+    "issues_last_updated": "2026-05-21T00:33:46Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:36Z",
+    "metadata_last_updated": "2026-05-21T00:32:02Z",
     "source_code_url": "https://github.com/MolecularAI/aizynthfinder"
   },
   {
@@ -2206,11 +2206,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:15:41Z",
+    "issues_last_updated": "2026-05-21T00:33:47Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:36Z",
+    "metadata_last_updated": "2026-05-21T00:32:02Z",
     "source_code_url": null
   },
   {
@@ -2224,11 +2224,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:15:41Z",
+    "issues_last_updated": "2026-05-21T00:33:47Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:37Z",
+    "metadata_last_updated": "2026-05-21T00:32:03Z",
     "source_code_url": null
   },
   {
@@ -2242,11 +2242,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:42Z",
+    "issues_last_updated": "2026-05-21T00:33:47Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:37Z",
+    "metadata_last_updated": "2026-05-21T00:32:03Z",
     "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
@@ -2260,11 +2260,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:42Z",
+    "issues_last_updated": "2026-05-21T00:33:48Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:38Z",
+    "metadata_last_updated": "2026-05-21T00:32:04Z",
     "source_code_url": "https://github.com/MolecularAI/REINVENT4"
   },
   {
@@ -2278,11 +2278,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:15:43Z",
+    "issues_last_updated": "2026-05-21T00:33:48Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:38Z",
+    "metadata_last_updated": "2026-05-21T00:32:04Z",
     "source_code_url": "https://example.com"
   },
   {
@@ -2296,11 +2296,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:43Z",
+    "issues_last_updated": "2026-05-21T00:33:48Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:39Z",
+    "metadata_last_updated": "2026-05-21T00:32:05Z",
     "source_code_url": "https://github.com/shenwanxiang/bidd-molmap"
   },
   {
@@ -2314,11 +2314,11 @@
     "release": "v1.1.0",
     "last_packaging_date": "2025-12-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:44Z",
+    "issues_last_updated": "2026-05-21T00:33:48Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:40Z",
+    "metadata_last_updated": "2026-05-21T00:32:05Z",
     "source_code_url": "https://github.com/rdkit/rdkit"
   },
   {
@@ -2332,11 +2332,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-15",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:44Z",
+    "issues_last_updated": "2026-05-21T00:33:49Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:40Z",
+    "metadata_last_updated": "2026-05-21T00:32:05Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
@@ -2350,11 +2350,11 @@
     "release": "v3.0.0",
     "last_packaging_date": "2025-11-18",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:45Z",
+    "issues_last_updated": "2026-05-21T00:33:49Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:40Z",
+    "metadata_last_updated": "2026-05-21T00:32:06Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
@@ -2368,11 +2368,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-27",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:45Z",
+    "issues_last_updated": "2026-05-21T00:33:50Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:41Z",
+    "metadata_last_updated": "2026-05-21T00:32:06Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -2385,12 +2385,12 @@
     "last_test_date": null,
     "release": null,
     "last_packaging_date": null,
-    "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:46Z",
+    "open_issues": 1,
+    "issues_last_updated": "2026-05-21T00:33:50Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:41Z",
+    "metadata_last_updated": "2026-05-21T00:32:06Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -2404,11 +2404,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-01",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:46Z",
+    "issues_last_updated": "2026-05-21T00:33:51Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:41Z",
+    "metadata_last_updated": "2026-05-21T00:32:07Z",
     "source_code_url": "https://github.com/Manas02/dili-pip"
   },
   {
@@ -2422,11 +2422,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-23",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:15:47Z",
+    "issues_last_updated": "2026-05-21T00:33:51Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:42Z",
+    "metadata_last_updated": "2026-05-21T00:32:08Z",
     "source_code_url": "https://www.rdkit.org/docs/source/rdkit.Chem.rdReducedGraphs.html"
   },
   {
@@ -2440,29 +2440,29 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:15:47Z",
+    "issues_last_updated": "2026-05-21T00:33:51Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:42Z",
+    "metadata_last_updated": "2026-05-21T00:32:08Z",
     "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
     "repository_name": "eos5nqn",
-    "last_updated": "2026-05-18T14:28:12Z",
+    "last_updated": "2026-05-20T11:44:37Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "gneprop-ecoli",
-    "status": "In maintenance",
+    "status": "Ready",
     "last_test_date": "2026-05-20T08:11:12Z",
     "release": "v2.0.0",
-    "last_packaging_date": "2025-12-17",
+    "last_packaging_date": "2026-05-20",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T15:21:53Z",
+    "issues_last_updated": "2026-05-21T00:33:52Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-05-20T07:13:43Z",
+    "metadata_last_updated": "2026-05-21T00:32:08Z",
     "source_code_url": "https://github.com/Genentech/gneprop"
   },
   {
@@ -2476,11 +2476,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-16",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T09:29:18Z",
+    "issues_last_updated": "2026-05-21T00:33:52Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:43Z",
+    "metadata_last_updated": "2026-05-21T00:32:09Z",
     "source_code_url": "https://github.com/SeonghwanSeo/drug-likeness"
   },
   {
@@ -2494,11 +2494,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:49Z",
+    "issues_last_updated": "2026-05-21T00:33:53Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:43Z",
+    "metadata_last_updated": "2026-05-21T00:32:09Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -2512,11 +2512,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:49Z",
+    "issues_last_updated": "2026-05-21T00:33:53Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:44Z",
+    "metadata_last_updated": "2026-05-21T00:32:09Z",
     "source_code_url": "https://github.com/connorcoley/rexgen_direct"
   },
   {
@@ -2530,11 +2530,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:50Z",
+    "issues_last_updated": "2026-05-21T00:33:53Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:44Z",
+    "metadata_last_updated": "2026-05-21T00:32:10Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -2548,11 +2548,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T09:29:19Z",
+    "issues_last_updated": "2026-05-21T00:33:54Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:45Z",
+    "metadata_last_updated": "2026-05-21T00:32:10Z",
     "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
@@ -2566,11 +2566,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T09:29:19Z",
+    "issues_last_updated": "2026-05-21T00:33:54Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:45Z",
+    "metadata_last_updated": "2026-05-21T00:32:11Z",
     "source_code_url": "https://github.com/cardonalab/Prediction-of-ATB-Activity"
   },
   {
@@ -2584,11 +2584,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:15:51Z",
+    "issues_last_updated": "2026-05-21T00:33:54Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:46Z",
+    "metadata_last_updated": "2026-05-21T00:32:11Z",
     "source_code_url": null
   },
   {
@@ -2602,11 +2602,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:52Z",
+    "issues_last_updated": "2026-05-21T00:33:55Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:46Z",
+    "metadata_last_updated": "2026-05-21T00:32:11Z",
     "source_code_url": "https://github.com/Harigua/CidalsDB/tree/main"
   },
   {
@@ -2620,11 +2620,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-27",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:52Z",
+    "issues_last_updated": "2026-05-21T00:33:55Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:47Z",
+    "metadata_last_updated": "2026-05-21T00:32:12Z",
     "source_code_url": "https://github.com/microsoft/molecule-generation"
   },
   {
@@ -2638,11 +2638,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:53Z",
+    "issues_last_updated": "2026-05-21T00:33:56Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:47Z",
+    "metadata_last_updated": "2026-05-21T00:32:12Z",
     "source_code_url": "https://github.com/k-soliman/DeepFl-LogP"
   },
   {
@@ -2656,11 +2656,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T09:29:20Z",
+    "issues_last_updated": "2026-05-21T00:33:56Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:48Z",
+    "metadata_last_updated": "2026-05-21T00:32:13Z",
     "source_code_url": "https://github.com/MolecularAI/REINVENT4"
   },
   {
@@ -2674,11 +2674,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:15:54Z",
+    "issues_last_updated": "2026-05-21T00:33:56Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:48Z",
+    "metadata_last_updated": "2026-05-21T00:32:13Z",
     "source_code_url": "https://github.com/CSUBioGroup/PGMG"
   },
   {
@@ -2692,29 +2692,29 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:15:54Z",
+    "issues_last_updated": "2026-05-21T00:33:57Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:48Z",
+    "metadata_last_updated": "2026-05-21T00:32:14Z",
     "source_code_url": null
   },
   {
     "repository_name": "eos69p9",
-    "last_updated": "2026-05-18T14:31:58Z",
+    "last_updated": "2026-05-20T15:37:14Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "ssl-gcn-tox21",
     "status": "Ready",
     "last_test_date": "2026-05-20T15:35:03Z",
     "release": "v1.0.0",
-    "last_packaging_date": "2025-10-13",
+    "last_packaging_date": "2026-05-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T15:35:16Z",
+    "issues_last_updated": "2026-05-21T00:33:57Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:49Z",
+    "metadata_last_updated": "2026-05-21T00:32:14Z",
     "source_code_url": "https://github.com/chen709847237/SSL-GCN"
   },
   {
@@ -2728,11 +2728,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T09:29:21Z",
+    "issues_last_updated": "2026-05-21T00:33:57Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:49Z",
+    "metadata_last_updated": "2026-05-21T00:32:15Z",
     "source_code_url": "https://github.com/josejimenezluna/molgrad/"
   },
   {
@@ -2746,29 +2746,29 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T09:29:22Z",
+    "issues_last_updated": "2026-05-21T00:33:58Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:50Z",
+    "metadata_last_updated": "2026-05-21T00:32:15Z",
     "source_code_url": "https://github.com/rxn4chemistry/rxnfp/tree/master/"
   },
   {
     "repository_name": "eos6fza",
-    "last_updated": "2026-05-18T14:33:27Z",
+    "last_updated": "2026-05-20T14:43:52Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "grover-clintox",
-    "status": "In maintenance",
+    "status": "Ready",
     "last_test_date": "2026-05-20T09:28:51Z",
     "release": "v1.0.0",
-    "last_packaging_date": "2026-03-10",
+    "last_packaging_date": "2026-05-20",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T09:29:22Z",
+    "issues_last_updated": "2026-05-21T00:33:58Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-05-20T07:13:51Z",
+    "metadata_last_updated": "2026-05-21T00:32:16Z",
     "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
@@ -2782,11 +2782,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:57Z",
+    "issues_last_updated": "2026-05-21T00:33:59Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:51Z",
+    "metadata_last_updated": "2026-05-21T00:32:16Z",
     "source_code_url": "https://github.com/ChengF-Lab/ImageMol"
   },
   {
@@ -2800,11 +2800,11 @@
     "release": "v2.0.1",
     "last_packaging_date": "2025-09-05",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:57Z",
+    "issues_last_updated": "2026-05-21T00:33:59Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:51Z",
+    "metadata_last_updated": "2026-05-21T00:32:17Z",
     "source_code_url": "https://github.com/rolayoalarcon/mole_antimicrobial_potential"
   },
   {
@@ -2818,11 +2818,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:58Z",
+    "issues_last_updated": "2026-05-21T00:33:59Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:52Z",
+    "metadata_last_updated": "2026-05-21T00:32:17Z",
     "source_code_url": "https://github.com/shenwanxiang/bidd-molmap"
   },
   {
@@ -2836,11 +2836,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:58Z",
+    "issues_last_updated": "2026-05-21T00:34:00Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:53Z",
+    "metadata_last_updated": "2026-05-21T00:32:18Z",
     "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
@@ -2854,11 +2854,11 @@
     "release": "v1.0.1",
     "last_packaging_date": "2026-03-23",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:59Z",
+    "issues_last_updated": "2026-05-21T00:34:00Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:53Z",
+    "metadata_last_updated": "2026-05-21T00:32:18Z",
     "source_code_url": "https://antibioticdb.com/"
   },
   {
@@ -2872,11 +2872,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:15:59Z",
+    "issues_last_updated": "2026-05-21T00:34:01Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:53Z",
+    "metadata_last_updated": "2026-05-21T00:32:18Z",
     "source_code_url": "https://github.com/gnina/SolTranNet"
   },
   {
@@ -2890,11 +2890,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-20",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:16:00Z",
+    "issues_last_updated": "2026-05-21T00:34:01Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:54Z",
+    "metadata_last_updated": "2026-05-21T00:32:19Z",
     "source_code_url": "https://github.com/MolecularAI/REINVENT4"
   },
   {
@@ -2908,11 +2908,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:00Z",
+    "issues_last_updated": "2026-05-21T00:34:01Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:55Z",
+    "metadata_last_updated": "2026-05-21T00:32:19Z",
     "source_code_url": "https://github.com/aspuru-guzik-group/selfies"
   },
   {
@@ -2926,11 +2926,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-23",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:16:01Z",
+    "issues_last_updated": "2026-05-21T00:34:02Z",
     "subtask": "Similarity search",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:55Z",
+    "metadata_last_updated": "2026-05-21T00:32:20Z",
     "source_code_url": "https://github.com/ETHmodlab/scaffold_hopping_whales"
   },
   {
@@ -2944,11 +2944,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:01Z",
+    "issues_last_updated": "2026-05-21T00:34:02Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:55Z",
+    "metadata_last_updated": "2026-05-21T00:32:20Z",
     "source_code_url": "https://github.com/facebookresearch/faiss"
   },
   {
@@ -2962,11 +2962,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:02Z",
+    "issues_last_updated": "2026-05-21T00:34:03Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:56Z",
+    "metadata_last_updated": "2026-05-21T00:32:21Z",
     "source_code_url": "https://github.com/kochgroup/neural_npfp"
   },
   {
@@ -2980,11 +2980,11 @@
     "release": "v3.0.0",
     "last_packaging_date": "2026-04-14",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:16:02Z",
+    "issues_last_updated": "2026-05-21T00:34:03Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:56Z",
+    "metadata_last_updated": "2026-05-21T00:32:21Z",
     "source_code_url": "https://github.com/ChEB-AI/python-chebifier"
   },
   {
@@ -2998,11 +2998,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:03Z",
+    "issues_last_updated": "2026-05-21T00:34:03Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:57Z",
+    "metadata_last_updated": "2026-05-21T00:32:21Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -3020,7 +3020,7 @@
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:13:57Z",
+    "metadata_last_updated": "2026-05-21T00:32:22Z",
     "source_code_url": "https://github.com/sbnb-irb/dotP"
   },
   {
@@ -3034,11 +3034,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-28",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:03Z",
+    "issues_last_updated": "2026-05-21T00:34:04Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:58Z",
+    "metadata_last_updated": "2026-05-21T00:32:22Z",
     "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
@@ -3052,11 +3052,11 @@
     "release": "v1.0.1",
     "last_packaging_date": "2026-03-26",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:04Z",
+    "issues_last_updated": "2026-05-21T00:34:04Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:58Z",
+    "metadata_last_updated": "2026-05-21T00:32:22Z",
     "source_code_url": "https://github.com/IMI-COMBINE/broad_spectrum_prediction"
   },
   {
@@ -3070,11 +3070,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-30",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:04Z",
+    "issues_last_updated": "2026-05-21T00:34:05Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:58Z",
+    "metadata_last_updated": "2026-05-21T00:32:23Z",
     "source_code_url": "https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d"
   },
   {
@@ -3088,11 +3088,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:05Z",
+    "issues_last_updated": "2026-05-21T00:34:05Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:59Z",
+    "metadata_last_updated": "2026-05-21T00:32:23Z",
     "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
@@ -3106,11 +3106,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:06Z",
+    "issues_last_updated": "2026-05-21T00:34:05Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:13:59Z",
+    "metadata_last_updated": "2026-05-21T00:32:24Z",
     "source_code_url": "https://github.com/mordred-descriptor/mordred"
   },
   {
@@ -3124,11 +3124,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:06Z",
+    "issues_last_updated": "2026-05-21T00:34:06Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:00Z",
+    "metadata_last_updated": "2026-05-21T00:32:24Z",
     "source_code_url": "https://github.com/jrwnter/cddd"
   },
   {
@@ -3142,11 +3142,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:07Z",
+    "issues_last_updated": "2026-05-21T00:34:06Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:00Z",
+    "metadata_last_updated": "2026-05-21T00:32:25Z",
     "source_code_url": "https://github.com/oxpig/CoPriNet"
   },
   {
@@ -3164,7 +3164,7 @@
     "subtask": null,
     "source_type": null,
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-05-20T07:14:01Z",
+    "metadata_last_updated": "2026-05-21T00:32:25Z",
     "source_code_url": "http://www.swissadme.ch/"
   },
   {
@@ -3178,11 +3178,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:16:07Z",
+    "issues_last_updated": "2026-05-21T00:34:06Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:01Z",
+    "metadata_last_updated": "2026-05-21T00:32:26Z",
     "source_code_url": null
   },
   {
@@ -3196,11 +3196,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-14",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:16:07Z",
+    "issues_last_updated": "2026-05-21T00:34:07Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "failed",
-    "metadata_last_updated": "2026-05-20T07:14:02Z",
+    "metadata_last_updated": "2026-05-21T00:32:26Z",
     "source_code_url": "https://github.com/ecrl/padelpy"
   },
   {
@@ -3214,11 +3214,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-14",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:08Z",
+    "issues_last_updated": "2026-05-21T00:34:07Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:02Z",
+    "metadata_last_updated": "2026-05-21T00:32:27Z",
     "source_code_url": "https://github.com/swansonk14/admet_ai"
   },
   {
@@ -3232,11 +3232,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:08Z",
+    "issues_last_updated": "2026-05-21T00:34:08Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:03Z",
+    "metadata_last_updated": "2026-05-21T00:32:27Z",
     "source_code_url": "https://github.com/cptbern/QSAR_DILI_2019"
   },
   {
@@ -3250,29 +3250,29 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:16:09Z",
+    "issues_last_updated": "2026-05-21T00:34:08Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:03Z",
+    "metadata_last_updated": "2026-05-21T00:32:27Z",
     "source_code_url": null
   },
   {
     "repository_name": "eos7iak",
-    "last_updated": "2026-05-19T09:02:55Z",
+    "last_updated": "2026-05-20T16:43:37Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "antimicrobial-activity-campylobacter",
-    "status": "In progress",
+    "status": "Ready",
     "last_test_date": null,
-    "release": null,
-    "last_packaging_date": null,
+    "release": "v1.0.0",
+    "last_packaging_date": "2026-05-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:09Z",
-    "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
-    "source_type": "Internal, Replicated, External",
+    "issues_last_updated": "2026-05-21T00:34:08Z",
+    "subtask": "Activity prediction",
+    "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:04Z",
+    "metadata_last_updated": "2026-05-21T00:32:28Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -3286,11 +3286,11 @@
     "release": "v1.1.0",
     "last_packaging_date": "2026-01-23",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:10Z",
+    "issues_last_updated": "2026-05-21T00:34:09Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:04Z",
+    "metadata_last_updated": "2026-05-21T00:32:28Z",
     "source_code_url": "https://github.com/HergenrotherLab/entry-cli"
   },
   {
@@ -3304,11 +3304,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-09",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:10Z",
+    "issues_last_updated": "2026-05-21T00:34:09Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:05Z",
+    "metadata_last_updated": "2026-05-21T00:32:28Z",
     "source_code_url": "https://github.com/rdkit/rdkit"
   },
   {
@@ -3322,11 +3322,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:11Z",
+    "issues_last_updated": "2026-05-21T00:34:09Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:05Z",
+    "metadata_last_updated": "2026-05-21T00:32:29Z",
     "source_code_url": "https://gdb-medchem-simsearch.gdb.tools/"
   },
   {
@@ -3340,11 +3340,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-11-18",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:11Z",
+    "issues_last_updated": "2026-05-21T00:34:10Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:06Z",
+    "metadata_last_updated": "2026-05-21T00:32:29Z",
     "source_code_url": "https://github.com/ersilia-os/h3d-screening-cascade-models"
   },
   {
@@ -3358,11 +3358,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-18",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:12Z",
+    "issues_last_updated": "2026-05-21T00:34:10Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:06Z",
+    "metadata_last_updated": "2026-05-21T00:32:30Z",
     "source_code_url": "https://github.com/sfrench007/serf"
   },
   {
@@ -3376,11 +3376,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-08-27",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:13Z",
+    "issues_last_updated": "2026-05-21T00:34:11Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:06Z",
+    "metadata_last_updated": "2026-05-21T00:32:30Z",
     "source_code_url": "https://github.com/swansonk14/admet_ai"
   },
   {
@@ -3394,11 +3394,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:16:13Z",
+    "issues_last_updated": "2026-05-21T00:34:11Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:07Z",
+    "metadata_last_updated": "2026-05-21T00:32:31Z",
     "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
@@ -3412,11 +3412,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-13",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:14Z",
+    "issues_last_updated": "2026-05-21T00:34:11Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:07Z",
+    "metadata_last_updated": "2026-05-21T00:32:31Z",
     "source_code_url": "https://github.com/lich-uct/syba"
   },
   {
@@ -3430,11 +3430,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-26",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:14Z",
+    "issues_last_updated": "2026-05-21T00:34:12Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:08Z",
+    "metadata_last_updated": "2026-05-21T00:32:32Z",
     "source_code_url": "https://github.com/datamol-org/datamol"
   },
   {
@@ -3448,11 +3448,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-01",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:15Z",
+    "issues_last_updated": "2026-05-21T00:34:12Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:09Z",
+    "metadata_last_updated": "2026-05-21T00:32:32Z",
     "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
@@ -3466,11 +3466,11 @@
     "release": "v2.0.0",
     "last_packaging_date": "2026-02-13",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:15Z",
+    "issues_last_updated": "2026-05-21T00:34:13Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:09Z",
+    "metadata_last_updated": "2026-05-21T00:32:32Z",
     "source_code_url": "https://github.com/antwiser/ChemFH"
   },
   {
@@ -3484,11 +3484,11 @@
     "release": "v2.0.0",
     "last_packaging_date": "2025-11-19",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:16Z",
+    "issues_last_updated": "2026-05-21T00:34:13Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:09Z",
+    "metadata_last_updated": "2026-05-21T00:32:33Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
@@ -3502,11 +3502,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-17",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:16Z",
+    "issues_last_updated": "2026-05-21T00:34:13Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:10Z",
+    "metadata_last_updated": "2026-05-21T00:32:33Z",
     "source_code_url": "https://github.com/M2PL"
   },
   {
@@ -3520,12 +3520,30 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-22",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:17Z",
+    "issues_last_updated": "2026-05-21T00:34:14Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:10Z",
+    "metadata_last_updated": "2026-05-21T00:32:34Z",
     "source_code_url": "https://github.com/gschottlender/bioactivity-similarity-index"
+  },
+  {
+    "repository_name": "eos817d",
+    "last_updated": "2026-05-20T10:54:12Z",
+    "most_recent_date_checked": "2000-01-01T00:00:00Z",
+    "private": false,
+    "slug": "hyper-dimensional-fingerprints",
+    "status": "Ready",
+    "last_test_date": null,
+    "release": "v1.0.0",
+    "last_packaging_date": "2026-05-20",
+    "open_issues": 0,
+    "issues_last_updated": "2026-05-21T00:34:14Z",
+    "subtask": "Featurization",
+    "source_type": "External",
+    "last_test_outcome": null,
+    "metadata_last_updated": "2026-05-21T00:32:34Z",
+    "source_code_url": "https://doi.org/10.5281/zenodo.19373621"
   },
   {
     "repository_name": "eos81ew",
@@ -3538,11 +3556,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:17Z",
+    "issues_last_updated": "2026-05-21T00:34:15Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:11Z",
+    "metadata_last_updated": "2026-05-21T00:32:34Z",
     "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
@@ -3556,11 +3574,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:18Z",
+    "issues_last_updated": "2026-05-21T00:34:15Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:11Z",
+    "metadata_last_updated": "2026-05-21T00:32:35Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -3574,11 +3592,11 @@
     "release": "v1.1.1",
     "last_packaging_date": "2026-02-11",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:19Z",
+    "issues_last_updated": "2026-05-21T00:34:15Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:11Z",
+    "metadata_last_updated": "2026-05-21T00:32:35Z",
     "source_code_url": "https://github.com/IBM/materials"
   },
   {
@@ -3592,11 +3610,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:19Z",
+    "issues_last_updated": "2026-05-21T00:34:16Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:12Z",
+    "metadata_last_updated": "2026-05-21T00:32:35Z",
     "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
@@ -3610,11 +3628,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:20Z",
+    "issues_last_updated": "2026-05-21T00:34:16Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:13Z",
+    "metadata_last_updated": "2026-05-21T00:32:36Z",
     "source_code_url": "https://github.com/tencent-ailab/grover"
   },
   {
@@ -3628,11 +3646,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:20Z",
+    "issues_last_updated": "2026-05-21T00:34:17Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:13Z",
+    "metadata_last_updated": "2026-05-21T00:32:36Z",
     "source_code_url": "https://github.com/thaonguyen217/farm_molecular_representation"
   },
   {
@@ -3646,11 +3664,11 @@
     "release": "v1.1.0",
     "last_packaging_date": "2025-12-22",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:21Z",
+    "issues_last_updated": "2026-05-21T00:34:17Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:14Z",
+    "metadata_last_updated": "2026-05-21T00:32:37Z",
     "source_code_url": "https://github.com/rdkit/rdkit"
   },
   {
@@ -3664,11 +3682,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-14",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:21Z",
+    "issues_last_updated": "2026-05-21T00:34:17Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:14Z",
+    "metadata_last_updated": "2026-05-21T00:32:37Z",
     "source_code_url": "https://github.com/whitead/molbloom"
   },
   {
@@ -3682,11 +3700,11 @@
     "release": "v1.2.1",
     "last_packaging_date": "2026-02-11",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:22Z",
+    "issues_last_updated": "2026-05-21T00:34:18Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:15Z",
+    "metadata_last_updated": "2026-05-21T00:32:37Z",
     "source_code_url": "https://github.com/lihan97/KPGT"
   },
   {
@@ -3700,11 +3718,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:22Z",
+    "issues_last_updated": "2026-05-21T00:34:18Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:15Z",
+    "metadata_last_updated": "2026-05-21T00:32:38Z",
     "source_code_url": "https://github.com/datamol-io/safe/tree/main"
   },
   {
@@ -3718,11 +3736,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:23Z",
+    "issues_last_updated": "2026-05-21T00:34:19Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:16Z",
+    "metadata_last_updated": "2026-05-21T00:32:39Z",
     "source_code_url": "https://github.com/ChengF-Lab/ImageMol"
   },
   {
@@ -3736,11 +3754,11 @@
     "release": "v2.0.0",
     "last_packaging_date": "2025-12-28",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:23Z",
+    "issues_last_updated": "2026-05-21T00:34:19Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:17Z",
+    "metadata_last_updated": "2026-05-21T00:32:39Z",
     "source_code_url": "https://www.mycpermcheck.aksotriffer.pharmazie.uni-wuerzburg.de/index.html"
   },
   {
@@ -3754,11 +3772,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-01",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:24Z",
+    "issues_last_updated": "2026-05-21T00:34:19Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:17Z",
+    "metadata_last_updated": "2026-05-21T00:32:40Z",
     "source_code_url": "https://github.com/aspuru-guzik-group/stoned-selfies"
   },
   {
@@ -3772,11 +3790,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:24Z",
+    "issues_last_updated": "2026-05-21T00:34:20Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:18Z",
+    "metadata_last_updated": "2026-05-21T00:32:40Z",
     "source_code_url": "https://github.com/sirimullalab/redial-2020/tree/v1.0"
   },
   {
@@ -3790,11 +3808,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-23",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:25Z",
+    "issues_last_updated": "2026-05-21T00:34:20Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:18Z",
+    "metadata_last_updated": "2026-05-21T00:32:40Z",
     "source_code_url": "https://github.com/JacksonBurns/fastsolv"
   },
   {
@@ -3808,11 +3826,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-09",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:26Z",
+    "issues_last_updated": "2026-05-21T00:34:21Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:18Z",
+    "metadata_last_updated": "2026-05-21T00:32:41Z",
     "source_code_url": "https://github.com/rdkit/rdkit/tree/master/External/AvalonTools"
   },
   {
@@ -3826,29 +3844,29 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-15",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:26Z",
+    "issues_last_updated": "2026-05-21T00:34:21Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:19Z",
+    "metadata_last_updated": "2026-05-21T00:32:41Z",
     "source_code_url": "https://github.com/rdkit/rdkit/tree/master/Contrib/NP_Score"
   },
   {
     "repository_name": "eos8jx6",
-    "last_updated": "2026-05-19T15:51:34Z",
+    "last_updated": "2026-05-20T14:32:04Z",
     "most_recent_date_checked": "2000-01-01T00:00:00Z",
     "private": false,
     "slug": "antimicrobial-activity-calbicans",
-    "status": "In progress",
+    "status": "Ready",
     "last_test_date": null,
-    "release": null,
-    "last_packaging_date": null,
+    "release": "v1.0.0",
+    "last_packaging_date": "2026-05-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:27Z",
+    "issues_last_updated": "2026-05-21T00:34:21Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:19Z",
+    "metadata_last_updated": "2026-05-21T00:32:42Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -3862,11 +3880,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:27Z",
+    "issues_last_updated": "2026-05-21T00:34:22Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:20Z",
+    "metadata_last_updated": "2026-05-21T00:32:42Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -3880,11 +3898,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:28Z",
+    "issues_last_updated": "2026-05-21T00:34:22Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:20Z",
+    "metadata_last_updated": "2026-05-21T00:32:42Z",
     "source_code_url": "https://github.com/NTU-MedAI/S2DV"
   },
   {
@@ -3898,11 +3916,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:16:28Z",
+    "issues_last_updated": "2026-05-21T00:34:23Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:21Z",
+    "metadata_last_updated": "2026-05-21T00:32:43Z",
     "source_code_url": null
   },
   {
@@ -3916,11 +3934,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:16:28Z",
+    "issues_last_updated": "2026-05-21T00:34:23Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:21Z",
+    "metadata_last_updated": "2026-05-21T00:32:43Z",
     "source_code_url": "https://example.com"
   },
   {
@@ -3934,11 +3952,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-02-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:29Z",
+    "issues_last_updated": "2026-05-21T00:34:23Z",
     "subtask": "Projection",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:21Z",
+    "metadata_last_updated": "2026-05-21T00:32:43Z",
     "source_code_url": "https://github.com/ersilia-os/compound-embedding"
   },
   {
@@ -3952,11 +3970,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:30Z",
+    "issues_last_updated": "2026-05-21T00:34:24Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:22Z",
+    "metadata_last_updated": "2026-05-21T00:32:44Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -3970,11 +3988,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-02-13",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:16:30Z",
+    "issues_last_updated": "2026-05-21T00:34:24Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:22Z",
+    "metadata_last_updated": "2026-05-21T00:32:44Z",
     "source_code_url": "https://github.com/keiradams/SQUID"
   },
   {
@@ -3988,11 +4006,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-08",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:31Z",
+    "issues_last_updated": "2026-05-21T00:34:24Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:22Z",
+    "metadata_last_updated": "2026-05-21T00:32:44Z",
     "source_code_url": "https://github.com/pulimeng/eToxPred"
   },
   {
@@ -4006,11 +4024,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-14",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:31Z",
+    "issues_last_updated": "2026-05-21T00:34:25Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:23Z",
+    "metadata_last_updated": "2026-05-21T00:32:45Z",
     "source_code_url": "https://github.com/KavrakiLab/MetaTrans"
   },
   {
@@ -4024,11 +4042,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-10",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:16:32Z",
+    "issues_last_updated": "2026-05-21T00:34:25Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:24Z",
+    "metadata_last_updated": "2026-05-21T00:32:45Z",
     "source_code_url": "https://github.com/HongxinXiang/ImageMol"
   },
   {
@@ -4042,11 +4060,11 @@
     "release": "v1.0.1",
     "last_packaging_date": "2026-03-23",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:32Z",
+    "issues_last_updated": "2026-05-21T00:34:25Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:24Z",
+    "metadata_last_updated": "2026-05-21T00:32:46Z",
     "source_code_url": "https://github.com/Ananikov-Lab/digitizing_molecular_complexity"
   },
   {
@@ -4060,11 +4078,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-20",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:33Z",
+    "issues_last_updated": "2026-05-21T00:34:26Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:24Z",
+    "metadata_last_updated": "2026-05-21T00:32:46Z",
     "source_code_url": "https://github.com/josejimenezluna/molgrad/"
   },
   {
@@ -4078,11 +4096,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:16:33Z",
+    "issues_last_updated": "2026-05-21T00:34:26Z",
     "subtask": "Property calculation or prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:25Z",
+    "metadata_last_updated": "2026-05-21T00:32:47Z",
     "source_code_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651837/"
   },
   {
@@ -4096,11 +4114,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:16:34Z",
+    "issues_last_updated": "2026-05-21T00:34:27Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:25Z",
+    "metadata_last_updated": "2026-05-21T00:32:47Z",
     "source_code_url": null
   },
   {
@@ -4114,11 +4132,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:34Z",
+    "issues_last_updated": "2026-05-21T00:34:27Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:26Z",
+    "metadata_last_updated": "2026-05-21T00:32:48Z",
     "source_code_url": "https://github.com/bioinf-jku/FCD"
   },
   {
@@ -4132,11 +4150,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:35Z",
+    "issues_last_updated": "2026-05-21T00:34:27Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:26Z",
+    "metadata_last_updated": "2026-05-21T00:32:48Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -4150,11 +4168,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:35Z",
+    "issues_last_updated": "2026-05-21T00:34:28Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:27Z",
+    "metadata_last_updated": "2026-05-21T00:32:48Z",
     "source_code_url": "https://gdb-medchem-simsearch.gdb.tools/"
   },
   {
@@ -4168,11 +4186,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-03",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:36Z",
+    "issues_last_updated": "2026-05-21T00:34:28Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:27Z",
+    "metadata_last_updated": "2026-05-21T00:32:49Z",
     "source_code_url": "https://github.com/chemprop/chemprop"
   },
   {
@@ -4186,11 +4204,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:37Z",
+    "issues_last_updated": "2026-05-21T00:34:28Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:28Z",
+    "metadata_last_updated": "2026-05-21T00:32:49Z",
     "source_code_url": "https://github.com/rdkit/rdkit/tree/master/Contrib/SA_Score"
   },
   {
@@ -4204,11 +4222,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:37Z",
+    "issues_last_updated": "2026-05-21T00:34:29Z",
     "subtask": "Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation",
     "source_type": "Internal, Replicated, External",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:28Z",
+    "metadata_last_updated": "2026-05-21T00:32:49Z",
     "source_code_url": "https://github.com/ersilia-os/chembl-antimicrobial-models"
   },
   {
@@ -4222,11 +4240,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-08",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:38Z",
+    "issues_last_updated": "2026-05-21T00:34:29Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:29Z",
+    "metadata_last_updated": "2026-05-21T00:32:50Z",
     "source_code_url": "http://chemprop.csail.mit.edu/checkpoints"
   },
   {
@@ -4240,11 +4258,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-15",
     "open_issues": 2,
-    "issues_last_updated": "2026-05-20T07:16:38Z",
+    "issues_last_updated": "2026-05-21T00:34:30Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:29Z",
+    "metadata_last_updated": "2026-05-21T00:32:50Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
@@ -4258,11 +4276,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-02-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:39Z",
+    "issues_last_updated": "2026-05-21T00:34:30Z",
     "subtask": "Projection",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:29Z",
+    "metadata_last_updated": "2026-05-21T00:32:50Z",
     "source_code_url": "https://github.com/ersilia-os/compound-embedding"
   },
   {
@@ -4276,11 +4294,11 @@
     "release": "v2.0.0",
     "last_packaging_date": "2026-03-30",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:39Z",
+    "issues_last_updated": "2026-05-21T00:34:30Z",
     "subtask": "Activity prediction",
     "source_type": "Internal",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:30Z",
+    "metadata_last_updated": "2026-05-21T00:32:51Z",
     "source_code_url": "https://github.com/ersilia-os/lazy-qsar"
   },
   {
@@ -4294,11 +4312,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-03-24",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:40Z",
+    "issues_last_updated": "2026-05-21T00:34:31Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:30Z",
+    "metadata_last_updated": "2026-05-21T00:32:51Z",
     "source_code_url": "https://github.com/lucinamay/biosynfoni"
   },
   {
@@ -4312,11 +4330,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-02-04",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:40Z",
+    "issues_last_updated": "2026-05-21T00:34:31Z",
     "subtask": "Activity prediction",
     "source_type": "Replicated",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:30Z",
+    "metadata_last_updated": "2026-05-21T00:32:51Z",
     "source_code_url": "https://github.com/ersilia-os/eos9n1s"
   },
   {
@@ -4330,11 +4348,11 @@
     "release": "v1.1.1",
     "last_packaging_date": "2026-02-10",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:41Z",
+    "issues_last_updated": "2026-05-21T00:34:32Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:31Z",
+    "metadata_last_updated": "2026-05-21T00:32:52Z",
     "source_code_url": "https://github.com/JacksonBurns/chemeleon/tree/main"
   },
   {
@@ -4348,11 +4366,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-23",
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:16:42Z",
+    "issues_last_updated": "2026-05-21T00:34:32Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:31Z",
+    "metadata_last_updated": "2026-05-21T00:32:52Z",
     "source_code_url": "https://github.com/SeonghwanSeo/DeepDL"
   },
   {
@@ -4366,11 +4384,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": 1,
-    "issues_last_updated": "2026-05-20T07:16:42Z",
+    "issues_last_updated": "2026-05-21T00:34:32Z",
     "subtask": "Property calculation or prediction",
     "source_type": "Replicated",
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:32Z",
+    "metadata_last_updated": "2026-05-21T00:32:53Z",
     "source_code_url": "https://github.com/Nanotekton/drugability/tree/v0.1"
   },
   {
@@ -4384,11 +4402,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-22",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:43Z",
+    "issues_last_updated": "2026-05-21T00:34:33Z",
     "subtask": "Generation",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:33Z",
+    "metadata_last_updated": "2026-05-21T00:32:53Z",
     "source_code_url": "https://github.com/microsoft/molecule-generation"
   },
   {
@@ -4402,11 +4420,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:43Z",
+    "issues_last_updated": "2026-05-21T00:34:33Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:33Z",
+    "metadata_last_updated": "2026-05-21T00:32:54Z",
     "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
@@ -4420,11 +4438,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-14",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:44Z",
+    "issues_last_updated": "2026-05-21T00:34:34Z",
     "subtask": "Similarity search",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:34Z",
+    "metadata_last_updated": "2026-05-21T00:32:54Z",
     "source_code_url": "https://pypi.org/project/smallworld-api/"
   },
   {
@@ -4438,11 +4456,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:16:44Z",
+    "issues_last_updated": "2026-05-21T00:34:34Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:34Z",
+    "metadata_last_updated": "2026-05-21T00:32:55Z",
     "source_code_url": null
   },
   {
@@ -4456,11 +4474,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-12-11",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:45Z",
+    "issues_last_updated": "2026-05-21T00:34:34Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:35Z",
+    "metadata_last_updated": "2026-05-21T00:32:55Z",
     "source_code_url": "https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.1c01984/suppl_file/jm1c01984_si_001.zip"
   },
   {
@@ -4474,11 +4492,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-04-22",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:45Z",
+    "issues_last_updated": "2026-05-21T00:34:35Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:35Z",
+    "metadata_last_updated": "2026-05-21T00:32:55Z",
     "source_code_url": "https://github.com/JustinYKC/MRlogP"
   },
   {
@@ -4492,11 +4510,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-09-15",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:46Z",
+    "issues_last_updated": "2026-05-21T00:34:35Z",
     "subtask": "Property calculation or prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:36Z",
+    "metadata_last_updated": "2026-05-21T00:32:56Z",
     "source_code_url": "https://github.com/kochgroup/neural_npfp"
   },
   {
@@ -4510,11 +4528,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2025-10-16",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:46Z",
+    "issues_last_updated": "2026-05-21T00:34:36Z",
     "subtask": "Activity prediction",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:37Z",
+    "metadata_last_updated": "2026-05-21T00:32:56Z",
     "source_code_url": "https://github.com/ncats/ncats-adme"
   },
   {
@@ -4528,11 +4546,11 @@
     "release": null,
     "last_packaging_date": null,
     "open_issues": -1,
-    "issues_last_updated": "2026-05-20T07:16:46Z",
+    "issues_last_updated": "2026-05-21T00:34:36Z",
     "subtask": null,
     "source_type": null,
     "last_test_outcome": null,
-    "metadata_last_updated": "2026-05-20T07:14:37Z",
+    "metadata_last_updated": "2026-05-21T00:32:57Z",
     "source_code_url": null
   },
   {
@@ -4546,11 +4564,11 @@
     "release": "v1.0.0",
     "last_packaging_date": "2026-05-13",
     "open_issues": 0,
-    "issues_last_updated": "2026-05-20T07:16:47Z",
+    "issues_last_updated": "2026-05-21T00:34:36Z",
     "subtask": "Featurization",
     "source_type": "External",
     "last_test_outcome": "success",
-    "metadata_last_updated": "2026-05-20T07:14:38Z",
+    "metadata_last_updated": "2026-05-21T00:32:57Z",
     "source_code_url": "https://github.com/XinhaoLi74/MolPMoFiT"
   }
 ]
