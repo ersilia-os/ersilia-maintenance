@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-05-20T08:00:16Z
+**🗓️ Date:** 2026-05-25T11:25:37Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos5nqn | gneprop-ecoli | 🚨 | 2026-05-20T08:11:12Z |
-| eos5pt8 | druglikeness-unsupervised | ✅ | 2026-05-20T08:19:16Z |
-| eos5smc | grover-tox21 | ✅ | 2026-05-20T08:27:33Z |
-| eos5xng | chemprop-burkholderia | ✅ | 2026-05-20T08:36:33Z |
-| eos4avb | image-mol-embeddings | ✅ | 2026-05-20T08:40:20Z |
-| eos694w | reinvent4-mol2mol-medium-similarity | ✅ | 2026-05-20T09:02:47Z |
-| eos69p9 | ssl-gcn-tox21 | 🚨 | 2026-05-20T09:09:29Z |
-| eos6ao8 | molgrad-ppb | ✅ | 2026-05-20T09:13:48Z |
-| eos6aun | rxn-fingerprint | ✅ | 2026-05-20T09:20:42Z |
-| eos6fza | grover-clintox | 🚨 | 2026-05-20T09:28:51Z |
+| eos21dr | antimicrobial-activity-abaumannii | ✅ | 2026-05-25T11:33:47Z |
+| eos3dys | coadd-antimicrobial-activity | ✅ | 2026-05-25T11:44:01Z |
+| eos7iak | antimicrobial-activity-campylobacter | ✅ | 2026-05-25T11:50:45Z |
+| eos817d | hyper-dimensional-fingerprints | ✅ | 2026-05-25T11:55:50Z |
+| eos8jx6 | antimicrobial-activity-calbicans | ✅ | 2026-05-25T12:04:36Z |
+| eos6m2k | mole-antimicrobial | 🚨 | 2026-05-25T12:11:10Z |
+| eos6m4j | bidd-molmap-desc | ✅ | 2026-05-25T12:20:02Z |
+| eos6o0z | grover-qm7 | 🚨 | 2026-05-25T12:27:44Z |
+| eos6ojg | antibioticdb-similarity-matches | ✅ | 2026-05-25T12:32:57Z |
+| eos6oli | soltrannet-aqueous-solubility | ✅ | 2026-05-25T12:39:20Z |
