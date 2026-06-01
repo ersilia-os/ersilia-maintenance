@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos21dr",
-    "slug": "antimicrobial-activity-abaumannii",
+    "repository_name": "eos2e3s",
+    "slug": "antimicrobial-activity-paeruginosa",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2026-05-20",
+    "last_packaging_date": "2026-05-21",
     "open_issues": 0
   },
   {
-    "repository_name": "eos3dys",
-    "slug": "coadd-antimicrobial-activity",
+    "repository_name": "eos43d6",
+    "slug": "antimicrobial-activity-mtuberculosis",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2026-05-20",
+    "last_packaging_date": "2026-05-21",
     "open_issues": 0
   },
   {
-    "repository_name": "eos7iak",
-    "slug": "antimicrobial-activity-campylobacter",
+    "repository_name": "eos4an7",
+    "slug": "antimicrobial-activity-pfalciparum",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2026-05-20",
+    "last_packaging_date": "2026-05-21",
     "open_issues": 0
   },
   {
-    "repository_name": "eos817d",
-    "slug": "hyper-dimensional-fingerprints",
+    "repository_name": "eos5eya",
+    "slug": "antimicrobial-activity-ecoli",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2026-05-20",
+    "last_packaging_date": "2026-05-21",
     "open_issues": 0
   },
   {
-    "repository_name": "eos8jx6",
-    "slug": "antimicrobial-activity-calbicans",
+    "repository_name": "eos5q52",
+    "slug": "antimicrobial-activity-spneumoniae",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2026-05-20",
+    "last_packaging_date": "2026-05-22",
     "open_issues": 0
   },
   {
-    "repository_name": "eos6m2k",
-    "slug": "mole-antimicrobial",
-    "priority_score": 133,
-    "last_test_date": "2026-01-12T11:15:39Z",
-    "last_packaging_date": "2025-09-05",
+    "repository_name": "eos5qya",
+    "slug": "antimicrobial-activity-ngonorrhoeae",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-05-21",
     "open_issues": 0
   },
   {
-    "repository_name": "eos6m4j",
-    "slug": "bidd-molmap-desc",
-    "priority_score": 132,
-    "last_test_date": "2026-01-12T11:23:34Z",
-    "last_packaging_date": "2025-10-14",
+    "repository_name": "eos6wb7",
+    "slug": "antimicrobial-activity-kpneumoniae",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-05-25",
     "open_issues": 0
   },
   {
-    "repository_name": "eos6o0z",
-    "slug": "grover-qm7",
-    "priority_score": 132,
-    "last_test_date": "2026-01-12T11:30:07Z",
-    "last_packaging_date": "2026-03-10",
+    "repository_name": "eos81zy",
+    "slug": "antimicrobial-activity-efaecium",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-05-29",
     "open_issues": 0
   },
   {
-    "repository_name": "eos6ojg",
-    "slug": "antibioticdb-similarity-matches",
-    "priority_score": 132,
-    "last_test_date": "2026-01-12T11:33:51Z",
-    "last_packaging_date": "2026-03-23",
+    "repository_name": "eos8lcw",
+    "slug": "antimicrobial-activity-saureus",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-05-21",
     "open_issues": 0
   },
   {
-    "repository_name": "eos6oli",
-    "slug": "soltrannet-aqueous-solubility",
-    "priority_score": 126,
-    "last_test_date": "2026-01-19T10:17:50Z",
-    "last_packaging_date": "2025-10-13",
+    "repository_name": "eos8v1a",
+    "slug": "antimicrobial-activity-smansoni",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-05-21",
     "open_issues": 0
   }
 ]
