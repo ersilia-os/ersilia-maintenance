@@ -1,28 +1,19 @@
 # src/update_repo_doc.py
 from __future__ import annotations
 
-import json
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List
 
-# File Paths
-REPO_INFO = Path(__file__).parent.parent / "files" / "repo_info.json"
-REPORT_MD = Path(__file__).parent.parent / "reports" / "model_report.md"
+from ersilia_maintenance.config import REPO_INFO_PATH, ROOT_DIR
+from ersilia_maintenance.io import load_repo_info
+
+REPO_INFO = REPO_INFO_PATH
+REPORT_MD = ROOT_DIR / "reports" / "model_report.md"
 
 # Updated markers as requested
 START_MARKER = "<------START TABLE"
 END_MARKER = "<------END TABLE"
-
-
-def _load_repo_info() -> List[Dict[str, Any]]:
-    """Load metadata with error handling."""
-    if not REPO_INFO.exists():
-        return []
-    try:
-        return json.loads(REPO_INFO.read_text(encoding="utf-8"))
-    except Exception:
-        return []
 
 
 def _format_field(value: Any, default: str = "—") -> str:
@@ -113,7 +104,7 @@ def _build_table_from_repo_info(data: List[Dict[str, Any]]) -> str:
 
 def _build_block() -> str:
     """Build the full content block."""
-    data = _load_repo_info()
+    data = load_repo_info()
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%SZ")
     
     return "\n".join([

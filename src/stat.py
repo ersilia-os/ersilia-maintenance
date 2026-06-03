@@ -84,7 +84,8 @@ def calculate_expectation(repositories: list, safety_factor: float = 3.5):
 
 if __name__ == "__main__":
     import json
+    from ersilia_maintenance.config import REPO_INFO_PATH
 
-    with open("files/repo_info.json") as f:
+    with open(REPO_INFO_PATH) as f:
         repositories = json.load(f)
     calculate_expectation(repositories)

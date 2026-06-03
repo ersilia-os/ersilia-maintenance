@@ -154,7 +154,7 @@ jobs:
             python3 airtableops.py readme-update --repo $MODEL_ID --path . &&
             rm airtableops.py &&
             rm readme_formatter.py &&
-            less README.md
+            cat README.md
           "
 
       - name: Commit and push changes done to the README file

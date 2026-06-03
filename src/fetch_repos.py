@@ -1,32 +1,24 @@
 # src/fetch_repos.py
 from __future__ import annotations
 
-import json
-import os
 import re
-from pathlib import Path
 from typing import Any, Dict, List
+from ersilia_maintenance.config import (
+    ORG_REPOS_URL,
+    REPO_INFO_PATH,
+    REPO_PATTERN as REPO_PATTERN_STR,
+    DEFAULT_RECENT_CHECK,
+)
 from ersilia_maintenance.github import _headers
+from ersilia_maintenance.io import load_repo_info, save_json_file
 
 import requests
 
 # --- Config ---------------------------------------------------------------
 
-API_URL = "https://api.github.com/orgs/ersilia-os/repos"
-REPO_PATTERN = re.compile(r"^eos[a-zA-Z0-9]{4}$")
-FILE_PATH = Path(__file__).parent.parent / "files" / "repo_info.json"
-DEFAULT_RECENT_CHECK = "2000-01-01T00:00:00Z"
-
-# --- IO helpers ------------------------------------------------------------
-
-def _load_repo_info() -> List[Dict[str, Any]]:
-    if FILE_PATH.exists():
-        return json.loads(FILE_PATH.read_text(encoding="utf-8"))
-    return []
-
-def _save_repo_info(data: List[Dict[str, Any]]) -> None:
-    FILE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    FILE_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+API_URL = ORG_REPOS_URL
+REPO_PATTERN = re.compile(REPO_PATTERN_STR)
+FILE_PATH = REPO_INFO_PATH
 
 # --- Fetch + merge ---------------------------------------------------------
 
@@ -133,10 +125,10 @@ def _merge(existing: List[Dict[str, Any]], fetched: List[Dict[str, Any]]) -> Lis
 # --- Main -------------------------------------------------------------------
 
 def main() -> int:
-    existing = _load_repo_info()
+    existing = load_repo_info()
     fetched = _fetch_all_repos()
     updated = _merge(existing, fetched)
-    _save_repo_info(updated)
+    save_json_file(FILE_PATH, updated)
     print(f"[ok] Saved index to {FILE_PATH}")
     return 0
 

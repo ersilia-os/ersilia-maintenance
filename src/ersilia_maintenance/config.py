@@ -35,7 +35,7 @@ EXCLUDED_MODELS: set = _load_excluded_models()
 
 # TTL for metadata refresh (seconds). Default 0 = always refresh
 METADATA_TTL_SECONDS: int = int(os.getenv("METADATA_TTL_SECONDS", "0"))
-METADATA_FILENAMES = ["metadata.yml", "metadata.json"]
+METADATA_FILENAMES = ["metadata.yml", "metadata.json", "metadata.yaml"]
 # --- Patterns --------------------------------------------------------------
 
 # Regex for repository naming (e.g. eosxxxx)
@@ -59,11 +59,11 @@ EXCLUDE_OPEN_ISSUES = os.getenv("EXCLUDE_OPEN_ISSUES", "true").lower() in {"1", 
 HEALTH_RECENT_DAYS = 90   # days since last test to be considered "recent"
 OUTDATED_DAYS = 200       # days since last test to be considered "outdated"
 
-# Corporate color palette
+# Corporate colour palette
 PALETTE = [
-    "#50285A",  
-    "#FAD782",  
-    "#FAA08B",  
+    "#50285A",
+    "#FAD782",
+    "#FAA08B",
     "#DC9FDC",
     "#AA96FA",
     "#8DC7FA",

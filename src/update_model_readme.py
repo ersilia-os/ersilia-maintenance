@@ -5,11 +5,13 @@ Intended to be called after `airtableops.py readme-update` has written the file 
 """
 from __future__ import annotations
 
+import base64
 import sys
 import argparse
 from pathlib import Path
 
-from update_model_publication import _get_file_info, _put_file
+from ersilia_maintenance.github import _get_file_info, _put_file
+from ersilia_maintenance.config import MODEL_OWNER
 
 
 def update_model_readme(repo: str, readme_path: Path, token: str) -> bool:
@@ -17,12 +19,11 @@ def update_model_readme(repo: str, readme_path: Path, token: str) -> bool:
 
     info = _get_file_info(repo, "README.md", token)
     if info is None:
-        print(f"WARNING: README.md not found in ersilia-os/{repo}", file=sys.stderr)
+        print(f"WARNING: README.md not found in {MODEL_OWNER}/{repo}", file=sys.stderr)
         return False
 
     sha = info["sha"]
 
-    import base64
     current = base64.b64decode(info["content"]).decode("utf-8")
     if current == new_content:
         print(f"README.md already up to date for {repo}, no commit needed.")
@@ -36,7 +37,7 @@ def update_model_readme(repo: str, readme_path: Path, token: str) -> bool:
         "Update README with new publication DOI link [skip ci]",
         token,
     )
-    print(f"Updated README.md in ersilia-os/{repo}")
+    print(f"Updated README.md in {MODEL_OWNER}/{repo}")
     return True
 
 

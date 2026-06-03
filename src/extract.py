@@ -1,7 +1,7 @@
 import json
 import sys
 
-def read_report(file) -> dict:
+def read_report(file_path) -> dict:
     with open(file_path, 'r') as file:
         data = json.load(file)
     return data

@@ -9,8 +9,10 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-REPO_INFO = Path("files/repo_info.json")
-OUTPUT = Path("reports/failing_models.md")
+from ersilia_maintenance.config import REPO_INFO_PATH, ROOT_DIR
+
+REPO_INFO = REPO_INFO_PATH
+OUTPUT = ROOT_DIR / "reports" / "failing_models.md"
 
 FAIL_VALUES = {"fail", "failed"}
 

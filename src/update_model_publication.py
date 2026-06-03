@@ -10,15 +10,9 @@ import sys
 import json
 import base64
 import argparse
-import requests
 
-GITHUB_API = "https://api.github.com"
-ORG = "ersilia-os"
-METADATA_FILENAMES = ["metadata.json", "metadata.yml", "metadata.yaml"]
-REQUEST_TIMEOUT = 30
-
-BOT_NAME = "ersilia-bot"
-BOT_EMAIL = "ersilia-bot@users.noreply.github.com"
+from ersilia_maintenance.config import METADATA_FILENAMES, MODEL_OWNER
+from ersilia_maintenance.github import _get_file_info, _put_file
 
 _PROXY_RE = re.compile(r"https?://doi-org\.[^/]+/")
 
@@ -29,36 +23,6 @@ def normalize_doi(url: str) -> str:
     url = _PROXY_RE.sub("https://doi.org/", url)
     url = url.rstrip(".,;")
     return url
-
-
-def _headers(token: str) -> dict:
-    return {
-        "Authorization": f"Bearer {token}",
-        "Accept": "application/vnd.github.v3+json",
-    }
-
-
-def _get_file_info(repo: str, path: str, token: str):
-    url = f"{GITHUB_API}/repos/{ORG}/{repo}/contents/{path}"
-    r = requests.get(url, headers=_headers(token), timeout=REQUEST_TIMEOUT)
-    if r.status_code == 404:
-        return None
-    r.raise_for_status()
-    return r.json()
-
-
-def _put_file(repo: str, path: str, new_content: str, sha: str, message: str, token: str):
-    url = f"{GITHUB_API}/repos/{ORG}/{repo}/contents/{path}"
-    payload = {
-        "message": message,
-        "content": base64.b64encode(new_content.encode("utf-8")).decode("ascii"),
-        "sha": sha,
-        "author": {"name": BOT_NAME, "email": BOT_EMAIL},
-        "committer": {"name": BOT_NAME, "email": BOT_EMAIL},
-    }
-    r = requests.put(url, json=payload, headers=_headers(token), timeout=REQUEST_TIMEOUT)
-    r.raise_for_status()
-    return r.json()
 
 
 def _set_publication_in_json(content: str, url: str) -> str:
@@ -127,10 +91,10 @@ def update_model_publication(repo: str, url: str, token: str, dry_run: bool = Fa
             f"Update Publication to DOI link [skip ci]",
             token,
         )
-        print(f"Updated {filename} in {ORG}/{repo}: Publication -> '{url}'")
+        print(f"Updated {filename} in {MODEL_OWNER}/{repo}: Publication -> '{url}'")
         return "updated"
 
-    print(f"WARNING: No metadata file found in {ORG}/{repo}", file=sys.stderr)
+    print(f"WARNING: No metadata file found in {MODEL_OWNER}/{repo}", file=sys.stderr)
     return "not_found"
 
 

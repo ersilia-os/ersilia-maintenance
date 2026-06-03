@@ -1,33 +1,32 @@
 # 📊 Monthly Health Report
 
-**Month:** 2026-06
-**Generated at:** 2026-06-01 01:48:27Z (UTC)
+**Month:** 2026-06  
+**Generated at:** 2026-06-01 12:47:46Z (UTC)
 
-## 🔢 Snapshot for this month
+## 🔢 Snapshot
 
-- 📦 **Total models:** 241
-- ✅ **Healthy models:** 183
-- 🔴 **Failing models:** 5
-- ⏳ **Outdated models:** 53
-- 🧪 **Tested at least once:** 188
-- 🕳️ **Never tested:** 53
-- ❗ **With open issues:** 18
+- 📦 **Total models:** 254
+  - 🗄️ **Archived:** 36
+  - ✅ **Ready — passing:** 180
+  - ⏳ **Ready — not yet tested:** 23
+  - 🔴 **Ready — failing:** 2
+- ❗ **Non-archived with open issues:** 17
 
 ## 🆕 Models packaged this month
 
-_No new models were added this month._
+_No new models were packaged this month._
 
-## 📈 Global trends over time
+## 📈 Trends over time
 
-### 🩺 Health & testing overview
+### 🩺 Ready models: passing / not tested / failing
 
-![Health & testing](./health_and_testing.png)
+![Health](./health_and_testing.png)
 
-### ❗ Issues & Packaged models
+### ❗ Issues & packaged models
 
-![Issues & added models](./issues_and_added.png)
+![Issues & added](./issues_and_added.png)
 
-### 🧩 Task & source type distributions (current snapshot)
+### 🧩 Task & source type distributions
 
 ![Distributions](./distributions_tasks_source.png)
 

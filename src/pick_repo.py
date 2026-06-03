@@ -1,7 +1,6 @@
 # src/pick_repo.py
 from __future__ import annotations
 import json
-import random
 from typing import Any, Dict, List, Optional
 from datetime import datetime, timezone
 from ersilia_maintenance.config import PICKED_FILE, COUNT, EXCLUDE_OPEN_ISSUES, EXCLUDED_MODELS
@@ -67,7 +66,9 @@ def _priority_key(entry: Dict[str, Any], now: datetime) -> tuple:
     if ds is not None:
         # more days_since -> higher priority, so we use -ds for ascending sort
         return (1, -ds)
-    
+
+    return (2, 0)
+
 # --- Weakly pick ------------------------------------------------------
 
 def pick_weekly(count: int = COUNT) -> List[Dict[str, Any]]:

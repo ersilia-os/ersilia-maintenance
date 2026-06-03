@@ -1,4 +1,3 @@
-# src/update_from_metadata.py
 from __future__ import annotations
 from typing import Any, Dict
 from ersilia_maintenance.config import REPO_INFO_PATH
@@ -17,14 +16,13 @@ from ersilia_maintenance.metadata import (
 )
 
 def _ensure_defaults(e: Dict[str, Any]) -> None:
-    # camps que altres scripts poden necessitar
     e.setdefault("repository_name", None)
     e.setdefault("slug", e.get("repository_name"))
     e.setdefault("release", None)
     e.setdefault("last_packaging_date", None)
     e.setdefault("status", None)
     e.setdefault("metadata_last_updated", None)
-    e.setdefault("subtask",None)
+    e.setdefault("subtask", None)
     e.setdefault("source_type", None)
     e.setdefault("source_code_url", None)
 
@@ -40,11 +38,10 @@ def main() -> int:
         repo = e.get("repository_name")
         if not repo:
             continue
-        if not should_refresh("metadata_last_updated",e):
+        if not should_refresh("metadata_last_updated", e):
             continue
 
-        # Load metadata
-        print(f'[LOG] extracting metadata {repo}')
+        print(f"[info] extracting metadata {repo}")
         meta = load_metadata(repo=repo)
 
         if not meta:
@@ -52,8 +49,7 @@ def main() -> int:
             changed = True
             continue
 
-        # Extreure camps des de la metadata
-        rel  = extract_release(meta)
+        rel = extract_release(meta)
         pack = extract_last_packaging_date(meta)
         slug = extract_slug(meta)
         stat = extract_status(meta)
@@ -61,23 +57,23 @@ def main() -> int:
         source = extract_source_type(meta)
         source_code = extract_source_code(meta)
 
-        if rel is not None:   e["release"] = rel
-        if pack is not None:  e["last_packaging_date"] = pack
-        if slug is not None:  e["slug"] = slug
+        if rel is not None:         e["release"] = rel
+        if pack is not None:        e["last_packaging_date"] = pack
+        if slug is not None:        e["slug"] = slug
         if e["status"] != "Archived":
-            if stat is not None:  e["status"] = stat
-        if task is not None: e['subtask'] = task
-        if source is not None: e["source_type"] = source
+            if stat is not None:    e["status"] = stat
+        if task is not None:        e["subtask"] = task
+        if source is not None:      e["source_type"] = source
         if source_code is not None: e["source_code_url"] = source_code
 
         e["metadata_last_updated"] = now_iso()
         changed = True
 
     if changed:
-        save_json_file(REPO_INFO_PATH,data)
-        print("files/repo_info.json updated from metadata")
+        save_json_file(REPO_INFO_PATH, data)
+        print("[ok] files/repo_info.json updated from metadata")
     else:
-        print("no changes from metadata")
+        print("[ok] no changes from metadata")
     return 0
 
 if __name__ == "__main__":
