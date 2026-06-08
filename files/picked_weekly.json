@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos2e3s",
-    "slug": "antimicrobial-activity-paeruginosa",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-05-21",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos43d6",
-    "slug": "antimicrobial-activity-mtuberculosis",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-05-21",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4an7",
-    "slug": "antimicrobial-activity-pfalciparum",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-05-21",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos5eya",
-    "slug": "antimicrobial-activity-ecoli",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-05-21",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos5q52",
-    "slug": "antimicrobial-activity-spneumoniae",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-05-22",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos5qya",
-    "slug": "antimicrobial-activity-ngonorrhoeae",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-05-21",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos6wb7",
-    "slug": "antimicrobial-activity-kpneumoniae",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-05-25",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos81zy",
-    "slug": "antimicrobial-activity-efaecium",
+    "repository_name": "eos9bpi",
+    "slug": "antimicrobial-activity-enterobacter",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2026-05-29",
     "open_issues": 0
   },
   {
-    "repository_name": "eos8lcw",
-    "slug": "antimicrobial-activity-saureus",
+    "repository_name": "eos9eyo",
+    "slug": "antimicrobial-activity-hpylori",
     "priority_score": 1000000000,
     "last_test_date": null,
     "last_packaging_date": "2026-05-21",
     "open_issues": 0
   },
   {
-    "repository_name": "eos8v1a",
-    "slug": "antimicrobial-activity-smansoni",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-05-21",
+    "repository_name": "eos6pbf",
+    "slug": "selfies",
+    "priority_score": 140,
+    "last_test_date": "2026-01-19T10:51:21Z",
+    "last_packaging_date": "2026-03-20",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos74km",
+    "slug": "antimicrobial-kg-ml",
+    "priority_score": 140,
+    "last_test_date": "2026-01-19T11:04:10Z",
+    "last_packaging_date": "2026-03-26",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos77jk",
+    "slug": "cc-signaturizer-3d-d",
+    "priority_score": 140,
+    "last_test_date": "2026-01-19T11:13:01Z",
+    "last_packaging_date": "2025-12-30",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos77w8",
+    "slug": "grover-sider",
+    "priority_score": 140,
+    "last_test_date": "2026-01-19T11:19:51Z",
+    "last_packaging_date": "2026-03-10",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos78ao",
+    "slug": "mordred",
+    "priority_score": 140,
+    "last_test_date": "2026-01-19T11:23:44Z",
+    "last_packaging_date": "2025-10-22",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos7a45",
+    "slug": "coprinet-molecule-price",
+    "priority_score": 140,
+    "last_test_date": "2026-01-19T11:32:32Z",
+    "last_packaging_date": "2025-10-13",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos12x7",
+    "slug": "spacial-score-complexity",
+    "priority_score": 133,
+    "last_test_date": "2026-01-26T10:13:29Z",
+    "last_packaging_date": "2026-03-23",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos43at",
+    "slug": "molgrad-herg",
+    "priority_score": 133,
+    "last_test_date": "2026-01-26T10:17:44Z",
+    "last_packaging_date": "2025-09-17",
     "open_issues": 0
   }
 ]
