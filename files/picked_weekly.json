@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos9bpi",
-    "slug": "antimicrobial-activity-enterobacter",
+    "repository_name": "eos2egp",
+    "slug": "chelating-groups",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2026-05-29",
+    "last_packaging_date": "2026-06-04",
     "open_issues": 0
   },
   {
-    "repository_name": "eos9eyo",
-    "slug": "antimicrobial-activity-hpylori",
+    "repository_name": "eos5f0j",
+    "slug": "checkmol-functional-groups",
     "priority_score": 1000000000,
     "last_test_date": null,
-    "last_packaging_date": "2026-05-21",
+    "last_packaging_date": "2026-06-02",
     "open_issues": 0
   },
   {
-    "repository_name": "eos6pbf",
-    "slug": "selfies",
-    "priority_score": 140,
-    "last_test_date": "2026-01-19T10:51:21Z",
-    "last_packaging_date": "2026-03-20",
+    "repository_name": "eos7dg4",
+    "slug": "ntd-rule",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-06-04",
     "open_issues": 0
   },
   {
-    "repository_name": "eos74km",
-    "slug": "antimicrobial-kg-ml",
-    "priority_score": 140,
-    "last_test_date": "2026-01-19T11:04:10Z",
-    "last_packaging_date": "2026-03-26",
+    "repository_name": "eos7nno",
+    "slug": "ncats-cyp2d6",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-10-17",
     "open_issues": 0
   },
   {
-    "repository_name": "eos77jk",
-    "slug": "cc-signaturizer-3d-d",
-    "priority_score": 140,
-    "last_test_date": "2026-01-19T11:13:01Z",
-    "last_packaging_date": "2025-12-30",
+    "repository_name": "eos85mn",
+    "slug": "farm-representation",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-06-03",
     "open_issues": 0
   },
   {
-    "repository_name": "eos77w8",
-    "slug": "grover-sider",
+    "repository_name": "eos4k4f",
+    "slug": "standardization",
     "priority_score": 140,
-    "last_test_date": "2026-01-19T11:19:51Z",
-    "last_packaging_date": "2026-03-10",
+    "last_test_date": "2026-01-26T10:20:20Z",
+    "last_packaging_date": "2026-03-19",
     "open_issues": 0
   },
   {
-    "repository_name": "eos78ao",
-    "slug": "mordred",
+    "repository_name": "eos7ike",
+    "slug": "entry-rules",
     "priority_score": 140,
-    "last_test_date": "2026-01-19T11:23:44Z",
+    "last_test_date": "2026-01-26T10:24:22Z",
+    "last_packaging_date": "2026-01-23",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos7jio",
+    "slug": "rdkit-fingerprint",
+    "priority_score": 140,
+    "last_test_date": "2026-01-26T10:26:45Z",
+    "last_packaging_date": "2025-10-09",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos7jlv",
+    "slug": "gdbmedchem-similarity",
+    "priority_score": 140,
+    "last_test_date": "2026-01-26T10:29:24Z",
     "last_packaging_date": "2025-10-22",
     "open_issues": 0
   },
   {
-    "repository_name": "eos7a45",
-    "slug": "coprinet-molecule-price",
+    "repository_name": "eos7kpb",
+    "slug": "h3d-virtual-screening-cascade-light",
     "priority_score": 140,
-    "last_test_date": "2026-01-19T11:32:32Z",
-    "last_packaging_date": "2025-10-13",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos12x7",
-    "slug": "spacial-score-complexity",
-    "priority_score": 133,
-    "last_test_date": "2026-01-26T10:13:29Z",
-    "last_packaging_date": "2026-03-23",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos43at",
-    "slug": "molgrad-herg",
-    "priority_score": 133,
-    "last_test_date": "2026-01-26T10:17:44Z",
-    "last_packaging_date": "2025-09-17",
+    "last_test_date": "2026-01-26T10:33:20Z",
+    "last_packaging_date": "2025-11-18",
     "open_issues": 0
   }
 ]
