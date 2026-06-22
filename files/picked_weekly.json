@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos2egp",
-    "slug": "chelating-groups",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-06-04",
+    "repository_name": "eos7l5m",
+    "slug": "efflux-gram-negative",
+    "priority_score": 147,
+    "last_test_date": "2026-01-26T10:39:56Z",
+    "last_packaging_date": "2025-12-18",
     "open_issues": 0
   },
   {
-    "repository_name": "eos5f0j",
-    "slug": "checkmol-functional-groups",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-06-02",
+    "repository_name": "eos7m30",
+    "slug": "admet-ai-exact",
+    "priority_score": 147,
+    "last_test_date": "2026-01-26T10:45:00Z",
+    "last_packaging_date": "2025-08-27",
     "open_issues": 0
   },
   {
-    "repository_name": "eos7dg4",
-    "slug": "ntd-rule",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-06-04",
+    "repository_name": "eos7pw8",
+    "slug": "syba-synthetic-accessibility",
+    "priority_score": 147,
+    "last_test_date": "2026-01-26T10:59:18Z",
+    "last_packaging_date": "2025-10-13",
     "open_issues": 0
   },
   {
-    "repository_name": "eos7nno",
-    "slug": "ncats-cyp2d6",
-    "priority_score": 1000000000,
-    "last_test_date": null,
+    "repository_name": "eos7qga",
+    "slug": "datamol-smiles2canonical",
+    "priority_score": 140,
+    "last_test_date": "2026-02-02T11:57:25Z",
+    "last_packaging_date": "2026-03-26",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos7w6n",
+    "slug": "grover-embedding",
+    "priority_score": 140,
+    "last_test_date": "2026-02-02T12:01:24Z",
+    "last_packaging_date": "2026-04-01",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos7ye0",
+    "slug": "chemfh",
+    "priority_score": 139,
+    "last_test_date": "2026-02-02T12:09:43Z",
+    "last_packaging_date": "2026-02-13",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos7yti",
+    "slug": "osm-series4",
+    "priority_score": 139,
+    "last_test_date": "2026-02-02T12:14:59Z",
+    "last_packaging_date": "2025-11-19",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos80ch",
+    "slug": "malaria-mam",
+    "priority_score": 139,
+    "last_test_date": "2026-02-02T12:17:31Z",
     "last_packaging_date": "2025-10-17",
     "open_issues": 0
   },
   {
-    "repository_name": "eos85mn",
-    "slug": "farm-representation",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-06-03",
+    "repository_name": "eos81ew",
+    "slug": "ncats-pampa5",
+    "priority_score": 139,
+    "last_test_date": "2026-02-02T12:20:29Z",
+    "last_packaging_date": "2025-10-16",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4k4f",
-    "slug": "standardization",
-    "priority_score": 140,
-    "last_test_date": "2026-01-26T10:20:20Z",
-    "last_packaging_date": "2026-03-19",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos7ike",
-    "slug": "entry-rules",
-    "priority_score": 140,
-    "last_test_date": "2026-01-26T10:24:22Z",
-    "last_packaging_date": "2026-01-23",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos7jio",
-    "slug": "rdkit-fingerprint",
-    "priority_score": 140,
-    "last_test_date": "2026-01-26T10:26:45Z",
-    "last_packaging_date": "2025-10-09",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos7jlv",
-    "slug": "gdbmedchem-similarity",
-    "priority_score": 140,
-    "last_test_date": "2026-01-26T10:29:24Z",
-    "last_packaging_date": "2025-10-22",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos7kpb",
-    "slug": "h3d-virtual-screening-cascade-light",
-    "priority_score": 140,
-    "last_test_date": "2026-01-26T10:33:20Z",
-    "last_packaging_date": "2025-11-18",
+    "repository_name": "eos82v1",
+    "slug": "smi-ted",
+    "priority_score": 139,
+    "last_test_date": "2026-02-02T12:26:49Z",
+    "last_packaging_date": "2026-02-11",
     "open_issues": 0
   }
 ]
