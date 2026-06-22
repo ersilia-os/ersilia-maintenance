@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-06-15T12:06:24Z
+**🗓️ Date:** 2026-06-22T12:03:47Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos2egp | chelating-groups | ✅ | 2026-06-15T12:10:24Z |
-| eos5f0j | checkmol-functional-groups | ✅ | 2026-06-15T12:14:20Z |
-| eos7dg4 | ntd-rule | ✅ | 2026-06-15T12:18:16Z |
-| eos7nno | ncats-cyp2d6 | ✅ | 2026-06-15T12:24:21Z |
-| eos85mn | farm-representation | ✅ | 2026-06-15T12:29:55Z |
-| eos4k4f | standardization | ✅ | 2026-06-15T12:34:22Z |
-| eos7ike | entry-rules | 🚨 | 2026-06-15T12:40:33Z |
-| eos7jio | rdkit-fingerprint | ✅ | 2026-06-15T12:44:32Z |
-| eos7jlv | gdbmedchem-similarity | 🚨 | 2026-06-15T12:48:47Z |
-| eos7kpb | h3d-virtual-screening-cascade-light | 🚨 | 2026-06-15T12:52:01Z |
+| eos7l5m | efflux-gram-negative | 🚨 | 2026-06-22T12:11:45Z |
+| eos7m30 | admet-ai-exact | 🚨 | 2026-06-22T12:18:53Z |
+| eos7pw8 | syba-synthetic-accessibility | ✅ | 2026-06-22T12:38:52Z |
+| eos7qga | datamol-smiles2canonical | ✅ | 2026-06-22T12:42:50Z |
+| eos7w6n | grover-embedding | ✅ | 2026-06-22T12:48:42Z |
+| eos7ye0 | chemfh | 🚨 | 2026-06-22T12:54:18Z |
+| eos7yti | osm-series4 | ✅ | 2026-06-22T13:03:10Z |
+| eos80ch | malaria-mam | ✅ | 2026-06-22T13:07:36Z |
+| eos81ew | ncats-pampa5 | 🚨 | 2026-06-22T13:12:23Z |
+| eos82v1 | smi-ted | ✅ | 2026-06-22T13:20:16Z |

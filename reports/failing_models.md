@@ -1,11 +1,15 @@
 # Failing Models Report
 
-**Generated:** 2026-06-22T08:07:10Z
+**Generated:** 2026-06-22T13:20:45Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **8**
+Models with a failing last test outcome (Archived models excluded). Total: **12**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
+| eos81ew | ncats-pampa5 | In maintenance | 2026-06-22T13:12:23Z | 🚨 failed |
+| eos7ye0 | chemfh | In maintenance | 2026-06-22T12:54:18Z | 🚨 failed |
+| eos7m30 | admet-ai-exact | In maintenance | 2026-06-22T12:18:53Z | 🚨 failed |
+| eos7l5m | efflux-gram-negative | In maintenance | 2026-06-22T12:11:45Z | 🚨 failed |
 | eos7kpb | h3d-virtual-screening-cascade-light | In maintenance | 2026-06-15T12:52:01Z | 🚨 failed |
 | eos7jlv | gdbmedchem-similarity | In maintenance | 2026-06-15T12:48:47Z | 🚨 failed |
 | eos7ike | entry-rules | In maintenance | 2026-06-15T12:40:33Z | 🚨 failed |
