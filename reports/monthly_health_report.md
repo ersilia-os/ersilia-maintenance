@@ -1,16 +1,16 @@
 # 📊 Monthly Health Report
 
-**Month:** 2026-06  
-**Generated at:** 2026-06-01 12:47:46Z (UTC)
+**Month:** 2026-07  
+**Generated at:** 2026-07-01 01:47:11Z (UTC)
 
 ## 🔢 Snapshot
 
-- 📦 **Total models:** 254
+- 📦 **Total models:** 261
   - 🗄️ **Archived:** 36
-  - ✅ **Ready — passing:** 180
-  - ⏳ **Ready — not yet tested:** 23
-  - 🔴 **Ready — failing:** 2
-- ❗ **Non-archived with open issues:** 17
+  - ✅ **Ready — passing:** 184
+  - ⏳ **Ready — not yet tested:** 13
+  - 🔴 **Ready — failing:** 13
+- ❗ **Non-archived with open issues:** 30
 
 ## 🆕 Models packaged this month
 
