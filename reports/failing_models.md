@@ -1,14 +1,13 @@
 # Failing Models Report
 
-**Generated:** 2026-07-06T09:35:41Z
+**Generated:** 2026-07-06T10:11:02Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **14**
+Models with a failing last test outcome (Archived models excluded). Total: **13**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
 | eos85a3 | grover-lipo | In maintenance | 2026-06-29T11:59:13Z | 🚨 failed |
 | eos8451 | grover-esol | In maintenance | 2026-06-29T11:51:30Z | 🚨 failed |
-| eos81ew | ncats-pampa5 | In maintenance | 2026-06-22T13:12:23Z | 🚨 failed |
 | eos7ye0 | chemfh | In maintenance | 2026-06-22T12:54:18Z | 🚨 failed |
 | eos7m30 | admet-ai-exact | In maintenance | 2026-06-22T12:18:53Z | 🚨 failed |
 | eos7l5m | efflux-gram-negative | In maintenance | 2026-06-22T12:11:45Z | 🚨 failed |
