@@ -1,6 +1,6 @@
 # Failing Models Report
 
-**Generated:** 2026-06-29T12:44:20Z
+**Generated:** 2026-07-06T07:37:02Z
 
 Models with a failing last test outcome (Archived models excluded). Total: **15**
 
@@ -20,4 +20,4 @@ Models with a failing last test outcome (Archived models excluded). Total: **15*
 | eos77w8 | grover-sider | In maintenance | 2026-06-08T12:19:31Z | 🚨 failed |
 | eos2e3s | antimicrobial-activity-paeruginosa | Ready | 2026-06-01T12:12:51Z | 🚨 failed |
 | eos6o0z | grover-qm7 | In maintenance | 2026-05-25T12:27:44Z | 🚨 failed |
-| eos6m2k | mole-antimicrobial | In maintenance | 2026-05-25T12:11:09Z | 🚨 failed |
+| eos6m2k | mole-antimicrobial | Ready | 2026-05-25T12:11:09Z | 🚨 failed |
