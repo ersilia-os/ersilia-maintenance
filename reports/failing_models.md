@@ -1,8 +1,8 @@
 # Failing Models Report
 
-**Generated:** 2026-07-06T10:26:08Z
+**Generated:** 2026-07-06T11:57:43Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **12**
+Models with a failing last test outcome (Archived models excluded). Total: **11**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
@@ -10,7 +10,6 @@ Models with a failing last test outcome (Archived models excluded). Total: **12*
 | eos8451 | grover-esol | In maintenance | 2026-06-29T11:51:30Z | 🚨 failed |
 | eos7ye0 | chemfh | In maintenance | 2026-06-22T12:54:18Z | 🚨 failed |
 | eos7m30 | admet-ai-exact | In maintenance | 2026-06-22T12:18:53Z | 🚨 failed |
-| eos7l5m | efflux-gram-negative | In maintenance | 2026-06-22T12:11:45Z | 🚨 failed |
 | eos7kpb | h3d-virtual-screening-cascade-light | In maintenance | 2026-06-15T12:52:01Z | 🚨 failed |
 | eos7jlv | gdbmedchem-similarity | In maintenance | 2026-06-15T12:48:47Z | 🚨 failed |
 | eos7ike | entry-rules | In maintenance | 2026-06-15T12:40:33Z | 🚨 failed |
