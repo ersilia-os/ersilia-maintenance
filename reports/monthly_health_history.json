@@ -2713,15 +2713,15 @@
   },
   {
     "month": "2026-07",
-    "generated_at": "2026-07-07T13:44:47Z",
+    "generated_at": "2026-07-07T15:42:59Z",
     "totals": {
       "total_models": 261,
       "archived": 36,
-      "ready_total": 208,
-      "ready_passing": 199,
-      "ready_not_tested": 12,
+      "ready_total": 210,
+      "ready_passing": 201,
+      "ready_not_tested": 10,
       "ready_failing": 0,
-      "with_open_issues": 13
+      "with_open_issues": 4
     },
     "added_models": [
       {
