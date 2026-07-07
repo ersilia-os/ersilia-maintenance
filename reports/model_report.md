@@ -4,16 +4,16 @@
 
 ## 📚 Model registry snapshot
 
-_Last updated: **2026-07-07 13:26:01Z** (UTC)_
+_Last updated: **2026-07-07 14:26:54Z** (UTC)_
 
 ### 🔢 Summary
 
 - 📦 **Total models:** 261
   - 📂 **In progress:** 14
-  - 🛠️ **In maintenance:** 3
+  - 🛠️ **In maintenance:** 1
   - 🗄️ **Archived:** 36
-- ✅ **Active/Maintenance models with no issues:** 199
-- ❗ **Active/Maintenance models with open issues:** 12
+- ✅ **Active/Maintenance models with no issues:** 203
+- ❗ **Active/Maintenance models with open issues:** 8
 - 🧪 **Total models tested at least once:** 205
 - ⏳ **Total models never tested:** 56
 
@@ -159,8 +159,8 @@ The table below summarizes the current state of the models.
 | eos5eya | antimicrobial-activity-ecoli | Ready | 2026-06-02 | 2026-06-01T12:50:15Z | v2.0.0 | 🟢 0 |
 | eos5f0j | checkmol-functional-groups | Ready | 2026-06-02 | 2026-06-15T12:14:20Z | v1.0.0 | 🟢 0 |
 | eos5gge | dili-predictor | Ready | 2025-12-01 | 2026-03-16T10:33:56Z | v1.0.0 | 🟢 0 |
-| eos5guo | erg-fingerprints | In maintenance | 2025-10-23 | 2026-05-11T18:07:32Z | v1.0.0 | 🟡 1 |
-| eos5jz9 | ncats-cyp2c9 | In maintenance | 2025-10-17 | 2026-05-11T18:14:27Z | v1.0.0 | 🟡 1 |
+| eos5guo | erg-fingerprints | Ready | 2025-10-23 | 2026-07-07T14:09:40Z | v1.0.0 | 🟢 0 |
+| eos5jz9 | ncats-cyp2c9 | Ready | 2025-10-17 | 2026-07-07T14:18:39Z | v1.0.0 | 🟢 0 |
 | eos5nqn | gneprop-ecoli | Ready | 2026-05-20 | 2026-05-22T11:03:26Z | v2.0.0 | 🟢 0 |
 | eos5pt8 | druglikeness-unsupervised | Ready | 2025-11-16 | 2026-05-20T08:19:16Z | v1.0.0 | 🟢 0 |
 | eos5q52 | antimicrobial-activity-spneumoniae | Ready | 2026-06-02 | 2026-06-01T12:57:57Z | v2.0.0 | 🟢 0 |
@@ -264,13 +264,13 @@ The table below summarizes the current state of the models.
 | eos9ei3 | sa-score | Ready | 2025-09-15 | 2026-02-16T10:50:44Z | v1.0.0 | 🟢 0 |
 | eos9eyo | antimicrobial-activity-hpylori | Ready | 2026-06-02 | 2026-06-08T11:56:08Z | v2.0.0 | 🟢 0 |
 | eos9f6t | chemprop-sars-cov-inhibition | Ready | 2025-10-08 | 2026-02-16T10:58:12Z | v1.0.0 | 🟢 0 |
-| eos9f7c | paeruginosa-permeation | Ready | 2025-12-15 | — | v1.0.0 | 🟡 2 |
+| eos9f7c | paeruginosa-permeation | Ready | 2025-12-15 | — | v1.0.0 | 🟢 0 |
 | eos9gg2 | chemical-space-projections-drugbank | Ready | 2026-02-24 | 2026-02-24T15:31:16Z | v1.0.0 | 🟢 0 |
 | eos9ivc | anti-mtb-seattle | Ready | 2026-05-23 | 2026-02-16T11:10:36Z | v2.0.0 | 🟢 0 |
 | eos9li5 | biosynfoni | Ready | 2026-03-24 | 2026-03-31T09:35:28Z | v1.0.0 | 🟢 0 |
 | eos9n1s | hemozoin-inhibition-physchem | Ready | 2026-02-04 | 2026-02-24T13:33:43Z | v1.0.0 | 🟢 0 |
 | eos9o72 | chemeleon | Ready | 2026-02-10 | 2026-02-16T11:15:54Z | v1.1.1 | 🟢 0 |
-| eos9p4a | deep-dl | Ready | 2026-04-23 | 2026-02-16T11:20:22Z | v1.0.0 | 🟡 1 |
+| eos9p4a | deep-dl | Ready | 2026-04-23 | 2026-02-16T11:20:22Z | v1.0.0 | 🟢 0 |
 | eos9sa2 | bayesian-drug-likeness | Archived | — | — | — | — |
 | eos9taz | moler-enamine-fragments | Ready | 2025-10-22 | 2026-02-24T13:53:06Z | v1.0.0 | 🟢 0 |
 | eos9tyg | ncats-pampa74 | Ready | 2025-10-16 | 2026-02-24T13:57:27Z | v1.0.0 | 🟢 0 |
