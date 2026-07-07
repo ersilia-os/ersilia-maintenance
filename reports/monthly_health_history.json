@@ -2414,10 +2414,6 @@
         "slug": "neisseria-gonorrhoeae-activity"
       },
       {
-        "repository_name": "eos6m2k",
-        "slug": "mole-antimicrobial"
-      },
-      {
         "repository_name": "eos6wb7",
         "slug": "antimicrobial-activity-kpneumoniae"
       },
@@ -2717,17 +2713,74 @@
   },
   {
     "month": "2026-07",
-    "generated_at": "2026-07-07T13:19:04Z",
+    "generated_at": "2026-07-07T13:44:47Z",
     "totals": {
       "total_models": 261,
       "archived": 36,
-      "ready_total": 207,
+      "ready_total": 208,
       "ready_passing": 199,
-      "ready_not_tested": 11,
+      "ready_not_tested": 12,
       "ready_failing": 0,
-      "with_open_issues": 15
+      "with_open_issues": 13
     },
-    "added_models": [],
+    "added_models": [
+      {
+        "repository_name": "eos3wac",
+        "slug": "moldeberta-smiles-encoder"
+      },
+      {
+        "repository_name": "eos6m2k",
+        "slug": "mole-antimicrobial"
+      },
+      {
+        "repository_name": "eos77w8",
+        "slug": "grover-sider"
+      },
+      {
+        "repository_name": "eos7a45",
+        "slug": "coprinet-molecule-price"
+      },
+      {
+        "repository_name": "eos7ike",
+        "slug": "entry-rules"
+      },
+      {
+        "repository_name": "eos7jlv",
+        "slug": "gdbmedchem-similarity"
+      },
+      {
+        "repository_name": "eos7kpb",
+        "slug": "h3d-virtual-screening-cascade-light"
+      },
+      {
+        "repository_name": "eos7l5m",
+        "slug": "efflux-gram-negative"
+      },
+      {
+        "repository_name": "eos7m30",
+        "slug": "admet-ai-exact"
+      },
+      {
+        "repository_name": "eos7ye0",
+        "slug": "chemfh"
+      },
+      {
+        "repository_name": "eos81ew",
+        "slug": "ncats-pampa5"
+      },
+      {
+        "repository_name": "eos8451",
+        "slug": "grover-esol"
+      },
+      {
+        "repository_name": "eos85a3",
+        "slug": "grover-lipo"
+      },
+      {
+        "repository_name": "eos8ioa",
+        "slug": "natural-product-score"
+      }
+    ],
     "all_repositories": [
       "eos11sm",
       "eos11sr",
