@@ -36,18 +36,16 @@ jobs:
           auto-update-conda: true
           python-version: "3.12"
           auto-activate-base: false
+          activate-environment: test          # ← explicit (was implicit default)
 
       - name: Install dependencies
-        env:
-          ERSILIA_BRANCH: ${{ inputs.ersilia_branch }}
         run: |
-          conda run -n base python -m pip install "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
+          conda run -n test python --version   # ← confirm 3.12 in the log
+          conda run -n test python -m pip install "ersilia[test] @ …@${ERSILIA_BRANCH}" 
 
       - name: Test ARM64 image
-        env:
-          MODEL_ID: ${{ inputs.repo_name }}
         run: |
-          conda run --no-capture-output -n base bash -c "
+          conda run --no-capture-output -n test bash -c "   # ← -n test
             ersilia -v test $MODEL_ID --deep --from_dockerhub --version dev-arm64 --permissive
           "
 
