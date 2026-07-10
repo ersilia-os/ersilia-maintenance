@@ -68,7 +68,7 @@ jobs:
       - name: Upload logs as artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: test-report-arm4
+          name: test-report-arm64
           path: ${{ inputs.repo_name }}-test-arm64.json
 
       - name: Parse test results
