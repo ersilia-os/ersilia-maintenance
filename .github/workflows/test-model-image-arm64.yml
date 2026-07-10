@@ -42,36 +42,6 @@ jobs:
           ERSILIA_BRANCH: ${{ inputs.ersilia_branch }}
         run: |
           conda run -n base python -m pip install "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
-          
-      - name: Reproduce the test run — A) immediate  B) delayed  C) retried
-        continue-on-error: true
-        env:
-          MODEL_ID: ${{ inputs.repo_name }}
-        run: |
-          conda run --no-capture-output -n base bash -c '
-            set +e
-            # serve needs the model fetched locally first
-            ersilia -v fetch '"$MODEL_ID"' --from_dockerhub --version dev-arm64
-
-            printf "smiles\nCC(C)(C)NCc1ccc(Nc2ccnc3cc(Cl)ccc23)cc1O\nCOc1cc2nccc(Oc3ccc(NC(=O)c4cn(C(C)C)c(=O)n(-c5ccc(F)cc5)c4=O)cc3F)c2cc1OC\nCOc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(N)=O\n" > /tmp/in.csv
-            echo "=== INPUT ==="; cat /tmp/in.csv
-
-            echo; echo "################ A) serve --disable-cache && run -b 100 (immediate = test path) ################"
-            ersilia serve '"$MODEL_ID"' --disable-cache && ersilia -v run -i /tmp/in.csv -o /tmp/a.csv -b 100
-            echo "----- a.csv -----"; cat /tmp/a.csv 2>&1
-            ersilia close
-
-            echo; echo "################ B) serve, sleep 20s, then run ################"
-            ersilia serve '"$MODEL_ID"' --disable-cache && sleep 20 && ersilia -v run -i /tmp/in.csv -o /tmp/b.csv -b 100
-            echo "----- b.csv -----"; cat /tmp/b.csv 2>&1
-            ersilia close
-
-            echo; echo "################ C) serve once, run 3x ################"
-            ersilia serve '"$MODEL_ID"' --disable-cache
-            for i in 1 2 3; do echo "--- attempt $i ---"; ersilia -v run -i /tmp/in.csv -o /tmp/c.csv -b 100; cat /tmp/c.csv 2>&1; done
-            ersilia close
-          '
-
 
       - name: Test ARM64 image
         env:
