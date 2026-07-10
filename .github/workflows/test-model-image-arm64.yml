@@ -63,13 +63,13 @@ jobs:
           fi
 
           mv "$TEST_JSON" "${MODEL_ID}-test-arm64.json"
-          echo "TEST_JSON_ARM64=${MODEL_ID}-test-arm4.json" >> "$GITHUB_ENV"
+          echo "TEST_JSON_ARM64=${MODEL_ID}-test-arm64.json" >> "$GITHUB_ENV"
 
       - name: Upload logs as artifacts
         uses: actions/upload-artifact@v4
         with:
           name: test-report-arm4
-          path: ${{ inputs.repo_name }}-test-arm4.json
+          path: ${{ inputs.repo_name }}-test-arm64.json
 
       - name: Parse test results
         id: check-result
