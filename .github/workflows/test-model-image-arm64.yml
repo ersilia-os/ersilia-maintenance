@@ -36,19 +36,23 @@ jobs:
           auto-update-conda: true
           python-version: "3.12"
           auto-activate-base: false
-          activate-environment: test          # ← explicit (was implicit default)
+          activate-environment: test
 
       - name: Install dependencies
         env:
           ERSILIA_BRANCH: ${{ inputs.ersilia_branch }}
         run: |
-          conda run -n test python --version
-          conda run -n test python -m pip install "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
-
+          conda run -n test python -m pip install \
+            "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}" \
+            "aiohttp<3.14"
+          echo "=== version check ==="
+          conda run -n test python -c "import sys, aiohttp; print('PYTHON', sys.version); print('AIOHTTP', aiohttp.__version__)"
 
       - name: Test ARM64 image
+        env:
+          MODEL_ID: ${{ inputs.repo_name }}
         run: |
-          conda run --no-capture-output -n test bash -c "   # ← -n test
+          conda run --no-capture-output -n test bash -c "
             ersilia -v test $MODEL_ID --deep --from_dockerhub --version dev-arm64 --permissive
           "
 
