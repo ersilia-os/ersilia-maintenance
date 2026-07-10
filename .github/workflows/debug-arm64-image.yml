@@ -1,0 +1,69 @@
+name: Debug ARM64 model (direct container run)
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo_name:
+        description: "Model ID (e.g. eos5jv3)"
+        required: true
+        type: string
+      version:
+        description: "Image tag to test"
+        required: false
+        default: "dev-arm64"
+        type: string
+
+jobs:
+  debug-arm64:
+    runs-on: default-linux-arm64
+    env:
+      IMAGE: ersiliaos/${{ inputs.repo_name }}:${{ inputs.version }}
+    steps:
+      - name: Show runner architecture
+        run: uname -m   # expect: aarch64 (native Graviton, no emulation)
+
+      - name: Pull image
+        run: docker pull "$IMAGE"
+
+      - name: Run model directly - default
+        continue-on-error: true
+        run: |
+          set +e
+          docker run --rm --entrypoint bash "$IMAGE" -c '
+            set +e
+            B=$(dirname $(dirname $(dirname $(find /root/bundles -name run.sh -path "*framework*" | head -1))))
+            echo "Framework bundle: $B"
+            printf "smiles\nCCO\nCCN\n" > /tmp/in.csv
+            python $B/model/framework/code/main.py /tmp/in.csv /tmp/out.csv
+            echo "PYTHON EXIT CODE: $?"
+            echo "--- output.csv ---"; cat /tmp/out.csv 2>&1
+          '
+          echo "container exit: $?"
+
+      - name: Run model directly - OMP_NUM_THREADS=1
+        continue-on-error: true
+        run: |
+          set +e
+          docker run --rm -e OMP_NUM_THREADS=1 --entrypoint bash "$IMAGE" -c '
+            set +e
+            B=$(dirname $(dirname $(dirname $(find /root/bundles -name run.sh -path "*framework*" | head -1))))
+            printf "smiles\nCCO\nCCN\n" > /tmp/in.csv
+            python $B/model/framework/code/main.py /tmp/in.csv /tmp/out.csv
+            echo "PYTHON EXIT CODE: $?"
+            echo "--- output.csv ---"; cat /tmp/out.csv 2>&1
+          '
+          echo "container exit: $?"
+
+      - name: Run model directly - DNNL_MAX_CPU_ISA=DEFAULT
+        continue-on-error: true
+        run: |
+          set +e
+          docker run --rm -e DNNL_MAX_CPU_ISA=DEFAULT --entrypoint bash "$IMAGE" -c '
+            set +e
+            B=$(dirname $(dirname $(dirname $(find /root/bundles -name run.sh -path "*framework*" | head -1))))
+            printf "smiles\nCCO\nCCN\n" > /tmp/in.csv
+            python $B/model/framework/code/main.py /tmp/in.csv /tmp/out.csv
+            echo "PYTHON EXIT CODE: $?"
+            echo "--- output.csv ---"; cat /tmp/out.csv 2>&1
+          '
+          echo "container exit: $?"
