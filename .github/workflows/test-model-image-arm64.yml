@@ -42,7 +42,15 @@ jobs:
           ERSILIA_BRANCH: ${{ inputs.ersilia_branch }}
         run: |
           conda run -n base python -m pip install "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
-
+          
+      - name: Fetch ARM64 image (verbose)
+        continue-on-error: true
+        env:
+          MODEL_ID: ${{ inputs.repo_name }}
+        run: |
+          conda run --no-capture-output -n base bash -c "
+            ersilia -v fetch $MODEL_ID --from_dockerhub --version dev-arm64
+          "
       - name: Test ARM64 image
         env:
           MODEL_ID: ${{ inputs.repo_name }}
