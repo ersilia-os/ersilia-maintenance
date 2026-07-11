@@ -4,18 +4,18 @@
 
 ## 📚 Model registry snapshot
 
-_Last updated: **2026-07-07 15:38:16Z** (UTC)_
+_Last updated: **2026-07-11 00:33:43Z** (UTC)_
 
 ### 🔢 Summary
 
-- 📦 **Total models:** 261
+- 📦 **Total models:** 262
   - 📂 **In progress:** 14
   - 🛠️ **In maintenance:** 1
   - 🗄️ **Archived:** 36
-- ✅ **Active/Maintenance models with no issues:** 208
+- ✅ **Active/Maintenance models with no issues:** 209
 - ❗ **Active/Maintenance models with open issues:** 3
 - 🧪 **Total models tested at least once:** 205
-- ⏳ **Total models never tested:** 56
+- ⏳ **Total models never tested:** 57
 
 The table below summarizes the current state of the models.
 
@@ -160,6 +160,7 @@ The table below summarizes the current state of the models.
 | eos5f0j | checkmol-functional-groups | Ready | 2026-06-02 | 2026-06-15T12:14:20Z | v1.0.0 | 🟢 0 |
 | eos5gge | dili-predictor | Ready | 2025-12-01 | 2026-03-16T10:33:56Z | v1.0.0 | 🟢 0 |
 | eos5guo | erg-fingerprints | Ready | 2025-10-23 | 2026-07-07T14:09:40Z | v1.0.0 | 🟢 0 |
+| eos5jv3 | mycopermenet | Ready | 2026-07-10 | — | v1.0.0 | 🟢 0 |
 | eos5jz9 | ncats-cyp2c9 | Ready | 2025-10-17 | 2026-07-07T14:18:39Z | v1.0.0 | 🟢 0 |
 | eos5nqn | gneprop-ecoli | Ready | 2026-05-20 | 2026-05-22T11:03:26Z | v2.0.0 | 🟢 0 |
 | eos5pt8 | druglikeness-unsupervised | Ready | 2025-11-16 | 2026-05-20T08:19:16Z | v1.0.0 | 🟢 0 |
