@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-06-29T11:43:11Z
+**🗓️ Date:** 2026-07-13T11:04:17Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos8451 | grover-esol | 🚨 | 2026-06-29T11:51:30Z |
-| eos85a3 | grover-lipo | 🚨 | 2026-06-29T11:59:13Z |
-| eos8a4x | rdkit-descriptors | ✅ | 2026-06-29T12:03:05Z |
-| eos8a5g | molbloom | ✅ | 2026-06-29T12:06:51Z |
-| eos8aa5 | kgpgt-embedding | ✅ | 2026-06-29T12:13:33Z |
-| eos8d8a | mycpermcheck | ✅ | 2026-06-29T12:21:26Z |
-| eos8fma | stoned-sampler | ✅ | 2026-06-29T12:29:41Z |
-| eos8fth | redial-2020 | ✅ | 2026-06-29T12:36:07Z |
-| eos8h6g | avalon | ✅ | 2026-06-29T12:39:54Z |
-| eos8ioa | natural-product-score | 🚨 | 2026-06-29T12:43:50Z |
+| eos3wac | moldeberta-smiles-encoder | ✅ | 2026-07-13T11:11:05Z |
+| eos5jv3 | mycopermenet | ✅ | 2026-07-13T11:16:54Z |
+| eos69jj | neisseria-gonorrhoeae-activity | ✅ | 2026-07-13T11:24:58Z |
+| eos8vud | squid | 🚨 | 2026-07-13T11:28:38Z |
+| eos93h2 | image-mol-gpcr | ✅ | 2026-07-13T11:34:14Z |
+| eos9f7c | paeruginosa-permeation | ✅ | 2026-07-13T11:42:27Z |
+| eos2ta5 | cardiotoxnet-herg | ✅ | 2026-07-13T11:48:30Z |
+| eos8lok | s2dv-hbv | ✅ | 2026-07-13T11:52:40Z |
+| eos238c | mesh-therapeutic-use | ✅ | 2026-07-13T12:02:23Z |
+| eos2a9n | chembl-similarity | ✅ | 2026-07-13T12:13:12Z |

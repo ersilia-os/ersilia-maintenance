@@ -1,8 +1,9 @@
 # Failing Models Report
 
-**Generated:** 2026-07-13T07:10:31Z
+**Generated:** 2026-07-13T12:13:39Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **0**
+Models with a failing last test outcome (Archived models excluded). Total: **1**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
+| eos8vud | squid | In maintenance | 2026-07-13T11:28:38Z | 🚨 failed |
