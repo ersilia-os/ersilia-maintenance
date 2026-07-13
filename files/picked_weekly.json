@@ -1,5 +1,21 @@
 [
   {
+    "repository_name": "eos3wac",
+    "slug": "moldeberta-smiles-encoder",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-07-01",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos5jv3",
+    "slug": "mycopermenet",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-07-10",
+    "open_issues": 0
+  },
+  {
     "repository_name": "eos69jj",
     "slug": "neisseria-gonorrhoeae-activity",
     "priority_score": 1000000000,
@@ -8,9 +24,41 @@
     "open_issues": 0
   },
   {
+    "repository_name": "eos8vud",
+    "slug": "squid",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-02-13",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos93h2",
+    "slug": "image-mol-gpcr",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-03-10",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9f7c",
+    "slug": "paeruginosa-permeation",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2025-12-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2ta5",
+    "slug": "cardiotoxnet-herg",
+    "priority_score": 212,
+    "last_test_date": "2025-12-12T13:07:43Z",
+    "last_packaging_date": "2025-10-13",
+    "open_issues": 0
+  },
+  {
     "repository_name": "eos8lok",
     "slug": "s2dv-hbv",
-    "priority_score": 147,
+    "priority_score": 153,
     "last_test_date": "2026-02-09T11:22:56Z",
     "last_packaging_date": "2026-03-10",
     "open_issues": 0
@@ -18,7 +66,7 @@
   {
     "repository_name": "eos238c",
     "slug": "mesh-therapeutic-use",
-    "priority_score": 145,
+    "priority_score": 152,
     "last_test_date": "2026-02-10T15:05:59Z",
     "last_packaging_date": "2025-11-22",
     "open_issues": 0
@@ -26,57 +74,9 @@
   {
     "repository_name": "eos2a9n",
     "slug": "chembl-similarity",
-    "priority_score": 145,
+    "priority_score": 152,
     "last_test_date": "2026-02-10T14:47:40Z",
     "last_packaging_date": "2026-02-11",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos2hbd",
-    "slug": "passive-permeability",
-    "priority_score": 145,
-    "last_test_date": "2026-02-10T15:35:32Z",
-    "last_packaging_date": "2025-11-14",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos92sw",
-    "slug": "etoxpred",
-    "priority_score": 140,
-    "last_test_date": "2026-02-16T10:28:58Z",
-    "last_packaging_date": "2025-10-08",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos935d",
-    "slug": "meta-trans",
-    "priority_score": 140,
-    "last_test_date": "2026-02-16T10:38:46Z",
-    "last_packaging_date": "2026-04-14",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos96ia",
-    "slug": "molgrad-cyp3a4",
-    "priority_score": 140,
-    "last_test_date": "2026-02-16T10:43:28Z",
-    "last_packaging_date": "2026-03-20",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos9c7k",
-    "slug": "medchem17-similarity",
-    "priority_score": 140,
-    "last_test_date": "2026-02-16T10:47:12Z",
-    "last_packaging_date": "2025-10-22",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos9ei3",
-    "slug": "sa-score",
-    "priority_score": 140,
-    "last_test_date": "2026-02-16T10:50:44Z",
-    "last_packaging_date": "2025-09-15",
     "open_issues": 0
   }
 ]
