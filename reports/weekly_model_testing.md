@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-07-13T11:04:17Z
+**🗓️ Date:** 2026-07-20T11:03:12Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos3wac | moldeberta-smiles-encoder | ✅ | 2026-07-13T11:11:05Z |
-| eos5jv3 | mycopermenet | ✅ | 2026-07-13T11:16:54Z |
-| eos69jj | neisseria-gonorrhoeae-activity | ✅ | 2026-07-13T11:24:58Z |
-| eos8vud | squid | 🚨 | 2026-07-13T11:28:38Z |
-| eos93h2 | image-mol-gpcr | ✅ | 2026-07-13T11:34:14Z |
-| eos9f7c | paeruginosa-permeation | ✅ | 2026-07-13T11:42:27Z |
-| eos2ta5 | cardiotoxnet-herg | ✅ | 2026-07-13T11:48:30Z |
-| eos8lok | s2dv-hbv | ✅ | 2026-07-13T11:52:40Z |
-| eos238c | mesh-therapeutic-use | ✅ | 2026-07-13T12:02:23Z |
-| eos2a9n | chembl-similarity | ✅ | 2026-07-13T12:13:12Z |
+| eos2hbd | passive-permeability | ✅ | 2026-07-20T11:11:51Z |
+| eos92sw | etoxpred | ✅ | 2026-07-20T11:18:13Z |
+| eos935d | meta-trans | ✅ | 2026-07-20T11:31:01Z |
+| eos96ia | molgrad-cyp3a4 | ✅ | 2026-07-20T11:37:30Z |
+| eos9c7k | medchem17-similarity | ✅ | 2026-07-20T11:42:25Z |
+| eos9ei3 | sa-score | ✅ | 2026-07-20T11:47:31Z |
+| eos9f6t | chemprop-sars-cov-inhibition | ✅ | 2026-07-20T11:56:58Z |
+| eos9ivc | anti-mtb-seattle | 🚨 | 2026-07-20T12:04:56Z |
+| eos9o72 | chemeleon | ✅ | 2026-07-20T12:11:56Z |
+| eos9p4a | deep-dl | ✅ | 2026-07-20T12:18:05Z |
