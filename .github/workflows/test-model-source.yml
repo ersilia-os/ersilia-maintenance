@@ -47,14 +47,15 @@ jobs:
           auto-update-conda: true
           python-version: "3.12"
           auto-activate-base: false
-
+          activate-environment: test
+          
       - name: Install dependencies
         env:
           ERSILIA_BRANCH: ${{ inputs.ersilia_branch }}
         run: |
-          conda run -n base git-lfs install
-          conda run -n base conda install gh -c conda-forge
-          conda run -n base python -m pip install "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
+          conda run -n test git-lfs install
+          conda run -n test conda install gh -c conda-forge
+          conda run -n test python -m pip install "ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git@${ERSILIA_BRANCH}"
 
       - name: Install pyaml and ruamel.yaml
         run: |
@@ -65,7 +66,7 @@ jobs:
         env:
           MODEL_ID: ${{ inputs.repo_name }}
         run: |
-          conda run -n base bash -c "
+          conda run -n test bash -c "
             ersilia -v test $MODEL_ID --shallow --from_github
           "
           cat $MODEL_ID-test.json
