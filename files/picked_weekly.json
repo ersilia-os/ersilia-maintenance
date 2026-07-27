@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos2hbd",
-    "slug": "passive-permeability",
-    "priority_score": 159,
-    "last_test_date": "2026-02-10T15:35:32Z",
-    "last_packaging_date": "2025-11-14",
+    "repository_name": "eos65rt",
+    "slug": "deepfl-logp",
+    "priority_score": 152,
+    "last_test_date": "2026-02-24T13:18:03Z",
+    "last_packaging_date": "2025-10-13",
     "open_issues": 0
   },
   {
-    "repository_name": "eos92sw",
-    "slug": "etoxpred",
-    "priority_score": 154,
-    "last_test_date": "2026-02-16T10:28:58Z",
-    "last_packaging_date": "2025-10-08",
+    "repository_name": "eos74bo",
+    "slug": "ncats-solubility",
+    "priority_score": 152,
+    "last_test_date": "2026-02-24T13:24:16Z",
+    "last_packaging_date": "2025-10-28",
     "open_issues": 0
   },
   {
-    "repository_name": "eos935d",
-    "slug": "meta-trans",
-    "priority_score": 154,
-    "last_test_date": "2026-02-16T10:38:46Z",
-    "last_packaging_date": "2026-04-14",
+    "repository_name": "eos8ub5",
+    "slug": "chemical-space-projections-coconut",
+    "priority_score": 152,
+    "last_test_date": "2026-02-24T14:53:27Z",
+    "last_packaging_date": "2026-02-24",
     "open_issues": 0
   },
   {
-    "repository_name": "eos96ia",
-    "slug": "molgrad-cyp3a4",
-    "priority_score": 154,
-    "last_test_date": "2026-02-16T10:43:28Z",
-    "last_packaging_date": "2026-03-20",
+    "repository_name": "eos96f4",
+    "slug": "digitization-complexity",
+    "priority_score": 152,
+    "last_test_date": "2026-02-24T13:30:00Z",
+    "last_packaging_date": "2026-03-23",
     "open_issues": 0
   },
   {
-    "repository_name": "eos9c7k",
-    "slug": "medchem17-similarity",
-    "priority_score": 154,
-    "last_test_date": "2026-02-16T10:47:12Z",
+    "repository_name": "eos9gg2",
+    "slug": "chemical-space-projections-drugbank",
+    "priority_score": 152,
+    "last_test_date": "2026-02-24T15:31:16Z",
+    "last_packaging_date": "2026-02-24",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9n1s",
+    "slug": "hemozoin-inhibition-physchem",
+    "priority_score": 152,
+    "last_test_date": "2026-02-24T13:33:43Z",
+    "last_packaging_date": "2026-02-04",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9taz",
+    "slug": "moler-enamine-fragments",
+    "priority_score": 152,
+    "last_test_date": "2026-02-24T13:53:06Z",
     "last_packaging_date": "2025-10-22",
     "open_issues": 0
   },
   {
-    "repository_name": "eos9ei3",
-    "slug": "sa-score",
-    "priority_score": 154,
-    "last_test_date": "2026-02-16T10:50:44Z",
-    "last_packaging_date": "2025-09-15",
+    "repository_name": "eos9tyg",
+    "slug": "ncats-pampa74",
+    "priority_score": 152,
+    "last_test_date": "2026-02-24T13:57:27Z",
+    "last_packaging_date": "2025-10-16",
     "open_issues": 0
   },
   {
-    "repository_name": "eos9f6t",
-    "slug": "chemprop-sars-cov-inhibition",
-    "priority_score": 154,
-    "last_test_date": "2026-02-16T10:58:12Z",
-    "last_packaging_date": "2025-10-08",
+    "repository_name": "eos9x3z",
+    "slug": "gram-negative-permeability-proxy",
+    "priority_score": 152,
+    "last_test_date": "2026-02-24T14:14:45Z",
+    "last_packaging_date": "2025-12-11",
     "open_issues": 0
   },
   {
-    "repository_name": "eos9ivc",
-    "slug": "anti-mtb-seattle",
-    "priority_score": 153,
-    "last_test_date": "2026-02-16T11:10:36Z",
-    "last_packaging_date": "2026-05-23",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos9o72",
-    "slug": "chemeleon",
-    "priority_score": 153,
-    "last_test_date": "2026-02-16T11:15:54Z",
-    "last_packaging_date": "2026-02-10",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos9p4a",
-    "slug": "deep-dl",
-    "priority_score": 153,
-    "last_test_date": "2026-02-16T11:20:22Z",
-    "last_packaging_date": "2026-04-23",
+    "repository_name": "eos9ym3",
+    "slug": "mrlogp",
+    "priority_score": 152,
+    "last_test_date": "2026-02-24T14:23:10Z",
+    "last_packaging_date": "2026-04-22",
     "open_issues": 0
   }
 ]
