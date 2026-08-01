@@ -1,35 +1,20 @@
 # 📊 Monthly Health Report
 
-**Month:** 2026-07  
-**Generated at:** 2026-07-07 15:43:00Z (UTC)
+**Month:** 2026-08  
+**Generated at:** 2026-08-01 01:35:05Z (UTC)
 
 ## 🔢 Snapshot
 
-- 📦 **Total models:** 261
+- 📦 **Total models:** 262
   - 🗄️ **Archived:** 36
-  - ✅ **Ready — passing:** 201
-  - ⏳ **Ready — not yet tested:** 10
-  - 🔴 **Ready — failing:** 0
-- ❗ **Non-archived with open issues:** 4
+  - ✅ **Ready — passing:** 204
+  - ⏳ **Ready — not yet tested:** 6
+  - 🔴 **Ready — failing:** 2
+- ❗ **Non-archived with open issues:** 8
 
 ## 🆕 Models packaged this month
 
-| 🧬 Repository | 🪪 Slug |
-|---------------|---------|
-| eos3wac | moldeberta-smiles-encoder |
-| eos6m2k | mole-antimicrobial |
-| eos77w8 | grover-sider |
-| eos7a45 | coprinet-molecule-price |
-| eos7ike | entry-rules |
-| eos7jlv | gdbmedchem-similarity |
-| eos7kpb | h3d-virtual-screening-cascade-light |
-| eos7l5m | efflux-gram-negative |
-| eos7m30 | admet-ai-exact |
-| eos7ye0 | chemfh |
-| eos81ew | ncats-pampa5 |
-| eos8451 | grover-esol |
-| eos85a3 | grover-lipo |
-| eos8ioa | natural-product-score |
+_No new models were packaged this month._
 
 ## 📈 Trends over time
 
