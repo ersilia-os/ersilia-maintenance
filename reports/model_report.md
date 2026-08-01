@@ -4,13 +4,13 @@
 
 ## 📚 Model registry snapshot
 
-_Last updated: **2026-07-31 00:30:13Z** (UTC)_
+_Last updated: **2026-08-01 00:27:22Z** (UTC)_
 
 ### 🔢 Summary
 
 - 📦 **Total models:** 262
   - 📂 **In progress:** 14
-  - 🛠️ **In maintenance:** 4
+  - 🛠️ **In maintenance:** 2
   - 🗄️ **Archived:** 36
 - ✅ **Active/Maintenance models with no issues:** 205
 - ❗ **Active/Maintenance models with open issues:** 7
@@ -133,7 +133,7 @@ The table below summarizes the current state of the models.
 | eos4k4f | standardization | Ready | 2026-03-19 | 2026-06-15T12:34:22Z | v1.0.0 | 🟢 0 |
 | eos4n4d | gram-negative-accumulation | Ready | 2026-04-23 | 2026-05-04T11:04:36Z | v1.0.0 | 🟢 0 |
 | eos4q1a | crem-structure-generation | Ready | 2026-04-01 | 2026-04-27T11:16:52Z | v1.0.0 | 🟢 0 |
-| eos4qda | fasmifra | In maintenance | — | — | — | 🟡 1 |
+| eos4qda | fasmifra | Ready | 2026-07-31 | — | v1.0.0 | 🟡 1 |
 | eos4r1g | entry-classifier | Ready | 2025-12-27 | 2026-04-27T12:09:31Z | v1.0.0 | 🟢 0 |
 | eos4rta | malaria-mmv | Ready | 2025-11-24 | 2026-04-27T11:26:02Z | v1.0.0 | 🟢 0 |
 | eos4rw4 | cddd-onnx | Ready | 2025-12-24 | 2026-04-27T11:33:43Z | v1.2.0 | 🟢 0 |
@@ -249,7 +249,7 @@ The table below summarizes the current state of the models.
 | eos8sgp | template-model | In progress | — | — | — | 🔴 -1 |
 | eos8ub5 | chemical-space-projections-coconut | Ready | 2026-02-24 | 2026-07-27T11:35:37Z | v1.0.0 | 🟢 0 |
 | eos8v1a | antimicrobial-activity-smansoni | Ready | 2026-07-22 | 2026-06-01T13:37:24Z | v3.0.0 | 🟢 0 |
-| eos8vud | squid | In maintenance | 2026-02-13 | 2026-07-13T11:28:38Z | v1.0.0 | 🟡 1 |
+| eos8vud | squid | Ready | 2026-07-31 | 2026-07-13T11:28:38Z | v1.0.0 | 🟡 1 |
 | eos92sw | etoxpred | Ready | 2025-10-08 | 2026-07-20T11:18:13Z | v1.0.0 | 🟢 0 |
 | eos935d | meta-trans | Ready | 2026-04-14 | 2026-07-20T11:31:01Z | v1.0.0 | 🟢 0 |
 | eos93h2 | image-mol-gpcr | Ready | 2026-03-10 | 2026-07-13T11:34:14Z | v1.0.0 | 🟢 0 |
