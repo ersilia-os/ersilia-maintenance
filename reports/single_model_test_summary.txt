@@ -1,50 +1,50 @@
 ==============================================
-Testing model: eos6tpo
+Testing model: eos8vud
 ==============================================
-✅ [eos6tpo] metadata_checks: last_packaging_date
-✅ [eos6tpo] metadata_checks: model_biomodel_area
-✅ [eos6tpo] metadata_checks: model_computational_performance_for_10000_input
-✅ [eos6tpo] metadata_checks: model_computational_performance_for_1000_input
-✅ [eos6tpo] metadata_checks: model_computational_performance_for_100_input
-✅ [eos6tpo] metadata_checks: model_computational_performance_for_10_input
-✅ [eos6tpo] metadata_checks: model_computational_performance_for_1_input
-✅ [eos6tpo] metadata_checks: model_contribution_date
-✅ [eos6tpo] metadata_checks: model_contributor
-✅ [eos6tpo] metadata_checks: model_description
-✅ [eos6tpo] metadata_checks: model_directory_size
-✅ [eos6tpo] metadata_checks: model_docker_architecture
-✅ [eos6tpo] metadata_checks: model_dockerhub_url
-✅ [eos6tpo] metadata_checks: model_environment_size
-✅ [eos6tpo] metadata_checks: model_id
-✅ [eos6tpo] metadata_checks: model_image_size
-✅ [eos6tpo] metadata_checks: model_input
-✅ [eos6tpo] metadata_checks: model_input_dimensions
-✅ [eos6tpo] metadata_checks: model_interpretation
-✅ [eos6tpo] metadata_checks: model_output
-✅ [eos6tpo] metadata_checks: model_output_consistency
-✅ [eos6tpo] metadata_checks: model_output_dimension
-✅ [eos6tpo] metadata_checks: model_publication
-✅ [eos6tpo] metadata_checks: model_release_version
-✅ [eos6tpo] metadata_checks: model_s3_url
-✅ [eos6tpo] metadata_checks: model_slug
-✅ [eos6tpo] metadata_checks: model_source
-✅ [eos6tpo] metadata_checks: model_source_code
-✅ [eos6tpo] metadata_checks: model_source_type
-✅ [eos6tpo] metadata_checks: model_status
-✅ [eos6tpo] metadata_checks: model_sub_tasks
-✅ [eos6tpo] metadata_checks: model_tag
-✅ [eos6tpo] metadata_checks: model_target_organism
-✅ [eos6tpo] metadata_checks: model_task
-✅ [eos6tpo] metadata_checks: model_title
-✅ [eos6tpo] model_file_checks: metadata_dim_and_run_column_file_dim_check
-✅ [eos6tpo] file_validity_check: columns
-✅ [eos6tpo] file_validity_check: install_yaml_check
-ℹ️ [eos6tpo] model_size_check: directory_size_mb = 595.0
-ℹ️ [eos6tpo] model_size_check: environment_size_mb = 7702.0
-✅ [eos6tpo] model_run_check: simple_model_run
-✅ [eos6tpo] model_run_check: simple_model_run_columns
-✅ [eos6tpo] async_model_run_check: async_simple_model_run
-✅ [eos6tpo] input_output_check: csv_csv
-✅ [eos6tpo] model_output_consistency_check: check_consistency_of_model_output
-✅ [eos6tpo] consistency_summary_between_ersilia_and_bash_execution_outputs: rmse_mean
-✅ [eos6tpo] consistency_summary_between_ersilia_and_bash_execution_outputs: string_similarity
+✅ [eos8vud] metadata_checks: last_packaging_date
+✅ [eos8vud] metadata_checks: model_biomodel_area
+✅ [eos8vud] metadata_checks: model_computational_performance_for_10000_input
+✅ [eos8vud] metadata_checks: model_computational_performance_for_1000_input
+✅ [eos8vud] metadata_checks: model_computational_performance_for_100_input
+✅ [eos8vud] metadata_checks: model_computational_performance_for_10_input
+✅ [eos8vud] metadata_checks: model_computational_performance_for_1_input
+✅ [eos8vud] metadata_checks: model_contribution_date
+✅ [eos8vud] metadata_checks: model_contributor
+✅ [eos8vud] metadata_checks: model_description
+✅ [eos8vud] metadata_checks: model_directory_size
+✅ [eos8vud] metadata_checks: model_docker_architecture
+✅ [eos8vud] metadata_checks: model_dockerhub_url
+✅ [eos8vud] metadata_checks: model_environment_size
+✅ [eos8vud] metadata_checks: model_id
+✅ [eos8vud] metadata_checks: model_image_size
+✅ [eos8vud] metadata_checks: model_input
+✅ [eos8vud] metadata_checks: model_input_dimensions
+✅ [eos8vud] metadata_checks: model_interpretation
+✅ [eos8vud] metadata_checks: model_license
+✅ [eos8vud] metadata_checks: model_output
+✅ [eos8vud] metadata_checks: model_output_consistency
+✅ [eos8vud] metadata_checks: model_output_dimension
+✅ [eos8vud] metadata_checks: model_publication
+✅ [eos8vud] metadata_checks: model_release_version
+✅ [eos8vud] metadata_checks: model_s3_url
+✅ [eos8vud] metadata_checks: model_slug
+✅ [eos8vud] metadata_checks: model_source
+✅ [eos8vud] metadata_checks: model_source_code
+✅ [eos8vud] metadata_checks: model_source_type
+✅ [eos8vud] metadata_checks: model_status
+✅ [eos8vud] metadata_checks: model_sub_tasks
+✅ [eos8vud] metadata_checks: model_tag
+✅ [eos8vud] metadata_checks: model_target_organism
+✅ [eos8vud] metadata_checks: model_task
+✅ [eos8vud] metadata_checks: model_title
+✅ [eos8vud] model_file_checks: metadata_dim_and_run_column_file_dim_check
+✅ [eos8vud] file_validity_check: columns
+✅ [eos8vud] file_validity_check: install_yaml_check
+ℹ️ [eos8vud] model_size_check: directory_size_mb = 371.0
+ℹ️ [eos8vud] model_size_check: environment_size_mb = 2605.0
+✅ [eos8vud] model_run_check: simple_model_run
+✅ [eos8vud] model_run_check: simple_model_run_columns
+✅ [eos8vud] async_model_run_check: async_simple_model_run
+✅ [eos8vud] input_output_check: csv_csv
+ℹ️ [eos8vud] model_output_consistency_check: check_consistency_of_model_output = ~ SKIPPED
+ℹ️ [eos8vud] consistency_summary_between_ersilia_and_bash_execution_outputs: rmse_mean = ~ SKIPPED
