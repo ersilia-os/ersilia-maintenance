@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-07-27T11:06:45Z
+**🗓️ Date:** 2026-08-03T11:07:40Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos65rt | deepfl-logp | ✅ | 2026-07-27T11:13:41Z |
-| eos74bo | ncats-solubility | ✅ | 2026-07-27T11:19:46Z |
-| eos8ub5 | chemical-space-projections-coconut | ✅ | 2026-07-27T11:35:37Z |
-| eos96f4 | digitization-complexity | ✅ | 2026-07-27T11:43:09Z |
-| eos9gg2 | chemical-space-projections-drugbank | ✅ | 2026-07-27T11:51:50Z |
-| eos9n1s | hemozoin-inhibition-physchem | ✅ | 2026-07-27T11:57:03Z |
-| eos9taz | moler-enamine-fragments | ✅ | 2026-07-27T12:19:06Z |
-| eos9tyg | ncats-pampa74 | 🚨 | 2026-07-27T12:25:03Z |
-| eos9x3z | gram-negative-permeability-proxy | ✅ | 2026-07-27T12:34:17Z |
-| eos9ym3 | mrlogp | ✅ | 2026-07-27T12:42:17Z |
+| eos9yui | natural-product-likeness | ✅ | 2026-08-03T11:14:15Z |
+| eos11sm | known-antibiotic-resemblance | ✅ | 2026-08-03T11:19:41Z |
+| eos18ie | antibiotics-ai-saureus | 🚨 | 2026-08-03T11:28:35Z |
+| eos1lb5 | mycobacterium-permeability | 🚨 | 2026-08-03T11:35:24Z |
+| eos9yy1 | ncats-hlcs | 🚨 | 2026-08-03T11:41:51Z |
+| eos1n4b | hdac3-inhibition | ✅ | 2026-08-03T11:48:05Z |
+| eos1ut3 | molfeat-usrcat | ✅ | 2026-08-03T11:56:23Z |
+| eos1d7r | small-world-zinc | ✅ | 2026-08-03T12:05:46Z |
+| eos1mxi | smiles-pe | ✅ | 2026-08-03T12:10:53Z |
+| eos1noy | chembl-sampler | ✅ | 2026-08-03T12:15:43Z |
