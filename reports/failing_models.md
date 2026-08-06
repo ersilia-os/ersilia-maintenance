@@ -1,12 +1,11 @@
 # Failing Models Report
 
-**Generated:** 2026-08-03T12:16:16Z
+**Generated:** 2026-08-06T15:17:46Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **5**
+Models with a failing last test outcome (Archived models excluded). Total: **4**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
-| eos9yy1 | ncats-hlcs | In maintenance | 2026-08-03T11:41:51Z | 🚨 failed |
 | eos1lb5 | mycobacterium-permeability | In maintenance | 2026-08-03T11:35:24Z | 🚨 failed |
 | eos18ie | antibiotics-ai-saureus | In maintenance | 2026-08-03T11:28:35Z | 🚨 failed |
 | eos9tyg | ncats-pampa74 | In maintenance | 2026-07-27T12:25:03Z | 🚨 failed |
