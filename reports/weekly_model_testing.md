@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-08-03T11:07:40Z
+**🗓️ Date:** 2026-08-10T10:32:27Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos9yui | natural-product-likeness | ✅ | 2026-08-03T11:14:15Z |
-| eos11sm | known-antibiotic-resemblance | ✅ | 2026-08-03T11:19:41Z |
-| eos18ie | antibiotics-ai-saureus | 🚨 | 2026-08-03T11:28:35Z |
-| eos1lb5 | mycobacterium-permeability | 🚨 | 2026-08-03T11:35:24Z |
-| eos9yy1 | ncats-hlcs | 🚨 | 2026-08-03T11:41:51Z |
-| eos1n4b | hdac3-inhibition | ✅ | 2026-08-03T11:48:05Z |
-| eos1ut3 | molfeat-usrcat | ✅ | 2026-08-03T11:56:23Z |
-| eos1d7r | small-world-zinc | ✅ | 2026-08-03T12:05:46Z |
-| eos1mxi | smiles-pe | ✅ | 2026-08-03T12:10:53Z |
-| eos1noy | chembl-sampler | ✅ | 2026-08-03T12:15:43Z |
+| eos9ueu | small-world-enamine-real | ✅ | 2026-08-10T10:41:53Z |
+| eos1vms | chembl-multitask-descriptor | ✅ | 2026-08-10T10:47:21Z |
+| eos21q7 | inter-dili | 🚨 | 2026-08-10T10:57:53Z |
+| eos22io | idl-ppbopt | ✅ | 2026-08-10T11:05:01Z |
+| eos24ci | drugtax | ✅ | 2026-08-10T11:10:03Z |
+| eos24jm | qcrb-tb | ✅ | 2026-08-10T11:15:21Z |
+| eos2db3 | chemical-space-projections-chemdiv | ✅ | 2026-08-10T11:29:27Z |
+| eos2gth | maip-malaria-surrogate | ✅ | 2026-08-10T11:35:07Z |
+| eos2gw4 | ersilia-compound-embedding | ✅ | 2026-08-10T11:40:14Z |
+| eos2h1r | cc-signaturizer-3d-c | ✅ | 2026-08-10T11:47:53Z |

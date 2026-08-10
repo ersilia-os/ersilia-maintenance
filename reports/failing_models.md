@@ -1,8 +1,9 @@
 # Failing Models Report
 
-**Generated:** 2026-08-10T06:31:27Z
+**Generated:** 2026-08-10T11:48:22Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **0**
+Models with a failing last test outcome (Archived models excluded). Total: **1**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
+| eos21q7 | inter-dili | In maintenance | 2026-08-10T10:57:53Z | 🚨 failed |
