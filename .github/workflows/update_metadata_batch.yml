@@ -1,0 +1,220 @@
+name: Update_metadata_batch
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo_names:
+        description: "List of model repos, separated by commas, spaces or new lines (e.g. eos3b5e, eos4e40)"
+        required: true
+        type: string
+      branch:
+        required: false
+        type: string
+        default: "main"
+      runner:
+        required: false
+        type: string
+        default: ubuntu-latest
+      max_parallel:
+        description: "How many models to update at the same time (keep low to avoid AirTable rate limits)"
+        required: false
+        type: string
+        default: "3"
+
+jobs:
+  #-------------------------------------------
+  # JOB 1: turn the input list into a matrix
+  #-------------------------------------------
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      models: ${{ steps.parse.outputs.models }}
+      count: ${{ steps.parse.outputs.count }}
+    steps:
+      - name: Parse model list
+        id: parse
+        env:
+          REPO_NAMES: ${{ inputs.repo_names }}
+        run: |
+          set -e
+          MODELS=$(printf '%s' "$REPO_NAMES" \
+            | tr ',;' '\n' \
+            | tr -s '[:space:]' '\n' \
+            | sed '/^$/d' \
+            | jq -R -s -c 'split("\n") | map(select(length > 0)) | unique')
+          COUNT=$(printf '%s' "$MODELS" | jq 'length')
+
+          if [ "$COUNT" -eq 0 ]; then
+            echo "No models found in input: '$REPO_NAMES'"
+            exit 1
+          fi
+
+          echo "models=$MODELS" >> $GITHUB_OUTPUT
+          echo "count=$COUNT" >> $GITHUB_OUTPUT
+          echo "Updating metadata for $COUNT model(s): $MODELS"
+
+  #-------------------------------------------
+  # JOB 2: one AirTable update per model
+  #-------------------------------------------
+  update_metadata:
+    needs: prepare
+    runs-on: ${{ inputs.runner }}
+    strategy:
+      fail-fast: false
+      max-parallel: ${{ fromJson(inputs.max_parallel) }}
+      matrix:
+        repo_name: ${{ fromJson(needs.prepare.outputs.models) }}
+    steps:
+      - name: Update metadata to AirTable (${{ matrix.repo_name }})
+        id: update
+        continue-on-error: true
+        uses: nick-fields/retry@v3
+        env:
+          USER_NAME: ${{ github.repository_owner }}
+          BRANCH: ${{ inputs.branch }}
+          REPO_NAME: ${{ matrix.repo_name }}
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          command: |
+            set -e  # Ensure failure stops execution
+            conda run -n base pip install requests pyairtable pyyaml
+            conda run -n base python -m pip install 'ersilia[test] @ git+https://github.com/ersilia-os/ersilia.git'
+            wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/airtableops.py
+            wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/readme_formatter.py
+
+            echo "Updating metadata to AirTable looking at owner: $USER_NAME"
+            conda run -n base python3 airtableops.py airtable-update --user $USER_NAME --repo $REPO_NAME --branch $BRANCH --api-key $AIRTABLE_API_KEY
+
+            # remove file
+            rm airtableops.py
+            rm readme_formatter.py
+
+      - name: Record status of ${{ matrix.repo_name }}
+        run: |
+          mkdir -p statuses
+          echo "${{ matrix.repo_name }} ${{ steps.update.outcome }}" > "statuses/${{ matrix.repo_name }}.txt"
+          cat "statuses/${{ matrix.repo_name }}.txt"
+
+      - name: Upload status of ${{ matrix.repo_name }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: metadata-status-${{ matrix.repo_name }}
+          path: statuses/${{ matrix.repo_name }}.txt
+          retention-days: 7
+
+      - name: Fail this job if the update failed
+        if: ${{ steps.update.outcome == 'failure' }}
+        run: |
+          echo "::error title=Metadata update failed::${{ matrix.repo_name }} could not be updated in AirTable"
+          exit 1
+
+  #-------------------------------------------
+  # JOB 3: sync AirTable to S3, once for all
+  #-------------------------------------------
+  sync_metadata_to_s3:
+    needs: [prepare, update_metadata]
+    if: ${{ !cancelled() }}
+    runs-on: ${{ inputs.runner }}
+    steps:
+      - name: sync metadata to S3 JSON
+        id: sync-metadata-to-s3
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          wget https://raw.githubusercontent.com/ersilia-os/ersilia/master/.github/scripts/convert_airtable_to_json.py
+          conda run -n base pip install boto3 requests pyairtable
+          conda run -n base python convert_airtable_to_json.py $AIRTABLE_API_KEY $AWS_ACCESS_KEY_ID $AWS_SECRET_ACCESS_KEY
+          rm convert_airtable_to_json.py
+
+  #-------------------------------------------
+  # JOB 4: report which models failed
+  #-------------------------------------------
+  report:
+    needs: [prepare, update_metadata, sync_metadata_to_s3]
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all model statuses
+        uses: actions/download-artifact@v4
+        with:
+          pattern: metadata-status-*
+          path: statuses
+          merge-multiple: true
+
+      - name: Collect results
+        id: collect
+        env:
+          MODELS_JSON: ${{ needs.prepare.outputs.models }}
+        run: |
+          set -e
+          SUCCEEDED=""
+          FAILED=""
+
+          for MODEL in $(printf '%s' "$MODELS_JSON" | jq -r '.[]'); do
+            STATUS_FILE="statuses/$MODEL.txt"
+            if [ -f "$STATUS_FILE" ]; then
+              STATUS=$(awk '{print $2}' "$STATUS_FILE")
+            else
+              # No status recorded: the job never ran or died before reporting
+              STATUS="no-status"
+            fi
+
+            if [ "$STATUS" = "success" ]; then
+              SUCCEEDED="$SUCCEEDED $MODEL"
+            else
+              FAILED="$FAILED $MODEL"
+            fi
+          done
+
+          SUCCEEDED=$(echo $SUCCEEDED | xargs || true)
+          FAILED=$(echo $FAILED | xargs || true)
+          N_FAILED=$(echo $FAILED | wc -w | xargs)
+
+          echo "succeeded=$SUCCEEDED" >> $GITHUB_OUTPUT
+          echo "failed=$FAILED" >> $GITHUB_OUTPUT
+          echo "n_failed=$N_FAILED" >> $GITHUB_OUTPUT
+
+      - name: Print results
+        env:
+          SUCCEEDED: ${{ steps.collect.outputs.succeeded }}
+          FAILED: ${{ steps.collect.outputs.failed }}
+        run: |
+          echo "=================================================="
+          echo " METADATA UPDATE SUMMARY"
+          echo "=================================================="
+          echo "Models requested: ${{ needs.prepare.outputs.count }}"
+          for MODEL in $SUCCEEDED; do
+            echo "  [OK]     $MODEL"
+          done
+          for MODEL in $FAILED; do
+            echo "  [FAILED] $MODEL"
+          done
+          echo "S3 JSON sync: ${{ needs.sync_metadata_to_s3.result }}"
+          echo "=================================================="
+
+          {
+            echo "## Metadata update summary"
+            echo ""
+            echo "Models requested: **${{ needs.prepare.outputs.count }}**"
+            echo ""
+            echo "| Model | Result |"
+            echo "| --- | --- |"
+            for MODEL in $SUCCEEDED; do
+              echo "| \`$MODEL\` | ✅ updated |"
+            done
+            for MODEL in $FAILED; do
+              echo "| \`$MODEL\` | ❌ failed |"
+            done
+            echo ""
+            echo "S3 JSON sync: **${{ needs.sync_metadata_to_s3.result }}**"
+          } >> $GITHUB_STEP_SUMMARY
+
+      - name: Fail the workflow if any model failed
+        if: ${{ steps.collect.outputs.n_failed != '0' }}
+        run: |
+          echo "::error title=Metadata update failed::${{ steps.collect.outputs.n_failed }} model(s) failed: ${{ steps.collect.outputs.failed }}"
+          exit 1
