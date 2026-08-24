@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-08-17T10:13:34Z
+**🗓️ Date:** 2026-08-24T10:18:24Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos19dk | molcompass | ✅ | 2026-08-17T10:18:45Z |
-| eos3f8h | eu-openscreen-hts | ✅ | 2026-08-17T10:36:10Z |
-| eos5g6m | glacier-embeddings | ✅ | 2026-08-17T10:43:57Z |
-| eos5mnx | sand-shape-descriptor | ✅ | 2026-08-17T10:50:27Z |
-| eos69e6 | pgmg-pharmacophore | ✅ | 2026-08-17T11:46:11Z |
-| eos6pj2 | nafm-embeddings | ✅ | 2026-08-17T11:52:40Z |
-| eos84nf | genmol-scaffold-decoration | ✅ | 2026-08-17T13:57:29Z |
-| eos8zvb | pymolgen | ✅ | 2026-08-17T14:03:53Z |
-| eos6ost | reinvent4-libinvent | ✅ | 2026-08-17T14:37:34Z |
-| eos2l0q | schisto-swisstph | 🚨 | 2026-08-17T14:47:45Z |
+| eos2lm8 | smiles-transformer | ✅ | 2026-08-24T10:22:56Z |
+| eos2mrz | deepsmiles | ✅ | 2026-08-24T10:26:37Z |
+| eos2mxh | cc-signaturizer-3d-b | ✅ | 2026-08-24T10:33:44Z |
+| eos2r5a | retrosynthetic-accessibility | ✅ | 2026-08-24T10:38:36Z |
+| eos2rd8 | molt5-smiles-to-caption | ✅ | 2026-08-24T10:59:34Z |
+| eos2sbn | cc-signaturizer-3d-a | ✅ | 2026-08-24T11:06:55Z |
+| eos2thm | molbert | ✅ | 2026-08-24T11:17:02Z |
+| eos2xeq | antibiotics-downselection | ✅ | 2026-08-24T11:21:22Z |
+| eos5gge | dili-predictor | ✅ | 2026-08-24T11:27:16Z |
+| eos9cvt | permeability-efflux-mtl | ✅ | 2026-08-24T11:35:08Z |
