@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos19dk",
-    "slug": "molcompass",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-08-06",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos3f8h",
-    "slug": "eu-openscreen-hts",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-08-07",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos5g6m",
-    "slug": "glacier-embeddings",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-08-03",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos5mnx",
-    "slug": "sand-shape-descriptor",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-08-03",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos69e6",
-    "slug": "pgmg-pharmacophore",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-08-04",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos6pj2",
-    "slug": "nafm-embeddings",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-08-03",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos84nf",
-    "slug": "genmol-scaffold-decoration",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-08-07",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos8zvb",
-    "slug": "pymolgen",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-08-05",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos6ost",
-    "slug": "reinvent4-libinvent",
-    "priority_score": 209,
-    "last_test_date": "2026-01-19T10:48:54Z",
-    "last_packaging_date": "2026-08-05",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos2l0q",
-    "slug": "schisto-swisstph",
+    "repository_name": "eos2lm8",
+    "slug": "smiles-transformer",
     "priority_score": 160,
-    "last_test_date": "2026-03-09T11:29:27Z",
-    "last_packaging_date": "2025-11-25",
+    "last_test_date": "2026-03-16T10:45:49Z",
+    "last_packaging_date": "2025-10-22",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2mrz",
+    "slug": "deepsmiles",
+    "priority_score": 160,
+    "last_test_date": "2026-03-16T10:49:15Z",
+    "last_packaging_date": "2025-10-14",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2mxh",
+    "slug": "cc-signaturizer-3d-b",
+    "priority_score": 160,
+    "last_test_date": "2026-03-16T10:59:24Z",
+    "last_packaging_date": "2025-12-30",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2r5a",
+    "slug": "retrosynthetic-accessibility",
+    "priority_score": 160,
+    "last_test_date": "2026-03-16T11:03:56Z",
+    "last_packaging_date": "2025-09-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2rd8",
+    "slug": "molt5-smiles-to-caption",
+    "priority_score": 160,
+    "last_test_date": "2026-03-16T11:24:39Z",
+    "last_packaging_date": "2025-10-15",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2sbn",
+    "slug": "cc-signaturizer-3d-a",
+    "priority_score": 160,
+    "last_test_date": "2026-03-16T11:34:46Z",
+    "last_packaging_date": "2025-12-24",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2thm",
+    "slug": "molbert",
+    "priority_score": 160,
+    "last_test_date": "2026-03-16T11:44:27Z",
+    "last_packaging_date": "2025-10-09",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos2xeq",
+    "slug": "antibiotics-downselection",
+    "priority_score": 160,
+    "last_test_date": "2026-03-16T11:49:09Z",
+    "last_packaging_date": "2026-03-26",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos5gge",
+    "slug": "dili-predictor",
+    "priority_score": 160,
+    "last_test_date": "2026-03-16T10:33:56Z",
+    "last_packaging_date": "2025-12-01",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9cvt",
+    "slug": "permeability-efflux-mtl",
+    "priority_score": 160,
+    "last_test_date": "2026-03-16T10:42:06Z",
+    "last_packaging_date": "2026-03-03",
     "open_issues": 0
   }
 ]
