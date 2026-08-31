@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-08-24T10:18:24Z
+**🗓️ Date:** 2026-08-31T10:10:34Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos2lm8 | smiles-transformer | ✅ | 2026-08-24T10:22:56Z |
-| eos2mrz | deepsmiles | ✅ | 2026-08-24T10:26:37Z |
-| eos2mxh | cc-signaturizer-3d-b | ✅ | 2026-08-24T10:33:44Z |
-| eos2r5a | retrosynthetic-accessibility | ✅ | 2026-08-24T10:38:36Z |
-| eos2rd8 | molt5-smiles-to-caption | ✅ | 2026-08-24T10:59:34Z |
-| eos2sbn | cc-signaturizer-3d-a | ✅ | 2026-08-24T11:06:55Z |
-| eos2thm | molbert | ✅ | 2026-08-24T11:17:02Z |
-| eos2xeq | antibiotics-downselection | ✅ | 2026-08-24T11:21:22Z |
-| eos5gge | dili-predictor | ✅ | 2026-08-24T11:27:16Z |
-| eos9cvt | permeability-efflux-mtl | ✅ | 2026-08-24T11:35:08Z |
+| eos1tt2 | mole-embeddings | ✅ | 2026-08-31T10:22:46Z |
+| eos3xhm | hades-oral-druglikeness | ✅ | 2026-08-31T10:30:32Z |
+| eos6a1h | cocograph-small | ✅ | 2026-08-31T11:41:04Z |
+| eos157v | grover-freesolv | ✅ | 2026-08-31T11:50:12Z |
+| eos1af5 | molgrad-caco2 | ✅ | 2026-08-31T11:55:59Z |
+| eos1amr | grover-bbbp | ✅ | 2026-08-31T12:04:50Z |
+| eos1pu1 | cardiotox-dictrank | ✅ | 2026-08-31T12:11:44Z |
+| eos6hy3 | image-mol-hiv | ✅ | 2026-08-31T12:18:08Z |
+| eos9li5 | biosynfoni | ✅ | 2026-08-31T12:22:55Z |
+| eos19mt | chebifier-antibiotic | 🚨 | 2026-08-31T12:30:29Z |
