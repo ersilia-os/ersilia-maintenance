@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-09-14T10:10:21Z
+**🗓️ Date:** 2026-09-21T10:10:04Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos9q2i | mol-jepa | ✅ | 2026-09-14T10:18:44Z |
-| eos3804 | chemprop-abaumannii | ✅ | 2026-09-14T10:25:03Z |
-| eos39co | unimol-representation | ✅ | 2026-09-14T10:31:16Z |
-| eos39dp | phakinpro | ✅ | 2026-09-14T10:36:09Z |
-| eos3ae6 | whales-descriptor | ✅ | 2026-09-14T10:40:05Z |
-| eos3b5e | molecular-weight | ✅ | 2026-09-14T10:43:31Z |
-| eos3e6s | chembl-decoys | ✅ | 2026-09-14T10:50:15Z |
-| eos1soi | non-growing-antimicrobial | 🚨 | 2026-09-14T10:56:52Z |
-| eos3ev6 | ncats-cyp3a4 | ✅ | 2026-09-14T11:02:49Z |
-| eos3l5f | clamp | ✅ | 2026-09-14T11:07:04Z |
+| eos48ue | surrogate-adme | ✅ | 2026-09-21T10:18:53Z |
+| eos7jur | retromol-fingerprint | ✅ | 2026-09-21T10:23:22Z |
+| eos8gop | monroe-embeddings | ✅ | 2026-09-21T10:28:54Z |
+| eos3le9 | hepg2-mmv | ✅ | 2026-09-21T10:36:59Z |
+| eos3lyd | efflux-avoidance-gram-negative | 🚨 | 2026-09-21T10:42:44Z |
+| eos3mk2 | bbbp-marine-kinase-inhibitors | ✅ | 2026-09-21T10:47:15Z |
+| eos3ujl | mtb-permeability | ✅ | 2026-09-21T10:51:43Z |
+| eos3xip | grover-qm8 | ✅ | 2026-09-21T10:59:35Z |
+| eos3zur | molfeat-estate | ✅ | 2026-09-21T11:06:09Z |
+| eos46ev | chemtb | ✅ | 2026-09-21T11:11:40Z |
