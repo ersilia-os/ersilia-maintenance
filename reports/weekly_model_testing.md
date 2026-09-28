@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-09-21T10:10:04Z
+**🗓️ Date:** 2026-09-28T10:11:30Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos48ue | surrogate-adme | ✅ | 2026-09-21T10:18:53Z |
-| eos7jur | retromol-fingerprint | ✅ | 2026-09-21T10:23:22Z |
-| eos8gop | monroe-embeddings | ✅ | 2026-09-21T10:28:54Z |
-| eos3le9 | hepg2-mmv | ✅ | 2026-09-21T10:36:59Z |
-| eos3lyd | efflux-avoidance-gram-negative | 🚨 | 2026-09-21T10:42:44Z |
-| eos3mk2 | bbbp-marine-kinase-inhibitors | ✅ | 2026-09-21T10:47:15Z |
-| eos3ujl | mtb-permeability | ✅ | 2026-09-21T10:51:43Z |
-| eos3xip | grover-qm8 | ✅ | 2026-09-21T10:59:35Z |
-| eos3zur | molfeat-estate | ✅ | 2026-09-21T11:06:09Z |
-| eos46ev | chemtb | ✅ | 2026-09-21T11:11:40Z |
+| eos481p | grover-toxcast | ✅ | 2026-09-28T10:19:21Z |
+| eos4cxk | image-mol-sars-cov2 | ✅ | 2026-09-28T10:23:52Z |
+| eos4djh | datamol-basic-descriptors | ✅ | 2026-09-28T10:28:02Z |
+| eos3kcw | small-world-wuxi | ✅ | 2026-09-28T10:35:57Z |
+| eos4b8j | gdbchembl-similarity | ✅ | 2026-09-28T10:39:45Z |
+| eos4ex3 | mole-representations | ✅ | 2026-09-28T10:45:50Z |
+| eos4f95 | mycetos | 🚨 | 2026-09-28T10:51:08Z |
+| eos4jcv | cc-signaturizer-3d-e | ✅ | 2026-09-28T10:57:19Z |
+| eos4q1a | crem-structure-generation | ✅ | 2026-09-28T11:03:35Z |
+| eos4r1g | entry-classifier | 🚨 | 2026-09-28T11:08:21Z |
