@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-09-28T10:11:30Z
+**🗓️ Date:** 2026-10-05T10:13:53Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos481p | grover-toxcast | ✅ | 2026-09-28T10:19:21Z |
-| eos4cxk | image-mol-sars-cov2 | ✅ | 2026-09-28T10:23:52Z |
-| eos4djh | datamol-basic-descriptors | ✅ | 2026-09-28T10:28:02Z |
-| eos3kcw | small-world-wuxi | ✅ | 2026-09-28T10:35:57Z |
-| eos4b8j | gdbchembl-similarity | ✅ | 2026-09-28T10:39:45Z |
-| eos4ex3 | mole-representations | ✅ | 2026-09-28T10:45:50Z |
-| eos4f95 | mycetos | 🚨 | 2026-09-28T10:51:08Z |
-| eos4jcv | cc-signaturizer-3d-e | ✅ | 2026-09-28T10:57:19Z |
-| eos4q1a | crem-structure-generation | ✅ | 2026-09-28T11:03:35Z |
-| eos4r1g | entry-classifier | 🚨 | 2026-09-28T11:08:21Z |
+| eos2srx | synomega | ✅ | 2026-10-05T10:23:16Z |
+| eos5j3l | enscondflow-shape | ✅ | 2026-10-05T11:31:43Z |
+| eos92m1 | transpharmer | ✅ | 2026-10-05T11:37:51Z |
+| eos9p57 | crem-grow | ✅ | 2026-10-05T11:42:54Z |
+| eos4rta | malaria-mmv | 🚨 | 2026-10-05T11:47:36Z |
+| eos4rw4 | cddd-onnx | ✅ | 2026-10-05T11:54:48Z |
+| eos4se9 | smiles2iupac | 🚨 | 2026-10-05T11:56:55Z |
+| eos4tcc | bayesherg | 🚨 | 2026-10-05T12:02:23Z |
+| eos633t | moler-enamine-blocks | ✅ | 2026-10-05T12:16:17Z |
+| eos8g50 | fastsolv | ✅ | 2026-10-05T12:23:13Z |
