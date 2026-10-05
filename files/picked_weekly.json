@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos481p",
-    "slug": "grover-toxcast",
-    "priority_score": 160,
-    "last_test_date": "2026-04-20T11:27:22Z",
-    "last_packaging_date": "2026-03-10",
+    "repository_name": "eos2srx",
+    "slug": "synomega",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-09-28",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4cxk",
-    "slug": "image-mol-sars-cov2",
-    "priority_score": 160,
-    "last_test_date": "2026-04-20T11:40:04Z",
-    "last_packaging_date": "2026-03-10",
+    "repository_name": "eos5j3l",
+    "slug": "enscondflow-shape",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-09-23",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4djh",
-    "slug": "datamol-basic-descriptors",
+    "repository_name": "eos92m1",
+    "slug": "transpharmer",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-09-28",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos9p57",
+    "slug": "crem-grow",
+    "priority_score": 1000000000,
+    "last_test_date": null,
+    "last_packaging_date": "2026-09-30",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4rta",
+    "slug": "malaria-mmv",
     "priority_score": 160,
-    "last_test_date": "2026-04-20T11:45:19Z",
+    "last_test_date": "2026-04-27T11:26:02Z",
+    "last_packaging_date": "2025-11-24",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos4rw4",
+    "slug": "cddd-onnx",
+    "priority_score": 160,
+    "last_test_date": "2026-04-27T11:33:43Z",
     "last_packaging_date": "2025-12-24",
     "open_issues": 0
   },
   {
-    "repository_name": "eos3kcw",
-    "slug": "small-world-wuxi",
-    "priority_score": 153,
-    "last_test_date": "2026-04-28T08:23:48Z",
-    "last_packaging_date": "2026-09-14",
+    "repository_name": "eos4se9",
+    "slug": "smiles2iupac",
+    "priority_score": 160,
+    "last_test_date": "2026-04-27T11:50:42Z",
+    "last_packaging_date": "2026-04-22",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4b8j",
-    "slug": "gdbchembl-similarity",
-    "priority_score": 153,
-    "last_test_date": "2026-04-28T08:33:52Z",
-    "last_packaging_date": "2026-09-01",
+    "repository_name": "eos4tcc",
+    "slug": "bayesherg",
+    "priority_score": 160,
+    "last_test_date": "2026-04-28T08:48:59Z",
+    "last_packaging_date": "2025-10-14",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4ex3",
-    "slug": "mole-representations",
-    "priority_score": 153,
-    "last_test_date": "2026-04-27T10:53:09Z",
-    "last_packaging_date": "2026-08-31",
+    "repository_name": "eos633t",
+    "slug": "moler-enamine-blocks",
+    "priority_score": 160,
+    "last_test_date": "2026-04-28T07:53:00Z",
+    "last_packaging_date": "2026-09-29",
     "open_issues": 0
   },
   {
-    "repository_name": "eos4f95",
-    "slug": "mycetos",
-    "priority_score": 153,
-    "last_test_date": "2026-04-27T11:00:02Z",
-    "last_packaging_date": "2025-12-10",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4jcv",
-    "slug": "cc-signaturizer-3d-e",
-    "priority_score": 153,
-    "last_test_date": "2026-04-27T11:09:41Z",
-    "last_packaging_date": "2025-12-30",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4q1a",
-    "slug": "crem-structure-generation",
-    "priority_score": 153,
-    "last_test_date": "2026-04-27T11:16:52Z",
-    "last_packaging_date": "2026-04-01",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos4r1g",
-    "slug": "entry-classifier",
-    "priority_score": 153,
-    "last_test_date": "2026-04-27T12:09:31Z",
-    "last_packaging_date": "2025-12-27",
+    "repository_name": "eos8g50",
+    "slug": "fastsolv",
+    "priority_score": 160,
+    "last_test_date": "2026-04-28T08:10:09Z",
+    "last_packaging_date": "2026-03-23",
     "open_issues": 0
   }
 ]
