@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-10-05T10:13:53Z
+**🗓️ Date:** 2026-10-12T10:18:15Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos2srx | synomega | ✅ | 2026-10-05T10:23:16Z |
-| eos5j3l | enscondflow-shape | ✅ | 2026-10-05T11:31:43Z |
-| eos92m1 | transpharmer | ✅ | 2026-10-05T11:37:51Z |
-| eos9p57 | crem-grow | ✅ | 2026-10-05T11:42:54Z |
-| eos4rta | malaria-mmv | 🚨 | 2026-10-05T11:47:36Z |
-| eos4rw4 | cddd-onnx | ✅ | 2026-10-05T11:54:48Z |
-| eos4se9 | smiles2iupac | 🚨 | 2026-10-05T11:56:55Z |
-| eos4tcc | bayesherg | 🚨 | 2026-10-05T12:02:23Z |
-| eos633t | moler-enamine-blocks | ✅ | 2026-10-05T12:16:17Z |
-| eos8g50 | fastsolv | ✅ | 2026-10-05T12:23:13Z |
+| eos1ltv | simg-chemical-embeddings | 🚨 | 2026-10-12T10:23:54Z |
+| eos7eos | synfrag-accessibility | ✅ | 2026-10-12T10:29:24Z |
+| eos88ir | chemical-dice-embeddings | ✅ | 2026-10-12T10:35:43Z |
+| eos4n4d | gram-negative-accumulation | ✅ | 2026-10-12T10:45:24Z |
+| eos4wt0 | morgan-binary-fps | ✅ | 2026-10-12T10:49:09Z |
+| eos4x30 | pmapper-3d | ✅ | 2026-10-12T10:56:27Z |
+| eos4xb1 | antihypertension-prediction | ✅ | 2026-10-12T11:05:56Z |
+| eos4ywv | macaw | ✅ | 2026-10-12T11:11:33Z |
+| eos6tg8 | natural-product-fingerprint | ✅ | 2026-10-12T11:16:08Z |
+| eos80k1 | bioactivity-similarity-index | ✅ | 2026-10-12T11:21:47Z |

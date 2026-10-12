@@ -1,11 +1,12 @@
 # Failing Models Report
 
-**Generated:** 2026-10-12T06:29:58Z
+**Generated:** 2026-10-12T11:22:13Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **7**
+Models with a failing last test outcome (Archived models excluded). Total: **8**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
+| eos1ltv | simg-chemical-embeddings | In maintenance | 2026-10-12T10:23:54Z | 🚨 failed |
 | eos4tcc | bayesherg | In maintenance | 2026-10-05T12:02:23Z | 🚨 failed |
 | eos4se9 | smiles2iupac | In maintenance | 2026-10-05T11:56:55Z | 🚨 failed |
 | eos4rta | malaria-mmv | In maintenance | 2026-10-05T11:47:36Z | 🚨 failed |
