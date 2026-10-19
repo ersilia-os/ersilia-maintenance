@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-10-12T10:18:15Z
+**🗓️ Date:** 2026-10-19T10:10:58Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos1ltv | simg-chemical-embeddings | 🚨 | 2026-10-12T10:23:54Z |
-| eos7eos | synfrag-accessibility | ✅ | 2026-10-12T10:29:24Z |
-| eos88ir | chemical-dice-embeddings | ✅ | 2026-10-12T10:35:43Z |
-| eos4n4d | gram-negative-accumulation | ✅ | 2026-10-12T10:45:24Z |
-| eos4wt0 | morgan-binary-fps | ✅ | 2026-10-12T10:49:09Z |
-| eos4x30 | pmapper-3d | ✅ | 2026-10-12T10:56:27Z |
-| eos4xb1 | antihypertension-prediction | ✅ | 2026-10-12T11:05:56Z |
-| eos4ywv | macaw | ✅ | 2026-10-12T11:11:33Z |
-| eos6tg8 | natural-product-fingerprint | ✅ | 2026-10-12T11:16:08Z |
-| eos80k1 | bioactivity-similarity-index | ✅ | 2026-10-12T11:21:47Z |
+| eos8c0o | image-mol-bace | ✅ | 2026-10-19T10:14:47Z |
+| eos4zfy | maip-malaria | ✅ | 2026-10-19T10:18:23Z |
+| eos526j | aizynthfinder | ✅ | 2026-10-19T10:29:04Z |
+| eos5505 | ncats-rlm | ✅ | 2026-10-19T10:33:16Z |
+| eos57bx | reinvent4-mol2mol-scaffold | ✅ | 2026-10-19T11:49:16Z |
+| eos59rr | bidd-molmap-fingerprint | ✅ | 2026-10-19T11:56:12Z |
+| eos5axz | morgan-counts | ✅ | 2026-10-19T11:59:24Z |
+| eos5bsw | ecoli-retention | 🚨 | 2026-10-19T12:05:55Z |
+| eos5cl7 | ngonorrhoeae-inhibition | ✅ | 2026-10-19T12:14:10Z |
+| eos2401 | scaffold-decoration | 🚨 | 2026-10-19T12:18:20Z |

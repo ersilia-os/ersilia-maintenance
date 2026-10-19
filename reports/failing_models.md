@@ -1,11 +1,13 @@
 # Failing Models Report
 
-**Generated:** 2026-10-19T06:24:10Z
+**Generated:** 2026-10-19T12:18:47Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **8**
+Models with a failing last test outcome (Archived models excluded). Total: **10**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
+| eos2401 | scaffold-decoration | In maintenance | 2026-10-19T12:18:20Z | 🚨 failed |
+| eos5bsw | ecoli-retention | In maintenance | 2026-10-19T12:05:55Z | 🚨 failed |
 | eos1ltv | simg-chemical-embeddings | In maintenance | 2026-10-12T10:23:54Z | 🚨 failed |
 | eos4tcc | bayesherg | In maintenance | 2026-10-05T12:02:23Z | 🚨 failed |
 | eos4se9 | smiles2iupac | In maintenance | 2026-10-05T11:56:55Z | 🚨 failed |
