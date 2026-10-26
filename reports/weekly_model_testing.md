@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-10-19T10:10:58Z
+**🗓️ Date:** 2026-10-26T10:14:13Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos8c0o | image-mol-bace | ✅ | 2026-10-19T10:14:47Z |
-| eos4zfy | maip-malaria | ✅ | 2026-10-19T10:18:23Z |
-| eos526j | aizynthfinder | ✅ | 2026-10-19T10:29:04Z |
-| eos5505 | ncats-rlm | ✅ | 2026-10-19T10:33:16Z |
-| eos57bx | reinvent4-mol2mol-scaffold | ✅ | 2026-10-19T11:49:16Z |
-| eos59rr | bidd-molmap-fingerprint | ✅ | 2026-10-19T11:56:12Z |
-| eos5axz | morgan-counts | ✅ | 2026-10-19T11:59:24Z |
-| eos5bsw | ecoli-retention | 🚨 | 2026-10-19T12:05:55Z |
-| eos5cl7 | ngonorrhoeae-inhibition | ✅ | 2026-10-19T12:14:10Z |
-| eos2401 | scaffold-decoration | 🚨 | 2026-10-19T12:18:20Z |
+| eos531m | hlm-half-life | ✅ | 2026-10-26T10:18:30Z |
+| eos7s53 | mtbaim | ✅ | 2026-10-26T10:25:43Z |
+| eos80sj | annalog | ✅ | 2026-10-26T10:36:39Z |
+| eos8nyg | reference-library-similarity | ✅ | 2026-10-26T10:41:02Z |
+| eos4u6p | cc-signaturizer | ✅ | 2026-10-26T10:49:55Z |
+| eos42ez | antibiotics-ai-cytotox | ✅ | 2026-10-26T11:00:27Z |
+| eos4e40 | chemprop-antibiotic | ✅ | 2026-10-26T11:06:20Z |
+| eos9zw0 | molpmofit | ✅ | 2026-10-26T11:13:52Z |
+| eos5pt8 | druglikeness-unsupervised | ✅ | 2026-10-26T11:19:32Z |
+| eos5smc | grover-tox21 | ✅ | 2026-10-26T11:26:42Z |
