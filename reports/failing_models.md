@@ -1,8 +1,8 @@
 # Failing Models Report
 
-**Generated:** 2026-10-30T12:02:41Z
+**Generated:** 2026-10-30T12:19:24Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **9**
+Models with a failing last test outcome (Archived models excluded). Total: **8**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
@@ -14,4 +14,3 @@ Models with a failing last test outcome (Archived models excluded). Total: **9**
 | eos4rta | malaria-mmv | In maintenance | 2026-10-05T11:47:36Z | 🚨 failed |
 | eos4r1g | entry-classifier | Ready | 2026-09-28T11:08:21Z | 🚨 failed |
 | eos4f95 | mycetos | Ready | 2026-09-28T10:51:08Z | 🚨 failed |
-| eos3lyd | efflux-avoidance-gram-negative | Ready | 2026-09-21T10:42:44Z | 🚨 failed |
