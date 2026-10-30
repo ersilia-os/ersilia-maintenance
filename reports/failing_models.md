@@ -1,8 +1,8 @@
 # Failing Models Report
 
-**Generated:** 2026-10-30T13:21:31Z
+**Generated:** 2026-10-30T13:39:11Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **7**
+Models with a failing last test outcome (Archived models excluded). Total: **6**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
@@ -12,4 +12,3 @@ Models with a failing last test outcome (Archived models excluded). Total: **7**
 | eos4tcc | bayesherg | Ready | 2026-10-05T12:02:23Z | 🚨 failed |
 | eos4se9 | smiles2iupac | In maintenance | 2026-10-05T11:56:55Z | 🚨 failed |
 | eos4rta | malaria-mmv | In maintenance | 2026-10-05T11:47:36Z | 🚨 failed |
-| eos4r1g | entry-classifier | Ready | 2026-09-28T11:08:21Z | 🚨 failed |
