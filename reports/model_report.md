@@ -4,7 +4,7 @@
 
 ## 📚 Model registry snapshot
 
-_Last updated: **2026-10-31 00:11:43Z** (UTC)_
+_Last updated: **2026-11-01 00:13:37Z** (UTC)_
 
 ### 🔢 Summary
 
