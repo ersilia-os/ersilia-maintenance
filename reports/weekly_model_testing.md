@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-10-26T10:14:13Z
+**🗓️ Date:** 2026-11-02T10:10:20Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos531m | hlm-half-life | ✅ | 2026-10-26T10:18:30Z |
-| eos7s53 | mtbaim | ✅ | 2026-10-26T10:25:43Z |
-| eos80sj | annalog | ✅ | 2026-10-26T10:36:39Z |
-| eos8nyg | reference-library-similarity | ✅ | 2026-10-26T10:41:02Z |
-| eos4u6p | cc-signaturizer | ✅ | 2026-10-26T10:49:55Z |
-| eos42ez | antibiotics-ai-cytotox | ✅ | 2026-10-26T11:00:27Z |
-| eos4e40 | chemprop-antibiotic | ✅ | 2026-10-26T11:06:20Z |
-| eos9zw0 | molpmofit | ✅ | 2026-10-26T11:13:52Z |
-| eos5pt8 | druglikeness-unsupervised | ✅ | 2026-10-26T11:19:32Z |
-| eos5smc | grover-tox21 | ✅ | 2026-10-26T11:26:42Z |
+| eos1bgt | coconut-similarity | ✅ | 2026-11-02T10:14:59Z |
+| eos3pu0 | liquid-stock-similarity | ✅ | 2026-11-02T10:20:18Z |
+| eos80al | hit-locator-similarity | ✅ | 2026-11-02T10:24:37Z |
+| eos8bpb | ecoli-permeation-efflux | ✅ | 2026-11-02T10:30:09Z |
+| eos5xng | chemprop-burkholderia | ✅ | 2026-11-02T10:38:01Z |
+| eos694w | reinvent4-mol2mol-medium-similarity | ✅ | 2026-11-02T11:35:57Z |
+| eos6ao8 | molgrad-ppb | ✅ | 2026-11-02T11:40:08Z |
+| eos6aun | rxn-fingerprint | ✅ | 2026-11-02T11:46:41Z |
+| eos69p9 | ssl-gcn-tox21 | ✅ | 2026-11-02T11:52:48Z |
+| eos5nqn | gneprop-ecoli | 🚨 | 2026-11-02T11:57:33Z |
