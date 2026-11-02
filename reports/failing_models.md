@@ -1,8 +1,8 @@
 # Failing Models Report
 
-**Generated:** 2026-11-02T06:16:09Z
+**Generated:** 2026-11-02T08:44:20Z
 
-Models with a failing last test outcome (Archived models excluded). Total: **6**
+Models with a failing last test outcome (Archived models excluded). Total: **5**
 
 | Model | Slug | Status | Last Test Date | Outcome |
 |-------|------|--------|----------------|---------|
@@ -10,5 +10,4 @@ Models with a failing last test outcome (Archived models excluded). Total: **6**
 | eos4rta | malaria-mmv | In maintenance | 2026-10-30T13:56:19Z | 🚨 failed |
 | eos2401 | ring-seeded-growth | In maintenance | 2026-10-19T12:18:20Z | 🚨 failed |
 | eos5bsw | ecoli-retention | Ready | 2026-10-19T12:05:55Z | 🚨 failed |
-| eos1ltv | simg-chemical-embeddings | In maintenance | 2026-10-12T10:23:54Z | 🚨 failed |
 | eos4tcc | bayesherg | Ready | 2026-10-05T12:02:23Z | 🚨 failed |
