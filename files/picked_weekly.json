@@ -1,82 +1,82 @@
 [
   {
-    "repository_name": "eos1bgt",
-    "slug": "coconut-similarity",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-10-29",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos3pu0",
-    "slug": "liquid-stock-similarity",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-10-30",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos80al",
-    "slug": "hit-locator-similarity",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-10-28",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos8bpb",
-    "slug": "ecoli-permeation-efflux",
-    "priority_score": 1000000000,
-    "last_test_date": null,
-    "last_packaging_date": "2026-10-30",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos5xng",
-    "slug": "chemprop-burkholderia",
-    "priority_score": 166,
-    "last_test_date": "2026-05-20T08:36:33Z",
-    "last_packaging_date": "2025-09-15",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos694w",
-    "slug": "reinvent4-mol2mol-medium-similarity",
-    "priority_score": 166,
-    "last_test_date": "2026-05-20T09:02:46Z",
-    "last_packaging_date": "2026-10-26",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos6ao8",
-    "slug": "molgrad-ppb",
-    "priority_score": 166,
-    "last_test_date": "2026-05-20T09:13:48Z",
-    "last_packaging_date": "2026-03-20",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos6aun",
-    "slug": "rxn-fingerprint",
-    "priority_score": 166,
-    "last_test_date": "2026-05-20T09:20:42Z",
-    "last_packaging_date": "2026-10-13",
-    "open_issues": 0
-  },
-  {
-    "repository_name": "eos69p9",
-    "slug": "ssl-gcn-tox21",
-    "priority_score": 165,
-    "last_test_date": "2026-05-20T15:35:03Z",
+    "repository_name": "eos6fza",
+    "slug": "grover-clintox",
+    "priority_score": 170,
+    "last_test_date": "2026-05-22T11:21:58Z",
     "last_packaging_date": "2026-05-20",
     "open_issues": 0
   },
   {
-    "repository_name": "eos5nqn",
-    "slug": "gneprop-ecoli",
-    "priority_score": 163,
-    "last_test_date": "2026-05-22T11:03:26Z",
+    "repository_name": "eos21dr",
+    "slug": "antimicrobial-activity-abaumannii",
+    "priority_score": 167,
+    "last_test_date": "2026-05-25T11:33:47Z",
+    "last_packaging_date": "2026-10-05",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos3dys",
+    "slug": "coadd-antimicrobial-activity",
+    "priority_score": 167,
+    "last_test_date": "2026-05-25T11:44:01Z",
+    "last_packaging_date": "2026-10-06",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos6m4j",
+    "slug": "bidd-molmap-desc",
+    "priority_score": 167,
+    "last_test_date": "2026-05-25T12:20:02Z",
+    "last_packaging_date": "2026-08-31",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos6ojg",
+    "slug": "antibioticdb-similarity-matches",
+    "priority_score": 167,
+    "last_test_date": "2026-05-25T12:32:57Z",
+    "last_packaging_date": "2026-03-23",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos6oli",
+    "slug": "soltrannet-aqueous-solubility",
+    "priority_score": 167,
+    "last_test_date": "2026-05-25T12:39:20Z",
+    "last_packaging_date": "2025-10-13",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos7iak",
+    "slug": "antimicrobial-activity-campylobacter",
+    "priority_score": 167,
+    "last_test_date": "2026-05-25T11:50:45Z",
+    "last_packaging_date": "2026-10-05",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos817d",
+    "slug": "hyper-dimensional-fingerprints",
+    "priority_score": 167,
+    "last_test_date": "2026-05-25T11:55:50Z",
     "last_packaging_date": "2026-05-20",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos8jx6",
+    "slug": "antimicrobial-activity-calbicans",
+    "priority_score": 167,
+    "last_test_date": "2026-05-25T12:04:36Z",
+    "last_packaging_date": "2026-10-06",
+    "open_issues": 0
+  },
+  {
+    "repository_name": "eos43d6",
+    "slug": "antimicrobial-activity-mtuberculosis",
+    "priority_score": 160,
+    "last_test_date": "2026-06-01T12:25:14Z",
+    "last_packaging_date": "2026-10-06",
     "open_issues": 0
   }
 ]
