@@ -1,7 +1,7 @@
 # 🧪 Weekly Model Testing Report
 ---
 
-**🗓️ Date:** 2026-11-09T10:09:18Z
+**🗓️ Date:** 2026-11-16T10:08:43Z
 
 This report summarizes the results of the **weekly shallow tests** run with the `ersilia` CLI on the selected repositories from `picked_weekly.json`.
 
@@ -24,13 +24,13 @@ ersilia test <repository_name> --shallow --from_github
 
 | 🧬 repository_name | 🪪 slug | 🧭 test | ⏰ test_date |
 |--------------------|---------|---------|--------------|
-| eos6fza | grover-clintox | ✅ | 2026-11-09T10:15:25Z |
-| eos21dr | antimicrobial-activity-abaumannii | ✅ | 2026-11-09T10:27:55Z |
-| eos3dys | coadd-antimicrobial-activity | ✅ | 2026-11-09T10:40:02Z |
-| eos6m4j | bidd-molmap-desc | ✅ | 2026-11-09T10:47:32Z |
-| eos6ojg | antibioticdb-similarity-matches | ✅ | 2026-11-09T10:51:19Z |
-| eos6oli | soltrannet-aqueous-solubility | ✅ | 2026-11-09T10:57:17Z |
-| eos7iak | antimicrobial-activity-campylobacter | ✅ | 2026-11-09T11:06:11Z |
-| eos817d | hyper-dimensional-fingerprints | ✅ | 2026-11-09T11:09:34Z |
-| eos8jx6 | antimicrobial-activity-calbicans | ✅ | 2026-11-09T11:25:34Z |
-| eos43d6 | antimicrobial-activity-mtuberculosis | 🚨 | 2026-11-09T11:33:02Z |
+| eos8698 | enamine-real-similarity | ✅ | 2026-11-16T10:18:37Z |
+| eos9b1c | molport-similarity | ✅ | 2026-11-16T10:24:20Z |
+| eos4an7 | antimicrobial-activity-pfalciparum | ✅ | 2026-11-16T10:41:28Z |
+| eos5eya | antimicrobial-activity-ecoli | ✅ | 2026-11-16T10:50:30Z |
+| eos5q52 | antimicrobial-activity-spneumoniae | ✅ | 2026-11-16T10:58:22Z |
+| eos5qya | antimicrobial-activity-ngonorrhoeae | ✅ | 2026-11-16T11:05:18Z |
+| eos6wb7 | antimicrobial-activity-kpneumoniae | ✅ | 2026-11-16T11:13:33Z |
+| eos81zy | antimicrobial-activity-efaecium | ✅ | 2026-11-16T11:21:19Z |
+| eos8lcw | antimicrobial-activity-saureus | ✅ | 2026-11-16T11:31:27Z |
+| eos8v1a | antimicrobial-activity-smansoni | ✅ | 2026-11-16T11:38:33Z |
