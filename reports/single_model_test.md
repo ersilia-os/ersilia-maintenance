@@ -1,14 +1,14 @@
 # 🧪 Single Model Test Report
 ---
 
-**🗓️ Date:** 2026-11-24T08:49:05Z
-**🧬 Model:** eos5nqn
+**🗓️ Date:** 2026-11-24T09:12:07Z
+**🧬 Model:** eos4se9
 
 This report summarizes the results of the **shallow test** run with the `ersilia` CLI on a single manually-triggered model.
 
 ```bash
-ersilia fetch eos5nqn --from_github
-ersilia test eos5nqn --shallow --from_github
+ersilia fetch eos4se9 --from_github
+ersilia test eos4se9 --shallow --from_github
 ```
 
 ### 📋 Status Legend
@@ -23,4 +23,4 @@ ersilia test eos5nqn --shallow --from_github
 
 | 🧬 repository_name | 🧭 test | ⏰ test_date |
 |--------------------|---------|--------------|
-| eos5nqn | ✅ | 2026-11-24T08:57:01Z |
+| eos4se9 | ✅ | 2026-11-24T09:27:11Z |
